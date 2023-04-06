@@ -12,18 +12,6 @@ export default {
   daisyui: {
     themes: [
       {
-        pfp_light: {
-
-          "primary": "#2E3855",
-
-          "secondary": "#263E3F",
-
-          "accent": "#10576D",
-
-          "base-100": "#E7F5F5",
-        },
-      },
-      {
         pfp_dark: {
 
           "primary": "#3F9378",
@@ -43,6 +31,18 @@ export default {
           "warning": "#FFD25F",
 
           "error": "#FC9581",
+        },
+      },
+      {
+        pfp_light: {
+
+          "primary": "#2E3855",
+
+          "secondary": "#263E3F",
+
+          "accent": "#10576D",
+
+          "base-100": "#E7F5F5",
         },
       }, "dracula", "night", "winter"
     ],
