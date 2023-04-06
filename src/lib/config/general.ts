@@ -24,40 +24,111 @@ export const header: HeaderConfig = {
   nav: [
     {
       text: 'Home',
-      link: '/highlights'
+      link: '/'
+    },
+    {
+      text: 'Why PFP',
+      children: [
+        {
+          text: 'Benefits of Investing in Green Energy',
+          link: '/why/benefits'
+        },
+        {
+          text: 'Collaboration Partners',
+          link: '/why/partners'
+        },
+        {
+          text: 'Customer Testimonials',
+          link: '/why/testimonials'
+        },
+        {
+          text: 'FAQ',
+          link: '/why/FAQ'
+        }
+      ]
     },
     {
       text: 'About us',
       children: [
         {
-          text: 'Team',
+          text: 'Our story',
+          link: '/about/story'
+        },
+        {
+          text: 'Our Mission',
+          link: '/about/mission'
+        },
+        {
+          text: 'Meet the team',
           link: '/about/team'
-        },
-        {
-          text: 'Data',
-          link: '/about/data'
-        },
-        {
-          text: 'Careers',
-          link: '/about/careers'
         }
       ]
     },
     {
-      text: 'Exploration station',
-      link: '/explorables'
+      text: 'Explore',
+      link: '/explore'
     },
     {
       text: 'Green energy',
-      link: '/modelling'
+      children: [
+        {
+          text: 'Waste into Energy | The New Renewable',
+          link: '/green-energy/waste-into-energy'
+        },
+        {
+          text: 'Solar',
+          link: '/green-energy/solar'
+        },
+        {
+          text: 'Wind',
+          link: '/green-energy/wind'
+        },
+        {
+          text: 'Energy Storage',
+          link: '/green-energy/energy-storage'
+        },
+        {
+          text: 'Financial Options',
+          link: '/green-energy/financial-options'
+        }
+      ]
     },
     {
       text: 'Resources',
-      link: '/resources'
+      children: [
+        {
+          text: 'Grants and Loans',
+          link: '/resources/grants'
+        },
+        {
+          text: 'Government Subsidies',
+          link: '/resources/subsidies'
+        },
+        {
+          text: 'Renewable Energy Certificates',
+          link: '/resources/certificates'
+        },
+        {
+          text: 'Research Articles',
+          link: '/resources/articles'
+        },
+        {
+          text: 'Reports',
+          link: '/resources/reports'
+        },
+        {
+          text: 'Policy Landscape',
+          link: '/resources/policy'
+        },
+        {
+          text: 'Sustainable Development Goals',
+          link: '/resources/sustainable-development-goals'
+        },
+      ]
     },
     {
       text: 'News',
-      link: '/blog'
+      link: '/news'
     },
     {
       text: 'Contact Us',
