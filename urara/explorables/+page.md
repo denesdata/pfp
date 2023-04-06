@@ -16,8 +16,6 @@ tags: ['Urara', 'Elements']
 
 ---
 
-<img src='Frame 13.png'>
-
 ## Paragraphs
 
 ||spoiler||
