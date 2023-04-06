@@ -4,8 +4,9 @@
 
 <div class="flex w-full">
   <!-- <img class="transition-shadow z-10 w-full h-full" src="/assets/field.png" alt="" /> -->
-  <section class="bg-[#2E3855] w-full">
+  <section class=" w-full">
     <div class="container mx-auto py-10 m-20">
+      <b>TO BE REPLACED WITH NEW LANDING PAGE</b>
       <div class="flex lg:flex-row flex-col items-center w-full py-10">
         <div class="lg:w-2/5 w-full flex flex-col md:p-0 p-5">
           <h1 style="font-family: 'Poppins', sans-serif;" class="text-[#9BCEB4] font-bold text-5xl leading-10">
