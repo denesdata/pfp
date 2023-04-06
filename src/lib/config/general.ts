@@ -72,7 +72,7 @@ export const header: HeaderConfig = {
       text: 'Green energy',
       children: [
         {
-          text: 'Waste into Energy | The New Renewable',
+          text: 'Waste into energy | The New Renewable',
           link: '/green-energy/waste-into-energy'
         },
         {
@@ -97,7 +97,7 @@ export const header: HeaderConfig = {
       text: 'Resources',
       children: [
         {
-          text: 'Grants and Loans',
+          text: 'Grants & Loans',
           link: '/resources/grants'
         },
         {
@@ -113,7 +113,7 @@ export const header: HeaderConfig = {
           link: '/resources/articles'
         },
         {
-          text: 'Reports',
+          text: 'Case studies & Success stories',
           link: '/resources/reports'
         },
         {

@@ -11,6 +11,7 @@
   import Profile from '$lib/components/index_profile.svelte'
   import Home from '$lib/components/home.svelte'
   import MiniDash from '$lib/components/minidash.svelte'
+  import Landing from '$lib/components/landing.svelte'
 
   let allPosts: Urara.Post[]
   let allTags: string[]
@@ -52,13 +53,16 @@
 
 <Head />
 
+<div class="flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap">
+  <Landing />
+</div>
 <div class="flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap h-feed">
   <div
     in:fly={{ x: 25, duration: 300, delay: 500 }}
     out:fly={{ x: 25, duration: 300 }}
     class="flex-1 columns-1 w-full max-w-screen-md order-first mx-auto xl:mr-0 xl:ml-8 xl:max-w-md">
-    <Profile />
-    <MiniDash />
+    <!-- <Profile /> -->
+    <!-- <MiniDash /> -->
   </div>
   <div
     in:fly={{ x: -25, duration: 300, delay: 500 }}

@@ -17,12 +17,12 @@ export const site: SiteConfig = {
   category: {
     "why": {
       "name": "Why PFP",
-      "description": "",
+      "description": "Each section can have a custom logo and a short description",
       "img": "/assets/logo/y.png"
     },
     "about": {
       "name": "About",
-      "description": "",
+      "description": "Each section can have a custom logo and a short description",
       "img": "/assets/logo/a.png"
     },
     "explore": {
@@ -32,22 +32,22 @@ export const site: SiteConfig = {
     },
     "green-energy": {
       "name": "Green Energy",
-      "description": "",
+      "description": "Each section can have a custom logo and a short description",
       "img": "/assets/logo/r.png"
     },
     "resources": {
       "name": "Resources",
-      "description": "",
+      "description": "Each section can have a custom logo and a short description",
       "img": "/assets/logo/blue-globe.png"
     },
     "news": {
       "name": "News",
-      "description": "",
+      "description": "Each section can have a custom logo and a short description",
       "img": "/assets/logo/y.png"
     },
     "contact": {
       "name": "Contact",
-      "description": "",
+      "description": "Each section can have a custom logo and a short description",
       "img": "/assets/logo/c.png"
     }
   }
