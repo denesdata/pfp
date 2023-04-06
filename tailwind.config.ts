@@ -8,5 +8,31 @@ export default {
   content: ['./src/**/*.{html,md,js,svelte,ts}'],
   theme: { extend: {} },
   plugins: [typography, daisyui],
-  daisyui: { themes: theme.map(({ name }) => name) }
+  // daisyui: { themes: themes }
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+
+          "primary": "#3F9378",
+
+          "secondary": "#263E3F",
+
+          "accent": "#10576D",
+
+          "neutral": "#120C12",
+
+          "base-100": "#2E3855",
+
+          "info": "#8DCAC1",
+
+          "success": "#9DB787",
+
+          "warning": "#FFD25F",
+
+          "error": "#FC9581",
+        },
+      },
+    ],
+  },
 }
