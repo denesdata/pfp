@@ -1,7 +1,7 @@
 ---
 title: 'How Non-Recyclable Waste Can Help Fuel the Future'
 created: 2023-03-24
-tags: ['News','Blog']
+tags: ['News','Blog','Future','Non-Recyclable Waste']
 ---
 
 Do you know that non-recyclable waste can be transformed into a valuable energy source? By using a range of innovative technologies, waste-to-energy (WTE) facilities can turn waste into electricity, heat, or fuel. Here's a closer look at how this process works and the types of waste that can be used for energy production.  

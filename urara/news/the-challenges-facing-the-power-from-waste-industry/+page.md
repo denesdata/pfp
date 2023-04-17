@@ -1,7 +1,7 @@
 ---
 title: 'The Challenges Facing the Power from Waste Industry'
 created: 2023-03-24
-tags: ['News','Blog']
+tags: ['News','Blog','Waste into Energy']
 ---
 
 The power from waste industry has made significant strides in recent years, but there are still challenges that need to be addressed. Here are some of the most pressing challenges facing the industry today:  

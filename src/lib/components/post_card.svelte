@@ -66,7 +66,7 @@
     </figure>
   {/if}
   <div
-    class={`card-body gap-0 ${
+    class={`card-body bg-white gap-0 ${
       preview && post.type === 'article' && post.image ? 'md:col-start-1 md:row-start-1 md:text-neutral-content md:z-20' : ''
     }`}>
     <div class="flex flex-col gap-2">

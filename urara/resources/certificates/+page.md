@@ -1,7 +1,7 @@
 ---
-title: 'Meet the team'
+title: 'Renewable Energy Certificates'
 created: 2021-11-05
-tags: ['About', 'Team']
+tags: ['Resources', 'Certificates']
 ---
 
-Team
+Certs

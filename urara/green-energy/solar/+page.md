@@ -1,8 +1,7 @@
 ---
-title: 'Introduction to power-from-waste'
-created: 2023-03-24
-tags: 
-  - Introduction
+title: 'Solar'
+created: 2023-03-20
+tags: ['Green energy','Solar']
 ---
 
 Introduction to power-from-waste

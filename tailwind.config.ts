@@ -6,45 +6,30 @@ import daisyui from 'daisyui'
 
 export default {
   content: ['./src/**/*.{html,md,js,svelte,ts}'],
-  theme: { extend: {} },
-  plugins: [typography, daisyui],
-  // daisyui: { themes: themes }
-  daisyui: {
-    themes: [
-      {
-        pfp_dark: {
-
-          "primary": "#3F9378",
-
-          "secondary": "#263E3F",
-
-          "accent": "#10576D",
-
-          "neutral": "#120C12",
-
-          "base-100": "#2E3855",
-
-          "info": "#8DCAC1",
-
-          "success": "#9DB787",
-
-          "warning": "#FFD25F",
-
-          "error": "#FC9581",
-        },
+  // theme: { extend: {} },
+  theme: {
+    extend: {
+      colors: {
+        primary: '#3F9378',
+        secondary: '#2E3855',
+        'base-100': '#E5EBEB',
+        'base-200': '#E5EBEB',
+        'pfp-navy': '#2E3855',
+        'light-blue': '#E7F5F5',
+        'light-green': '#DDF3EA',
+        white: '#FFFFFF',
+        'baby-blue': '#D0E6F2',
+        'pfp-green': '#3F9378',
+        'pfp-orange': '#EC8B5A',
       },
-      {
-        pfp_light: {
-
-          "primary": "#2E3855",
-
-          "secondary": "#263E3F",
-
-          "accent": "#10576D",
-
-          "base-100": "#E7F5F5",
-        },
-      }, "dracula", "night", "winter"
-    ],
+      letterSpacing: {
+        menu: '0.15em',
+      },
+      fontFamily: {
+        sans: ['Poppins', 'Roboto', 'sans-serif'],
+      },
+    },
   },
+  plugins: [typography, daisyui],
+  daisyui: { themes: theme.map(({ name }) => name) }
 }

@@ -1,8 +1,7 @@
 ---
-title: 'Introduction to power-from-waste'
-created: 2023-03-24
-tags: 
-  - Introduction
+title: 'Financial options'
+created: 2023-03-21
+tags: ['Green energy','Financial options']
 ---
 
 Introduction to power-from-waste

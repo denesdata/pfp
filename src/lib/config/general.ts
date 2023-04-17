@@ -2,22 +2,6 @@ import type { ThemeConfig, HeadConfig, HeaderConfig, FooterConfig, DateConfig, F
 
 export const theme: ThemeConfig = [
   {
-    name: 'pfp_dark',
-    text: '🟤 PFP Dark'
-  },
-  {
-    name: 'pfp_light',
-    text: '🟢 PFP Light'
-  },
-  {
-    name: 'night',
-    text: '🔵 Blue'
-  },
-  {
-    name: 'dracula',
-    text: '⚫ Dark'
-  },
-  {
     name: 'winter',
     text: '⚪ Light'
   }

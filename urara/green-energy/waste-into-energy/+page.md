@@ -1,8 +1,7 @@
 ---
-title: 'Introduction to power-from-waste'
-created: 2023-03-24
-tags: 
-  - Introduction
+title: 'Waste into Energy | The New Renewable'
+created: 2023-03-22
+tags: ['Green energy','Waste into Energy']
 ---
 
 Introduction to power-from-waste

@@ -1,10 +1,12 @@
 <script lang="ts">
   import { site } from '$lib/config/site'
+  import Landing from '$lib/components/landing.svelte'
 </script>
 
-<div class="w-full h-full">
-  <div class=" bg-gray-100 w-full h-full">
-    <section class="">
+<div class="flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap">
+  <Landing />
+  <div class="h-full">
+    <!--<section class="">
       <div class="container mx-auto pt-10">
         <div class="flex md:flex-row flex-col items-center rounded-lg bg-white w-full">
           <div class=" md:w-3/5 w-full p-14 pt-5 pr-14">
@@ -39,7 +41,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
     <!-- ===================after landing page =================== -->
     <section class="bg-white mt-5 container mx-auto p-10" style="font-family: 'Poppins', sans-serif;">
@@ -411,7 +413,7 @@
         </div>
         <div class="flex md:flex-row flex-col items-center bg-[#E7F5F5] rounded-xl py-5 mt-10">
           <div class="md:w-2/5 w-full flex justify-center mx-auto">
-            <img class="md:w-3/5 w-full" src="asset/images/Group 14.png" alt="" />
+            <img class="md:w-3/5 w-full" src="/assets/Group14.png" alt="" />
           </div>
 
           <div class="md:w-3/5 w-full flex flex-col text-start px-20">
@@ -432,14 +434,14 @@
                 type="button"
                 style=" font-family: 'Public Sans', sans-serif;"
                 class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="asset/images/arrow-right-circle.png" alt="" />
+                <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
                 Book a call with us
               </button>
               <button
                 type="button"
                 style=" font-family: 'Public Sans', sans-serif;"
                 class="flex justify-center items-center mt-5 text-[#2E3855] bg-white border border-1 border-[#2E3855] font-semibold rounded-lg text-base px-8 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="asset/images/arrow-right-circle (1).png" alt="" />
+                <img class="mr-3" src="/assets/arrow-right-circle (1).png" alt="" />
                 Learn more
               </button>
             </div>
@@ -457,7 +459,7 @@
           </div>
           <div class="bg-[#2E3855] rounded-lg flex flex-col justify-center mt-5 py-5 p-10">
             <div class="mx-auto">
-              <img src="asset/images/Frame 21.png" alt="" />
+              <img src="/assets/Frame 21.png" alt="" />
             </div>
             <div class="text-center text-white">
               <h3 class="font-semibold text-sm uppercase mt-3">Most appropriate technology</h3>
@@ -471,7 +473,7 @@
               style="font-family: 'Poppins', sans-serif;"
               class="flex justify-center items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-lg font-bold text-xl leading-10 text-white mb-5 text-center after:absolute after:-right-2 after:top-[40%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
-              Energy content <img class="ml-5" src="asset/images/info.png" alt="" />
+              Energy content <img class="ml-5" src="/assets/info.png" alt="" />
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] mb-5 text-center">
@@ -483,7 +485,7 @@
               style="font-family: 'Poppins', sans-serif;"
               class="flex justify-center items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-lg font-bold text-xl leading-10 text-white mb-5 text-center after:absolute after:-right-2 after:top-[40%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
-              Energy content <img class="ml-5" src="asset/images/info.png" alt="" />
+              Energy content <img class="ml-5" src="/assets/info.png" alt="" />
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] mb-5 text-center">
@@ -495,7 +497,7 @@
               style="font-family: 'Poppins', sans-serif;"
               class="flex justify-center items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-lg font-bold text-xl leading-10 text-white mb-5 text-center after:absolute after:-right-2 after:top-[40%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
-              Energy content <img class="ml-5" src="asset/images/info.png" alt="" />
+              Energy content <img class="ml-5" src="/assets/info.png" alt="" />
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] mb-5 text-center">
@@ -507,7 +509,7 @@
               style="font-family: 'Poppins', sans-serif;"
               class="flex justify-center items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-lg font-bold text-xl leading-10 text-white text-center after:absolute after:-right-2 after:top-[40%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
-              Energy content <img class="ml-5" src="asset/images/info.png" alt="" />
+              Energy content <img class="ml-5" src="/assets/info.png" alt="" />
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] text-center">

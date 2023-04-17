@@ -13,7 +13,7 @@ export const site: SiteConfig = {
     status: '',
     bio: 'Power for Planet'
   },
-  themeColor: '#3D4451',
+  themeColor: '#E7F5F5',
   category: {
     "why": {
       "name": "Why PFP",
