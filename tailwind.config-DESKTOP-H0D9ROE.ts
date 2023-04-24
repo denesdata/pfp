@@ -26,7 +26,7 @@ export default {
         menu: '0.15em',
       },
       fontFamily: {
-        sans: ['Public Sans', 'Roboto', 'sans-serif'],
+        sans: ['Poppins', 'Roboto', 'sans-serif'],
       },
     },
   },

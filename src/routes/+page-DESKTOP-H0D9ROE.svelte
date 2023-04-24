@@ -57,7 +57,7 @@
   <Home />
 </div>
 
-<div class="hidden flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap h-feed">
+<div class="flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap h-feed">
   <div class="w-5/6 pt-20 pb-10">
     <div class="flex rounded-lg overflow-hidden">
       <div class="w-2/3 p-4">

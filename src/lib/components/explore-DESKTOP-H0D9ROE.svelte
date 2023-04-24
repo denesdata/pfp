@@ -276,7 +276,7 @@
             </div>
           </div>
 
-          <div class=" p-0 md:w-3/5 w-full h-screen bg-cover bg-center bg-no-repeat bg-[url(/assets/field.png)] bg-fixed">
+          <div class=" p-0 md:w-3/5 w-full h-screen bg-cover bg-center bg-no-repeat bg-[url(./frame13.png)] bg-fixed">
             <div class="w-full" />
             <!-- <img class="w-full" src="/assets/Frame 13.png" alt=""> -->
           </div>

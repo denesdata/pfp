@@ -8,10 +8,8 @@
   import Head from '$lib/components/head.svelte'
   import Footer from '$lib/components/footer.svelte'
   import Post from '$lib/components/post_card.svelte'
-  import Profile from '$lib/components/index_profile.svelte'
-  import Home from '$lib/components/home.svelte'
+  import Category from '$lib/components/category.svelte'
   import MiniDash from '$lib/components/minidash.svelte'
-  import Landing from '$lib/components/landing.svelte'
 
   let allPosts: Urara.Post[]
   let allTags: string[]
@@ -20,9 +18,14 @@
 
   storedTitle.set('')
 
-  $: storedPosts.subscribe(storedPosts => (allPosts = storedPosts.filter(post => !post.flags?.includes('unlisted'))))
+  $: storedPosts.subscribe(
+    storedPosts =>
+      (allPosts = storedPosts
+        .filter(post => !post.flags?.includes('unlisted'))
+        .filter(post => post.slug.slice(1).split('/')[0] == $page.url.toString().split('/')[3]))
+  )
 
-  // $: storedTags.subscribe(storedTags => (allTags = storedTags as string[]))
+  $: storedTags.subscribe(storedTags => (allTags = storedTags as string[]))
   $: storedTags.subscribe(
     storedTags =>
       (allTags = Array.from(
@@ -38,7 +41,11 @@
   $: if (posts.length > 1) years = [new Date(posts[0].published ?? posts[0].created).getFullYear()]
 
   $: if (tags) {
-    posts = !tags ? allPosts : allPosts.filter(post => tags.every(tag => post.tags?.includes(tag)))
+    posts = !tags
+      ? allPosts
+      : allPosts
+          .filter(post => post.slug.slice(1).split('/')[0] == $page.url.toString().split('/')[3])
+          .filter(post => tags.every(tag => post.tags?.includes(tag)))
     if (browser && window.location.pathname === '/')
       window.history.replaceState({}, '', tags.length > 0 ? `?tags=${tags.toString()}` : `/`)
   }
@@ -53,12 +60,8 @@
 
 <Head />
 
-<div class="flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap">
-  <Home />
-</div>
-
-<div class="hidden flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap h-feed">
-  <div class="w-5/6 pt-20 pb-10">
+<div class="flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap h-feed">
+  <div class="w-5/6 pt-10 pb-10">
     <div class="flex rounded-lg overflow-hidden">
       <div class="w-2/3 p-4">
         {#key posts}
@@ -70,13 +73,13 @@
               class="border text-base-content shadow-inner text-center md:rounded-box p-10 -mb-2 md:mb-0 relative z-10">
               <div class="prose items-center">
                 <h2>
-                  Nothing found matching: {#each tags as tag, i}
-                    {tag},{#if i + 1 < tags.length}{/if}
-                  {/each}
+                  Not found: [{#each tags as tag, i}
+                    '{tag}'{#if i + 1 < tags.length},{/if}
+                  {/each}]
                 </h2>
                 <button on:click={() => (tags = [])} class="btn btn-secondary">
                   <span class="i-heroicons-outline-trash mr-2" />
-                  Reset
+                  tags = []
                 </button>
               </div>
             </div>
