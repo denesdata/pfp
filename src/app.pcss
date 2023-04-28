@@ -16,11 +16,14 @@ html {
   @apply !bg-base-200 scroll-smooth	overflow-x-hidden overflow-y-scroll;
 }
 
-header, h1, h2, h3 {
-  font-family: "Poppins";
+header,
+h1,
+h2,
+h3 {
+  font-family: 'Poppins';
 }
 
-header aq:hover{
+header aq:hover {
   /* text-decoration: underline;
   -webkit-text-decoration-color: #3F9378;
   text-decoration-color: #3F9378; */
@@ -48,6 +51,10 @@ header aq:hover{
 
 .urara-prose > :is(h1, h2, h3, h4, h5):hover > a::after {
   @apply text-primary;
+}
+
+.urara-prose > :is(h3) {
+  visibility: hidden;
 }
 
 /* .urara-prose list */

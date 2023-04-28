@@ -6,39 +6,65 @@ tags: ['About', 'Team']
 
 # Core Team
 
+### Dermot McKeever
 <div class="flex items-center">
-  <img class="w-20 h-20 rounded-full mr-8 mt-16 grayscale shadow-lg" src="https://media.licdn.com/dms/image/C4E03AQFsdEdXSLDkDg/profile-displayphoto-shrink_800_800/0/1637761381924?e=1687996800&v=beta&t=zeqJnvDEiMXIIm-IkDitxKMjMZJKk4WzZ7B63DxBUDM" alt="Profile Picture">
+  <img class="w-28 h-28 rounded-full mr-8 mt-4 grayscale shadow-lg" src="https://media.licdn.com/dms/image/C4E03AQFsdEdXSLDkDg/profile-displayphoto-shrink_800_800/0/1637761381924?e=1687996800&v=beta&t=zeqJnvDEiMXIIm-IkDitxKMjMZJKk4WzZ7B63DxBUDM" alt="Profile Picture">
   <div class="text-lg">
-    <h2 class="font-bold mb-2">Dermot McKeever BSc Dip PFS</h2>
-    <p>PFP Co-Founder and CEO</p>
+    <h3 class="font-bold mb-2">Dermot McKeever</h3>
+    <p>
+    <code>BSc</code> <code>Dip</code> <code>PFS</code>
+    </p>
+    <p style="margin-top:-30px !important; ">
+    <a href="https://www.linkedin.com/in/dermot-mckeever-bsc-5600b3175/" style="background:none !important;">
+      <img class="h-6 w-6 inline-flex mr-2" 
+      style="margin-bottom:38px !important;" 
+      src="https://www.vhv.rs/file/max/9/98175_linkedin-transparent-png.png" alt="linkedin">
+    </a>
+    <span class="i-heroicons-outline-user mr-2 inline-flex items-center align-middle h-6 mb-1" />
+    PFP Co-Founder and CEO
+    </p>
   </div>
 </div>
 <div class="mt-4">
-  <p class="text-gray-700">Dermot studied climatology at Leicester University and has extensive experience in the renewable
+  <p class="text-gray-700">
+Dermot studied climatology at Leicester University and has extensive experience in the renewable
 space. Throughout his career, Dermot has demonstrated expertise in business development by
 holding senior leadership positions across a wide range of business models, from global enterprises
 to start-ups such as Nutmeg, a leading digital wealth management platform. He has also held
 numerous consultancy, board adviser and NED roles and is a published author on leadership.</p>
 </div>
-<div class="mt-4">
-  <a href="https://www.linkedin.com/in/dermot-mckeever-bsc-5600b3175/">
-    <img class="h-6 w-6" src="https://www.vhv.rs/file/max/9/98175_linkedin-transparent-png.png" alt="linkedin">
-  </a>
-</div>  
-
 
 ### James Cole
-
-**PFP Co-Founder and Chairman**
-
+<div class="flex items-center">
+  <img class="w-28 h-28 rounded-full mr-8 mt-4 grayscale shadow-lg" src="https://media.licdn.com/dms/image/C4E03AQFsdEdXSLDkDg/profile-displayphoto-shrink_800_800/0/1637761381924?e=1687996800&v=beta&t=zeqJnvDEiMXIIm-IkDitxKMjMZJKk4WzZ7B63DxBUDM" alt="Profile Picture">
+  <div class="text-lg">
+    <h3 class="font-bold mb-2">James Cole</h3>
+    <p>
+    <code>BSc</code>
+    </p>
+    <p style="margin-top:-30px !important; ">
+    <a href="https://www.linkedin.com/in/dermot-mckeever-bsc-5600b3175/" style="background:none !important;">
+      <img class="h-6 w-6 inline-flex mr-2" 
+      style="margin-bottom:38px !important;" 
+      src="https://www.vhv.rs/file/max/9/98175_linkedin-transparent-png.png" alt="linkedin">
+    </a>
+    <span class="i-heroicons-outline-user mr-2 inline-flex items-center align-middle h-6 mb-1" />
+    PFP Co-Founder and Chairman
+    </p>
+  </div>
+</div>
+<div class="mt-4">
+  <p class="text-gray-700">
 James has over 30 years of experience in real estate development and consultancy for multinational
 groups in Asia, North America, Continental Europe and the UK. Furthermore, he has invested in and
 guided businesses in private aviation, real estate investment, and renewable energy. Graduated from
 the Royal Military Academy Sandhurst, after which he served in The Royal Green Jackets (now Rifles).
 He co-founded PFP to facilitate and encourage a quantum shift in utilising waste as a green
-renewable energy source.
+renewable energy source.</p>
+</div>
 
 ### Simon Edwards
+<h4>Simon Edwards</h4>
 
 **Senior Consultant**
 
@@ -50,6 +76,7 @@ he runs the PFP introducer network, consisting of industry heavyweights tasked w
 potential projects.
 
 ### Alice Chave
+<h4>Alice Chave</h4>
 
 **Environmental and Technical Engineer**
 
@@ -59,6 +86,7 @@ academic and professional journey, she has been involved in international develo
 focusing on designing off-grid solutions to benefit communities in the developing world.
 
 ### Tim Edwards
+<h4>Tim Edwards</h4>
 
 **Strategy Executive**
 
@@ -70,6 +98,7 @@ society’s goals on climate change was published alongside distinguished academ
 and politicians.
 
 ### Paul Lee
+<h4>Paul Lee</h4>
 
 **Chief Resilience Officer**
 
@@ -80,7 +109,8 @@ holds degrees from the universities of Leeds and Liverpool, making a valuable as
 
 # Advisory board
 
-### Dr. Linda Hilton PhD, CChem, FRSC, CSci
+#### Dr. Linda Hilton
+`PhD` `CChem` `FRSC` `CSci`
 
 **Board Advisor**
 
@@ -90,7 +120,7 @@ Capable of offering both strategic and operational insight, Linda has worked in 
 roles and environments around the world for large corporates, research organisations, SME’s, spinoffs and start-ups (social enterprise) and is passionate about using this experience to help people to
 mitigate climate change.
 
-### Alexandre Chavarot
+#### Alexandre Chavarot
 
 **Board Advisor**
 
@@ -103,7 +133,7 @@ from prestigious institutions, including Sciences Po, Harvard, and INSEAD. His p
 climate change and sustainable development make him a vital contributor to the ongoing global
 transition to a more sustainable future.
 
-### Jayne Walters
+#### Jayne Walters
 
 **Board Advisor**
 
@@ -112,7 +142,7 @@ General Counsel for property investment, development and financing businesses. J
 PFP’s compliance with the business’s legal requirements and advises on the contracts required for
 individual projects. Jayne holds a degree from The University of Cambridge.
 
-### Gabrielle Durisch
+#### Gabrielle Durisch
 
 **Board Advisor**
 

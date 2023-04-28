@@ -60,10 +60,10 @@
 
 <Head />
 
-<div class="flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap h-feed">
-  <div class="w-5/6 pt-10 pb-10">
+<div class="flex flex-col flex-nowrap justify-left ml-auto w-5/6 xl:flex-row xl:flex-wrap h-feed">
+  <div class="w-5/6 pt-10 pb-10 pr-10">
     <div class="flex rounded-lg overflow-hidden">
-      <div class="w-2/3 p-4">
+      <div class="w-7/8 p-4 pt-2">
         {#key posts}
           <!-- {:else} is not used because there is a problem with the transition -->
           {#if loaded && posts.length === 0}
@@ -117,10 +117,10 @@
           </div>
         {/key}
       </div>
-      <div in:fly={{ x: -25, duration: 300, delay: 500 }} out:fly={{ x: -25, duration: 300 }} class="w-1/3 p-4">
+      <div in:fly={{ x: -25, duration: 300, delay: 500 }} out:fly={{ x: -25, duration: 300 }} class="w-1/3">
         {#if allTags && Object.keys(allTags).length > 0}
           <div
-            class="flex xl:flex-wrap gap-2 overflow-x-auto xl:overflow-x-hidden overflow-y-hidden max-h-24 my-auto xl:max-h-fit max-w-fit xl:max-w-full pl-8 md:px-0 xl:pl-8 xl:pt-8">
+            class="flex xl:flex-wrap gap-2 overflow-x-auto xl:overflow-x-hidden overflow-y-hidden max-h-24 my-auto xl:max-h-fit max-w-fit xl:max-w-full pl-8 md:px-0 xl:pl-8 xl:pt-10">
             {#each allTags as tag}
               <button
                 id={tag}
