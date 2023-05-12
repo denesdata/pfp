@@ -39,10 +39,10 @@
         Math.round((scrollY / (document.documentElement.scrollHeight - document.documentElement.clientHeight)) * 10000) / 100
   }
 
-  if (browser)
-    currentTheme =
-      localStorage.getItem('theme') ??
-      (window.matchMedia('(prefers-color-scheme: dark)').matches ? theme?.[1].name : theme[0].name ?? theme[0].name)
+  // if (browser)
+  //   currentTheme =
+  //     localStorage.getItem('theme') ??
+  //     (window.matchMedia('(prefers-color-scheme: dark)').matches ? theme?.[1].name : theme[0].name ?? theme[0].name)
 </script>
 
 <svelte:head>
