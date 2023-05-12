@@ -130,7 +130,7 @@
       </div>
     </section>
 
-    <img class="transition-shadow z-10 w-full h-full" src="/assets/field.png" alt="" />
+    <!-- <img class="transition-shadow z-10 w-full h-full" src="/assets/field.png" alt="" /> -->
 
     <section class="">
       <div class="container mx-auto pt-10">
