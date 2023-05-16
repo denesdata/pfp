@@ -1,7 +1,7 @@
 ---
-title: 'Customer Testimonials'
-created: 2023-03-12
-tags: ['Why PFP','Testimonials','Customers']
+title: 'Frequently Asked Questions'
+created: 2023-03-22
+tags: ['Why PFP','FAQ']
 ---
 
 Introduction to power-from-waste

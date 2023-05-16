@@ -1,7 +1,7 @@
 ---
-title: 'Customer Testimonials'
-created: 2023-03-12
-tags: ['Why PFP','Testimonials','Customers']
+title: 'Collaboration Partners'
+created: 2023-03-22
+tags: ['Why PFP','Partners','Collaboration']
 ---
 
 Introduction to power-from-waste

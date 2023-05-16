@@ -1,7 +1,7 @@
 ---
-title: 'Customer Testimonials'
-created: 2023-03-12
-tags: ['Why PFP','Testimonials','Customers']
+title: 'Waste into Energy | The New Renewable'
+created: 2023-03-22
+tags: ['Green energy','Waste into Energy']
 ---
 
 Introduction to power-from-waste

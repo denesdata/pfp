@@ -1,7 +1,7 @@
 ---
-title: 'Customer Testimonials'
-created: 2023-03-12
-tags: ['Why PFP','Testimonials','Customers']
+title: 'Case studies & Success stories'
+created: 2023-02-19
+tags: ['Resources','Case studies','Success stories']
 ---
 
 Introduction to power-from-waste

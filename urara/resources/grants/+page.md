@@ -1,7 +1,7 @@
 ---
-title: 'Customer Testimonials'
-created: 2023-03-12
-tags: ['Why PFP','Testimonials','Customers']
+title: 'Grants & Loans'
+created: 2023-02-22
+tags: ['Resources','Grants','Loans']
 ---
 
 Introduction to power-from-waste
