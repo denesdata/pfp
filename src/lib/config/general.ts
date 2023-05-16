@@ -2,6 +2,14 @@ import type { ThemeConfig, HeadConfig, HeaderConfig, FooterConfig, DateConfig, F
 
 export const theme: ThemeConfig = [
   {
+    name: 'dracula',
+    text: '🟦 Default'
+  },
+  {
+    name: 'night',
+    text: '⚫ Dark'
+  },
+  {
     name: 'winter',
     text: '⚪ Light'
   }
@@ -15,87 +23,49 @@ export const header: HeaderConfig = {
   },
   nav: [
     {
-      text: 'Home',
-      link: '/'
+      text: 'Hírek',
+      link: '/highlights'
     },
     {
-      text: 'Explore',
-      link: '/explore'
+      text: 'Blog',
+      link: '/blog'
     },
     {
-      text: 'About us',
+      text: 'Adatok',
+      link: '/modelling'
+    },
+    {
+      text: 'Térképek',
+      link: '/explorables'
+    },
+    {
+      text: 'About',
       children: [
         {
-          text: 'Our purpose & mission',
-          link: '/about/mission'
+          text: 'Project',
+          link: '/about/project'
         },
         {
-          text: 'Meet the team',
+          text: 'Team',
           link: '/about/team'
         },
         {
-          text: 'Collaboration Partners',
-          link: '/about/partners'
+          text: 'Prizes',
+          link: '/about/prizes'
         },
         {
-          text: 'Customer Testimonials',
-          link: '/about/testimonials'
+          text: 'Data',
+          link: '/about/data'
+        },
+        {
+          text: 'Publications',
+          link: '/about/publications'
+        },
+        {
+          text: 'Careers',
+          link: '/about/careers'
         }
       ]
-    },
-    {
-      text: 'Green energy',
-      children: [
-        {
-          text: 'Investing in green energy',
-          link: '/green-energy/investing'
-        },
-        {
-          text: 'Power from non-recycled waste | The New Renewable',
-          link: '/green-energy/new-renewable'
-        },
-        {
-          text: 'Solar',
-          link: '/green-energy/solar'
-        },
-        {
-          text: 'Wind',
-          link: '/green-energy/wind'
-        },
-        {
-          text: 'Energy Storage',
-          link: '/green-energy/energy-storage'
-        }
-      ]
-    },
-    {
-      text: 'Resources',
-      children: [
-        {
-          text: 'Financial options',
-          link: '/resources/financial-options'
-        },
-        {
-          text: 'Research Articles',
-          link: '/resources/articles'
-        },
-        {
-          text: 'Case studies',
-          link: '/resources/case-studies'
-        },
-        {
-          text: 'Policy Landscape',
-          link: '/resources/policy'
-        }
-      ]
-    },
-    {
-      text: 'News',
-      link: '/news'
-    },
-    {
-      text: 'Contact Us',
-      link: '/contact'
     }
   ]
 }
@@ -110,8 +80,7 @@ export const footer: FooterConfig = {
       text: 'Sitemap',
       link: '/sitemap.xml'
     }
-  ],
-  img: '/assets/pfp.png'
+  ]
 }
 
 export const date: DateConfig = {
