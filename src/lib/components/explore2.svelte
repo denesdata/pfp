@@ -4,42 +4,14 @@
   import { scale } from 'svelte/transition'
 </script>
 
-<div style="display:none;">
-  <div class="relative">
-    <div id="expandElement" class="fixed inset-0 bg-blue-500 text-white flex items-center justify-center">
-      <!-- Content goes here -->
-    </div>
-  </div>
-
-  <button id="expandButton" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Expand</button>
-
-  <style>
-    #expandElement {
-      display: none;
-    }
-  </style>
-
-  <script>
-    const expandElement = document.getElementById('expandElement')
-    const expandButton = document.getElementById('expandButton')
-
-    expandButton.addEventListener('click', () => {
-      expandElement.style.display = 'block'
-      setTimeout(() => {
-        expandElement.classList.add('opacity-100')
-      }, 0)
-    })
-
-    expandElement.addEventListener('click', e => {
-      if (e.target === expandElement) {
-        expandElement.classList.remove('opacity-100')
-        setTimeout(() => {
-          expandElement.style.display = 'none'
-        }, 300)
-      }
-    })
-  </script>
-  <img src="/assets/field.png" alt="" style="height:100%; position:fixed; top:10px;" />
+<div
+  style="background: green;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 99;
+    transform: scale(0);">
+  hello
 </div>
 <div class="flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap">
   <!-- <Landing /> -->
@@ -246,8 +218,8 @@
       class="items-center rounded-lg bg-none w-5/6"
       id="cow-panel"
       style="z-index:30;position:fixed;top:200px;left:0px;width:30%;">
-      <div class="absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-lg" id="cow">
-        <div class="absolute left-[98%] rounded-lg">
+      <div class="absolute top-0 bg-white w-full flex flex-col duration-300 transform rounded-lg" id="cow">
+        <div class="left-[98%] rounded-lg">
           <script>
             function toggleElement(k) {
               var element = document.querySelector('#' + k)
@@ -364,8 +336,8 @@
           </div>
         </div>
       </div>
-      <div class="absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-lg" id="food">
-        <div class="absolute left-[98%] rounded-lg">
+      <div class="absolute top-0 bg-white w-full flex flex-col duration-300 transform rounded-lg" id="food">
+        <div class="left-[98%] rounded-lg">
           <script>
             function toggleElement(k) {
               var element = document.querySelector('#' + k)
@@ -482,8 +454,8 @@
           </div>
         </div>
       </div>
-      <div class="absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-lg" id="bottle">
-        <div class="absolute left-[98%] rounded-lg">
+      <div class="absolute top-0 bg-white w-full flex flex-col duration-300 transform rounded-lg" id="bottle">
+        <div class="left-[98%] rounded-lg">
           <script>
             function toggleElement(k) {
               var element = document.querySelector('#' + k)
@@ -600,8 +572,8 @@
           </div>
         </div>
       </div>
-      <div class="absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-lg" id="technology">
-        <div class="absolute left-[98%] rounded-lg">
+      <div class="absolute top-0 bg-white w-full flex flex-col duration-300 transform rounded-lg" id="technology">
+        <div class="left-[98%] rounded-lg">
           <button
             type="button"
             onclick="toggleElementOff('technology')"
@@ -713,7 +685,7 @@
     </div>
     <section class="">
       <div
-        class="container duration-300 transform mx-auto w-full bg-cover bg-center bg-no-repeat bg-[url(/assets/field.png)] rounded-2xl rounded-t-none"
+        class="container mx-auto w-full bg-cover bg-center bg-no-repeat bg-[url(/assets/field.png)] rounded-2xl rounded-t-none"
         style="padding-top:700px;z-index:29;"
         id="field">
         <div>
@@ -803,15 +775,6 @@
               }
               .techbuttons {
                 box-shadow: 0 0 10px 5px #d8e6f2ff;
-              }
-              .fullw {
-                max-width: 100%;
-                min-height: 100%;
-                padding-left: 400px;
-                padding-top: 900px !important;
-              }
-              .fullb {
-                top: 170px !important;
               }
             </style>
             <script>
@@ -1124,22 +1087,27 @@
 
     function grow() {
       var element = document.querySelector('#field')
-      // element.classList.toggle('scale-[1.5]')
       element.classList.toggle('fixed')
       element.classList.toggle('top-0')
       element.classList.toggle('left-0')
-      element.classList.toggle('fullw')
-
-      var growbutton = document.querySelector('.growbutton')
-      // growbutton.classList.toggle('fullb')
-
-      // var buttons = document.querySelector('#buttons')
-      // growbutton.classList.toggle('fullb')
+      element.classList.toggle('h-screen')
+      element.classList.toggle('w-screen')
     }
 
     setTimeout(() => {
       toggleAll()
       toggleAll()
     }, 100)
+
+    const expandElement = document.getElementById('expandElement')
+    const expandButton = document.getElementById('expandButton')
+
+    expandButton.addEventListener('click', () => {
+      expandElement.classList.toggle('fixed')
+      expandElement.classList.toggle('top-0')
+      expandElement.classList.toggle('left-0')
+      expandElement.classList.toggle('h-screen')
+      expandElement.classList.toggle('w-screen')
+    })
   </script>
 </div>

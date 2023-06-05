@@ -3,8 +3,8 @@
   import { fly } from 'svelte/transition'
 </script>
 
-<div class="w-5/6 pt-10 pb-10">
-  <div class="flex rounded-3xl overflow-hidden mt-20">
+<div class="w-5/6 pt-10 pb-10 flex justify-center">
+  <div class="flex rounded-3xl overflow-hidden mt-20 w-3/5">
     <div class="w-3/5 p-10 pr-30 bg-white">
       <h2 class="uppercase pb-5 text-pfp-green font-bold">Exploration station</h2>
       <h2 class="card-title text-3xl">Green power from non-recyclable waste</h2>
