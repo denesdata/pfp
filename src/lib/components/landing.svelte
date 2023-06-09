@@ -7,9 +7,9 @@
   <div class="flex rounded-3xl overflow-hidden mt-20 w-3/5">
     <div class="w-3/5 p-10 pr-30 bg-white">
       <h2 class="uppercase pb-5 text-pfp-green font-bold">Exploration station</h2>
-      <h2 class="card-title text-3xl">Green power from non-recyclable waste</h2>
+      <h2 class="card-title text-3xl">Green power from non-recycled waste</h2>
       <p class="pt-10">
-        Power-from-waste technology can convert non-recyclable waste into a myriad of different outputs, including electricity,
+        Power-from-waste technology can convert non-recycled waste into a myriad of different outputs, including electricity,
         heating, cooling, and biochar, among others
       </p>
       <a

@@ -1,58 +1,48 @@
 ---
 title: 'Customer Testimonials'
 created: 2023-03-12
-tags: ['Why PFP','Testimonials','Customers']
+tags: ['Investing','Renewable','Energy']
 ---
 
-Introduction to power-from-waste
+Power generated from non-recycled waste is, in our view, an ideal renewable energy source. Here are
+two key reasons:
+  1. Unlike solar and wind, it provides continuous power 24/7.
+  2.  Using non-recycled waste prevents it from polluting our soil, water, and atmosphere in
+uncontrolled ways.
 
-Overview of the waste-to-energy Process
-Explanation of how waste is transformed into energy
-Different types of waste that can be used for energy production
-Advantages of power-from-waste
-Environmental Benefits
-Economic Benefits
-Challenges faced by the industry
-Public perception
-Technology challenges
-Regulatory and legal challenges
-Overview of the different technologies
-Pyrolysis/gasification
-Anaerobic digestion unit
-Slurry covers
+Concerned about costs? Even our larger projects have payback periods under five years, with some
+as low as two. After that, you only cover the annual facility maintenance cost, with no grid or
+standing charges.  
 
-1. Case studies and success stories
+Our proprietary database features over 150 technology partners using proven technology, and our
+goal is to match you with the right one. We see waste as a fuel opportunity – and it's already yours!
+We've researched three key technologies: slurry covers, anaerobic digesters, and pyrolysis units.
+These can process most non-recycled waste from food, manufacturing, and distribution supply
+chains, including animal waste, abattoir waste, food waste, packaging, and plastic.
 
-Real-world examples of successful projects
-Benefits experienced by local communities, businesses, and governments
+# Our unique process
 
-3. Accreditations and standards
+We've launched several offline projects to ensure the viability of our digital platform.
+Our digital ecosystem offers a comprehensive process that includes:
 
-Overview of relevant accreditations and standards
-Benefits of obtaining accreditations
+### Exploration Station
 
-4. Safety and health considerations
+<h2>Exploration Station</h2>
 
-Safety and health measures in place to protect workers and the public
-Regulations and guidelines governing the industry
-Regulatory frameworks
-Environmental standards and emissions requirements
-Planning and approval process
-International guidelines eg. SDG goals
+Discover if your waste type is suitable for a project or learn more about
+power-from-waste  
 
-5. Funding opportunities
+### Calculator Tool
 
-Government Funding Opportunities
-Grants, loans, tax credits, and other financial incentives
-Application process and eligibility requirements
-Private Sector Investment Opportunities
-Equity investments and project financing
-Potential benefits and risks associated with private sector investment
-International Funding Opportunities
-Grants and loans from international organizations, development banks, and other funding agencies
-Application process and eligibility requirements
+<h2>Calculator tool</h2>
 
-6. Future of power-from-waste
+Input rough estimates and waste type to receive an initial feasibility
+statement outlining potential costs and power outputs
 
-Trends and innovations in the Industry
-Future of power-from-waste
+### Fulfilment Hub
+
+<h2>Fulfilment Hub</h2>
+
+Initiate and track your live project, whether it's a simple food waste system
+for a restaurant that takes weeks or a complex, large-volume plastic waste project that spans
+several months

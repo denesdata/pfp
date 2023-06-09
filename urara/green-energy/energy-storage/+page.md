@@ -4,55 +4,40 @@ created: 2023-03-22
 tags: ['Green energy','Energy storage']
 ---
 
-Introduction to power-from-waste
+Solar and wind energy face the challenge of intermittency. Energy storage, like batteries, helps
+address this issue by storing electricity generated from solar panels or wind turbines for use later
+when the sun isn't shining or wind isn't blowing. Adding a battery system increases renewable energy
+utilization, reduces grid reliance, and enhances self-sufficiency.
 
-Overview of the waste-to-energy Process
-Explanation of how waste is transformed into energy
-Different types of waste that can be used for energy production
-Advantages of power-from-waste
-Environmental Benefits
-Economic Benefits
-Challenges faced by the industry
-Public perception
-Technology challenges
-Regulatory and legal challenges
-Overview of the different technologies
-Pyrolysis/gasification
-Anaerobic digestion unit
-Slurry covers
+## Battery storage
+There are three prevalent battery storage technologies: Lithium-ion, Flow batteries, and Lead-acid.
+While not the most eco-friendly options, natural alternatives like sand and pumped hydro are
+preferable when applicable.  
+  
+**The good news**: Stored energy from the sun or wind can replace fossil fuel-derived power.  
+**The less good news**: Batteries can be costly and have environmental impacts during creation and
+disposal.  
+  
+However, some companies are now repurposing abandoned Electric Vehicle (EV) batteries,
+refurbishing and stacking them together to create a less damaging storage solution.
 
-1. Case studies and success stories
+## Sand storage
+A sand battery is a high-temperature thermal energy storage that uses sand or similar materials to
+store heat. It primarily serves as a powerful, high-capacity reservoir for excess wind and solar energy.  
+  
+**The good news**: Sand batteries can be built almost anywhere, even underground to save land. Sand is
+durable, inexpensive, and can store significant heat in a small volume at about 500-600 degrees
+Celsius.  
+**The less good news**: Energy loss occurs during conversion between mediums, making a thermal
+battery less efficient for electricity generation compared to direct heating.
 
-Real-world examples of successful projects
-Benefits experienced by local communities, businesses, and governments
-
-3. Accreditations and standards
-
-Overview of relevant accreditations and standards
-Benefits of obtaining accreditations
-
-4. Safety and health considerations
-
-Safety and health measures in place to protect workers and the public
-Regulations and guidelines governing the industry
-Regulatory frameworks
-Environmental standards and emissions requirements
-Planning and approval process
-International guidelines eg. SDG goals
-
-5. Funding opportunities
-
-Government Funding Opportunities
-Grants, loans, tax credits, and other financial incentives
-Application process and eligibility requirements
-Private Sector Investment Opportunities
-Equity investments and project financing
-Potential benefits and risks associated with private sector investment
-International Funding Opportunities
-Grants and loans from international organizations, development banks, and other funding agencies
-Application process and eligibility requirements
-
-6. Future of power-from-waste
-
-Trends and innovations in the Industry
-Future of power-from-waste
+## Hydro storage
+Pumped storage hydropower (PSH) is a hydroelectric energy storage system involving two reservoirs
+at different elevations. Excess wind or solar energy is used to pump water to the higher reservoir, and
+when needed, water flows down to the lower reservoir through a turbine to generate electricity. This
+helps fill energy gaps on cloudy and still days, ensuring clean energy reliability. In fact, PSH provides
+93% of U.S. energy storage.  
+  
+**The good news**: This near-perfect circular solution has minimal downsides.  
+**The less good news**: Initial setup can be costly, and the system requires adequate space and suitable
+topography.

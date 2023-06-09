@@ -27,7 +27,7 @@ export default {
       },
       fontFamily: {
         sans: ['Public Sans', 'Roboto', 'sans-serif'],
-      },
+      }
     },
   },
   plugins: [typography, daisyui],

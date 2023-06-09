@@ -4,55 +4,21 @@ created: 2023-02-17
 tags: ['Resources','Policy','Governance','Laws']
 ---
 
-Introduction to power-from-waste
-
-Overview of the waste-to-energy Process
-Explanation of how waste is transformed into energy
-Different types of waste that can be used for energy production
-Advantages of power-from-waste
-Environmental Benefits
-Economic Benefits
-Challenges faced by the industry
-Public perception
-Technology challenges
-Regulatory and legal challenges
-Overview of the different technologies
-Pyrolysis/gasification
-Anaerobic digestion unit
-Slurry covers
-
-1. Case studies and success stories
-
-Real-world examples of successful projects
-Benefits experienced by local communities, businesses, and governments
-
-3. Accreditations and standards
-
-Overview of relevant accreditations and standards
-Benefits of obtaining accreditations
-
-4. Safety and health considerations
-
-Safety and health measures in place to protect workers and the public
-Regulations and guidelines governing the industry
-Regulatory frameworks
-Environmental standards and emissions requirements
-Planning and approval process
-International guidelines eg. SDG goals
-
-5. Funding opportunities
-
-Government Funding Opportunities
-Grants, loans, tax credits, and other financial incentives
-Application process and eligibility requirements
-Private Sector Investment Opportunities
-Equity investments and project financing
-Potential benefits and risks associated with private sector investment
-International Funding Opportunities
-Grants and loans from international organizations, development banks, and other funding agencies
-Application process and eligibility requirements
-
-6. Future of power-from-waste
-
-Trends and innovations in the Industry
-Future of power-from-waste
+The policy landscape surrounding waste management and renewable energy is constantly evolving,
+both locally and globally. From government regulations to public sentiment, there are numerous
+factors that impact the way businesses approach power-from-waste projects. Whether you're
+operating on a local or global level, it's important to stay up-to-date with the latest policies and
+trends in your industry.  
+  
+Locally in the UK, the government has set ambitious targets for reducing greenhouse gas emissions
+and increasing the use of renewable energy. The Renewable Heat Incentive (RHI) and Contracts for
+Difference (CfD) schemes are designed to encourage the development of renewable energy projects,
+including power-from-waste initiatives. The UK also has a landfill tax, which incentivizes businesses
+to find alternative waste disposal methods, such as power-from-waste.  
+  
+Globally, the United Nations Sustainable Development Goals (SDGs) include specific targets for
+sustainable waste management and renewable energy. The SDGs call for a significant reduction in
+the amount of waste generated worldwide, as well as an increase in the amount of waste that is
+recycled or recovered for energy. Additionally, several countries have implemented policies and
+regulations to encourage the development of power-from-waste projects, including feed-in tariffs,
+carbon pricing, and renewable energy mandates.

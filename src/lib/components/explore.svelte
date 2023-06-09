@@ -49,14 +49,14 @@
       <div class="flex rounded-3xl overflow-hidden mt-20">
         <div class="w-3/5 p-10 pr-30 bg-white">
           <h2 class="uppercase pb-5 text-pfp-green font-bold">Exploration station</h2>
-          <h2 class="card-title text-3xl">Green power from non-recyclable waste</h2>
+          <h2 class="card-title text-3xl">Green power from non-recycled waste</h2>
           <p class="pt-10">
-            Power-from-waste technology can convert non-recyclable waste into a myriad of different outputs, including
+            Power-from-waste technology can convert non-recycled waste into a myriad of different outputs, including
             electricity, heating, cooling, and biochar, among others
           </p>
           <a
             class="mt-10 w-fit p-4 hover:bg-pfp-green bg-pfp-orange rounded-lg flex justify-center items-center text-white tracking-wider"
-            href="/explore">
+            href="/explore/#map">
             <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
             <span>Explore the possibilites</span>
           </a>
@@ -221,12 +221,11 @@
 
           <div class=" md:w-3/5 w-full p-14 pt-5 pr-14">
             <a
-              href="/"
               style="font-family: 'Poppins', sans-serif;"
               class="text-start text-sm font-semibold tracking-wider text-[#3F9378] leading-6 uppercase">
               Exploration station
             </a>
-            <h1 style="font-family: 'Poppins', sans-serif;" class="font-bold text-4xl leading-10 text-[#2E3855] mt-5">
+            <h1 id="map" style="font-family: 'Poppins', sans-serif;" class="font-bold text-4xl leading-10 text-[#2E3855] mt-5">
               Interact with our exploration <br />
               station to learn more
             </h1>
@@ -318,7 +317,7 @@
           <div class="flex justify-start items-center mt-5">
             <img class="mr-3" src="/assets/book-open.png" alt="" />
             <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
-              Case study
+              <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
             </h1>
             <img class="ml-5" src="/assets/Frame 15.png" alt="" />
           </div>
@@ -436,7 +435,7 @@
           <div class="flex justify-start items-center mt-5">
             <img class="mr-3" src="/assets/book-open.png" alt="" />
             <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
-              Case study
+              <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
             </h1>
             <img class="ml-5" src="/assets/Frame 15.png" alt="" />
           </div>
@@ -554,7 +553,7 @@
           <div class="flex justify-start items-center mt-5">
             <img class="mr-3" src="/assets/book-open.png" alt="" />
             <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
-              Case study
+              <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
             </h1>
             <img class="ml-5" src="/assets/Frame 15.png" alt="" />
           </div>
@@ -664,7 +663,7 @@
           <div class="flex justify-start items-center mt-5">
             <img class="mr-3" src="/assets/book-open.png" alt="" />
             <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
-              Case study
+              <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
             </h1>
             <img class="ml-5" src="/assets/Frame 15.png" alt="" />
           </div>
@@ -811,7 +810,9 @@
                 padding-top: 900px !important;
               }
               .fullb {
-                top: 170px !important;
+                top: calc(100% - 120px) !important;
+                left: calc(100% - 120px) !important;
+                position: fixed !important;
               }
             </style>
             <script>
@@ -844,7 +845,7 @@
       <div class="container mx-auto pt-10 rounded-2xl">
         <div class="flex md:flex-row flex-col items-center rounded-2xl bg-white w-full">
           <div class="h-96 bg-[#E7F5F5] md:w-2/5 w-full flex justify-center rounded-2xl">
-            <img class="w-96 h-60 mt-16" src="/assets/cow 1.png" alt="" />
+            <img class="w-96 h-60 mt-16" src="/assets/tech.png" alt="" />
           </div>
 
           <div class=" md:w-3/5 w-full p-14 pt-5 pr-14">
@@ -876,6 +877,7 @@
       <div class="container mx-auto mt-5 rounded-2xl bg-white p-10" id="growcalc">
         <div class="text-center">
           <h1
+            id="calculator"
             style="font-family: 'Poppins', sans-serif;"
             class="font-bold tracking-wider text-4xl leading-10 text-[#2E3855] mt-5">
             The PFP Calculator
@@ -904,9 +906,18 @@
               <div
                 class="button dropdown w-1/2 flex justify-between flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-base font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
                 <select id="colorselector" class="w-full bg-transparent text-center border-0">
-                  <option class="bg-[#E7F5F5]" value="red">PE Plastic</option>
-                  <option class="bg-[#E7F5F5]" value="yellow">Yellow</option>
-                  <option class="bg-[#E7F5F5]" value="blue">Blue</option>
+                  <option class="bg-[#E7F5F5]" value="cow-manure">Cow manure</option>
+                  <option class="bg-[#E7F5F5]" value="pig-slurry">Pig slurry</option>
+                  <option class="bg-[#E7F5F5]" value="food-waste">Food waste</option>
+                  <option class="bg-[#E7F5F5]" value="fish-waste">Fish waste</option>
+                  <option class="bg-[#E7F5F5]" value="poultry-litter">Poultry litter</option>
+                  <option class="bg-[#E7F5F5]" value="brewery-waste">Brewery waste</option>
+                  <option class="bg-[#E7F5F5]" value="pulp-paper-waste">Pulp & paper waste</option>
+                  <option class="bg-[#E7F5F5]" value="textile-waste">Textile waste</option>
+                  <option class="bg-[#E7F5F5]" value="pe-plastic">PE plastic</option>
+                  <option class="bg-[#E7F5F5]" value="srf-rdf">SRF and RDF</option>
+                  <option class="bg-[#E7F5F5]" value="coffee-grounds">Coffee grounds</option>
+                  <option class="bg-[#E7F5F5]" value="crop-residues">Crop residues</option>
                 </select>
               </div>
             </div>
@@ -920,9 +931,13 @@
               <div
                 class="button dropdown w-1/2 flex justify-between flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-base font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
                 <select class="w-full bg-transparent text-center focus-0 after:border-0 before:border-0 after:border-[#E7F5F5]">
-                  <option class="bg-[#E7F5F5]" value="red">10,000 tonnes</option>
-                  <option class="bg-[#E7F5F5]" value="yellow">Yellow</option>
-                  <option class="bg-[#E7F5F5]" value="blue">Blue</option>
+                  <option class="bg-[#E7F5F5]" value="red">&lt; 5 t</option>
+                  <option class="bg-[#E7F5F5]" value="red">5 - 100 t</option>
+                  <option class="bg-[#E7F5F5]" value="red">100 - 1000 t</option>
+                  <option class="bg-[#E7F5F5]" value="red">1000 - 10,000 t</option>
+                  <option class="bg-[#E7F5F5]" value="red">10,000 - 20,000 t</option>
+                  <option class="bg-[#E7F5F5]" value="red">20, 000 - 60,000 t</option>
+                  <option class="bg-[#E7F5F5]" value="red">&gt; 60,000 t</option>
                 </select>
               </div>
             </div>
@@ -948,12 +963,11 @@
         </div>
         <div class="flex md:justify-end md:w-3/4 justify-center w-full">
           <button
-            type="button"
-            style=" font-family: 'Public Sans', sans-serif;"
-            class=" mt-5 text-white bg-[#EC8B5A] hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-semibold rounded-lg text-base px-12 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 mr-2 mb-2"
+            class="font-bold mt-10 w-60 p-4 hover:bg-pfp-green bg-pfp-orange rounded-lg flex justify-center items-center text-white tracking-wider"
+            href="/explore/#calculator"
             onclick="growElement();">
-            <i class="fas fa-calculator mr-5" />
-            Calculate
+            <img class="mr-3" src="/assets/calculator.png" alt="" />
+            <span>Calculate</span>
           </button>
         </div>
       </div>
@@ -1024,8 +1038,12 @@
       <div class="flex md:flex-row flex-col items-center p-5 grow">
         <div class="md:w-1/5 w-full flex-col justify-center mx-auto" style="font-family: 'Poppins', sans-serif;">
           <div class="bg-[#E7F5F5] rounded-lg text-center py-5 p-10 text-[#2E3855]">
-            <p class="uppercase text-sm font-semibold">Waste type</p>
-            <h2 class="text-lg font-bold">PE Plastic 10,000 tonnes</h2>
+            <p class="uppercase text-sm font-semibold"><b>Waste type</b></p>
+            <h2 class="text-lg font-bold">
+              PE Plastic
+              <br />
+              10,000 tonnes
+            </h2>
           </div>
           <div class="bg-[#2E3855] rounded-lg flex flex-col justify-center mt-5 py-5 p-10">
             <div class="mx-auto">
@@ -1055,11 +1073,11 @@
               style="font-family: 'Poppins', sans-serif;"
               class="flex justify-center items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-lg font-bold text-xl leading-10 text-white mb-5 text-center after:absolute after:-right-2 after:top-[40%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
-              Energy content <img class="ml-5" src="/assets/info.png" alt="" />
+              Heat produced <img class="ml-5" src="/assets/info.png" alt="" />
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] mb-5 text-center">
-              18-25MJ/kg
+              11,200 MWh per year
             </div>
           </div>
           <div class="flex justify-center">
@@ -1067,23 +1085,47 @@
               style="font-family: 'Poppins', sans-serif;"
               class="flex justify-center items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-lg font-bold text-xl leading-10 text-white mb-5 text-center after:absolute after:-right-2 after:top-[40%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
-              Energy content <img class="ml-5" src="/assets/info.png" alt="" />
+              Electricity produced <img class="ml-5" src="/assets/info.png" alt="" />
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] mb-5 text-center">
-              18-25MJ/kg
+              4,800 MWh per year
             </div>
           </div>
-          <div class="flex justify-center">
+          <div class="flex justify-center mb-5">
             <div
               style="font-family: 'Poppins', sans-serif;"
               class="flex justify-center items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-lg font-bold text-xl leading-10 text-white text-center after:absolute after:-right-2 after:top-[40%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
-              Energy content <img class="ml-5" src="/assets/info.png" alt="" />
+              Char produced <img class="ml-5" src="/assets/info.png" alt="" />
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] text-center">
-              18-25MJ/kg
+              500 tonnes
+            </div>
+          </div>
+          <div class="flex justify-center mb-5">
+            <div
+              style="font-family: 'Poppins', sans-serif;"
+              class="flex justify-center items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-lg font-bold text-xl leading-10 text-white text-center after:absolute after:-right-2 after:top-[40%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
+                            tracking-wider text-[#2E3855]">
+              Electricity savings <img class="ml-5" src="/assets/info.png" alt="" />
+            </div>
+            <div
+              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] text-center">
+              £70,000 per year
+            </div>
+          </div>
+          <div class="flex justify-center mb-5">
+            <div
+              style="font-family: 'Poppins', sans-serif;"
+              class="flex justify-center items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-lg font-bold text-xl leading-10 text-white text-center after:absolute after:-right-2 after:top-[40%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
+                            tracking-wider text-[#2E3855]">
+              Heat savings <img class="ml-5" src="/assets/info.png" alt="" />
+            </div>
+            <div
+              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] text-center">
+              £48,000 per year
             </div>
           </div>
         </div>
@@ -1131,7 +1173,7 @@
       element.classList.toggle('fullw')
 
       var growbutton = document.querySelector('.growbutton')
-      // growbutton.classList.toggle('fullb')
+      growbutton.classList.toggle('fullb')
 
       // var buttons = document.querySelector('#buttons')
       // growbutton.classList.toggle('fullb')
