@@ -1117,6 +1117,18 @@
               11,200 MWh per year
             </div>
           </div>
+          <div class="flex justify-center mb-5">
+            <div
+              style="font-family: 'Poppins', sans-serif;"
+              class="flex justify-center items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-lg font-bold text-xl leading-10 text-white text-center after:absolute after:-right-2 after:top-[40%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
+                            tracking-wider text-[#2E3855]">
+              Heat savings <img class="ml-5" src="/assets/info.png" alt="" />
+            </div>
+            <div
+              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] text-center">
+              £48,000 per year
+            </div>
+          </div>
           <div class="flex justify-center">
             <div
               style="font-family: 'Poppins', sans-serif;"
@@ -1127,18 +1139,6 @@
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] mb-5 text-center">
               4,800 MWh per year
-            </div>
-          </div>
-          <div class="flex justify-center mb-5">
-            <div
-              style="font-family: 'Poppins', sans-serif;"
-              class="flex justify-center items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-lg font-bold text-xl leading-10 text-white text-center after:absolute after:-right-2 after:top-[40%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
-                            tracking-wider text-[#2E3855]">
-              Char produced <img class="ml-5" src="/assets/info.png" alt="" />
-            </div>
-            <div
-              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] text-center">
-              500 tonnes
             </div>
           </div>
           <div class="flex justify-center mb-5">
@@ -1158,11 +1158,11 @@
               style="font-family: 'Poppins', sans-serif;"
               class="flex justify-center items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-lg font-bold text-xl leading-10 text-white text-center after:absolute after:-right-2 after:top-[40%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
-              Heat savings <img class="ml-5" src="/assets/info.png" alt="" />
+              Char produced <img class="ml-5" src="/assets/info.png" alt="" />
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] text-center">
-              £48,000 per year
+              500 tonnes
             </div>
           </div>
         </div>
