@@ -1023,6 +1023,11 @@
         // element.classList.toggle('-translate-x-full')
         element.style.height = 0 + 'px'
         element.style.opacity = 0
+        var element = document.querySelector('#results')
+        // element.classList.toggle('hidden')
+        // element.classList.toggle('-translate-x-full')
+        element.style.height = 550 + 'px'
+        element.style.opacity = 1
       }
     </script>
     <section class="mt-5 grow" style="height:0px;opacity:0;">
@@ -1071,8 +1076,11 @@
       </div>
     </section>
 
-    <section class=" container mx-auto bg-white pb-10 rounded-2xl" style="opacity:1;margin-top:40px;">
-      <div class="flex md:flex-row flex-col items-center p-5 grow">
+    <section
+      class=" container mx-auto bg-white pb-10 rounded-2xl grow"
+      style="opacity:0;height:0px;overflow:hidden;"
+      id="results">
+      <div class="flex md:flex-row flex-col items-center p-5">
         <div class="md:w-1/5 w-full flex-col justify-center mx-auto" style="font-family: 'Poppins', sans-serif;">
           <div class="bg-[#E7F5F5] rounded-lg text-center py-5 p-10 text-[#2E3855]">
             <p class="uppercase text-sm font-semibold"><b>Waste type</b></p>
