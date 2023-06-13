@@ -22,3 +22,4 @@ the amount of waste generated worldwide, as well as an increase in the amount of
 recycled or recovered for energy. Additionally, several countries have implemented policies and
 regulations to encourage the development of power-from-waste projects, including feed-in tariffs,
 carbon pricing, and renewable energy mandates.
+q
