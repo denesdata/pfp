@@ -267,7 +267,7 @@
     <div
       class="items-center rounded-lg bg-none w-5/6"
       id="cow-panel"
-      style="z-index:30;position:fixed;top:200px;left:0px;width:30%;">
+      style="z-index:30;position:fixed;top:150px;left:0px;width:30%;">
       <div class="absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-lg" id="cow">
         <div class="absolute left-[98%] rounded-lg">
           <script>
@@ -288,7 +288,7 @@
         </div>
         <div class="p-5">
           <div class="flex justify-between items-center w-full">
-            <div class="w-2/5"><img class="w-full" src="/assets/cow 1.png" alt="" /></div>
+            <div class="w-2/5"><img style="height:70%;padding:20px;margin-left:10%;" src="/assets/cow 1.png" alt="" /></div>
             <div class="w-1/2">
               <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-3xl leading-10 text-[#2E3855]">
                 Cow manure
@@ -368,13 +368,16 @@
             </div>
 
             <div class="flex">
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
-                Start your project
-              </button>
+              <a href="/#calculator">
+                <button
+                  type="button"
+                  onclick="toggleAlOff();"
+                  style=" font-family: 'Public Sans', sans-serif;"
+                  class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+                  <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
+                  Start your project
+                </button>
+              </a>
               <button
                 type="button"
                 style=" font-family: 'Public Sans', sans-serif;"
@@ -406,7 +409,9 @@
         </div>
         <div class="p-5 relative l-0">
           <div class="flex justify-between items-center w-full">
-            <div class="w-2/5"><img class="w-full" src="/assets/Group 7 (2).png" alt="" /></div>
+            <div class="w-2/5">
+              <img style="height:70%;padding:20px;margin-left:10%;" src="/assets/Group 7 (2).png" alt="" />
+            </div>
             <div class="w-1/2">
               <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-3xl leading-10 text-[#2E3855]">
                 Food waste
@@ -486,13 +491,16 @@
             </div>
 
             <div class="flex">
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
-                Start your project
-              </button>
+              <a href="/#calculator">
+                <button
+                  type="button"
+                  onclick="toggleAlOff();"
+                  style=" font-family: 'Public Sans', sans-serif;"
+                  class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+                  <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
+                  Start your project
+                </button>
+              </a>
               <button
                 type="button"
                 style=" font-family: 'Public Sans', sans-serif;"
@@ -524,7 +532,9 @@
         </div>
         <div class="p-5 relative l-0">
           <div class="flex justify-between items-center w-full">
-            <div class="w-2/5"><img class="h-60 pl-32 pb-10 pt-10" src="/assets/pet bottle 1.png" alt="" /></div>
+            <div class="w-2/5">
+              <img style="height:70%;padding:20px;margin-left:20%;" src="/assets/pet bottle 1.png" alt="" />
+            </div>
             <div class="w-1/2">
               <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-3xl leading-10 text-[#2E3855]">
                 Water
@@ -604,13 +614,16 @@
             </div>
 
             <div class="flex">
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
-                Start your project
-              </button>
+              <a href="/#calculator">
+                <button
+                  type="button"
+                  onclick="toggleAlOff();"
+                  style=" font-family: 'Public Sans', sans-serif;"
+                  class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+                  <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
+                  Start your project
+                </button>
+              </a>
               <button
                 type="button"
                 style=" font-family: 'Public Sans', sans-serif;"
@@ -634,7 +647,7 @@
         </div>
         <div class="p-5 relative l-0">
           <div class="flex justify-between items-center w-full">
-            <div class="w-2/5"><img class="w-100 pl-32 pb-10 pt-10" src="/assets/Group14.png" alt="" /></div>
+            <div class="w-2/5"><img style="height:70%;padding:20px;margin-left:20%;" src="/assets/Group14.png" alt="" /></div>
             <div class="w-1/2">
               <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-3xl leading-10 text-[#2E3855]">
                 Technology
@@ -714,13 +727,16 @@
             </div>
 
             <div class="flex">
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
-                Start your project
-              </button>
+              <a href="/#calculator">
+                <button
+                  type="button"
+                  onclick="toggleAlOff();"
+                  style=" font-family: 'Public Sans', sans-serif;"
+                  class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+                  <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
+                  Start your project
+                </button>
+              </a>
               <button
                 type="button"
                 style=" font-family: 'Public Sans', sans-serif;"
@@ -765,7 +781,7 @@
               type="button"
               onclick="toggleElement('technology')"
               style=" font-family: 'Public Sans', sans-serif; background:#2e3855;  left:600px; top:-600px;"
-              class="techbuttons techbutton-dark w-48 h-36 flex items-center justify-center text-[#2E3855] bg-[#ffffffdd] font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
+              class="techbuttons techbutton-dark w-48 h-16 flex items-center justify-center text-[#2E3855] bg-[#ffffffdd] font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
               <div style="color:#ffffff;font-size:18px;margin:-5px -10px -5px -5px;">Technology</div>
             </button>
             <style>
@@ -816,7 +832,7 @@
               .techbutton-dark::after {
                 content: '';
                 position: relative;
-                bottom: -82px;
+                bottom: -40px;
                 left: -45px;
                 /* transform: translateX(-10px) translateY(50px); */
                 border-width: 10px;
@@ -829,12 +845,12 @@
               .fullw {
                 max-width: 100%;
                 min-height: 100%;
-                padding-left: 400px;
-                padding-top: 900px !important;
+                padding-left: 250px;
+                padding-top: 650px !important;
               }
               .fullb {
-                top: calc(100% - 120px) !important;
-                left: calc(100% - 120px) !important;
+                top: calc(100% - 80px) !important;
+                left: calc(100% - 80px) !important;
                 position: fixed !important;
               }
             </style>
@@ -856,9 +872,9 @@
           <button
             type="button"
             onclick="grow()"
-            style=" font-family: 'Public Sans', sans-serif; position:relative; top: -20px; left: calc(100% - 100px);"
-            class="growbutton w-20 h-20 flex items-center justify-center text-[#2E3855] bg-[#ffffffdd] font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
-            <img class="w-16 mr-3" src="/assets/Frame 19 (2).png" alt="" />
+            style=" font-family: 'Public Sans', sans-serif; position:relative; top: -20px; left: calc(100% - 80px);"
+            class="growbutton w-12 h-12 flex items-center justify-center text-[#2E3855] bg-[#ffffffdd] font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
+            <img class="w-20 mr-3" src="/assets/Frame 19.svg" alt="" style="width:50px;height:50px;" />
           </button>
         </div>
       </div>
@@ -984,7 +1000,7 @@
             <div />
           </div>
         </div>
-        <div class="flex md:justify-end md:w-3/4 justify-center w-full">
+        <div class="flex justify-center w-full">
           <button
             class="font-bold mt-10 w-60 p-4 hover:bg-pfp-green bg-pfp-orange rounded-lg flex justify-center items-center text-white tracking-wider"
             href="/explore/#calculator"
@@ -1009,8 +1025,8 @@
         element.style.opacity = 0
       }
     </script>
-    <section class="mt-5">
-      <div class="container mx-auto bg-white p-5 rounded-2xl grow" style="height:0px;opacity:0;">
+    <section class="mt-5 grow" style="height:0px;opacity:0;">
+      <div class="container mx-auto bg-white p-5 rounded-2xl">
         <div>
           <h1
             style="font-family: 'Poppins', sans-serif;"
@@ -1036,22 +1052,20 @@
               Review your results to explore the different possibilities and book a slot with us for personalised guidance on
               next steps
             </p>
-            <div>
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
-                Book a call with us
-              </button>
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex justify-center items-center mt-5 text-[#2E3855] bg-white border border-1 border-[#2E3855] font-semibold rounded-lg text-base px-8 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/arrow-right-circle (1).png" alt="" />
-                Learn more
-              </button>
-            </div>
+            <button
+              type="button"
+              style=" font-family: 'Public Sans', sans-serif;"
+              class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+              <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
+              <a href="/contact">Book a call with us</a>
+            </button>
+            <button
+              type="button"
+              style=" font-family: 'Public Sans', sans-serif;"
+              class="flex justify-center items-center mt-5 text-[#2E3855] bg-white border border-1 border-[#2E3855] font-semibold rounded-lg text-base px-8 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+              <img class="mr-3" src="/assets/arrow-right-circle (1).png" alt="" />
+              Learn more
+            </button>
           </div>
         </div>
       </div>
