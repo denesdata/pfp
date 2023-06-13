@@ -41,8 +41,12 @@
   </script>
   <img src="/assets/field.png" alt="" style="height:100%; position:fixed; top:10px;" />
 </div>
-<div class="flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap">
-  <!-- <Landing /> -->
+<div class="flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap mt-8">
+  <style>
+    p {
+      font-size: 1.2rem;
+    }
+  </style>
   <div class="h-full">
     <!-- ===================after landing page =================== -->
     <section>
@@ -64,10 +68,12 @@
         <div class="w-2/5 p-4 bg-light-green" id="topRightCluster">
           <style>
             #topRightCluster {
-              background-image: url('/assets/Group 6.png');
+              background-image: url('/assets/Group 14.png');
               background-repeat: no-repeat;
               background-position: center;
               background-size: contain;
+              padding: 30px;
+              background-origin: content-box;
             }
             #topRightCluster img {
               visibility: hidden;
@@ -125,86 +131,100 @@
       </div>
     </section>
     <section class="bg-white mt-8 container mx-auto p-10 rounded-2xl" style="font-family: 'Poppins', sans-serif;">
-      <div class=" grid gap-4 md:grid-cols-5 grid-cols-2 w-full">
+      <style>
+        #thegrid div {
+          padding: 20px 0px 10px 20px;
+        }
+        #thegrid div.flex {
+          padding: 20px 10px 20px 10px;
+        }
+        #thegrid2 div {
+          padding: 30px 40px 30px 40px;
+          line-height: 1.5;
+          vertical-align: middle;
+        }
+      </style>
+      <h2 class="card-title text-3xl pb-10 justify-center">How it works</h2>
+      <div class=" grid gap-12 md:grid-cols-5 grid-cols-2 w-full" id="thegrid">
         <div
-          class="p-3 relative bg-[#DDF3EA] rounded-lg leading-6 text-[#2E3855] mb-0 text-start font-bold text-xl tracking-wider after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#DDF3EA] after:border-r-transparent after:border-l-transparent">
-          <div class="flex justify-center h-32"><img src="/assets/pet bottle 1.png" alt="" /></div>
+          class="p-3 relative bg-[#DDF3EA] rounded-2xl leading-6 text-[#2E3855] mb-0 text-start font-bold text-xl tracking-wider after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#DDF3EA] after:border-r-transparent after:border-l-transparent">
+          <div class="flex justify-center h-40"><img src="/assets/pet bottle 1.png" alt="" /></div>
           <div class="w-2/4">Plastic waste</div>
         </div>
         <div
-          class="p-3 relative bg-[#DDF3EA] rounded-lg leading-6 text-[#2E3855] mb-0 text-start font-bold text-xl tracking-wider after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#DDF3EA] after:border-r-transparent after:border-l-transparent">
-          <div class="flex justify-center h-32"><img src="/assets/Group 7 (2).png" alt="" /></div>
+          class="p-3 relative bg-[#DDF3EA] rounded-2xl leading-6 text-[#2E3855] mb-0 text-start font-bold text-xl tracking-wider after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#DDF3EA] after:border-r-transparent after:border-l-transparent">
+          <div class="flex justify-center h-40"><img src="/assets/Group 7 (2).png" alt="" /></div>
           <div class="w-2/4">Food waste</div>
         </div>
         <div
-          class="p-3 relative bg-[#DDF3EA] rounded-lg leading-6 text-[#2E3855] mb-0 text-start font-bold text-xl tracking-wider after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#DDF3EA] after:border-r-transparent after:border-l-transparent">
-          <div class="flex justify-center h-32"><img src="/assets/Group 7 (3).png" alt="" /></div>
+          class="p-3 relative bg-[#DDF3EA] rounded-2xl leading-6 text-[#2E3855] mb-0 text-start font-bold text-xl tracking-wider after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#DDF3EA] after:border-r-transparent after:border-l-transparent">
+          <div class="flex justify-center h-40"><img src="/assets/Group 7 (3).png" alt="" /></div>
           <div class="w-2/4">Animal waste</div>
         </div>
         <div
-          class="p-3 relative bg-[#DDF3EA] rounded-lg leading-6 text-[#2E3855] mb-0 text-start font-bold text-xl tracking-wider after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#DDF3EA] after:border-r-transparent after:border-l-transparent">
-          <div class="flex justify-center h-32"><img src="/assets/Group 7.png" alt="" /></div>
+          class="p-3 relative bg-[#DDF3EA] rounded-2xl leading-6 text-[#2E3855] mb-0 text-start font-bold text-xl tracking-wider after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#DDF3EA] after:border-r-transparent after:border-l-transparent">
+          <div class="flex justify-center h-40"><img src="/assets/Group 7.png" alt="" /></div>
           <div class="w-2/4">Agricultural waste</div>
         </div>
         <div
-          class="p-3 relative bg-[#DDF3EA] rounded-lg leading-6 text-[#2E3855] mb-0 text-start font-bold text-xl tracking-wider after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#DDF3EA] after:border-r-transparent after:border-l-transparent">
-          <div class="flex justify-center h-32"><img src="/assets/Group 7 (1).png" alt="" /></div>
+          class="p-3 relative bg-[#DDF3EA] rounded-2xl leading-6 text-[#2E3855] mb-0 text-start font-bold text-xl tracking-wider after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#DDF3EA] after:border-r-transparent after:border-l-transparent">
+          <div class="flex justify-center h-40"><img src="/assets/Group 7 (1).png" alt="" /></div>
           <div class="w-2/4">Wood waste</div>
         </div>
       </div>
-      <div class="flex w-full pt-5">
+      <div class="flex w-full mt-10 pt-4 rounded-2xl mb-10 bg-[#2E3855]" style="height:70px;">
         <div
-          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-center after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent" />
+          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-center after:absolute after:-bottom-5 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent" />
         <div
-          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-center after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent" />
+          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-center after:absolute after:-bottom-5 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent" />
         <div
-          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-end after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent font-semibold text-base tracking-wider uppercase">
+          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-end after:absolute after:-bottom-5 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent font-semibold text-base tracking-wider uppercase">
           Power from
         </div>
         <div
-          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-start after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent font-semibold text-base pl-1 tracking-wider uppercase">
+          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-start after:absolute after:-bottom-5 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent font-semibold text-base pl-1 tracking-wider uppercase">
           waste technology
         </div>
         <div
-          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-center after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent" />
+          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-center after:absolute after:-bottom-5 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent" />
         <div
-          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-center after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent" />
+          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-center after:absolute after:-bottom-5 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent" />
       </div>
-      <div class=" grid gap-4 grid-cols-6 w-full">
+      <div class=" grid gap-12 grid-cols-6 w-full" id="thegrid2">
         <div
-          class="arrow arrow-bottom relative bg-[#DDF3EA] leading-10 text-[#2E3855] text-center rounded-lg font-bold text-xl">
+          class="flex items-center justify-center arrow arrow-bottom relative bg-[#DDF3EA] leading-10 text-[#2E3855] text-center rounded-2xl font-bold text-xl">
           Liquid fertiliser
         </div>
         <div
-          class="arrow arrow-bottom relative bg-[#DDF3EA] leading-10 text-[#2E3855] text-center rounded-lg rounded-lg font-bold text-xl">
+          class="flex items-center justify-center arrow arrow-bottom relative bg-[#DDF3EA] leading-10 text-[#2E3855] text-center rounded-2xl font-bold text-xl">
           Solid digestate
         </div>
         <div
-          class="arrow arrow-bottom relative bg-[#DDF3EA] rounded-lg leading-10 text-[#2E3855] mb-0 text-center rounded-lg font-bold text-xl after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#DDF3EA] after:border-r-transparent after:border-l-transparent">
+          class="flex items-center justify-center arrow arrow-bottom relative bg-[#DDF3EA] leading-10 text-[#2E3855] mb-0 text-center rounded-2xl font-bold text-xl after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#DDF3EA] after:border-r-transparent after:border-l-transparent">
           Biogas
         </div>
         <div
-          class="arrow arrow-bottom relative bg-[#DDF3EA] rounded-lg leading-10 text-[#2E3855] mb-0 text-center rounded-lg font-bold text-xl after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#DDF3EA] after:border-r-transparent after:border-l-transparent">
+          class="flex items-center justify-center arrow arrow-bottom relative bg-[#DDF3EA] leading-10 text-[#2E3855] mb-0 text-center rounded-2xl font-bold text-xl after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#DDF3EA] after:border-r-transparent after:border-l-transparent">
           Syngas
         </div>
         <div
-          class="arrow arrow-bottom relative bg-[#DDF3EA] rounded-lg leading-10 text-[#2E3855] text-center rounded-lg font-bold text-xl">
+          class="flex items-center justify-center arrow arrow-bottom relative bg-[#DDF3EA] leading-10 text-[#2E3855] text-center rounded-2xl font-bold text-xl">
           Bio-oil
         </div>
         <div
-          class="arrow arrow-bottom relative bg-[#DDF3EA] rounded-lg leading-10 text-[#2E3855] text-center rounded-lg font-bold text-xl">
+          class="flex items-center justify-center arrow arrow-bottom relative bg-[#DDF3EA] leading-10 text-[#2E3855] text-center rounded-2xl font-bold text-xl">
           Biochar
         </div>
       </div>
-      <div class="flex justify-center mt-10">
+      <div class="flex justify-center mt-10 p-6">
         <div
-          class="arrow arrow-bottom relative w-1/3 bg-gradient-to-r from-[#FF5252] to-[#59AFFF] rounded-lg rounded-lg font-bold text-xl leading-10 text-[#2E3855] mb-0 text-center after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[gradient-to-r from-[#FF5252] to-[#59AFFF]] after:border-r-transparent after:border-l-transparent">
+          class="p-4 text-white arrow arrow-bottom relative w-1/3 bg-gradient-to-r from-[#FF5252] to-[#59AFFF] rounded-2xl font-bold text-xl leading-10 text-[#2E3855] mb-0 text-center after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[gradient-to-r from-[#FF5252] to-[#59AFFF]] after:border-r-transparent after:border-l-transparent">
           Heat / Cool
         </div>
       </div>
-      <div class="flex justify-center mt-10">
+      <div class="flex justify-center mt-0 p-6">
         <div
-          class="arrow arrow-bottom relative w-1/3 bg-[#D0E6F2] rounded-lg leading-10 text-[#2E3855] mb-0 rounded-lg font-bold text-xl text-center">
+          class="p-4 arrow arrow-bottom relative w-1/3 bg-[#D0E6F2] leading-10 text-[#2E3855] mb-0 rounded-2xl font-bold text-xl text-center">
           Electricity
         </div>
       </div>
@@ -220,6 +240,11 @@
           </div>
 
           <div class=" md:w-3/5 w-full p-14 pt-5 pr-14">
+            <style>
+              p {
+                font-size: 1.2rem;
+              }
+            </style>
             <a
               style="font-family: 'Poppins', sans-serif;"
               class="text-start text-sm font-semibold tracking-wider text-[#3F9378] leading-6 uppercase">
@@ -229,9 +254,7 @@
               Interact with our exploration <br />
               station to learn more
             </h1>
-            <p
-              style=" font-family: 'Public Sans', sans-serif;"
-              class="text-[#2E3855] text-start text-base font-normal tracking-wider leading-6 mt-5">
+            <p style=" font-family: 'Public Sans', sans-serif;" class="text-[#2E3855] tracking-wider mt-5">
               Whether you’re a business owner, facility manager, community leader or just interested in sustainable energy
               solutions, our exploration station has something for you
             </p>
