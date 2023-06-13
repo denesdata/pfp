@@ -31,7 +31,7 @@
           </a>
           <a
             class="ml-10 mt-10 w-60 p-4 hover:bg-pfp-green bg-pfp-navy rounded-lg flex justify-center items-center text-white tracking-wider"
-            href="/explore">
+            href="/green-energy/new-renewable/">
             <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
             <span>Learn more</span>
           </a>
