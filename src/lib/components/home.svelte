@@ -2,7 +2,7 @@
   import { site } from '$lib/config/site'
 </script>
 
-<div class="flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap">
+<div class="w-7/8 flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap">
   <style>
     div > img {
       /* width: 40%; */

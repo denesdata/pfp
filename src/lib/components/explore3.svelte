@@ -17,10 +17,6 @@
     #expandElement {
       display: none;
     }
-
-    .after\:border-solid::after {
-      transform: scale(2) translate(-2px, 2px);
-    }
   </style>
 
   <script>
@@ -51,14 +47,14 @@
       font-size: 1.2rem;
     }
   </style>
-  <div class="h-full w-2/3">
+  <div class="h-full">
     <!-- ===================after landing page =================== -->
     <section>
-      <div class="flex rounded-2xl overflow-hidden mt-12">
-        <div class="w-3/5 p-10 pr-12 bg-white">
+      <div class="flex rounded-3xl overflow-hidden mt-20">
+        <div class="w-3/5 p-10 pr-30 bg-white">
           <h2 class="uppercase pb-5 text-pfp-green font-bold">Exploration station</h2>
           <h2 class="card-title text-3xl">Green power from non-recycled waste</h2>
-          <p class="pt-6">
+          <p class="pt-10">
             Power-from-waste technology can convert non-recycled waste into a myriad of different outputs, including
             electricity, heating, cooling, and biochar, among others
           </p>
@@ -76,7 +72,7 @@
               background-repeat: no-repeat;
               background-position: center;
               background-size: contain;
-              padding: 50px;
+              padding: 30px;
               background-origin: content-box;
             }
             #topRightCluster img {
@@ -134,22 +130,22 @@
         </div>
       </div>
     </section>
-    <section class="mb-10 bg-white mt-8 container mx-auto p-10 rounded-2xl" style="font-family: 'Poppins', sans-serif;">
+    <section class="bg-white mt-8 container mx-auto p-10 rounded-2xl" style="font-family: 'Poppins', sans-serif;">
       <style>
         #thegrid div {
-          padding: 10px 0px 10px 10px;
+          padding: 20px 0px 10px 20px;
         }
         #thegrid div.flex {
           padding: 20px 10px 20px 10px;
         }
         #thegrid2 div {
-          padding: 15px 40px 15px 40px;
+          padding: 30px 40px 30px 40px;
           line-height: 1.5;
           vertical-align: middle;
         }
       </style>
       <h2 class="card-title text-3xl pb-10 justify-center">How it works</h2>
-      <div class=" grid gap-6 md:grid-cols-5 grid-cols-2 w-full" id="thegrid">
+      <div class=" grid gap-12 md:grid-cols-5 grid-cols-2 w-full" id="thegrid">
         <div
           class="p-3 relative bg-[#DDF3EA] rounded-2xl leading-6 text-[#2E3855] mb-0 text-start font-bold text-xl tracking-wider after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#DDF3EA] after:border-r-transparent after:border-l-transparent">
           <div class="flex justify-center h-40"><img src="/assets/pet bottle 1.png" alt="" /></div>
@@ -176,32 +172,25 @@
           <div class="w-2/4">Wood waste</div>
         </div>
       </div>
-      <div class="relative z-10 w-full text-white mb-[-90px] mt-16 text-center font-semibold text-xl tracking-wider uppercase">
-        Power from waste technology
-      </div>
       <div class="flex w-full mt-10 pt-4 rounded-2xl mb-10 bg-[#2E3855]" style="height:70px;">
         <div
           class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-center after:absolute after:-bottom-5 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent" />
         <div
-          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-end after:absolute after:-bottom-5 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent font-semibold text-xl tracking-wider uppercase">
-          &nbsp;
+          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-center after:absolute after:-bottom-5 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent" />
+        <div
+          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-end after:absolute after:-bottom-5 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent font-semibold text-base tracking-wider uppercase">
+          Power from
         </div>
         <div
-          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-center after:absolute after:-bottom-5 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent font-semibold text-xl tracking-wider uppercase">
-          &nbsp;
-        </div>
-        <div
-          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-center after:absolute after:-bottom-5 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent font-semibold text-xl pl-1 tracking-wider uppercase">
-          &nbsp;
-        </div>
-        <div
-          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-start after:absolute after:-bottom-5 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent font-semibold text-xl pl-1 tracking-wider uppercase">
-          &nbsp;
+          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-start after:absolute after:-bottom-5 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent font-semibold text-base pl-1 tracking-wider uppercase">
+          waste technology
         </div>
         <div
           class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-center after:absolute after:-bottom-5 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent" />
+        <div
+          class="arrow arrow-bottom relative w-1/6 bg-[#2E3855] h-10 leading-10 mb-10 text-white text-center after:absolute after:-bottom-5 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#2E3855] after:border-r-transparent after:border-l-transparent" />
       </div>
-      <div class=" grid gap-6 grid-cols-6 w-full" id="thegrid2">
+      <div class=" grid gap-12 grid-cols-6 w-full" id="thegrid2">
         <div
           class="flex items-center justify-center arrow arrow-bottom relative bg-[#DDF3EA] leading-10 text-[#2E3855] text-center rounded-2xl font-bold text-xl">
           Liquid fertiliser
@@ -227,14 +216,15 @@
           Biochar
         </div>
       </div>
-      <div class="flex justify-center mt-6 p-6">
+      <div class="flex justify-center mt-10 p-6">
         <div
-          class="p-3 text-white arrow arrow-bottom relative w-1/3 bg-gradient-to-r from-[#FF5252] to-[#59AFFF] rounded-2xl font-bold text-xl leading-10 text-[#2E3855] mb-0 text-center after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-[#AD85AC] after:border-r-transparent after:border-l-transparent">
+          class="p-4 text-white arrow arrow-bottom relative w-1/3 bg-gradient-to-r from-[#FF5252] to-[#59AFFF] rounded-2xl font-bold text-xl leading-10 text-[#2E3855] mb-0 text-center after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[gradient-to-r from-[#FF5252] to-[#59AFFF]] after:border-r-transparent after:border-l-transparent">
           Heat / Cool
         </div>
       </div>
-      <div class="flex justify-center mt-[-10px] p-6 mb-[-20px]">
-        <div class="p-3 relative w-1/3 bg-[#D0E6F2] leading-10 text-[#2E3855] mb-0 rounded-2xl font-bold text-xl text-center">
+      <div class="flex justify-center mt-0 p-6">
+        <div
+          class="p-4 arrow arrow-bottom relative w-1/3 bg-[#D0E6F2] leading-10 text-[#2E3855] mb-0 rounded-2xl font-bold text-xl text-center">
           Electricity
         </div>
       </div>
@@ -242,26 +232,28 @@
 
     <!-- <img class="transition-shadow z-10 w-full h-full" src="/assets/field.png" alt="" /> -->
 
-    <h1 id="map" class="pt-10">
-      <div class="container mx-auto rounded-2xl">
+    <section class="">
+      <div class="container mx-auto pt-10 rounded-2xl">
         <div class="flex md:flex-row flex-col items-center rounded-2xl bg-white w-full">
-          <div class="bg-[#E7F5F5] md:w-2/5 w-full flex justify-center rounded-l-2xl">
-            <img class="h-76 p-6" src="/assets/Frame 19 (1).png" alt="" />
+          <div class="bg-[#E7F5F5] md:w-2/5 w-full flex justify-center rounded-2xl">
+            <img class="w-full" src="/assets/Frame 19 (1).png" alt="" />
           </div>
 
-          <div class=" md:w-3/5 w-full p-14 pt-8 pb-6">
+          <div class=" md:w-3/5 w-full p-14 pt-5 pr-14">
             <style>
               p {
                 font-size: 1.2rem;
               }
             </style>
-            <h2 style="font-family: 'Poppins', sans-serif;" class="uppercase pb-0 text-pfp-green font-bold">
+            <a
+              style="font-family: 'Poppins', sans-serif;"
+              class="text-start text-sm font-semibold tracking-wider text-[#3F9378] leading-6 uppercase">
               Exploration station
-            </h2>
-            <div style="font-family: 'Poppins', sans-serif;" class="card-title text-3xl leading-10 text-[#2E3855] mt-5">
+            </a>
+            <h1 id="map" style="font-family: 'Poppins', sans-serif;" class="font-bold text-4xl leading-10 text-[#2E3855] mt-5">
               Interact with our exploration <br />
               station to learn more
-            </div>
+            </h1>
             <p style=" font-family: 'Public Sans', sans-serif;" class="text-[#2E3855] tracking-wider mt-5">
               Whether you’re a business owner, facility manager, community leader or just interested in sustainable energy
               solutions, our exploration station has something for you
@@ -269,543 +261,528 @@
           </div>
         </div>
       </div>
-      <div
-        class="items-center rounded-2xl"
-        id="cow-panel"
-        style="z-index:30;position:relative;top:0px;left:0px;width:700px; height:0px;">
-        <style>
-          .cow-element {
-            overflow: visible !important;
-          }
-        </style>
-        <div
-          class="cow-element pt-0 opacity-0 -translate-x-full h-[664px] absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-l-2xl mt-10"
-          id="cow">
-          <div class="relative left-[98%] rounded-r-2xl">
-            <script>
-              function toggleElement(k) {
-                var element = document.querySelector('#' + k)
-                // element.classList.toggle('hidden')
-                element.classList.toggle('-translate-x-full')
-                element.classList.toggle('opacity-0')
-              }
-            </script>
+    </section>
+
+    <!-- ===================after landing page =================== -->
+    <div
+      class="items-center rounded-lg bg-none w-5/6"
+      id="cow-panel"
+      style="z-index:30;position:fixed;top:150px;left:0px;width:30%;">
+      <div class="absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-lg" id="cow">
+        <div class="absolute left-[98%] rounded-lg">
+          <script>
+            function toggleElement(k) {
+              var element = document.querySelector('#' + k)
+              // element.classList.toggle('hidden')
+              element.classList.toggle('-translate-x-full')
+              element.classList.toggle('opacity-0')
+            }
+          </script>
+          <button
+            type="button"
+            onclick="toggleElementOff('cow')"
+            style=" font-family: 'Public Sans', sans-serif;"
+            class="flex items-center justify-center text-[#2E3855] bg-white font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
+            <img class="mr-3" src="/assets/x-circle.png" alt="" />
+          </button>
+        </div>
+        <div class="p-5">
+          <div class="flex justify-between items-center w-full">
+            <div class="w-2/5"><img style="height:70%;padding:20px;margin-left:10%;" src="/assets/cow 1.png" alt="" /></div>
+            <div class="w-1/2">
+              <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-3xl leading-10 text-[#2E3855]">
+                Cow manure
+              </h1>
+              <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
+                <span class="font-bold text-xl">GCV:</span>
+                17.57 MJ/kg
+                <img class="ml-5" src="/assets/Frame 15.png" alt="" />
+              </p>
+              <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
+                <span class="font-bold text-xl">Energy content:</span>
+                High
+              </p>
+            </div>
+          </div>
+
+          <div class="flex">
             <button
               type="button"
-              onclick="toggleElementOff('cow')"
               style=" font-family: 'Public Sans', sans-serif;"
-              class="flex items-center justify-center text-[#2E3855] bg-white font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
-              <img class="mr-2" src="/assets/x-circle.png" alt="" />
+              class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+              <img class="mr-3" src="/assets/bar-chart.png" alt="" />
+              High organic content
+            </button>
+            <button
+              type="button"
+              style=" font-family: 'Public Sans', sans-serif;"
+              class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+              <img class="mr-3" src="/assets/bar-chart.png" alt="" />
+              High nutrient content
             </button>
           </div>
-          <div class="p-5">
-            <div class="flex justify-between items-center w-full">
-              <div class="w-2/5"><img style="height:70%;padding:20px;margin-left:10%;" src="/assets/cow 1.png" alt="" /></div>
-              <div class="w-1/2">
-                <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-3xl leading-10 text-[#2E3855]">
-                  Cow manure
-                </h1>
-                <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
-                  <span class="font-bold text-xl">GCV:</span>
-                  17.57 MJ/kg
-                  <img class="ml-5" src="/assets/Frame 15.png" alt="" />
-                </p>
-                <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
-                  <span class="font-bold text-xl">Energy content:</span>
-                  High
-                </p>
-              </div>
-            </div>
-
-            <div class="flex">
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/bar-chart.png" alt="" />
-                High organic content
-              </button>
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/bar-chart.png" alt="" />
-                High nutrient content
-              </button>
-            </div>
-            <div class="flex justify-start">
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/bar-chart.png" alt="" />
-                High nitrogen content
-              </button>
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#D9F5E4] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/bar-chart (1).png" alt="" />
-                Low pH levels
-              </button>
-            </div>
-            <div class="flex justify-start items-center mt-5">
-              <img class="mr-3" src="/assets/book-open.png" alt="" />
-              <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
-                <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
-              </h1>
-              <img class="ml-5" src="/assets/Frame 15.png" alt="" />
-            </div>
-
-            <div style=" font-family: 'Public Sans', sans-serif;" class="mt-5">
-              <h2 class="mb-2 text-lg font-light text-[#2E3855]">600 dairy cows or 3500 tonnes of cow manure per year</h2>
-              <ul class="max-w-md space-y-1 text-lg font-semibold text-[#2E3855] list-disc list-inside">
-                <li>Produces 656m³ biogas every day</li>
-                <li>Ability to power 187 UK households every day</li>
-              </ul>
-            </div>
+          <div class="flex justify-start">
+            <button
+              type="button"
+              style=" font-family: 'Public Sans', sans-serif;"
+              class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+              <img class="mr-3" src="/assets/bar-chart.png" alt="" />
+              High nitrogen content
+            </button>
+            <button
+              type="button"
+              style=" font-family: 'Public Sans', sans-serif;"
+              class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#D9F5E4] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+              <img class="mr-3" src="/assets/bar-chart (1).png" alt="" />
+              Low pH levels
+            </button>
           </div>
-          <div class="bg-[#2E3855] rounded-b-2xl rounded-r-none h-[175px] absolute bottom-0 left-0 mb-0 w-full">
-            <div class="flex flex-col p-5">
-              <div class="flex">
-                <div class="mt-2"><img src="/assets/Ellipse 3.png" alt="" /></div>
-                <div class="ml-5">
-                  <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
-                    Most appropriate technology
-                  </h1>
-                  <p style=" font-family: 'Public Sans', sans-serif;" class="text-white text-base mt-1 tracking-wider">
-                    Anaerobic Digestion
-                  </p>
-                </div>
-              </div>
+          <div class="flex justify-start items-center mt-5">
+            <img class="mr-3" src="/assets/book-open.png" alt="" />
+            <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
+              <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
+            </h1>
+            <img class="ml-5" src="/assets/Frame 15.png" alt="" />
+          </div>
 
-              <div class="flex">
-                <a href="#calculator">
-                  <button
-                    type="button"
-                    onclick="toggleAlOff();"
-                    style=" font-family: 'Public Sans', sans-serif;"
-                    class="w-[250px] flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-5 py-2.5 text-center inline-flex items-center mr-10 mb-2">
-                    <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
-                    Start your project
-                  </button>
-                </a>
-                <button
-                  type="button"
-                  style=" font-family: 'Public Sans', sans-serif;"
-                  class="flex justify-center items-center mt-5 text-white bg-[#2E3855] border border-1 border-white font-semibold rounded-lg text-base px-5 py-2.5 text-center inline-flex items-center mr-10 mb-2">
-                  <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
-                  Learn more
-                </button>
-              </div>
-            </div>
+          <div style=" font-family: 'Public Sans', sans-serif;" class="mt-5">
+            <h2 class="mb-2 text-lg font-light text-[#2E3855]">600 dairy cows or 3500 tonnes of cow manure per year</h2>
+            <ul class="max-w-md space-y-1 text-lg font-semibold text-[#2E3855] list-disc list-inside">
+              <li>Produces 656m³ biogas every day</li>
+              <li>Ability to power 187 UK households every day</li>
+            </ul>
           </div>
         </div>
-        <div
-          class="cow-element opacity-0 -translate-x-full absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-lg"
-          id="food">
-          <div class="absolute left-[98%] rounded-lg">
-            <script>
-              function toggleElement(k) {
-                var element = document.querySelector('#' + k)
-                // element.classList.toggle('hidden')
-                element.classList.toggle('-translate-x-full')
-                element.classList.toggle('opacity-0')
-              }
-            </script>
-            <button
-              type="button"
-              onclick="toggleElementOff('food')"
-              style=" font-family: 'Public Sans', sans-serif;"
-              class="flex items-center justify-center text-[#2E3855] bg-white font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
-              <img class="mr-3" src="/assets/x-circle.png" alt="" />
-            </button>
-          </div>
-          <div class="p-5 relative l-0">
-            <div class="flex justify-between items-center w-full">
-              <div class="w-2/5">
-                <img style="height:70%;padding:20px;margin-left:10%;" src="/assets/Group 7 (2).png" alt="" />
-              </div>
-              <div class="w-1/2">
-                <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-3xl leading-10 text-[#2E3855]">
-                  Food waste
+        <div class="bg-[#2E3855] rounded-lg">
+          <div class="flex flex-col p-5">
+            <div class="flex">
+              <div><img src="/assets/Ellipse 3.png" alt="" /></div>
+              <div class="ml-5">
+                <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
+                  Most appropriate technology
                 </h1>
-                <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
-                  <span class="font-bold text-xl">GCV:</span>
-                  12.37 MJ/kg
-                  <img class="ml-5" src="/assets/Frame 15.png" alt="" />
-                </p>
-                <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
-                  <span class="font-bold text-xl">Energy content:</span>
-                  Medium
+                <p style=" font-family: 'Public Sans', sans-serif;" class="text-white text-base mt-1 tracking-wider">
+                  Anaerobic Digestion
                 </p>
               </div>
             </div>
 
             <div class="flex">
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/bar-chart.png" alt="" />
-                High organic content
-              </button>
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/bar-chart.png" alt="" />
-                High nutrient content
-              </button>
-            </div>
-            <div class="flex justify-start">
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/bar-chart.png" alt="" />
-                High nitrogen content
-              </button>
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#D9F5E4] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/bar-chart (1).png" alt="" />
-                Low pH levels
-              </button>
-            </div>
-            <div class="flex justify-start items-center mt-5">
-              <img class="mr-3" src="/assets/book-open.png" alt="" />
-              <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
-                <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
-              </h1>
-              <img class="ml-5" src="/assets/Frame 15.png" alt="" />
-            </div>
-
-            <div style=" font-family: 'Public Sans', sans-serif;" class="mt-5">
-              <h2 class="mb-2 text-lg font-light text-[#2E3855]">600 dairy cows or 3500 tonnes of cow manure per year</h2>
-              <ul class="max-w-md space-y-1 text-lg font-semibold text-[#2E3855] list-disc list-inside">
-                <li>Produces 656m³ biogas every day</li>
-                <li>Ability to power 187 UK households every day</li>
-              </ul>
-            </div>
-          </div>
-          <div class="bg-[#2E3855] rounded-lg">
-            <div class="flex flex-col p-5">
-              <div class="flex">
-                <div><img src="/assets/Ellipse 3.png" alt="" /></div>
-                <div class="ml-5">
-                  <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
-                    Most appropriate technology
-                  </h1>
-                  <p style=" font-family: 'Public Sans', sans-serif;" class="text-white text-base mt-1 tracking-wider">
-                    Anaerobic Digestion
-                  </p>
-                </div>
-              </div>
-
-              <div class="flex">
-                <a href="/#calculator">
-                  <button
-                    type="button"
-                    onclick="toggleAlOff();"
-                    style=" font-family: 'Public Sans', sans-serif;"
-                    class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                    <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
-                    Start your project
-                  </button>
-                </a>
+              <a href="/#calculator">
                 <button
                   type="button"
+                  onclick="toggleAlOff();"
                   style=" font-family: 'Public Sans', sans-serif;"
-                  class="flex justify-center items-center mt-5 text-white bg-[#2E3855] border border-1 border-white font-semibold rounded-lg text-base px-8 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+                  class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
                   <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
-                  Learn more
+                  Start your project
                 </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="cow-element opacity-0 -translate-x-full absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-lg"
-          id="bottle">
-          <div class="absolute left-[98%] rounded-lg">
-            <script>
-              function toggleElement(k) {
-                var element = document.querySelector('#' + k)
-                // element.classList.toggle('hidden')
-                element.classList.toggle('-translate-x-full')
-                element.classList.toggle('opacity-0')
-              }
-            </script>
-            <button
-              type="button"
-              onclick="toggleElementOff('bottle')"
-              style=" font-family: 'Public Sans', sans-serif;"
-              class="flex items-center justify-center text-[#2E3855] bg-white font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
-              <img class="mr-3" src="/assets/x-circle.png" alt="" />
-            </button>
-          </div>
-          <div class="p-5 relative l-0">
-            <div class="flex justify-between items-center w-full">
-              <div class="w-2/5">
-                <img style="height:70%;padding:20px;margin-left:20%;" src="/assets/pet bottle 1.png" alt="" />
-              </div>
-              <div class="w-1/2">
-                <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-3xl leading-10 text-[#2E3855]">
-                  Water
-                </h1>
-                <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
-                  <span class="font-bold text-xl">GCV:</span>
-                  12.37 MJ/kg
-                  <img class="ml-5" src="/assets/Frame 15.png" alt="" />
-                </p>
-                <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
-                  <span class="font-bold text-xl">Energy content:</span>
-                  Medium
-                </p>
-              </div>
-            </div>
-
-            <div class="flex">
+              </a>
               <button
                 type="button"
                 style=" font-family: 'Public Sans', sans-serif;"
-                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/bar-chart.png" alt="" />
-                High organic content
+                class="flex justify-center items-center mt-5 text-white bg-[#2E3855] border border-1 border-white font-semibold rounded-lg text-base px-8 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+                <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
+                Learn more
               </button>
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/bar-chart.png" alt="" />
-                High nutrient content
-              </button>
-            </div>
-            <div class="flex justify-start">
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/bar-chart.png" alt="" />
-                High nitrogen content
-              </button>
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#D9F5E4] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/bar-chart (1).png" alt="" />
-                Low pH levels
-              </button>
-            </div>
-            <div class="flex justify-start items-center mt-5">
-              <img class="mr-3" src="/assets/book-open.png" alt="" />
-              <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
-                <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
-              </h1>
-              <img class="ml-5" src="/assets/Frame 15.png" alt="" />
-            </div>
-
-            <div style=" font-family: 'Public Sans', sans-serif;" class="mt-5">
-              <h2 class="mb-2 text-lg font-light text-[#2E3855]">600 dairy cows or 3500 tonnes of cow manure per year</h2>
-              <ul class="max-w-md space-y-1 text-lg font-semibold text-[#2E3855] list-disc list-inside">
-                <li>Produces 656m³ biogas every day</li>
-                <li>Ability to power 187 UK households every day</li>
-              </ul>
-            </div>
-          </div>
-          <div class="bg-[#2E3855] rounded-lg">
-            <div class="flex flex-col p-5">
-              <div class="flex">
-                <div><img src="/assets/Ellipse 3.png" alt="" /></div>
-                <div class="ml-5">
-                  <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
-                    Most appropriate technology
-                  </h1>
-                  <p style=" font-family: 'Public Sans', sans-serif;" class="text-white text-base mt-1 tracking-wider">
-                    Anaerobic Digestion
-                  </p>
-                </div>
-              </div>
-
-              <div class="flex">
-                <a href="/#calculator">
-                  <button
-                    type="button"
-                    onclick="toggleAlOff();"
-                    style=" font-family: 'Public Sans', sans-serif;"
-                    class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                    <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
-                    Start your project
-                  </button>
-                </a>
-                <button
-                  type="button"
-                  style=" font-family: 'Public Sans', sans-serif;"
-                  class="flex justify-center items-center mt-5 text-white bg-[#2E3855] border border-1 border-white font-semibold rounded-lg text-base px-8 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                  <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
-                  Learn more
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="cow-element opacity-0 -translate-x-full absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-lg"
-          id="technology">
-          <div class="absolute left-[98%] rounded-lg">
-            <button
-              type="button"
-              onclick="toggleElementOff('technology')"
-              style=" font-family: 'Public Sans', sans-serif;"
-              class="flex items-center justify-center text-[#2E3855] bg-white font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
-              <img class="mr-3" src="/assets/x-circle.png" alt="" />
-            </button>
-          </div>
-          <div class="p-5 relative l-0">
-            <div class="flex justify-between items-center w-full">
-              <div class="w-2/5">
-                <img style="height:70%;padding:20px;margin-left:20%;" src="/assets/Group14.png" alt="" />
-              </div>
-              <div class="w-1/2">
-                <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-3xl leading-10 text-[#2E3855]">
-                  Technology
-                </h1>
-                <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
-                  <span class="font-bold text-xl">GCV:</span>
-                  12.37 MJ/kg
-                  <img class="ml-5" src="/assets/Frame 15.png" alt="" />
-                </p>
-                <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
-                  <span class="font-bold text-xl">Energy content:</span>
-                  Medium
-                </p>
-              </div>
-            </div>
-
-            <div class="flex">
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/bar-chart.png" alt="" />
-                High organic content
-              </button>
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/bar-chart.png" alt="" />
-                High nutrient content
-              </button>
-            </div>
-            <div class="flex justify-start">
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/bar-chart.png" alt="" />
-                High nitrogen content
-              </button>
-              <button
-                type="button"
-                style=" font-family: 'Public Sans', sans-serif;"
-                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#D9F5E4] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                <img class="mr-3" src="/assets/bar-chart (1).png" alt="" />
-                Low pH levels
-              </button>
-            </div>
-            <div class="flex justify-start items-center mt-5">
-              <img class="mr-3" src="/assets/book-open.png" alt="" />
-              <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
-                <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
-              </h1>
-              <img class="ml-5" src="/assets/Frame 15.png" alt="" />
-            </div>
-
-            <div style=" font-family: 'Public Sans', sans-serif;" class="mt-5">
-              <h2 class="mb-2 text-lg font-light text-[#2E3855]">600 dairy cows or 3500 tonnes of cow manure per year</h2>
-              <ul class="max-w-md space-y-1 text-lg font-semibold text-[#2E3855] list-disc list-inside">
-                <li>Produces 656m³ biogas every day</li>
-                <li>Ability to power 187 UK households every day</li>
-              </ul>
-            </div>
-          </div>
-          <div class="bg-[#2E3855] rounded-lg">
-            <div class="flex flex-col p-5">
-              <div class="flex">
-                <div><img src="/assets/Ellipse 3.png" alt="" /></div>
-                <div class="ml-5">
-                  <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
-                    Most appropriate technology
-                  </h1>
-                  <p style=" font-family: 'Public Sans', sans-serif;" class="text-white text-base mt-1 tracking-wider">
-                    Anaerobic Digestion
-                  </p>
-                </div>
-              </div>
-
-              <div class="flex">
-                <a href="/#calculator">
-                  <button
-                    type="button"
-                    onclick="toggleAlOff();"
-                    style=" font-family: 'Public Sans', sans-serif;"
-                    class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                    <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
-                    Start your project
-                  </button>
-                </a>
-                <button
-                  type="button"
-                  style=" font-family: 'Public Sans', sans-serif;"
-                  class="flex justify-center items-center mt-5 text-white bg-[#2E3855] border border-1 border-white font-semibold rounded-lg text-base px-8 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-                  <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
-                  Learn more
-                </button>
-              </div>
             </div>
           </div>
         </div>
       </div>
-    </h1>
+      <div class="absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-lg" id="food">
+        <div class="absolute left-[98%] rounded-lg">
+          <script>
+            function toggleElement(k) {
+              var element = document.querySelector('#' + k)
+              // element.classList.toggle('hidden')
+              element.classList.toggle('-translate-x-full')
+              element.classList.toggle('opacity-0')
+            }
+          </script>
+          <button
+            type="button"
+            onclick="toggleElementOff('food')"
+            style=" font-family: 'Public Sans', sans-serif;"
+            class="flex items-center justify-center text-[#2E3855] bg-white font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
+            <img class="mr-3" src="/assets/x-circle.png" alt="" />
+          </button>
+        </div>
+        <div class="p-5 relative l-0">
+          <div class="flex justify-between items-center w-full">
+            <div class="w-2/5">
+              <img style="height:70%;padding:20px;margin-left:10%;" src="/assets/Group 7 (2).png" alt="" />
+            </div>
+            <div class="w-1/2">
+              <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-3xl leading-10 text-[#2E3855]">
+                Food waste
+              </h1>
+              <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
+                <span class="font-bold text-xl">GCV:</span>
+                12.37 MJ/kg
+                <img class="ml-5" src="/assets/Frame 15.png" alt="" />
+              </p>
+              <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
+                <span class="font-bold text-xl">Energy content:</span>
+                Medium
+              </p>
+            </div>
+          </div>
 
-    <!-- ===================after landing page =================== -->
-    <section class="pt-10 rounded-2xl">
+          <div class="flex">
+            <button
+              type="button"
+              style=" font-family: 'Public Sans', sans-serif;"
+              class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+              <img class="mr-3" src="/assets/bar-chart.png" alt="" />
+              High organic content
+            </button>
+            <button
+              type="button"
+              style=" font-family: 'Public Sans', sans-serif;"
+              class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+              <img class="mr-3" src="/assets/bar-chart.png" alt="" />
+              High nutrient content
+            </button>
+          </div>
+          <div class="flex justify-start">
+            <button
+              type="button"
+              style=" font-family: 'Public Sans', sans-serif;"
+              class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+              <img class="mr-3" src="/assets/bar-chart.png" alt="" />
+              High nitrogen content
+            </button>
+            <button
+              type="button"
+              style=" font-family: 'Public Sans', sans-serif;"
+              class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#D9F5E4] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+              <img class="mr-3" src="/assets/bar-chart (1).png" alt="" />
+              Low pH levels
+            </button>
+          </div>
+          <div class="flex justify-start items-center mt-5">
+            <img class="mr-3" src="/assets/book-open.png" alt="" />
+            <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
+              <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
+            </h1>
+            <img class="ml-5" src="/assets/Frame 15.png" alt="" />
+          </div>
+
+          <div style=" font-family: 'Public Sans', sans-serif;" class="mt-5">
+            <h2 class="mb-2 text-lg font-light text-[#2E3855]">600 dairy cows or 3500 tonnes of cow manure per year</h2>
+            <ul class="max-w-md space-y-1 text-lg font-semibold text-[#2E3855] list-disc list-inside">
+              <li>Produces 656m³ biogas every day</li>
+              <li>Ability to power 187 UK households every day</li>
+            </ul>
+          </div>
+        </div>
+        <div class="bg-[#2E3855] rounded-lg">
+          <div class="flex flex-col p-5">
+            <div class="flex">
+              <div><img src="/assets/Ellipse 3.png" alt="" /></div>
+              <div class="ml-5">
+                <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
+                  Most appropriate technology
+                </h1>
+                <p style=" font-family: 'Public Sans', sans-serif;" class="text-white text-base mt-1 tracking-wider">
+                  Anaerobic Digestion
+                </p>
+              </div>
+            </div>
+
+            <div class="flex">
+              <a href="/#calculator">
+                <button
+                  type="button"
+                  onclick="toggleAlOff();"
+                  style=" font-family: 'Public Sans', sans-serif;"
+                  class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+                  <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
+                  Start your project
+                </button>
+              </a>
+              <button
+                type="button"
+                style=" font-family: 'Public Sans', sans-serif;"
+                class="flex justify-center items-center mt-5 text-white bg-[#2E3855] border border-1 border-white font-semibold rounded-lg text-base px-8 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+                <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
+                Learn more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-lg" id="bottle">
+        <div class="absolute left-[98%] rounded-lg">
+          <script>
+            function toggleElement(k) {
+              var element = document.querySelector('#' + k)
+              // element.classList.toggle('hidden')
+              element.classList.toggle('-translate-x-full')
+              element.classList.toggle('opacity-0')
+            }
+          </script>
+          <button
+            type="button"
+            onclick="toggleElementOff('bottle')"
+            style=" font-family: 'Public Sans', sans-serif;"
+            class="flex items-center justify-center text-[#2E3855] bg-white font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
+            <img class="mr-3" src="/assets/x-circle.png" alt="" />
+          </button>
+        </div>
+        <div class="p-5 relative l-0">
+          <div class="flex justify-between items-center w-full">
+            <div class="w-2/5">
+              <img style="height:70%;padding:20px;margin-left:20%;" src="/assets/pet bottle 1.png" alt="" />
+            </div>
+            <div class="w-1/2">
+              <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-3xl leading-10 text-[#2E3855]">
+                Water
+              </h1>
+              <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
+                <span class="font-bold text-xl">GCV:</span>
+                12.37 MJ/kg
+                <img class="ml-5" src="/assets/Frame 15.png" alt="" />
+              </p>
+              <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
+                <span class="font-bold text-xl">Energy content:</span>
+                Medium
+              </p>
+            </div>
+          </div>
+
+          <div class="flex">
+            <button
+              type="button"
+              style=" font-family: 'Public Sans', sans-serif;"
+              class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+              <img class="mr-3" src="/assets/bar-chart.png" alt="" />
+              High organic content
+            </button>
+            <button
+              type="button"
+              style=" font-family: 'Public Sans', sans-serif;"
+              class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+              <img class="mr-3" src="/assets/bar-chart.png" alt="" />
+              High nutrient content
+            </button>
+          </div>
+          <div class="flex justify-start">
+            <button
+              type="button"
+              style=" font-family: 'Public Sans', sans-serif;"
+              class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+              <img class="mr-3" src="/assets/bar-chart.png" alt="" />
+              High nitrogen content
+            </button>
+            <button
+              type="button"
+              style=" font-family: 'Public Sans', sans-serif;"
+              class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#D9F5E4] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+              <img class="mr-3" src="/assets/bar-chart (1).png" alt="" />
+              Low pH levels
+            </button>
+          </div>
+          <div class="flex justify-start items-center mt-5">
+            <img class="mr-3" src="/assets/book-open.png" alt="" />
+            <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
+              <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
+            </h1>
+            <img class="ml-5" src="/assets/Frame 15.png" alt="" />
+          </div>
+
+          <div style=" font-family: 'Public Sans', sans-serif;" class="mt-5">
+            <h2 class="mb-2 text-lg font-light text-[#2E3855]">600 dairy cows or 3500 tonnes of cow manure per year</h2>
+            <ul class="max-w-md space-y-1 text-lg font-semibold text-[#2E3855] list-disc list-inside">
+              <li>Produces 656m³ biogas every day</li>
+              <li>Ability to power 187 UK households every day</li>
+            </ul>
+          </div>
+        </div>
+        <div class="bg-[#2E3855] rounded-lg">
+          <div class="flex flex-col p-5">
+            <div class="flex">
+              <div><img src="/assets/Ellipse 3.png" alt="" /></div>
+              <div class="ml-5">
+                <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
+                  Most appropriate technology
+                </h1>
+                <p style=" font-family: 'Public Sans', sans-serif;" class="text-white text-base mt-1 tracking-wider">
+                  Anaerobic Digestion
+                </p>
+              </div>
+            </div>
+
+            <div class="flex">
+              <a href="/#calculator">
+                <button
+                  type="button"
+                  onclick="toggleAlOff();"
+                  style=" font-family: 'Public Sans', sans-serif;"
+                  class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+                  <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
+                  Start your project
+                </button>
+              </a>
+              <button
+                type="button"
+                style=" font-family: 'Public Sans', sans-serif;"
+                class="flex justify-center items-center mt-5 text-white bg-[#2E3855] border border-1 border-white font-semibold rounded-lg text-base px-8 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+                <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
+                Learn more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-lg" id="technology">
+        <div class="absolute left-[98%] rounded-lg">
+          <button
+            type="button"
+            onclick="toggleElementOff('technology')"
+            style=" font-family: 'Public Sans', sans-serif;"
+            class="flex items-center justify-center text-[#2E3855] bg-white font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
+            <img class="mr-3" src="/assets/x-circle.png" alt="" />
+          </button>
+        </div>
+        <div class="p-5 relative l-0">
+          <div class="flex justify-between items-center w-full">
+            <div class="w-2/5"><img style="height:70%;padding:20px;margin-left:20%;" src="/assets/Group14.png" alt="" /></div>
+            <div class="w-1/2">
+              <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-3xl leading-10 text-[#2E3855]">
+                Technology
+              </h1>
+              <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
+                <span class="font-bold text-xl">GCV:</span>
+                12.37 MJ/kg
+                <img class="ml-5" src="/assets/Frame 15.png" alt="" />
+              </p>
+              <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
+                <span class="font-bold text-xl">Energy content:</span>
+                Medium
+              </p>
+            </div>
+          </div>
+
+          <div class="flex">
+            <button
+              type="button"
+              style=" font-family: 'Public Sans', sans-serif;"
+              class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+              <img class="mr-3" src="/assets/bar-chart.png" alt="" />
+              High organic content
+            </button>
+            <button
+              type="button"
+              style=" font-family: 'Public Sans', sans-serif;"
+              class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+              <img class="mr-3" src="/assets/bar-chart.png" alt="" />
+              High nutrient content
+            </button>
+          </div>
+          <div class="flex justify-start">
+            <button
+              type="button"
+              style=" font-family: 'Public Sans', sans-serif;"
+              class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+              <img class="mr-3" src="/assets/bar-chart.png" alt="" />
+              High nitrogen content
+            </button>
+            <button
+              type="button"
+              style=" font-family: 'Public Sans', sans-serif;"
+              class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#D9F5E4] font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+              <img class="mr-3" src="/assets/bar-chart (1).png" alt="" />
+              Low pH levels
+            </button>
+          </div>
+          <div class="flex justify-start items-center mt-5">
+            <img class="mr-3" src="/assets/book-open.png" alt="" />
+            <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
+              <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
+            </h1>
+            <img class="ml-5" src="/assets/Frame 15.png" alt="" />
+          </div>
+
+          <div style=" font-family: 'Public Sans', sans-serif;" class="mt-5">
+            <h2 class="mb-2 text-lg font-light text-[#2E3855]">600 dairy cows or 3500 tonnes of cow manure per year</h2>
+            <ul class="max-w-md space-y-1 text-lg font-semibold text-[#2E3855] list-disc list-inside">
+              <li>Produces 656m³ biogas every day</li>
+              <li>Ability to power 187 UK households every day</li>
+            </ul>
+          </div>
+        </div>
+        <div class="bg-[#2E3855] rounded-lg">
+          <div class="flex flex-col p-5">
+            <div class="flex">
+              <div><img src="/assets/Ellipse 3.png" alt="" /></div>
+              <div class="ml-5">
+                <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
+                  Most appropriate technology
+                </h1>
+                <p style=" font-family: 'Public Sans', sans-serif;" class="text-white text-base mt-1 tracking-wider">
+                  Anaerobic Digestion
+                </p>
+              </div>
+            </div>
+
+            <div class="flex">
+              <a href="/#calculator">
+                <button
+                  type="button"
+                  onclick="toggleAlOff();"
+                  style=" font-family: 'Public Sans', sans-serif;"
+                  class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+                  <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
+                  Start your project
+                </button>
+              </a>
+              <button
+                type="button"
+                style=" font-family: 'Public Sans', sans-serif;"
+                class="flex justify-center items-center mt-5 text-white bg-[#2E3855] border border-1 border-white font-semibold rounded-lg text-base px-8 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+                <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
+                Learn more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="">
       <div
-        class="container duration-300 transform mx-auto w-full bg-cover bg-center bg-no-repeat bg-[url(/assets/field.png)] rounded-2xl"
-        style="padding-top:520px;z-index:29;"
+        class="container duration-300 transform mx-auto w-full bg-cover bg-center bg-no-repeat bg-[url(/assets/field.png)] rounded-2xl rounded-t-none"
+        style="padding-top:700px;z-index:29;"
         id="field">
         <div>
           <div id="buttons" style="z-index:99">
             <button
               type="button"
               onclick="toggleElement('food')"
-              style=" font-family: 'Public Sans', sans-serif; left:520px; top:-430px;"
-              class="techbuttons techbutton w-28 h-20 flex items-center justify-center text-[#2E3855] bg-[#ffffffdd] font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
+              style=" font-family: 'Public Sans', sans-serif; left:420px; top:-360px;"
+              class="techbuttons techbutton w-48 h-36 flex items-center justify-center text-[#2E3855] bg-[#ffffffdd] font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
               <img class="mr-3" src="/assets/Group 7 (2).png" alt="" />
             </button>
             <button
               type="button"
               onclick="toggleElement('cow')"
-              style=" font-family: 'Public Sans', sans-serif; left:780px; top:-200px;"
-              class="techbuttons techbutton w-28 h-20 flex items-center justify-center text-[#2E3855] bg-[#ffffffdd] font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
+              style=" font-family: 'Public Sans', sans-serif; left:680px; top:-100px;"
+              class="techbuttons techbutton w-48 h-36 flex items-center justify-center text-[#2E3855] bg-[#ffffffdd] font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
               <img class="mr-3" src="/assets/manure 1.png" alt="" />
             </button>
             <button
               type="button"
               onclick="toggleElement('bottle')"
-              style=" font-family: 'Public Sans', sans-serif; left:120px; top:-70px;"
-              class="techbuttons techbutton w-28 h-20 flex items-center justify-center text-[#2E3855] bg-[#ffffffdd] font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-2 mb-2">
+              style=" font-family: 'Public Sans', sans-serif; left:-200px; top:0px;"
+              class="techbuttons techbutton w-48 h-36 flex items-center justify-center text-[#2E3855] bg-[#ffffffdd] font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
               <img class="mr-3" src="/assets/pet bottle 1.png" alt="" />
             </button>
             <button
               type="button"
               onclick="toggleElement('technology')"
-              style=" font-family: 'Public Sans', sans-serif; background:#2e3855;  left:560px; top:-530px;"
-              class="techbuttons techbutton-dark w-40 h-12 flex items-center justify-center text-[#2E3855] bg-[#ffffffdd] font-base rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2 uppercase">
-              <div style="color:#ffffff;font-size:18px;margin:-5px 0px -5px -5px;">Technology</div>
+              style=" font-family: 'Public Sans', sans-serif; background:#2e3855;  left:600px; top:-600px;"
+              class="techbuttons techbutton-dark w-48 h-16 flex items-center justify-center text-[#2E3855] bg-[#ffffffdd] font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
+              <div style="color:#ffffff;font-size:18px;margin:-5px -10px -5px -5px;">Technology</div>
             </button>
             <style>
               @keyframes bounce {
@@ -829,8 +806,8 @@
 
               .techbutton img {
                 /* width: 50px; */
-                height: 66px;
-                margin: -10px 0px -5px -5px;
+                height: 100px;
+                margin: -5px -11px -5px -5px;
               }
               .techbuttons {
                 /* transform: scale(0.6); */
@@ -844,9 +821,9 @@
 
               .techbutton::after {
                 content: '';
-                position: absolute;
-                bottom: -20px;
-                left: 45px;
+                position: relative;
+                bottom: -82px;
+                left: -45px;
                 /* transform: translateX(-10px) translateY(50px); */
                 border-width: 10px;
                 border-style: solid;
@@ -854,9 +831,9 @@
               }
               .techbutton-dark::after {
                 content: '';
-                position: absolute;
-                bottom: -20px;
-                left: 70px;
+                position: relative;
+                bottom: -40px;
+                left: -45px;
                 /* transform: translateX(-10px) translateY(50px); */
                 border-width: 10px;
                 border-style: solid;
@@ -872,13 +849,8 @@
                 padding-top: 650px !important;
               }
               .fullb {
-                top: calc(100% - 65px) !important;
-                left: calc(100% - 300px) !important;
-                position: fixed !important;
-              }
-              .fullc {
-                top: 100px !important;
-                left: 0px !important;
+                top: calc(100% - 80px) !important;
+                left: calc(100% - 80px) !important;
                 position: fixed !important;
               }
             </style>
@@ -893,35 +865,17 @@
             </script>
           </div>
           <style>
-            .growbutton:hover {
-              box-shadow: 0 0 5px 1px white;
-            }
-            .growbutton img {
-              max-width: 190%;
+            .growbutton {
+              box-shadow: 0 0 10px 5px gray;
             }
           </style>
-          <div
-            class="growbuttons inline-flex"
-            id="full-screen-buttons"
-            style="width:200px; position:relative; top: -10px; left: calc(100% - 300px);">
-            <div class="inline-flex items-center justify-center">
-              <input
-                type="text"
-                placeholder="Search up waste..."
-                class="px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300" />
-              <button aria-label="search" class="btn btn-square btn-ghost ml-[-45px]">
-                <span class="i-heroicons-outline-search" />
-              </button>
-            </div>
-            <button
-              type="button"
-              onclick="grow()"
-              style=" font-family: 'Public Sans', sans-serif;"
-              class="growbutton ml-[10px] w-10
-               h-10 inline-flex items-center justify-center text-[#2E3855] bg-[#ffffffdd] font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mt-1">
-              <img class="w-20 mr-3" src="/assets/Frame 19.svg" alt="" style="width:50px;height:50px;" />
-            </button>
-          </div>
+          <button
+            type="button"
+            onclick="grow()"
+            style=" font-family: 'Public Sans', sans-serif; position:relative; top: -20px; left: calc(100% - 80px);"
+            class="growbutton w-12 h-12 flex items-center justify-center text-[#2E3855] bg-[#ffffffdd] font-semibold rounded-lg text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
+            <img class="w-20 mr-3" src="/assets/Frame 19.svg" alt="" style="width:50px;height:50px;" />
+          </button>
         </div>
       </div>
     </section>
@@ -1263,11 +1217,11 @@
       element.classList.toggle('left-0')
       element.classList.toggle('fullw')
 
-      var growbuttons = document.querySelector('.growbuttons')
-      growbuttons.classList.toggle('fullb')
+      var growbutton = document.querySelector('.growbutton')
+      growbutton.classList.toggle('fullb')
 
-      var cowpanel = document.querySelector('#cow-panel')
-      cowpanel.classList.toggle('fullc')
+      // var buttons = document.querySelector('#buttons')
+      // growbutton.classList.toggle('fullb')
     }
 
     setTimeout(() => {
