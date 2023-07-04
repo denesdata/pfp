@@ -67,7 +67,7 @@
         </p>
         <a
           class="mt-10 w-60 p-4 hover:bg-pfp-green bg-pfp-orange rounded-lg flex justify-center items-center text-white tracking-wider"
-          href="/explore/">
+          href="/explore">
           <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
           <span>Act now</span>
         </a>
@@ -92,7 +92,7 @@
               <div class="bottom-0 flex flex-row justify-between">
                 <a
                   class="mt-52 mr-20 w-60 h-14 p-4 hover:bg-pfp-green bg-pfp-orange rounded-lg flex justify-center items-center text-white tracking-wider"
-                  href="/explore/">
+                  href="/explore">
                   <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
                   <span>Take control</span>
                 </a>
@@ -118,7 +118,7 @@
               <div class="bottom-0 flex flex-row justify-between">
                 <a
                   class="mt-52 mr-20 w-60 h-14 p-4 hover:bg-pfp-green bg-pfp-orange rounded-lg flex justify-center items-center text-white tracking-wider"
-                  href="/explore/">
+                  href="/explore">
                   <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
                   <span>Save money now</span>
                 </a>

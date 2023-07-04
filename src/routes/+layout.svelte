@@ -32,6 +32,7 @@
         onRegisterError: error => console.error(error)
       })
   )
+  if (path[path.length - 1] == '/') path = path.slice(0, -1) //cut final slash
 </script>
 
 <Head />
@@ -39,9 +40,9 @@
 <Header {path} />
 
 <Transition {path}>
-  {#if path == '/news'}
+  {#if path == '/news' || path == '/news/'}
     <Blog />
-  {:else if path == '/explore'}
+  {:else if path == '/explore' || path == '/explore/'}
     <Explore />
   {:else}
     <!-- {path.split('/')[1]} -->

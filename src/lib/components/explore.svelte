@@ -1,7 +1,7 @@
 <script lang="ts">
   import { site } from '$lib/config/site'
   import Landing from '$lib/components/landing.svelte'
-  import { scale } from 'svelte/transition'
+  import { scale, fly } from 'svelte/transition'
 </script>
 
 <div style="display:none;">
@@ -1081,7 +1081,7 @@
       style="opacity:0;height:0px;overflow:hidden;"
       id="results">
       <div class="flex md:flex-row flex-col items-center p-5">
-        <div class="md:w-1/5 w-full flex-col justify-center mx-auto" style="font-family: 'Poppins', sans-serif;">
+        <div class="md:w-1/5 w-full flex-col justifyq-center mx-auto" style="font-family: 'Poppins', sans-serif;">
           <div class="bg-[#E7F5F5] rounded-lg text-center py-5 p-10 text-[#2E3855]">
             <p class="uppercase text-sm font-semibold"><b>Waste type</b></p>
             <h2 class="text-lg font-bold">
