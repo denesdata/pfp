@@ -59,7 +59,7 @@
       }
     })
   </script>
-  <img src="/assets/field.png" alt="" style="height:100%; position:fixed; top:10px;" />
+  <!-- <img src="/assets/field.png" alt="" style="height:100%; position:fixed; top:10px;" /> -->
 </div>
 <div class="flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap mt-8">
   <style>
@@ -387,7 +387,9 @@
           <div class="bg-[#2E3855] rounded-b-2xl rounded-r-none h-[180px] absolute bottom-0 left-0 mb-0 w-full pl-2">
             <div class="flex flex-col p-5">
               <div class="flex">
-                <div class="mt-2"><img src="/assets/Ellipse 3.png" alt="" /></div>
+                <div class="mt-2">
+                  <img src="/assets/medres/anaerobic-digestion.jpg" class="rounded-full w-16 h-16" alt="" />
+                </div>
                 <div class="ml-5">
                   <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
                     Most appropriate technology
@@ -514,7 +516,9 @@
           <div class="bg-[#2E3855] rounded-b-2xl rounded-r-none h-[180px] absolute bottom-0 left-0 mb-0 w-full pl-2">
             <div class="flex flex-col p-5">
               <div class="flex">
-                <div class="mt-2"><img src="/assets/Ellipse 3.png" alt="" /></div>
+                <div class="mt-2">
+                  <img src="/assets/medres/anaerobic-digestion.jpg" class="rounded-full w-16 h-16" alt="" />
+                </div>
                 <div class="ml-5">
                   <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
                     Most appropriate technology
@@ -641,7 +645,7 @@
           <div class="bg-[#2E3855] rounded-b-2xl rounded-r-none h-[180px] absolute bottom-0 left-0 mb-0 w-full pl-2">
             <div class="flex flex-col p-5">
               <div class="flex">
-                <div class="mt-2 w-16"><img src="/assets/Frame 21.png" alt="" /></div>
+                <div class="mt-2 w-16"><img src="/assets/medres/pyrolysis.jpg" class="rounded-full w-16 h-16" alt="" /></div>
                 <div class="ml-5">
                   <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
                     Most appropriate technology
@@ -768,7 +772,7 @@
           <div class="bg-[#2E3855] rounded-b-2xl rounded-r-none h-[180px] absolute bottom-0 left-0 mb-0 w-full pl-2">
             <div class="flex flex-col p-5">
               <div class="flex">
-                <div class="mt-2 w-16"><img src="/assets/Frame 21.png" alt="" /></div>
+                <div class="mt-2 w-16"><img src="/assets/medres/pyrolysis.jpg" class="rounded-full w-16 h-16" alt="" /></div>
                 <div class="ml-5">
                   <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
                     Most appropriate technology
@@ -815,7 +819,8 @@
       <div
         class="container duration-300 transform mx-auto w-full bg-cover bg-center bg-no-repeat bg-[url(/assets/field.png)] rounded-2xl"
         style="padding-top:520px;z-index:29;"
-        id="field">
+        id="field"
+        onclick="toggleAlOff();">
         <div>
           <div id="buttons" style="z-index:99">
             <button
@@ -1026,11 +1031,11 @@
           </div>
           <div class="bg-[#2E3855] rounded-2xl flex flex-col justify-center p-6 py-12 mb-6">
             <div class="mx-auto">
-              <img src="/assets/Frame 21.png" alt="" />
+              <img src="/assets/medres/pyrolysis.jpg" class="rounded-full w-24 h-24" id="matched-img" alt="" />
             </div>
             <div class="text-center text-white">
               <h3 class="uppercase text-xl m-5 mt-6">Most appropriate technology</h3>
-              <h2 class="text-2xl font-bold leading-6">Pyrolysis</h2>
+              <h2 class="text-2xl font-bold leading-6" id="matched-tech">Pyrolysis</h2>
             </div>
           </div>
         </div>
@@ -1219,24 +1224,24 @@
             book a slot with us for personalised guidance on next steps
           </p>
         </div>
-        <div class="flex justify gap-24 w-full">
+        <div class="flex justify gap-16 w-full">
           <a
             id="call-button"
-            class="duration-300 transform -translate-x-full opacity-0 font-bold mt-16 w-1/3 p-10 p-4 hover:bg-pfp-green bg-pfp-orange rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
+            class="duration-300 transform -translate-x-full opacity-0 font-bold mt-16 w-[375px] p-4 hover:bg-pfp-green bg-pfp-orange rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
             href="/contact">
             <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
             <span>Book a call with us</span>
           </a>
           <a
             id="call-button2"
-            class="duration-300 transform -translate-x-full opacity-0 font-bold mt-16 w-1/4 p-4 hover:bg-pfp-green bg-pfp-navy rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
+            class="duration-300 transform -translate-x-full opacity-0 font-bold mt-16 ml-1 w-[350px] p-4 hover:bg-pfp-green bg-pfp-navy rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
             href="/green-energy/new-renewable/">
             <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
             <span>Learn more</span>
           </a>
           <button
             id="calc-button"
-            class="duration-300 transform -translate-x-full font-bold mt-16 w-1/3 p-4 hover:bg-pfp-green bg-pfp-orange rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
+            class="duration-300 transform -translate-x-[338px] font-bold mt-16 w-1/3 p-4 hover:bg-pfp-green bg-pfp-orange rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
             href="/explore/#calculate"
             onclick="calculate();">
             <img class="mr-4 h-6" src="/assets/calculator.png" alt="" />
@@ -1253,6 +1258,7 @@
       function calculate() {
         const data = {
           'cow-manure': {
+            tech: 'anaerobic-digestion',
             gcv: 15.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1263,6 +1269,7 @@
             char: 50.0
           },
           'food-waste': {
+            tech: 'anaerobic-digestion',
             gcv: 17.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1273,6 +1280,7 @@
             char: 60.0
           },
           'pig-slurry': {
+            tech: 'anaerobic-digestion',
             gcv: 13.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1283,6 +1291,7 @@
             char: 40.0
           },
           'fish-waste': {
+            tech: 'anaerobic-digestion',
             gcv: 15.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1293,6 +1302,7 @@
             char: 60.0
           },
           'poultry-litter': {
+            tech: 'anaerobic-digestion',
             gcv: 14.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1303,6 +1313,7 @@
             char: 50.0
           },
           'brewery-waste': {
+            tech: 'anaerobic-digestion',
             gcv: 12.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1313,6 +1324,7 @@
             char: 45.0
           },
           'pulp-paper-waste': {
+            tech: 'pyrolysis',
             gcv: 15.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1323,6 +1335,7 @@
             char: 55.0
           },
           'textile-waste': {
+            tech: 'pyrolysis',
             gcv: 20.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1333,6 +1346,7 @@
             char: 80.0
           },
           'pe-plastic': {
+            tech: 'pyrolysis',
             gcv: 46.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1343,6 +1357,7 @@
             char: 200.0
           },
           'srf-rdf': {
+            tech: 'pyrolysis',
             gcv: 18.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1353,6 +1368,7 @@
             char: 75.0
           },
           'coffee-grounds': {
+            tech: 'anaerobic-digestion',
             gcv: 16.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1363,6 +1379,7 @@
             char: 60.0
           },
           'crop-residues': {
+            tech: 'anaerobic-digestion',
             gcv: 17.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1373,6 +1390,7 @@
             char: 65.0
           },
           'maize-silage': {
+            tech: 'anaerobic-digestion',
             gcv: 17.51,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1383,6 +1401,7 @@
             char: 50.0
           },
           cereal: {
+            tech: 'anaerobic-digestion',
             gcv: 15.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1393,6 +1412,7 @@
             char: 40.0
           },
           'grass-silage': {
+            tech: 'anaerobic-digestion',
             gcv: 18.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1403,6 +1423,7 @@
             char: 60.0
           },
           'pp-plastic': {
+            tech: 'pyrolysis',
             gcv: 44.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1413,6 +1434,7 @@
             char: 50.0
           },
           'ps-plastic': {
+            tech: 'pyrolysis',
             gcv: 41.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1423,6 +1445,7 @@
             char: 40.0
           },
           'pvc-plastic': {
+            tech: 'pyrolysis',
             gcv: 18.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1433,6 +1456,7 @@
             char: 20.0
           },
           'pet-plastic': {
+            tech: 'pyrolysis',
             gcv: 21.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1443,6 +1467,7 @@
             char: 30.0
           },
           rubber: {
+            tech: 'pyrolysis',
             gcv: 32.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1453,6 +1478,7 @@
             char: 40.0
           },
           'wood-waste': {
+            tech: 'pyrolysis',
             gcv: 15.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1463,6 +1489,7 @@
             char: 40.0
           },
           'municipal-solid-waste': {
+            tech: 'pyrolysis',
             gcv: 10.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1473,6 +1500,7 @@
             char: null
           },
           'medical-waste': {
+            tech: 'pyrolysis',
             gcv: 13.0,
             feasibility: 'Y',
             tonnes: 8760.0,
@@ -1483,6 +1511,7 @@
             char: null
           },
           ceramics: {
+            tech: null,
             gcv: 0.0,
             feasibility: 'N',
             tonnes: null,
@@ -1493,6 +1522,7 @@
             char: null
           },
           sand: {
+            tech: null,
             gcv: 0.0,
             feasibility: 'N',
             tonnes: null,
@@ -1503,6 +1533,7 @@
             char: null
           },
           dust: {
+            tech: null,
             gcv: 0.0,
             feasibility: 'N',
             tonnes: null,
@@ -1513,6 +1544,7 @@
             char: null
           },
           glass: {
+            tech: null,
             gcv: 0.0,
             feasibility: 'N',
             tonnes: null,
@@ -1523,6 +1555,7 @@
             char: null
           },
           metals: {
+            tech: null,
             gcv: 0.0,
             feasibility: 'N',
             tonnes: null,
@@ -1573,6 +1606,10 @@
           var wt2 = document.querySelector('#colorselector2')
           document.querySelector('#waste-type2').innerHTML = wt2.options[wt2.selectedIndex].text
 
+          const techs = { 'anaerobic-digestion': 'Anaerobic Digestion', pyrolysis: 'Pyrolysis' }
+          document.querySelector('#matched-tech').innerHTML = techs[d['tech']]
+          document.querySelector('#matched-img').src = '/assets/medres/' + d['tech'] + '.jpg'
+
           for (var key in d) {
             if (key != 'feasibility') {
               var el = document.querySelector('#' + key)
@@ -1592,13 +1629,16 @@
         calcmessage.classList.toggle('opacity-0')
 
         var calcbutton = document.querySelector('#calc-button')
-        calcbutton.classList.toggle('-translate-x-full')
+        // calcbutton.classList.toggle('-translate-x-full')
+        calcbutton.classList.toggle('-translate-x-[338px]')
         var calctext = document.querySelector('#calc-button span').innerHTML
         if (calctext == 'Calculate') {
           document.querySelector('#calc-button span').innerHTML = 'Start over'
         } else {
           document.querySelector('#calc-button span').innerHTML = 'Calculate'
         }
+        calcbutton.classList.toggle('w-1/4')
+        calcbutton.classList.toggle('w-1/3')
 
         var callbutton = document.querySelector('#call-button')
         callbutton.classList.toggle('-translate-x-full')
@@ -1610,8 +1650,6 @@
         var callbutton2 = document.querySelector('#call-button2')
         callbutton2.classList.toggle('-translate-x-full')
         callbutton2.classList.toggle('opacity-0')
-        callbutton2.classList.toggle('w-1/4')
-        callbutton2.classList.toggle('w-1/3')
       }
     </script>
   </div>
