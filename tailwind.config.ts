@@ -3,6 +3,8 @@ import { theme } from './src/lib/config/general'
 import typography from '@tailwindcss/typography'
 // @ts-ignore Could not find a declaration file for module 'daisyui'.
 import daisyui from 'daisyui'
+// @ts-ignore Could not find a declaration file for module '@tailwindcss/forms'.
+// import forms from '@tailwindcss/forms'
 
 export default {
   content: ['./src/**/*.{html,md,js,svelte,ts}'],

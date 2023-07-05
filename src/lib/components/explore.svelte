@@ -788,6 +788,10 @@
           </div>
         </div>
       </div>
+      <div
+        id="cow-shadow"
+        class="bg-base-100"
+        style="width:1000px; height:750px; position: relative; left: -1000px; top: 0px; margin-bottom:-750px; z-index:99" />
     </h1>
 
     <!-- ===================after landing page =================== -->
@@ -885,10 +889,16 @@
                 box-shadow: 0 0 10px 5px #d8e6f2ff;
               }
               .fullw {
+                animation: growAnimation 1s;
                 max-width: 100%;
                 min-height: 100%;
                 padding-left: 250px;
                 padding-top: 650px !important;
+              }
+              @keyframes growAnimation {
+                100% {
+                  min-height: 100%;
+                }
               }
               .fullb {
                 top: calc(100% - 65px) !important;
@@ -980,36 +990,28 @@
 
     <!-- ===================after landing page =================== -->
     <section>
-      <div class="container mx-auto mt-10 rounded-2xl bg-white p-10" id="growcalc">
-        <div class="text-center">
-          <h1
-            style="font-family: 'Poppins', sans-serif;"
-            class="font-bold tracking-wider text-4xl leading-10 text-[#2E3855] mt-5">
+      <div class="container mx-auto mt-10 rounded-2xl bg-white p-20 pt-12 pb-12" id="growcalc">
+        <div class="text-center pb-10">
+          <h1 style="font-family: 'Poppins', sans-serif;" class="card card-title text-3xl leading-10 text-[#2E3855]">
             The PFP Calculator
           </h1>
-          <p
-            style=" font-family: 'Public Sans', sans-serif;"
-            class="text-[#2E3855] md:w-1/2 w-full mx-auto text-base font-normal tracking-wider leading-6 mt-5">
-            Our user-friendly calculator is designed to evaluate your project's feasibility, relevant technology and energy
-            output
+          <p style=" font-family: 'Public Sans', sans-serif;" class="text-[#2E3855] tracking-wider mt-5 pl-24 pr-24">
+            Our user-friendly calculator is designed to evaluate your project's
+            <br />
+            feasibility, relevant technology and energy output
           </p>
         </div>
         <div
           style="font-family: 'Poppins', sans-serif;"
           class="flex md:flex-row flex-col items-center rounded-lg bg-white w-full mt-5">
-          <div class="bg-[#E7F5F5] md:w-1/3 w-full flex justify-center rounded-xl">
-            <img class="w-full" src="/assets/cow 1 (1).png" alt="" />
+          <div class="bg-[#E7F5F5] w-1/3 flex justify-center rounded-2xl mr-8">
+            <img class="h-60" src="/assets/cow 1 (1).png" alt="" />
           </div>
-
-          <div class=" md:w-2/3 w-full pl-14 pr-14 md:mt-0 mt-5">
+          <div class="w-2/3 pl-12 pr-0 md:mt-0 mt-5">
             <div class="inline-flex rounded-xl shadow-sm w-full" role="group">
-              <button
-                type="button"
-                class="w-1/2 inline-flex items-center px-4 py-2 text-base font-bold text-white bg-[#2E3855] border border-gray-900 rounded-l-xl hover:bg-gray-900 hover:text-white">
-                Waste type
-              </button>
+              <button type="button" class="text-xl w-1/2 h-16 text-white bg-[#2E3855] rounded-l-xl">Waste type</button>
               <div
-                class="button dropdown w-1/2 flex justify-between flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-base font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
+                class="button dropdown w-1/2 flex justify-between z-10 inline-flex items-center py-2.5 px-4 text-xl font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
                 <select id="colorselector" class="w-full bg-transparent text-center border-0">
                   <option class="bg-[#E7F5F5]" value="cow-manure">Cow manure</option>
                   <option class="bg-[#E7F5F5]" value="pig-slurry">Pig slurry</option>
@@ -1027,14 +1029,10 @@
               </div>
             </div>
             <div class="inline-flex rounded-xl shadow-sm w-full mt-5" role="group">
-              <button
-                type="button"
-                class="w-1/2 inline-flex items-center px-4 py-2 text-base font-bold text-white bg-[#2E3855] border border-gray-900 rounded-l-xl hover:bg-gray-900 hover:text-white">
-                Tonnes per year
-              </button>
+              <button type="button" class="text-xl w-1/2 h-16 text-white bg-[#2E3855] rounded-l-xl">Tonnes per year</button>
 
               <div
-                class="button dropdown w-1/2 flex justify-between flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-base font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
+                class="button dropdown w-1/2 flex justify-between flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-xl font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
                 <select class="w-full bg-transparent text-center focus-0 after:border-0 before:border-0 after:border-[#E7F5F5]">
                   <option class="bg-[#E7F5F5]" value="red">&lt; 5 t</option>
                   <option class="bg-[#E7F5F5]" value="red">5 - 100 t</option>
@@ -1047,14 +1045,10 @@
               </div>
             </div>
             <div class="inline-flex rounded-xl shadow-sm w-full mt-5" role="group">
-              <button
-                type="button"
-                class="w-1/2 inline-flex items-center px-4 py-2 text-base font-bold text-white bg-[#2E3855] border border-gray-900 rounded-l-xl hover:bg-gray-900 hover:text-white">
-                Client needs
-              </button>
+              <button type="button" class="text-xl w-1/2 h-16 text-white bg-[#2E3855] rounded-l-xl">Client needs</button>
 
               <div
-                class="button dropdown w-1/2 flex justify-between flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-base font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
+                class="button dropdown w-1/2 flex justify-between flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-xl font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
                 <select id="colorselector" class="w-full bg-transparent text-center">
                   <option class="bg-[#E7F5F5]" value="Electricity">Electricity</option>
                   <option class="bg-[#E7F5F5]" value="yellow">Heating / Cooling</option>
@@ -1277,7 +1271,6 @@
 
     function grow() {
       var element = document.querySelector('#field')
-      // element.classList.toggle('scale-[1.5]')
       element.classList.toggle('fixed')
       element.classList.toggle('top-0')
       element.classList.toggle('left-0')
@@ -1291,6 +1284,8 @@
 
       var techbuttons = document.querySelector('.techbuttons')
       techbuttons.classList.toggle('fulld')
+
+      document.querySelector('#cow-shadow').classList.toggle('hidden')
     }
 
     setTimeout(() => {
