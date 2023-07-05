@@ -1019,9 +1019,9 @@
           <div class="bg-[#E7F5F5] rounded-2xl text-center p-6 mb-10 text-[#2E3855]">
             <p class="uppercase text-xl m-5">Waste type</p>
             <h2 class="text-2xl font-bold leading-10">
-              PE Plastic
+              <span id="waste-type1">PE Plastic</span>
               <br />
-              10,000 tonnes
+              <span id="waste-type2">10,000 tonnes</span>
             </h2>
           </div>
           <div class="bg-[#2E3855] rounded-2xl flex flex-col justify-center p-6 py-12 mb-6">
@@ -1044,7 +1044,8 @@
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
-              18-25MJ/kg
+              <span id="gcv">18</span>
+              MJ/kg
             </div>
           </div>
           <div class="flex justify-center mb-2">
@@ -1056,7 +1057,8 @@
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
-              11,200 MWh per year
+              <span id="heat-produced">11,200</span>
+              MWh per year
             </div>
           </div>
           <div class="flex justify-center mb-6">
@@ -1068,7 +1070,9 @@
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
-              £48,000 per year
+              £
+              <span id="heat-savings">48,000</span>
+              per year
             </div>
           </div>
           <div class="flex justify-center mb-2">
@@ -1080,7 +1084,8 @@
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
-              4,800 MWh per year
+              <span id="electricity-produced">4,800</span>
+              MWh per year
             </div>
           </div>
           <div class="flex justify-center mb-6">
@@ -1092,7 +1097,9 @@
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
-              £70,000 per year
+              £
+              <span id="electrical-savings">70,000</span>
+              per year
             </div>
           </div>
           <div class="flex justify-center mb-6">
@@ -1104,7 +1111,8 @@
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
-              500 tonnes
+              <span id="char">500</span>
+              tonnes
             </div>
           </div>
         </div>
@@ -1526,7 +1534,8 @@
           }
         }
 
-        var feasible = data[document.querySelector('#colorselector').value]['feasibility'] == 'Y'
+        var d = data[document.querySelector('#colorselector').value]
+        var feasible = d['feasibility'] == 'Y'
         document.querySelector('#feasible').innerHTML = 'Your project is ' + (feasible ? '' : '<u>not</u> ') + 'feasible'
 
         if (feasible) {
@@ -1557,6 +1566,21 @@
               document.getElementById('calculator').scrollIntoView({ behavior: 'smooth' })
             }, 20)
           }
+
+          var wt1 = document.querySelector('#colorselector')
+          document.querySelector('#waste-type1').innerHTML = wt1.options[wt1.selectedIndex].text
+
+          var wt2 = document.querySelector('#colorselector2')
+          document.querySelector('#waste-type2').innerHTML = wt2.options[wt2.selectedIndex].text
+
+          for (var key in d) {
+            if (key != 'feasibility') {
+              var el = document.querySelector('#' + key)
+              if (el) {
+                el.innerHTML = (d[key] * (key == 'gcv' ? 1 : Math.round(wt2.value / 8760, 2))).toLocaleString()
+              }
+            }
+          }
         }
 
         var calcselectors = document.querySelector('#calc-selectors')
@@ -1586,6 +1610,8 @@
         var callbutton2 = document.querySelector('#call-button2')
         callbutton2.classList.toggle('-translate-x-full')
         callbutton2.classList.toggle('opacity-0')
+        callbutton2.classList.toggle('w-1/4')
+        callbutton2.classList.toggle('w-1/3')
       }
     </script>
   </div>
