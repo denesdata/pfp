@@ -21,6 +21,22 @@
     .after\:border-solid::after {
       transform: scale(2) translate(-2px, 2px);
     }
+
+    .glow {
+      animation: glowing 2s infinite;
+    }
+
+    @keyframes glowing {
+      0% {
+        box-shadow: 0 0 5px #fff;
+      }
+      50% {
+        box-shadow: 0 0 50px #ec8b5a;
+      }
+      100% {
+        box-shadow: 0 0 5px #fff;
+      }
+    }
   </style>
 
   <script>
@@ -986,11 +1002,116 @@
           </div>
         </div>
       </div>
+      <div
+        id="calc-shadow-l"
+        class="bg-base-100"
+        style="width:1000px; height:750px; position: relative; left: -1000px; top: 0px; margin-bottom:-750px; z-index:9" />
+      <div
+        id="calc-shadow-r"
+        class="bg-base-100"
+        style="width:1000px; height:750px; position: relative; right: -100%; top: 0px; margin-bottom:-750px; z-index:9" />
     </h1>
 
     <!-- ===================after landing page =================== -->
-    <section>
-      <div class="container mx-auto mt-10 rounded-2xl bg-white p-20 pt-12 pb-12" id="growcalc">
+    <section class="duration-300 transition opacity-0 container mb-[-630px] bg-white p-16 pb-6 rounded-b-2xl" id="results">
+      <div class="flex flex-row gap-8 items-center p-5 pt-1 mt-[-20px]">
+        <div class="w-1/3 flex-col justify-center" style="font-family: 'Poppins', sans-serif;">
+          <div class="bg-[#E7F5F5] rounded-2xl text-center p-6 mb-10 text-[#2E3855]">
+            <p class="uppercase text-xl m-5">Waste type</p>
+            <h2 class="text-2xl font-bold leading-10">
+              PE Plastic
+              <br />
+              10,000 tonnes
+            </h2>
+          </div>
+          <div class="bg-[#2E3855] rounded-2xl flex flex-col justify-center p-6 py-12 mb-6">
+            <div class="mx-auto">
+              <img src="/assets/Frame 21.png" alt="" />
+            </div>
+            <div class="text-center text-white">
+              <h3 class="uppercase text-xl m-5 mt-6">Most appropriate technology</h3>
+              <h2 class="text-2xl font-bold leading-6">Pyrolysis</h2>
+            </div>
+          </div>
+        </div>
+        <div class="w-2/3 flex-col justify-center mx-auto pl-10 mt-0">
+          <div class="flex justify-center">
+            <div
+              style="font-family: 'Poppins', sans-serif;"
+              class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white mb-5 text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
+                            tracking-wider text-[#2E3855]">
+              Energy content <img class="ml-5" src="/assets/info.png" alt="" />
+            </div>
+            <div
+              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
+              18-25MJ/kg
+            </div>
+          </div>
+          <div class="flex justify-center mb-2">
+            <div
+              style="font-family: 'Poppins', sans-serif;"
+              class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white mb-5 text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
+                            tracking-wider text-[#2E3855]">
+              Heat produced <img class="ml-5" src="/assets/info.png" alt="" />
+            </div>
+            <div
+              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
+              11,200 MWh per year
+            </div>
+          </div>
+          <div class="flex justify-center mb-6">
+            <div
+              style="font-family: 'Poppins', sans-serif;"
+              class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
+                            tracking-wider text-[#2E3855]">
+              Heat savings <img class="ml-5" src="/assets/info.png" alt="" />
+            </div>
+            <div
+              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
+              £48,000 per year
+            </div>
+          </div>
+          <div class="flex justify-center mb-2">
+            <div
+              style="font-family: 'Poppins', sans-serif;"
+              class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white mb-5 text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
+                            tracking-wider text-[#2E3855]">
+              Electricity produced <img class="ml-5" src="/assets/info.png" alt="" />
+            </div>
+            <div
+              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
+              4,800 MWh per year
+            </div>
+          </div>
+          <div class="flex justify-center mb-6">
+            <div
+              style="font-family: 'Poppins', sans-serif;"
+              class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
+                            tracking-wider text-[#2E3855]">
+              Electricity savings <img class="ml-5" src="/assets/info.png" alt="" />
+            </div>
+            <div
+              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
+              £70,000 per year
+            </div>
+          </div>
+          <div class="flex justify-center mb-6">
+            <div
+              style="font-family: 'Poppins', sans-serif;"
+              class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
+                            tracking-wider text-[#2E3855]">
+              Char produced <img class="ml-5" src="/assets/info.png" alt="" />
+            </div>
+            <div
+              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
+              500 tonnes
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="calculate">
+      <div class="container rounded-2xl bg-white p-20 pt-12 pb-16 z-23" id="growcalc">
         <div class="text-center pb-10">
           <h1 style="font-family: 'Poppins', sans-serif;" class="card card-title text-3xl leading-10 text-[#2E3855]">
             The PFP Calculator
@@ -1005,9 +1126,9 @@
           style="font-family: 'Poppins', sans-serif;"
           class="flex md:flex-row flex-col items-center rounded-lg bg-white w-full mt-5">
           <div class="bg-[#E7F5F5] w-1/3 flex justify-center rounded-2xl mr-8">
-            <img class="h-60" src="/assets/cow 1 (1).png" alt="" />
+            <img class="h-60" id="calc-img" src="/assets/cow 1 (1).png" alt="" />
           </div>
-          <div class="w-2/3 pl-12 pr-0 md:mt-0 mt-5">
+          <div class="w-2/3 pl-12 pr-0 md:mt-0 mt-5 duration-300 transform" id="calc-selectors">
             <div class="inline-flex rounded-xl shadow-sm w-full" role="group">
               <button type="button" class="text-xl w-1/2 h-16 text-white bg-[#2E3855] rounded-l-xl">Waste type</button>
               <div
@@ -1033,7 +1154,9 @@
 
               <div
                 class="button dropdown w-1/2 flex justify-between flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-xl font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
-                <select class="w-full bg-transparent text-center focus-0 after:border-0 before:border-0 after:border-[#E7F5F5]">
+                <select
+                  id="colorselector2"
+                  class="w-full bg-transparent text-center focus-0 after:border-0 before:border-0 after:border-[#E7F5F5]">
                   <option class="bg-[#E7F5F5]" value="red">&lt; 5 t</option>
                   <option class="bg-[#E7F5F5]" value="red">5 - 100 t</option>
                   <option class="bg-[#E7F5F5]" value="red">100 - 1000 t</option>
@@ -1049,7 +1172,7 @@
 
               <div
                 class="button dropdown w-1/2 flex justify-between flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-xl font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
-                <select id="colorselector" class="w-full bg-transparent text-center">
+                <select id="colorselector3" class="w-full bg-transparent text-center">
                   <option class="bg-[#E7F5F5]" value="Electricity">Electricity</option>
                   <option class="bg-[#E7F5F5]" value="yellow">Heating / Cooling</option>
                   <option class="bg-[#E7F5F5]" value="blue">Carbon credits</option>
@@ -1060,182 +1183,105 @@
             <div />
           </div>
         </div>
-        <div class="flex justify-center w-full">
+        <div
+          class="w-[784px] ml-80 pl-16 h-60 p-10 pt-16 md:mt-0 mt-5 duration-300 transform absolute -translate-x-full opacity-0 -translate-y-full bg-[#E7F5F5] rounded-2xl"
+          id="calc-message">
+          <div class="text-4xl font-bold">Your project is feasible</div>
+          <p style=" font-family: 'Public Sans', sans-serif;" class="text-[#2E3855] tracking-wider mt-5">
+            Review your results to explore the different possibilities and
+            <br />
+            book a slot with us for personalised guidance on next steps
+          </p>
+        </div>
+        <div class="flex justify gap-24 w-full">
+          <a
+            id="call-button"
+            class="duration-300 transform -translate-x-full opacity-0 font-bold mt-16 w-1/3 p-10 p-4 hover:bg-pfp-green bg-pfp-orange rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
+            href="/contact">
+            <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
+            <span>Book a call with us</span>
+          </a>
+          <a
+            id="call-button2"
+            class="duration-300 transform -translate-x-full opacity-0 font-bold mt-16 w-1/4 p-4 hover:bg-pfp-green bg-pfp-navy rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
+            href="/green-energy/new-renewable/">
+            <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
+            <span>Learn more</span>
+          </a>
           <button
-            class="font-bold mt-10 w-60 p-4 hover:bg-pfp-green bg-pfp-orange rounded-lg flex justify-center items-center text-white tracking-wider"
-            href="/explore/#calculator"
-            onclick="growElement();">
-            <img class="mr-3" src="/assets/calculator.png" alt="" />
+            id="calc-button"
+            class="duration-300 transform -translate-x-full font-bold mt-16 w-1/3 p-4 hover:bg-pfp-green bg-pfp-orange rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
+            href="/explore/#calculate"
+            onclick="calculate();">
+            <img class="mr-4 h-6" src="/assets/calculator.png" alt="" />
             <span>Calculate</span>
           </button>
         </div>
       </div>
+      <div
+        id="calc-spacer"
+        class="bg-base-100"
+        style="width:1000px; height:750px; position: relative; right: -100%; top: 0px; margin-bottom:-750px; z-index:9" />
     </section>
     <script>
-      function growElement() {
-        var element = document.querySelector('.grow')
-        // element.classList.toggle('hidden')
-        // element.classList.toggle('-translate-x-full')
-        element.style.height = 550 + 'px'
-        element.style.opacity = 1
-        var element = document.querySelector('#growcalc')
-        // element.classList.toggle('hidden')
-        // element.classList.toggle('-translate-x-full')
-        element.style.height = 0 + 'px'
-        element.style.opacity = 0
-        var element = document.querySelector('#results')
-        // element.classList.toggle('hidden')
-        // element.classList.toggle('-translate-x-full')
-        element.style.height = 550 + 'px'
-        element.style.opacity = 1
+      function calculate() {
+        var calcimg = document.querySelector('#calc-img')
+        if (calcimg.src.includes('Group14.png')) {
+          calcimg.src = '/assets/cow 1 (1).png'
+        } else {
+          setTimeout(() => {
+            calcimg.src = '/assets/Group14.png'
+          }, 150)
+        }
+
+        var calcselectors = document.querySelector('#calc-selectors')
+        calcselectors.classList.toggle('translate-x-full')
+        calcselectors.classList.toggle('opacity-0')
+
+        var calcmessage = document.querySelector('#calc-message')
+        calcmessage.classList.toggle('-translate-x-full')
+        calcmessage.classList.toggle('opacity-0')
+
+        var calcbutton = document.querySelector('#calc-button')
+        calcbutton.classList.toggle('-translate-x-full')
+        var calctext = document.querySelector('#calc-button span').innerHTML
+        if (calctext == 'Calculate') {
+          document.querySelector('#calc-button span').innerHTML = 'Start over'
+        } else {
+          document.querySelector('#calc-button span').innerHTML = 'Calculate'
+        }
+
+        var callbutton = document.querySelector('#call-button')
+        callbutton.classList.toggle('-translate-x-full')
+        callbutton.classList.toggle('opacity-0')
+        setTimeout(() => {
+          callbutton.classList.toggle('glow')
+        }, 3000)
+
+        var callbutton2 = document.querySelector('#call-button2')
+        callbutton2.classList.toggle('-translate-x-full')
+        callbutton2.classList.toggle('opacity-0')
+
+        var results = document.querySelector('#results')
+        if (results.classList.contains('opacity-0')) {
+          setTimeout(() => {
+            document.getElementById('calculate').scrollIntoView({ behavior: 'smooth' })
+          }, 500)
+          results.classList.toggle('translate-y-full')
+          setTimeout(() => {
+            results.classList.toggle('opacity-0')
+          }, 100)
+        } else {
+          results.classList.toggle('opacity-0')
+          setTimeout(() => {
+            results.classList.toggle('translate-y-full')
+          }, 100)
+          setTimeout(() => {
+            document.getElementById('calculator').scrollIntoView({ behavior: 'smooth' })
+          }, 20)
+        }
       }
     </script>
-    <section class="mt-0 grow" style="height:0px;opacity:0;">
-      <div class="container mx-auto bg-white p-5 rounded-2xl">
-        <div>
-          <h1
-            style="font-family: 'Poppins', sans-serif;"
-            class="font-bold text-center tracking-wider text-4xl leading-10 text-[#2E3855] mt-5">
-            The PFP Calculator
-          </h1>
-        </div>
-        <div class="flex md:flex-row flex-col items-center bg-[#E7F5F5] rounded-xl py-5 mt-10 z-80">
-          <div class="md:w-2/5 w-full flex justify-center mx-auto">
-            <img class="md:w-3/5 w-full" src="/assets/Group14.png" alt="" />
-          </div>
-
-          <div class="md:w-3/5 w-full flex flex-col text-start px-20">
-            <h1
-              style="font-family: 'Poppins', sans-serif;"
-              class="font-bold tracking-wider text-4xl text-start leading-10 text-[#2E3855] mt-5">
-              Your project is feasible
-            </h1>
-
-            <p
-              style=" font-family: 'Public Sans', sans-serif;"
-              class="text-[#2E3855] text-start text-base font-normal tracking-wider leading-6 mt-5">
-              Review your results to explore the different possibilities and book a slot with us for personalised guidance on
-              next steps
-            </p>
-            <button
-              type="button"
-              style=" font-family: 'Public Sans', sans-serif;"
-              class="flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-10 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-              <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
-              <a href="/contact/">Book a call with us</a>
-            </button>
-            <button
-              type="button"
-              style=" font-family: 'Public Sans', sans-serif;"
-              class="flex justify-center items-center mt-5 text-[#2E3855] bg-white border border-1 border-[#2E3855] font-semibold rounded-lg text-base px-8 py-2.5 text-center inline-flex items-center mr-2 mb-2">
-              <img class="mr-3" src="/assets/arrow-right-circle (1).png" alt="" />
-              Learn more
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section
-      class=" container mx-auto bg-white pb-10 rounded-2xl grow"
-      style="opacity:0;height:0px;overflow:hidden;"
-      id="results">
-      <div class="flex md:flex-row flex-col items-center p-5">
-        <div class="md:w-1/5 w-full flex-col justifyq-center mx-auto" style="font-family: 'Poppins', sans-serif;">
-          <div class="bg-[#E7F5F5] rounded-lg text-center py-5 p-10 text-[#2E3855]">
-            <p class="uppercase text-sm font-semibold"><b>Waste type</b></p>
-            <h2 class="text-lg font-bold">
-              PE Plastic
-              <br />
-              10,000 tonnes
-            </h2>
-          </div>
-          <div class="bg-[#2E3855] rounded-lg flex flex-col justify-center mt-5 py-5 p-10">
-            <div class="mx-auto">
-              <img src="/assets/Frame 21.png" alt="" />
-            </div>
-            <div class="text-center text-white">
-              <h3 class="font-semibold text-sm uppercase mt-3">Most appropriate technology</h3>
-              <h2 class="font-bold text-lg">Pyrolysis</h2>
-            </div>
-          </div>
-        </div>
-        <div class="md:w-4/5 w-full flex-col justify-center mx-auto md:pl-10 pl-0 md:mt-0 mt-5">
-          <div class="flex justify-center">
-            <div
-              style="font-family: 'Poppins', sans-serif;"
-              class="flex justify-center items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-lg font-bold text-xl leading-10 text-white mb-5 text-center after:absolute after:-right-2 after:top-[40%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
-                            tracking-wider text-[#2E3855]">
-              Energy content <img class="ml-5" src="/assets/info.png" alt="" />
-            </div>
-            <div
-              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] mb-5 text-center">
-              18-25MJ/kg
-            </div>
-          </div>
-          <div class="flex justify-center">
-            <div
-              style="font-family: 'Poppins', sans-serif;"
-              class="flex justify-center items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-lg font-bold text-xl leading-10 text-white mb-5 text-center after:absolute after:-right-2 after:top-[40%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
-                            tracking-wider text-[#2E3855]">
-              Heat produced <img class="ml-5" src="/assets/info.png" alt="" />
-            </div>
-            <div
-              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] mb-5 text-center">
-              11,200 MWh per year
-            </div>
-          </div>
-          <div class="flex justify-center mb-5">
-            <div
-              style="font-family: 'Poppins', sans-serif;"
-              class="flex justify-center items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-lg font-bold text-xl leading-10 text-white text-center after:absolute after:-right-2 after:top-[40%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
-                            tracking-wider text-[#2E3855]">
-              Heat savings <img class="ml-5" src="/assets/info.png" alt="" />
-            </div>
-            <div
-              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] text-center">
-              £48,000 per year
-            </div>
-          </div>
-          <div class="flex justify-center">
-            <div
-              style="font-family: 'Poppins', sans-serif;"
-              class="flex justify-center items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-lg font-bold text-xl leading-10 text-white mb-5 text-center after:absolute after:-right-2 after:top-[40%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
-                            tracking-wider text-[#2E3855]">
-              Electricity produced <img class="ml-5" src="/assets/info.png" alt="" />
-            </div>
-            <div
-              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] mb-5 text-center">
-              4,800 MWh per year
-            </div>
-          </div>
-          <div class="flex justify-center mb-5">
-            <div
-              style="font-family: 'Poppins', sans-serif;"
-              class="flex justify-center items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-lg font-bold text-xl leading-10 text-white text-center after:absolute after:-right-2 after:top-[40%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
-                            tracking-wider text-[#2E3855]">
-              Electricity savings <img class="ml-5" src="/assets/info.png" alt="" />
-            </div>
-            <div
-              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] text-center">
-              £70,000 per year
-            </div>
-          </div>
-          <div class="flex justify-center mb-5">
-            <div
-              style="font-family: 'Poppins', sans-serif;"
-              class="flex justify-center items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-lg font-bold text-xl leading-10 text-white text-center after:absolute after:-right-2 after:top-[40%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
-                            tracking-wider text-[#2E3855]">
-              Char produced <img class="ml-5" src="/assets/info.png" alt="" />
-            </div>
-            <div
-              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] font-bold text-xl leading-10 text-[#2E3855] text-center">
-              500 tonnes
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
   <script>
     function toggleElement(k) {

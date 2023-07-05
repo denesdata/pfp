@@ -14,7 +14,7 @@
       font-size: 1.2rem;
     }
   </style>
-  <div class="w-5/6 pt-10">
+  <div class="w-4/6 pt-10">
     <div class="flex rounded-3xl overflow-hidden mt-20">
       <div class="w-4/6 p-10 pr-36 bg-white flex flex-col justify-between">
         <h2 class="card-title text-3xl">
