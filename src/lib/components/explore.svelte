@@ -326,12 +326,12 @@
                 </h1>
                 <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">GCV:</span>
-                  17.57 MJ/kg
+                  15 MJ/kg
                   <img class="ml-5" src="/assets/Frame 15.png" alt="" />
                 </p>
                 <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">Energy content:</span>
-                  High
+                  Low
                 </p>
               </div>
             </div>
@@ -392,7 +392,7 @@
                   <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
                     Most appropriate technology
                   </h1>
-                  <p style=" font-family: 'Public Sans', sans-serif;" class="text-white text-base mt-1 tracking-wider">
+                  <p style=" font-family: 'Public Sans', sans-serif;" class="text-white text-xl mt-1 tracking-wider">
                     Anaerobic Digestion
                   </p>
                 </div>
@@ -453,7 +453,7 @@
                 </h1>
                 <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">GCV:</span>
-                  17.57 MJ/kg
+                  17 MJ/kg
                   <img class="ml-5" src="/assets/Frame 15.png" alt="" />
                 </p>
                 <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
@@ -485,7 +485,7 @@
                 style=" font-family: 'Public Sans', sans-serif;"
                 class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm p-2 pr-4 text-center inline-flex items-center mr-4">
                 <img class="mr-3" src="/assets/bar-chart.png" alt="" />
-                High nitrogen content
+                Medium nitrogen content
               </button>
               <button
                 type="button"
@@ -504,10 +504,10 @@
             </div>
 
             <div style=" font-family: 'Public Sans', sans-serif;" class="mt-3 pl-2">
-              <h2 class="mb-2 text-lg font-light text-[#2E3855]">600 dairy cows or 3500 tonnes of cow manure per year</h2>
+              <h2 class="mb-2 text-lg font-light text-[#2E3855]">100 people or 250 tonnes of food waste per year</h2>
               <ul class="max-w-md space-y-1 text-lg font-semibold text-[#2E3855] list-disc list-inside">
-                <li>Produces 656m³ biogas every day</li>
-                <li>Ability to power 187 UK households every day</li>
+                <li>Produces 156m³ biogas every day</li>
+                <li>Ability to power 19 UK households every day</li>
               </ul>
             </div>
           </div>
@@ -519,7 +519,7 @@
                   <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
                     Most appropriate technology
                   </h1>
-                  <p style=" font-family: 'Public Sans', sans-serif;" class="text-white text-base mt-1 tracking-wider">
+                  <p style=" font-family: 'Public Sans', sans-serif;" class="text-white text-xl mt-1 tracking-wider">
                     Anaerobic Digestion
                   </p>
                 </div>
@@ -576,16 +576,16 @@
               </div>
               <div class="w-1/2">
                 <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 mb-4 font-bold text-3xl leading-10 text-[#2E3855]">
-                  Water
+                  PE plastic
                 </h1>
                 <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">GCV:</span>
-                  17.57 MJ/kg
+                  46 MJ/kg
                   <img class="ml-5" src="/assets/Frame 15.png" alt="" />
                 </p>
                 <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">Energy content:</span>
-                  High
+                  Very high
                 </p>
               </div>
             </div>
@@ -596,14 +596,14 @@
                 style=" font-family: 'Public Sans', sans-serif;"
                 class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm p-2 pr-4 text-center inline-flex items-center mr-4">
                 <img class="mr-3" src="/assets/bar-chart.png" alt="" />
-                High organic content
+                Very low organic content
               </button>
               <button
                 type="button"
                 style=" font-family: 'Public Sans', sans-serif;"
                 class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm p-2 pr-4 text-center inline-flex items-center mr-4">
                 <img class="mr-3" src="/assets/bar-chart.png" alt="" />
-                High nutrient content
+                Very low nutrient content
               </button>
             </div>
             <div class="flex justify-start">
@@ -612,14 +612,14 @@
                 style=" font-family: 'Public Sans', sans-serif;"
                 class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm p-2 pr-4 text-center inline-flex items-center mr-4">
                 <img class="mr-3" src="/assets/bar-chart.png" alt="" />
-                High nitrogen content
+                Very low nitrogen content
               </button>
               <button
                 type="button"
                 style=" font-family: 'Public Sans', sans-serif;"
                 class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#D9F5E4] font-semibold rounded-lg text-sm p-2 pr-4 text-center inline-flex items-center mr-4">
                 <img class="mr-3" src="/assets/bar-chart (1).png" alt="" />
-                Low pH levels
+                PET bottles
               </button>
             </div>
             <div class="flex justify-start items-center mt-8 pl-2">
@@ -631,23 +631,23 @@
             </div>
 
             <div style=" font-family: 'Public Sans', sans-serif;" class="mt-3 pl-2">
-              <h2 class="mb-2 text-lg font-light text-[#2E3855]">600 dairy cows or 3500 tonnes of cow manure per year</h2>
+              <h2 class="mb-2 text-lg font-light text-[#2E3855]">10000 PET bottles or 100 tonnes of plastic per year</h2>
               <ul class="max-w-md space-y-1 text-lg font-semibold text-[#2E3855] list-disc list-inside">
-                <li>Produces 656m³ biogas every day</li>
-                <li>Ability to power 187 UK households every day</li>
+                <li>Produces 75kWh every day</li>
+                <li>Ability to power 63 UK households every day</li>
               </ul>
             </div>
           </div>
           <div class="bg-[#2E3855] rounded-b-2xl rounded-r-none h-[180px] absolute bottom-0 left-0 mb-0 w-full pl-2">
             <div class="flex flex-col p-5">
               <div class="flex">
-                <div class="mt-2"><img src="/assets/Ellipse 3.png" alt="" /></div>
+                <div class="mt-2 w-16"><img src="/assets/Frame 21.png" alt="" /></div>
                 <div class="ml-5">
                   <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
                     Most appropriate technology
                   </h1>
-                  <p style=" font-family: 'Public Sans', sans-serif;" class="text-white text-base mt-1 tracking-wider">
-                    Anaerobic Digestion
+                  <p style=" font-family: 'Public Sans', sans-serif;" class="text-white text-xl mt-1 tracking-wider">
+                    Pyrolysis
                   </p>
                 </div>
               </div>
@@ -707,7 +707,7 @@
                 </h1>
                 <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">GCV:</span>
-                  17.57 MJ/kg
+                  N/A MJ/kg
                   <img class="ml-5" src="/assets/Frame 15.png" alt="" />
                 </p>
                 <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
@@ -746,7 +746,7 @@
                 style=" font-family: 'Public Sans', sans-serif;"
                 class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#D9F5E4] font-semibold rounded-lg text-sm p-2 pr-4 text-center inline-flex items-center mr-4">
                 <img class="mr-3" src="/assets/bar-chart (1).png" alt="" />
-                Low pH levels
+                Latest technology
               </button>
             </div>
             <div class="flex justify-start items-center mt-8 pl-2">
@@ -768,13 +768,13 @@
           <div class="bg-[#2E3855] rounded-b-2xl rounded-r-none h-[180px] absolute bottom-0 left-0 mb-0 w-full pl-2">
             <div class="flex flex-col p-5">
               <div class="flex">
-                <div class="mt-2"><img src="/assets/Ellipse 3.png" alt="" /></div>
+                <div class="mt-2 w-16"><img src="/assets/Frame 21.png" alt="" /></div>
                 <div class="ml-5">
                   <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
                     Most appropriate technology
                   </h1>
-                  <p style=" font-family: 'Public Sans', sans-serif;" class="text-white text-base mt-1 tracking-wider">
-                    Anaerobic Digestion
+                  <p style=" font-family: 'Public Sans', sans-serif;" class="text-white text-xl mt-1 tracking-wider">
+                    New Technology
                   </p>
                 </div>
               </div>
@@ -1146,6 +1146,24 @@
                   <option class="bg-[#E7F5F5]" value="srf-rdf">SRF and RDF</option>
                   <option class="bg-[#E7F5F5]" value="coffee-grounds">Coffee grounds</option>
                   <option class="bg-[#E7F5F5]" value="crop-residues">Crop residues</option>
+
+                  <option class="bg-[#E7F5F5]" value="maize-silage">Maize silage</option>
+                  <option class="bg-[#E7F5F5]" value="cereal">Cereal</option>
+                  <option class="bg-[#E7F5F5]" value="grass-silage">Grass silage</option>
+                  <option class="bg-[#E7F5F5]" value="pp-plastic">PP Plastic</option>
+                  <option class="bg-[#E7F5F5]" value="ps-plastic">PS Plastic</option>
+                  <option class="bg-[#E7F5F5]" value="pvc-plastic">PVC Plastic</option>
+                  <option class="bg-[#E7F5F5]" value="pet-plastic">PET Plastic</option>
+                  <option class="bg-[#E7F5F5]" value="rubber">Rubber</option>
+                  <option class="bg-[#E7F5F5]" value="wood-waste">Wood waste</option>
+                  <option class="bg-[#E7F5F5]" value="municipal-solid-waste">Municipal Solid Waste</option>
+                  <option class="bg-[#E7F5F5]" value="medical-waste">Medical Waste</option>
+
+                  <option class="bg-[#E7F5F5]" value="ceramics">Ceramics</option>
+                  <option class="bg-[#E7F5F5]" value="sand">Sand</option>
+                  <option class="bg-[#E7F5F5]" value="dust">Dust</option>
+                  <option class="bg-[#E7F5F5]" value="glass">Glass</option>
+                  <option class="bg-[#E7F5F5]" value="metals">Metals</option>
                 </select>
               </div>
             </div>
@@ -1157,13 +1175,13 @@
                 <select
                   id="colorselector2"
                   class="w-full bg-transparent text-center focus-0 after:border-0 before:border-0 after:border-[#E7F5F5]">
-                  <option class="bg-[#E7F5F5]" value="red">&lt; 5 t</option>
-                  <option class="bg-[#E7F5F5]" value="red">5 - 100 t</option>
-                  <option class="bg-[#E7F5F5]" value="red">100 - 1000 t</option>
-                  <option class="bg-[#E7F5F5]" value="red">1000 - 10,000 t</option>
-                  <option class="bg-[#E7F5F5]" value="red">10,000 - 20,000 t</option>
-                  <option class="bg-[#E7F5F5]" value="red">20, 000 - 60,000 t</option>
-                  <option class="bg-[#E7F5F5]" value="red">&gt; 60,000 t</option>
+                  <option class="bg-[#E7F5F5]" value="2.5">&lt; 5 t</option>
+                  <option class="bg-[#E7F5F5]" value="50">5 - 100 t</option>
+                  <option class="bg-[#E7F5F5]" value="500">100 - 1000 t</option>
+                  <option class="bg-[#E7F5F5]" value="5000">1000 - 10,000 t</option>
+                  <option class="bg-[#E7F5F5]" value="15000">10,000 - 20,000 t</option>
+                  <option class="bg-[#E7F5F5]" value="40000">20,000 - 60,000 t</option>
+                  <option class="bg-[#E7F5F5]" value="60000">&gt; 60,000 t</option>
                 </select>
               </div>
             </div>
@@ -1173,10 +1191,10 @@
               <div
                 class="button dropdown w-1/2 flex justify-between flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-xl font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
                 <select id="colorselector3" class="w-full bg-transparent text-center">
-                  <option class="bg-[#E7F5F5]" value="Electricity">Electricity</option>
-                  <option class="bg-[#E7F5F5]" value="yellow">Heating / Cooling</option>
-                  <option class="bg-[#E7F5F5]" value="blue">Carbon credits</option>
-                  <option class="bg-[#E7F5F5]" value="blue">Fertiliser</option>
+                  <option class="bg-[#E7F5F5]" value="electricity">Electricity</option>
+                  <option class="bg-[#E7F5F5]" value="heating-cooling">Heating / Cooling</option>
+                  <option class="bg-[#E7F5F5]" value="carbon-credits">Carbon credits</option>
+                  <option class="bg-[#E7F5F5]" value="fertiliser">Fertiliser</option>
                 </select>
               </div>
             </div>
@@ -1186,7 +1204,7 @@
         <div
           class="w-[784px] ml-80 pl-16 h-60 p-10 pt-16 md:mt-0 mt-5 duration-300 transform absolute -translate-x-full opacity-0 -translate-y-full bg-[#E7F5F5] rounded-2xl"
           id="calc-message">
-          <div class="text-4xl font-bold">Your project is feasible</div>
+          <div class="text-4xl font-bold" id="feasible">Your project is feasible</div>
           <p style=" font-family: 'Public Sans', sans-serif;" class="text-[#2E3855] tracking-wider mt-5">
             Review your results to explore the different possibilities and
             <br />
@@ -1225,13 +1243,320 @@
     </section>
     <script>
       function calculate() {
-        var calcimg = document.querySelector('#calc-img')
-        if (calcimg.src.includes('Group14.png')) {
-          calcimg.src = '/assets/cow 1 (1).png'
-        } else {
-          setTimeout(() => {
-            calcimg.src = '/assets/Group14.png'
-          }, 150)
+        const data = {
+          'cow-manure': {
+            gcv: 15.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 15000.0,
+            'heat-savings': 1050000.0,
+            'electricity-produced': 3000.0,
+            'electrical-savings': 1050000.0,
+            char: 50.0
+          },
+          'food-waste': {
+            gcv: 17.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 17000.0,
+            'heat-savings': 1190000.0,
+            'electricity-produced': 3400.0,
+            'electrical-savings': 1190000.0,
+            char: 60.0
+          },
+          'pig-slurry': {
+            gcv: 13.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 11380.0,
+            'heat-savings': 797600.0,
+            'electricity-produced': 2276.0,
+            'electrical-savings': 796600.0,
+            char: 40.0
+          },
+          'fish-waste': {
+            gcv: 15.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 13140.0,
+            'heat-savings': 919800.0,
+            'electricity-produced': 2628.0,
+            'electrical-savings': 919800.0,
+            char: 60.0
+          },
+          'poultry-litter': {
+            gcv: 14.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 12260.0,
+            'heat-savings': 858200.0,
+            'electricity-produced': 2452.0,
+            'electrical-savings': 858200.0,
+            char: 50.0
+          },
+          'brewery-waste': {
+            gcv: 12.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 10512.0,
+            'heat-savings': 736840.0,
+            'electricity-produced': 2102.0,
+            'electrical-savings': 736840.0,
+            char: 45.0
+          },
+          'pulp-paper-waste': {
+            gcv: 15.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 13140.0,
+            'heat-savings': 919800.0,
+            'electricity-produced': 2628.0,
+            'electrical-savings': 919800.0,
+            char: 55.0
+          },
+          'textile-waste': {
+            gcv: 20.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 17520.0,
+            'heat-savings': 1226400.0,
+            'electricity-produced': 3504.0,
+            'electrical-savings': 1226400.0,
+            char: 80.0
+          },
+          'pe-plastic': {
+            gcv: 46.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 40336.0,
+            'heat-savings': 2823520.0,
+            'electricity-produced': 8067.0,
+            'electrical-savings': 2823520.0,
+            char: 200.0
+          },
+          'srf-rdf': {
+            gcv: 18.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 15768.0,
+            'heat-savings': 1103760.0,
+            'electricity-produced': 3154.0,
+            'electrical-savings': 1103760.0,
+            char: 75.0
+          },
+          'coffee-grounds': {
+            gcv: 16.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 14016.0,
+            'heat-savings': 981120.0,
+            'electricity-produced': 2803.0,
+            'electrical-savings': 981120.0,
+            char: 60.0
+          },
+          'crop-residues': {
+            gcv: 17.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 14904.0,
+            'heat-savings': 1043280.0,
+            'electricity-produced': 2981.0,
+            'electrical-savings': 1043280.0,
+            char: 65.0
+          },
+          'maize-silage': {
+            gcv: 17.51,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 17500.0,
+            'heat-savings': 1225000.0,
+            'electricity-produced': 4375.0,
+            'electrical-savings': 1531250.0,
+            char: 50.0
+          },
+          cereal: {
+            gcv: 15.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 15000.0,
+            'heat-savings': 1050000.0,
+            'electricity-produced': 3750.0,
+            'electrical-savings': 1312500.0,
+            char: 40.0
+          },
+          'grass-silage': {
+            gcv: 18.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 18000.0,
+            'heat-savings': 1260000.0,
+            'electricity-produced': 4500.0,
+            'electrical-savings': 1575000.0,
+            char: 60.0
+          },
+          'pp-plastic': {
+            gcv: 44.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 44000.0,
+            'heat-savings': 3080000.0,
+            'electricity-produced': 11000.0,
+            'electrical-savings': 3850000.0,
+            char: 50.0
+          },
+          'ps-plastic': {
+            gcv: 41.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 41000.0,
+            'heat-savings': 2870000.0,
+            'electricity-produced': 10250.0,
+            'electrical-savings': 3587500.0,
+            char: 40.0
+          },
+          'pvc-plastic': {
+            gcv: 18.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 18000.0,
+            'heat-savings': 1260000.0,
+            'electricity-produced': 4500.0,
+            'electrical-savings': 1575000.0,
+            char: 20.0
+          },
+          'pet-plastic': {
+            gcv: 21.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 21000.0,
+            'heat-savings': 1470000.0,
+            'electricity-produced': 5250.0,
+            'electrical-savings': 1837500.0,
+            char: 30.0
+          },
+          rubber: {
+            gcv: 32.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 32000.0,
+            'heat-savings': 2240000.0,
+            'electricity-produced': 8000.0,
+            'electrical-savings': 2800000.0,
+            char: 40.0
+          },
+          'wood-waste': {
+            gcv: 15.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 15000.0,
+            'heat-savings': 1050000.0,
+            'electricity-produced': 3750.0,
+            'electrical-savings': 1312500.0,
+            char: 40.0
+          },
+          'municipal-solid-waste': {
+            gcv: 10.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 10000.0,
+            'heat-savings': 700000.0,
+            'electricity-produced': 2500.0,
+            'electrical-savings': 875000.0,
+            char: null
+          },
+          'medical-waste': {
+            gcv: 13.0,
+            feasibility: 'Y',
+            tonnes: 8760.0,
+            'heat-produced': 13000.0,
+            'heat-savings': 910000.0,
+            'electricity-produced': 3250.0,
+            'electrical-savings': 1137500.0,
+            char: null
+          },
+          ceramics: {
+            gcv: 0.0,
+            feasibility: 'N',
+            tonnes: null,
+            'heat-produced': null,
+            'heat-savings': null,
+            'electricity-produced': null,
+            'electrical-savings': null,
+            char: null
+          },
+          sand: {
+            gcv: 0.0,
+            feasibility: 'N',
+            tonnes: null,
+            'heat-produced': null,
+            'heat-savings': null,
+            'electricity-produced': null,
+            'electrical-savings': null,
+            char: null
+          },
+          dust: {
+            gcv: 0.0,
+            feasibility: 'N',
+            tonnes: null,
+            'heat-produced': null,
+            'heat-savings': null,
+            'electricity-produced': null,
+            'electrical-savings': null,
+            char: null
+          },
+          glass: {
+            gcv: 0.0,
+            feasibility: 'N',
+            tonnes: null,
+            'heat-produced': null,
+            'heat-savings': null,
+            'electricity-produced': null,
+            'electrical-savings': null,
+            char: null
+          },
+          metals: {
+            gcv: 0.0,
+            feasibility: 'N',
+            tonnes: null,
+            'heat-produced': null,
+            'heat-savings': null,
+            'electricity-produced': null,
+            'electrical-savings': null,
+            char: null
+          }
+        }
+
+        var feasible = data[document.querySelector('#colorselector').value]['feasibility'] == 'Y'
+        document.querySelector('#feasible').innerHTML = 'Your project is ' + (feasible ? '' : '<u>not</u> ') + 'feasible'
+
+        if (feasible) {
+          var calcimg = document.querySelector('#calc-img')
+          if (calcimg.src.includes('Group14.png')) {
+            calcimg.src = '/assets/cow 1 (1).png'
+          } else {
+            setTimeout(() => {
+              calcimg.src = '/assets/Group14.png'
+            }, 150)
+          }
+
+          var results = document.querySelector('#results')
+          if (results.classList.contains('opacity-0')) {
+            setTimeout(() => {
+              document.getElementById('calculate').scrollIntoView({ behavior: 'smooth' })
+            }, 500)
+            results.classList.toggle('translate-y-full')
+            setTimeout(() => {
+              results.classList.toggle('opacity-0')
+            }, 100)
+          } else {
+            results.classList.toggle('opacity-0')
+            setTimeout(() => {
+              results.classList.toggle('translate-y-full')
+            }, 100)
+            setTimeout(() => {
+              document.getElementById('calculator').scrollIntoView({ behavior: 'smooth' })
+            }, 20)
+          }
         }
 
         var calcselectors = document.querySelector('#calc-selectors')
@@ -1261,25 +1586,6 @@
         var callbutton2 = document.querySelector('#call-button2')
         callbutton2.classList.toggle('-translate-x-full')
         callbutton2.classList.toggle('opacity-0')
-
-        var results = document.querySelector('#results')
-        if (results.classList.contains('opacity-0')) {
-          setTimeout(() => {
-            document.getElementById('calculate').scrollIntoView({ behavior: 'smooth' })
-          }, 500)
-          results.classList.toggle('translate-y-full')
-          setTimeout(() => {
-            results.classList.toggle('opacity-0')
-          }, 100)
-        } else {
-          results.classList.toggle('opacity-0')
-          setTimeout(() => {
-            results.classList.toggle('translate-y-full')
-          }, 100)
-          setTimeout(() => {
-            document.getElementById('calculator').scrollIntoView({ behavior: 'smooth' })
-          }, 20)
-        }
       }
     </script>
   </div>
