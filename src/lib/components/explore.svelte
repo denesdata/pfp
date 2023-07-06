@@ -1,7 +1,54 @@
 <script lang="ts">
-  import { site } from '$lib/config/site'
-  import Landing from '$lib/components/landing.svelte'
-  import { scale, fly } from 'svelte/transition'
+  import { fly } from 'svelte/transition'
+  import { onMount } from 'svelte'
+  import tippy from 'tippy.js'
+  import 'tippy.js/dist/tippy.css'
+  import 'tippy.js/themes/light.css'
+
+  onMount(() => {
+    tippy('.map-gcv', {
+      theme: 'tomato',
+      allowHTML: true,
+      content:
+        "This is the amount of heat energy that could be released if a certain amount of waste is completely burnt. It's like a measure of the <i>energy potential</i> of waste. A higher GCV means the waste can produce more energy."
+    })
+    tippy('.map-case-study', {
+      theme: 'tomato',
+      content: 'Project Reference Biogas Plant: Guichen, France | HoSt'
+    })
+    tippy('.calc-gcv', {
+      theme: 'tomato',
+      allowHTML: true,
+      content:
+        "Energy content is the total amount of energy stored in waste. But instead of just heat energy, it also includes the energy that can be converted into electricity or other forms. It's the total <i>energy resource</i> the waste could provide."
+    })
+    tippy('.calc-heat-produced', {
+      theme: 'tomato',
+      content:
+        'This is the actual amount of heat energy generated when the waste is processed, like when you burn wood in a fireplace. This heat can be used directly (like to warm buildings) or can be converted into other forms of energy, like electricity.'
+    })
+    tippy('.calc-heat-savings', {
+      theme: 'tomato',
+      content:
+        "This indicates how much heat energy a company can save by using the heat produced from waste processing, instead of getting it from conventional sources. This is assuming you're currently paying 0.7p/kWh"
+    })
+    tippy('.calc-electricity-produced', {
+      theme: 'tomato',
+      allowHTML: true,
+      content:
+        "This is the amount of electrical energy generated from processing the waste. This could be through burning the waste to generate steam, which drives a turbine to produce electricity, or through other methods. It's like the <i>power output</i> from the waste."
+    })
+    tippy('.calc-electrical-savings', {
+      theme: 'tomato',
+      content:
+        'This shows how much a company can save on electricity costs by using the electricity produced from waste processing, instead of purchasing it from the grid. This is based off the assumption you are paying 0.35p/kWh'
+    })
+    tippy('.calc-char', {
+      theme: 'tomato',
+      content:
+        "Char is the solid material that's left over after some waste processing methods, like pyrolysis and gasification. It can sometimes be used as a fuel or soil conditioner. This value shows how much char would be produced from the waste."
+    })
+  })
 </script>
 
 <div style="display:none;">
@@ -36,6 +83,33 @@
       100% {
         box-shadow: 0 0 5px #fff;
       }
+    }
+
+    .info-pop {
+      cursor: pointer;
+    }
+
+    .tippy-box[data-theme~='tomato'] {
+      background-color: #e7f5f5;
+      color: #2e3855;
+      font-size: 1.2rem;
+      padding: 5px;
+      box-shadow: 8px 0 8px -6px rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .tippy-box[data-theme~='tomato'][data-placement^='top'] > .tippy-arrow::before {
+      border-top-color: #e7f5f5;
+    }
+    .tippy-box[data-theme~='tomato'][data-placement^='bottom'] > .tippy-arrow::before {
+      border-bottom-color: #e7f5f5;
+    }
+    .tippy-box[data-theme~='tomato'][data-placement^='left'] > .tippy-arrow::before {
+      border-left-color: #e7f5f5;
+    }
+    .tippy-box[data-theme~='tomato'][data-placement^='right'] > .tippy-arrow::before {
+      border-right-color: #e7f5f5;
     }
   </style>
 
@@ -327,7 +401,7 @@
                 <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">GCV:</span>
                   15 MJ/kg
-                  <img class="ml-5" src="/assets/Frame 15.png" alt="" />
+                  <img class="ml-5 map-gcv info-pop" src="/assets/Frame 15.png" alt="" />
                 </p>
                 <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">Energy content:</span>
@@ -373,7 +447,7 @@
               <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
                 <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
               </h1>
-              <img class="ml-5" src="/assets/Frame 15.png" alt="" />
+              <img class="ml-5 map-case-study info-pop" src="/assets/Frame 15.png" alt="" />
             </div>
 
             <div style=" font-family: 'Public Sans', sans-serif;" class="mt-3 pl-2">
@@ -456,7 +530,7 @@
                 <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">GCV:</span>
                   17 MJ/kg
-                  <img class="ml-5" src="/assets/Frame 15.png" alt="" />
+                  <img class="ml-5 map-gcv info-pop" src="/assets/Frame 15.png" alt="" />
                 </p>
                 <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">Energy content:</span>
@@ -502,7 +576,7 @@
               <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
                 <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
               </h1>
-              <img class="ml-5" src="/assets/Frame 15.png" alt="" />
+              <img class="ml-5 map-case-study info-pop" src="/assets/Frame 15.png" alt="" />
             </div>
 
             <div style=" font-family: 'Public Sans', sans-serif;" class="mt-3 pl-2">
@@ -585,7 +659,7 @@
                 <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">GCV:</span>
                   46 MJ/kg
-                  <img class="ml-5" src="/assets/Frame 15.png" alt="" />
+                  <img class="ml-5 map-gcv info-pop" src="/assets/Frame 15.png" alt="" />
                 </p>
                 <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">Energy content:</span>
@@ -631,7 +705,7 @@
               <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
                 <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
               </h1>
-              <img class="ml-5" src="/assets/Frame 15.png" alt="" />
+              <img class="ml-5 map-case-study info-pop" src="/assets/Frame 15.png" alt="" />
             </div>
 
             <div style=" font-family: 'Public Sans', sans-serif;" class="mt-3 pl-2">
@@ -712,7 +786,7 @@
                 <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">GCV:</span>
                   N/A MJ/kg
-                  <img class="ml-5" src="/assets/Frame 15.png" alt="" />
+                  <img class="ml-5 map-gcv info-pop" src="/assets/Frame 15.png" alt="" />
                 </p>
                 <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">Energy content:</span>
@@ -758,7 +832,7 @@
               <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
                 <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
               </h1>
-              <img class="ml-5" src="/assets/Frame 15.png" alt="" />
+              <img class="ml-5 map-case-study info-pop" src="/assets/Frame 15.png" alt="" />
             </div>
 
             <div style=" font-family: 'Public Sans', sans-serif;" class="mt-3 pl-2">
@@ -1045,7 +1119,7 @@
               style="font-family: 'Poppins', sans-serif;"
               class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white mb-5 text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
-              Energy content <img class="ml-5" src="/assets/info.png" alt="" />
+              Energy content <img class="ml-5 calc-gcv info-pop" src="/assets/info.png" alt="" />
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
@@ -1058,7 +1132,7 @@
               style="font-family: 'Poppins', sans-serif;"
               class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white mb-5 text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
-              Heat produced <img class="ml-5" src="/assets/info.png" alt="" />
+              Heat produced <img class="ml-5 calc-heat-produced info-pop" src="/assets/info.png" alt="" />
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
@@ -1071,7 +1145,7 @@
               style="font-family: 'Poppins', sans-serif;"
               class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
-              Heat savings <img class="ml-5" src="/assets/info.png" alt="" />
+              Heat savings <img class="ml-5 calc-heat-savings info-pop" src="/assets/info.png" alt="" />
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
@@ -1085,7 +1159,7 @@
               style="font-family: 'Poppins', sans-serif;"
               class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white mb-5 text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
-              Electricity produced <img class="ml-5" src="/assets/info.png" alt="" />
+              Electricity produced <img class="ml-5 calc-electricity-produced info-pop" src="/assets/info.png" alt="" />
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
@@ -1098,7 +1172,7 @@
               style="font-family: 'Poppins', sans-serif;"
               class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
-              Electricity savings <img class="ml-5" src="/assets/info.png" alt="" />
+              Electrical savings <img class="ml-5 calc-electrical-savings info-pop" src="/assets/info.png" alt="" />
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
@@ -1112,7 +1186,7 @@
               style="font-family: 'Poppins', sans-serif;"
               class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
-              Char produced <img class="ml-5" src="/assets/info.png" alt="" />
+              Char produced <img class="ml-5 calc-char info-pop" src="/assets/info.png" alt="" />
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
