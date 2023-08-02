@@ -13,7 +13,59 @@
     p {
       font-size: 1.2rem;
     }
+    #titlevideo1 {
+      display: flex;
+      height: 400px;
+      padding: 30px 50px 50px 50px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      align-self: stretch;
+      z-index: 3;
+    }
+    #titlevideo2 {
+      background: linear-gradient(0deg, rgba(46, 56, 85, 0.4) 0%, rgba(46, 56, 85, 0.4) 100%);
+      height: 400px;
+      display: flex;
+      height: 400px;
+      padding: 30px 50px 50px 50px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      align-self: stretch;
+      z-index: 40;
+    }
+    #titlevideo1 video {
+      height: 200%;
+      z-index: 4;
+    }
+    #titlevideo2 h2 {
+      color: var(--white, #fff);
+      text-align: center;
+
+      /* Desktop/title XL */
+      font-family: Poppins;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 46px; /* 104.545% */
+      letter-spacing: 1.76px;
+      z-index: 6;
+    }
   </style>
+  <div class="w-4/6 mt-20">
+    <div class="rounded-3xl overflow-hidden mt-20">
+      <div class="w-full p-10 pr-36 bg-white justify-between" id="titlevideo1">
+        <video autoplay loop muted>
+          <source src="/assets/bg.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="w-full mt-[-400px] p-10 pr-36 bg-white justify-between" id="titlevideo2">
+        <h2 class="card-title text-4xl">Non-recycled waste is fuel.</h2>
+      </div>
+    </div>
+  </div>
+
   <div class="w-4/6 pt-10">
     <div class="flex rounded-3xl overflow-hidden mt-20">
       <div class="w-4/6 p-10 pr-36 bg-white flex flex-col justify-between">
@@ -73,7 +125,7 @@
         </a>
       </div>
       <div class="w-2/6 p-16 pr-30 pb-8 bg-white">
-        <img src="/assets/medres/best suited technology box.png" alt="" class="h-44" />
+        <img src="/assets/Calque_2.png" alt="" class="h-44" />
       </div>
     </div>
   </div>
@@ -97,7 +149,7 @@
                   <span>Take control</span>
                 </a>
                 <img
-                  src="/assets/medres/Learn about Power-from-Waste as a renewable box.png"
+                  src="/assets/Calque_1.png"
                   alt=""
                   style="margin-bottom:0px; margin-top:80px; margin-left: 0px; margin-right: 20px;"
                   class="h-48" />
@@ -123,7 +175,7 @@
                   <span>Save money now</span>
                 </a>
                 <img
-                  src="/assets/medres/Save costs box.png"
+                  src="/assets/Calque_3.png"
                   alt=""
                   style="margin-bottom:0px; margin-top:80px; margin-left: 0px; margin-right: 30px;"
                   class="h-48" />
@@ -151,15 +203,45 @@
         </a>
       </div>
       <div class="w-2/6 p-12 pr-30 bg-white">
-        <img src="/assets/medres/Minimise your environmental footprint.png" alt="" class="h-64" />
+        <img src="/assets/Calque_4.png" alt="" class="h-64" />
       </div>
     </div>
   </div>
 
   <div class="w-4/6">
-    <div class="flex rounded-3xl overflow-hidden mt-20">
+    <div class="flex-row rounded-3xl overflow-hidden mt-20">
+      <div class="w-full pr-28 bg-transparent justify-center text-center mb-5">
+        <h2
+          class="text-3xl card-title justify-center"
+          style="color: var(--green, #3F9378);
+text-align: center;
+
+/* Desktop/subtitle */
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.12px;
+text-transform: uppercase;">
+          start your journey with us
+        </h2>
+        <!-- <p class="pt-10">Select the right technology and start your project with just a few taps</p> -->
+      </div>
+
       <div class="w-full pr-30 bg-transparent justify-center text-center">
-        <h2 class="text-3xl card-title justify-center">
+        <h2
+          class="text-3xl card-title justify-center"
+          style="color: var(--pfp-navy, #2E3855);
+text-align: right;
+
+/* Desktop/title L */
+font-family: Poppins;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: 46px; /* 135.294% */
+letter-spacing: 0.68px;width: 700px;">
           Don't settle for second best, find your technology right here on this platform
         </h2>
         <!-- <p class="pt-10">Select the right technology and start your project with just a few taps</p> -->
@@ -169,20 +251,20 @@
 
   <div class="w-4/6">
     <div class="flex rounded-3xl overflow-hidden mt-20">
-      <div class="w-4/6 p-10 pr-36 bg-white flex flex-col justify-between">
+      <div class="w-4/6 p-10 pr-36 text-white bg-[#3F9378] flex flex-col justify-between">
         <h2 class="card-title text-3xl">
           Our cutting-edge technology matching service on this website helps you find the perfect solution
         </h2>
         <p class="pt-10">Discover how your business can tap into the potential of power-from-waste technology</p>
         <a
-          class="mt-10 w-60 p-4 hover:bg-pfp-green bg-pfp-orange rounded-lg flex justify-center items-center text-white tracking-wider"
+          class="mt-10 w-60 p-4 hover:bg-pfp-green bg-pfp-navy rounded-lg flex justify-center items-center text-white tracking-wider"
           href="/explore">
           <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
           <span>Explore our tools</span>
         </a>
       </div>
-      <div class="w-2/6 p-12 pr-30 bg-white">
-        <img src="/assets/medres/Investing in green energy box.png" alt="" class="h-52" />
+      <div class="w-2/6 p-12 pr-30 bg-[#3F9378]">
+        <img src="/assets/Calque_5.png" alt="" class="h-52" />
       </div>
     </div>
   </div>
