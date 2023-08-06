@@ -24,24 +24,7 @@ export const header: HeaderConfig = {
     },
     {
       text: 'About us',
-      children: [
-        {
-          text: 'Our purpose & mission',
-          link: '/about/mission'
-        },
-        {
-          text: 'Meet the team',
-          link: '/about/team'
-        },
-        {
-          text: 'Collaboration Partners',
-          link: '/about/partners'
-        },
-        {
-          text: 'Customer Testimonials',
-          link: '/about/testimonials'
-        }
-      ]
+      link: '/about'
     },
     {
       text: 'Green energy',
