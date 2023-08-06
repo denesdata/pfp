@@ -9,6 +9,7 @@
   import Header from '$lib/components/header.svelte'
   import Transition from '$lib/components/transition.svelte'
   import About from '$lib/components/new_about_us.svelte'
+  import Green from '$lib/components/new_green_energy.svelte'
   import Explore from '$lib/components/explore.svelte'
   import Blog from '$lib/components/news.svelte'
   import 'uno.css'
@@ -47,6 +48,8 @@
     <Explore />
   {:else if path == '/about' || path == '/about/'}
     <About />
+  {:else if path == '/green-energy' || path == '/green-energy/'}
+    <Green />
   {:else}
     <!-- {path.split('/')[1]} -->
     <slot />

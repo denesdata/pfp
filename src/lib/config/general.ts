@@ -28,28 +28,7 @@ export const header: HeaderConfig = {
     },
     {
       text: 'Green energy',
-      children: [
-        {
-          text: 'Investing in green energy',
-          link: '/green-energy/investing'
-        },
-        {
-          text: 'Power from non-recycled waste | The New Renewable',
-          link: '/green-energy/new-renewable'
-        },
-        {
-          text: 'Solar',
-          link: '/green-energy/solar'
-        },
-        {
-          text: 'Wind',
-          link: '/green-energy/wind'
-        },
-        {
-          text: 'Energy Storage',
-          link: '/green-energy/energy-storage'
-        }
-      ]
+      link: '/green-energy'
     },
     {
       text: 'Resources',
