@@ -29,6 +29,8 @@ export default {
       },
       fontFamily: {
         sans: ['Public Sans', 'Roboto', 'sans-serif'],
+        PublicSans: ['Public Sans', 'Roboto', 'sans-serif'],
+        Poppins: ['Poppins', 'Roboto', 'sans-serif'],
       }
     },
   },

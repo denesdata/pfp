@@ -141,9 +141,9 @@
       font-size: 1.2rem;
     }
   </style>
-  <div class="h-full w-2/3">
+  <div class="h-full mw-[1060px]">
     <!-- ===================after landing page =================== -->
-    <section>
+    <section class="w-[1530px]">
       <div class="flex rounded-2xl overflow-hidden mt-12">
         <div class="w-3/5 p-10 pr-12 bg-white">
           <h2 class="uppercase pb-5 text-pfp-green font-bold">Exploration station</h2>
@@ -485,7 +485,7 @@
                     Start your project
                   </button>
                 </a>
-                <a href="/green-energy/new-renewable/">
+                <a href="/green-energy/">
                   <button
                     type="button"
                     style=" font-family: 'Public Sans', sans-serif;"
@@ -614,7 +614,7 @@
                     Start your project
                   </button>
                 </a>
-                <a href="/green-energy/new-renewable/">
+                <a href="/green-energy/">
                   <button
                     type="button"
                     style=" font-family: 'Public Sans', sans-serif;"
@@ -741,7 +741,7 @@
                     Start your project
                   </button>
                 </a>
-                <a href="/green-energy/new-renewable/">
+                <a href="/green-energy/">
                   <button
                     type="button"
                     style=" font-family: 'Public Sans', sans-serif;"
@@ -868,7 +868,7 @@
                     Start your project
                   </button>
                 </a>
-                <a href="/green-energy/new-renewable/">
+                <a href="/green-energy/">
                   <button
                     type="button"
                     style=" font-family: 'Public Sans', sans-serif;"
@@ -1309,7 +1309,7 @@
           <a
             id="call-button2"
             class="duration-300 transform -translate-x-full opacity-0 font-bold mt-16 ml-1 w-[350px] p-4 hover:bg-pfp-green bg-pfp-navy rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
-            href="/green-energy/new-renewable/">
+            href="/green-energy/">
             <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
             <span>Learn more</span>
           </a>

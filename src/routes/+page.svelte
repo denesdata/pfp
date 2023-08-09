@@ -9,7 +9,7 @@
   import Footer from '$lib/components/footer.svelte'
   import Post from '$lib/components/post_card.svelte'
   import Profile from '$lib/components/index_profile.svelte'
-  import Home from '$lib/components/home.svelte'
+  import Home from '$lib/components/home_generated.svelte'
   import MiniDash from '$lib/components/minidash.svelte'
   import Landing from '$lib/components/landing.svelte'
 
