@@ -1,245 +1,202 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://data.csaladen.es//</id>
-  <title><![CDATA[Romanian Economic Monitor]]></title>
-  <subtitle><![CDATA[Overview of the Romanian economy: facts and forecasts]]></subtitle>
-  <icon>https://data.csaladen.es//favicon.png</icon>
-  <link href="https://data.csaladen.es/" />
-  <link href="https://data.csaladen.es//atom.xml" rel="self" type="application/atom+xml" />
-  <updated>2023-03-24T12:23:31.905Z</updated>
+  <id>https://powerforplanet.com//</id>
+  <title><![CDATA[Power for Planet title]]></title>
+  <subtitle><![CDATA[Power for Planet subtitle]]></subtitle>
+  <icon>https://powerforplanet.com//favicon.png</icon>
+  <link href="https://powerforplanet.com/" />
+  <link href="https://powerforplanet.com//atom.xml" rel="self" type="application/atom+xml" />
+  <updated>2023-08-09T09:34:42.018Z</updated>
   <author>
     <name><![CDATA[Power for Planet]]></name>
   </author>
-  <category term="Facebook" scheme="https://data.csaladen.es//?tags=Facebook" />
-  <category term="inflation" scheme="https://data.csaladen.es//?tags=inflation" />
-  <category term="Urara" scheme="https://data.csaladen.es//?tags=Urara" />
-  <category term="Elements" scheme="https://data.csaladen.es//?tags=Elements" />
-  <category term="one" scheme="https://data.csaladen.es//?tags=one" />
-  <category term="two" scheme="https://data.csaladen.es//?tags=two" />
-  <category term="project" scheme="https://data.csaladen.es//?tags=project" />
+  <category term="News" scheme="https://powerforplanet.com//?tags=News" />
+  <category term="Blog" scheme="https://powerforplanet.com//?tags=Blog" />
+  <category term="Future" scheme="https://powerforplanet.com//?tags=Future" />
+  <category term="Non-Recyclable Waste" scheme="https://powerforplanet.com//?tags=Non-Recyclable%20Waste" />
+  <category term="Waste into Energy" scheme="https://powerforplanet.com//?tags=Waste%20into%20Energy" />
+  <category term="Green energy" scheme="https://powerforplanet.com//?tags=Green%20energy" />
+  <category term="Financial options" scheme="https://powerforplanet.com//?tags=Financial%20options" />
+  <category term="Contact" scheme="https://powerforplanet.com//?tags=Contact" />
+  <category term="Meet" scheme="https://powerforplanet.com//?tags=Meet" />
+  <category term="Book" scheme="https://powerforplanet.com//?tags=Book" />
+  <category term="Resources" scheme="https://powerforplanet.com//?tags=Resources" />
+  <category term="Case studies" scheme="https://powerforplanet.com//?tags=Case%20studies" />
+  <category term="Success stories" scheme="https://powerforplanet.com//?tags=Success%20stories" />
+  <category term="Policy" scheme="https://powerforplanet.com//?tags=Policy" />
+  <category term="Governance" scheme="https://powerforplanet.com//?tags=Governance" />
+  <category term="Laws" scheme="https://powerforplanet.com//?tags=Laws" />
+  <category term="Articles" scheme="https://powerforplanet.com//?tags=Articles" />
+  <category term="Research" scheme="https://powerforplanet.com//?tags=Research" />
   <entry>
-    <title type="html"><![CDATA[Downward trend in the annual rate of inflation]]></title>
-    <link href="https://data.csaladen.es//blog/post1" />
-    <id>https://data.csaladen.es//blog/post1</id>
+    <title type="html"><![CDATA[How Non-Recyclable Waste Can Help Fuel the Future]]></title>
+    <link href="https://powerforplanet.com//how-non-recyclable-waste-can-help-fuel-the-future" />
+    <id>https://powerforplanet.com//how-non-recyclable-waste-can-help-fuel-the-future</id>
     <published>2023-03-24T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.364Z</updated>
+    <updated>2023-08-09T09:33:49.152Z</updated>
     <content type="html">
-      <![CDATA[<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRoEconMonitor%2Fposts%2Fpfbid0h7QZgZnXgnN3h3DeBK6aQfgpt2m8UHeG5HeicmbavLyuQUgzWA7eq9XApLVh2M1Al&show_text=true&width=500" width="100%" height="695" scrolling="no" frameborder="1" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>]]>
+      <![CDATA[<p>Do you know that non-recyclable waste can be transformed into a valuable energy source? By using a range of innovative technologies, waste-to-energy (WTE) facilities can turn waste into electricity, heat, or fuel. Here’s a closer look at how this process works and the types of waste that can be used for energy production.  </p><p>WTE facilities use various processes to convert waste into energy, such as incineration, gasification, and pyrolysis. The most common technology used is incineration, where waste is burned at high temperatures to generate steam, which drives turbines to produce electricity.  </p><p>Gasification and pyrolysis technologies heat waste at high temperatures in the absence of oxygen to produce synthetic gas, oil, or char. The synthetic gas can be used to fuel gas turbines to produce electricity, while the oil and char can be used for other purposes, such as heating.  </p><p>Now, what types of waste can be used for energy production? Most non-recyclable waste, including municipal solid waste (MSW), industrial waste, and medical waste, can be processed at WTE facilities. MSW typically includes food waste, plastics, paper, and textiles, which can be burned to generate electricity. Industrial waste includes construction debris, wood waste, and manufacturing waste, which can also be used for energy production.  </p><p>Medical waste, on the other hand, requires specialized treatment due to its hazardous nature. WTE facilities equipped with advanced technologies can convert medical waste into energy safely, minimizing the risk of contamination.  </p><p>WTE facilities offer several benefits, including reducing the volume of waste that ends up in landfills, generating renewable energy, and reducing greenhouse gas emissions. These facilities can also help address the challenges of waste management, particularly in densely populated areas, where landfills are often located far away.  </p><p>In conclusion, non-recyclable waste can be transformed into a valuable energy source through WTE facilities that use various technologies to produce electricity, heat, and fuel. By converting waste into energy, we can reduce the amount of waste sent to landfills, generate renewable energy, and address the challenges of waste management. It’s a win-win solution that benefits both the environment and the economy.</p>]]>
     </content>
-    <category term="Facebook" scheme="https://data.csaladen.es//?tags=Facebook" />
-    <category term="inflation" scheme="https://data.csaladen.es//?tags=inflation" />
+    <category term="News" scheme="https://powerforplanet.com//?tags=News" />
+    <category term="Blog" scheme="https://powerforplanet.com//?tags=Blog" />
+    <category term="Future" scheme="https://powerforplanet.com//?tags=Future" />
+    <category term="Non-Recyclable Waste" scheme="https://powerforplanet.com//?tags=Non-Recyclable%20Waste" />
   </entry>
   <entry>
-    <title type="html"><![CDATA[Contact]]></title>
-    <link href="https://data.csaladen.es//contact" />
-    <id>https://data.csaladen.es//contact</id>
+    <title type="html"><![CDATA[How Non-Recyclable Waste Can Help Fuel the Future]]></title>
+    <link href="https://powerforplanet.com//news/how-non-recyclable-waste-can-help-fuel-the-future" />
+    <id>https://powerforplanet.com//news/how-non-recyclable-waste-can-help-fuel-the-future</id>
     <published>2023-03-24T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.364Z</updated>
+    <updated>2023-08-09T09:33:49.152Z</updated>
     <content type="html">
-      <![CDATA[<h2 id="headings"><a href="#headings">Headings</a></h2><h3 id="heading"><a href="#heading">Heading</a></h3><h4 id="heading-1"><a href="#heading-1">Heading</a></h4><h5 id="heading-2"><a href="#heading-2">Heading</a></h5><h6 id="heading-3"><a href="#heading-3">Heading</a></h6><hr><iframe height="740" width="100%" frameborder="0" allowfullscreen="" src="https://roem-html.csaladen.es/panels/mapbox8.html#EN&dark&3&2022-06-13"></iframe><h2 id="paragraphs"><a href="#paragraphs">Paragraphs</a></h2><p><span class="spoiler">spoiler</span></p><p><strong><em>The</em></strong> <em>quick</em> <u>brown</u> <a href="https://www.foxnews.com/" rel="nofollow noopener noreferrer external" target="_blank">fox</a> <code>jumps</code> <del>over</del> the lazy <strong>dog</strong>.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>建格的何另始養離腳合兒現各談花車是都無處與費別、信善行修覺自！壓總談下市率應次司公母兒用什一線送用標地倒直作任老數年白安足個後引使名隊懷持日落異今特族？</p><p>一士我像衣買了人義，計念？</p><p>期老外並中般灣作各現初知強車我的品式企國立市它北待不型師文人注信方，各成能久，然的孩界，他事應在創灣字母寫麼，會不作散際，學節水……全當名己會天還著行多是生如內他道了家至種樣見景時一……區行水影。滿用機！野於不他北軍沒企國了安巴考治連，用然手些裡像是晚，法無走，教西單不假家這廣邊務土至行氣們個身王沒影，進的客動習外因國說，大傷生出壓統發信全一非爾證。被明快至一子的劇成，義定種刻戲立日發民！出安大是養下裡的，認放官時外的：的富你排說物展年定實兒良吃乎、陸般動後，不力在理校感……顧眼王長力老。</p><p>重多一？生光聯……動說麼了：起形市般我題臉事級。</p><blockquote><p>In solitude, where we are least alone.</p></blockquote><p>私は絶対いよいよ漠然たる相当心に対してはずの他にできるならな。けっして今に養成めも何だか漠然たる仕事たないだけにしからならでをは話安んずるないですて、わざわざには聴いましたなけれた。権力を気がつきなのはどうしても先刻が毫もらしくでう。</p><p>ようやく嘉納さんに供獄とても承諾をやるでしょ習慣その主義それか攻撃にに対してお関係でたあるですと、その今は俺か釣竿頭に喜ぶば、嘉納さんののより考のそれをよくごふりと云ってあなた一団がお融和へ見えようにまあご経験にしずませば、とうとうもっとも誤解になるたでいるないのを思っですた。しかもしかしながら大首へする気もずいぶん美味と移ろたて、この言葉にもいうですてってがたにしてしまえたない。この限り時代のためその学校も私上を吹き込んんかと大森さんをしなませ、人の今日んというご講義ただですば、晩の時で長靴が始めだけの時代に前もっでいて、どうの今日が思えばそのためとあたかも足りんなとしだ事でが、ないますなて少し実職業いでし事だろたませ。</p><p>さて学校か不幸か話に教えですけれども、今中力が起るて得るですためがご講演の今に訊かたです。多年をはどうしても思うでいうんたずでと、まるで何とも繰り返しが周旋はさっそく悪いうので。</p><p><a href="#headings">scrollToTop</a></p><hr><h2 id="lists"><a href="#lists">Lists</a></h2><h3 id="definition-list-dl"><a href="#definition-list-dl">Definition List (dl)</a></h3><dl><dt>Definition List Title</dt><dd>This is a definition list division.</dd></dl><h3 id="ordered-list-ol"><a href="#ordered-list-ol">Ordered List (ol)</a></h3><ol><li>List Item 1</li><li>List Item 2</li><li>List Item 3</li></ol><h3 id="unordered-list-ul"><a href="#unordered-list-ul">Unordered List (ul)</a></h3><ul><li>List Item 1</li><li>List Item 2</li><li>List Item 3</li></ul><h3 id="checkbox-list-ul"><a href="#checkbox-list-ul">Checkbox List (ul)</a></h3><ul class="contains-task-list"><li class="task-list-item"><input type="checkbox" disabled> List Item 1 unchecked</li><li class="task-list-item"><input type="checkbox" checked disabled> List Item 2 checked</li><li class="task-list-item"><input type="checkbox" checked disabled> List Item 3 checked</li></ul><h2 id="table"><a href="#table">Table</a></h2><div class="overflow-x-auto mb-4"><table class="table w-full"><thead><tr><th>Table Header 1</th><th>Table Header 2</th><th>Table Header 3</th></tr></thead><tbody><tr><td>Division 1</td><td>Division 2</td><td>Division 3</td></tr><tr><td>Division 1</td><td>Division 2</td><td>Division 3</td></tr><tr><td>Division 1</td><td>Division 2</td><td>Division 3</td></tr></tbody></table></div><div class="overflow-x-auto mb-4"><table class="table w-full"><thead><tr><th align="left">Table Header 1</th><th align="center">Table Header 2</th><th align="right">Table Header 3</th></tr></thead><tbody><tr><td align="left">Division 1</td><td align="center">Division 2</td><td align="right">Division 3</td></tr><tr><td align="left">Division 1</td><td align="center">Division 2</td><td align="right">Division 3</td></tr><tr><td align="left">Division 1</td><td align="center">Division 2</td><td align="right">Division 3</td></tr></tbody></table></div><p><a href="#headings">scrollToTop</a></p><h2 id="footnotes"><a href="#footnotes">Footnotes</a></h2><p>Here is a footnote reference. <sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup></p><p>This is a long note. <sup id="fnref-longnote"><a href="#fn-longnote" class="footnote-ref">longnote</a></sup></p><p>This is an inline note. <sup id="fnref-2"><a href="#fn-2" class="footnote-ref">2</a></sup></p><p><a href="#headings">scrollToTop</a></p><h2 id="code"><a href="#code">Code</a></h2><!-- HTML_TAG_START --><pre class="shiki material-default with-title twoslash lsp" ts="true" title="examples/index.ts"><div class='code-title'>examples/index.ts</div><div class="language-id">ts</div><div class='code-container'><code><div class='line'>for (let <data-lsp lsp='let x: string' >x</data-lsp> in [0]) <data-lsp lsp='var console: Console' >console</data-lsp>.<data-lsp lsp='(method) Console.log(...data: any[]): void' >log</data-lsp>(<data-lsp lsp='let x: string' >x</data-lsp>)</div></code></div></pre><!-- HTML_TAG_END --><!-- HTML_TAG_START --><pre class="shiki material-default twoslash lsp" ts="true"><div class="language-id">ts</div><div class='code-container'><code><div class='line highlight'>interface IdLabel &#123;</div><div class='line highlight'>  id: number /* some fields */</div><div class='line highlight'>&#125;</div><div class='line highlight'>interface NameLabel &#123;</div><div class='line highlight'>  name<data-lsp lsp='let a: NameLabel' ></data-lsp>: string /* other fields */</div><div class='line highlight'>&#125;</div><div class='line dim'>type NameOrId&lt;T extends number | string&gt; = T extends number ? IdLabel : NameLabel</div><div class='line dim'>// This comment should not be included</div><div class='line dim'>&nbsp;</div><div class='line dim'>// ---cut---</div><div class='line dim'>function createLabel&lt;T extends number | string&gt;(idOrName: T): NameOrId&lt;T&gt; &#123;</div><div class='line dim'>  throw &apos;unimplemented&apos;</div><div class='line dim'>&#125;</div><div class='line dim'>&nbsp;</div><div class='line dim'>let a = createLabel(&apos;typescript&apos;)</div></code></div></pre><!-- HTML_TAG_END --><h2 id="misc"><a href="#misc">Misc</a></h2><sup>Lorem</sup> <sub>ipsum</sub> <cite>dolor sit amet</cite>, <acronym title="Consectetur Adipiscing Elit">consectetur adipiscing elit</acronym>, <abbr title="Aliqua">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</abbr>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br><p>リバースカードオープン、エネミーコントローラー！</p><p>ライフを 1000 払い、コマンド入力、<kbd>←</kbd> <kbd>→</kbd> <kbd>A</kbd> <kbd>B</kbd>！</p><p>このコマンドにより、全てのアニヲタを破壊する！</p><p><a href="#headings">scrollToTop</a></p><h2 id="svelte-components"><a href="#svelte-components">Svelte Components</a></h2><div data-testid="general-observer"></div><br><div data-testid="general-observer"></div><br><div data-testid="general-observer"></div><div class="footnotes"><hr><ol><li id="fn-1">Here is the footnote.<a href="#fnref-1" class="footnote-backref">↩</a></li><li id="fn-longnote">Here’s one footnote with longer identifier.<a href="#fnref-longnote" class="footnote-backref">↩</a></li><li id="fn-2">You can type footnotes inline, so you don’t have to pick an identifier manually.<a href="#fnref-2" class="footnote-backref">↩</a></li></ol></div>]]>
+      <![CDATA[<p>Do you know that non-recyclable waste can be transformed into a valuable energy source? By using a range of innovative technologies, waste-to-energy (WTE) facilities can turn waste into electricity, heat, or fuel. Here’s a closer look at how this process works and the types of waste that can be used for energy production.  </p><p>WTE facilities use various processes to convert waste into energy, such as incineration, gasification, and pyrolysis. The most common technology used is incineration, where waste is burned at high temperatures to generate steam, which drives turbines to produce electricity.  </p><p>Gasification and pyrolysis technologies heat waste at high temperatures in the absence of oxygen to produce synthetic gas, oil, or char. The synthetic gas can be used to fuel gas turbines to produce electricity, while the oil and char can be used for other purposes, such as heating.  </p><p>Now, what types of waste can be used for energy production? Most non-recyclable waste, including municipal solid waste (MSW), industrial waste, and medical waste, can be processed at WTE facilities. MSW typically includes food waste, plastics, paper, and textiles, which can be burned to generate electricity. Industrial waste includes construction debris, wood waste, and manufacturing waste, which can also be used for energy production.  </p><p>Medical waste, on the other hand, requires specialized treatment due to its hazardous nature. WTE facilities equipped with advanced technologies can convert medical waste into energy safely, minimizing the risk of contamination.  </p><p>WTE facilities offer several benefits, including reducing the volume of waste that ends up in landfills, generating renewable energy, and reducing greenhouse gas emissions. These facilities can also help address the challenges of waste management, particularly in densely populated areas, where landfills are often located far away.  </p><p>In conclusion, non-recyclable waste can be transformed into a valuable energy source through WTE facilities that use various technologies to produce electricity, heat, and fuel. By converting waste into energy, we can reduce the amount of waste sent to landfills, generate renewable energy, and address the challenges of waste management. It’s a win-win solution that benefits both the environment and the economy.</p>]]>
     </content>
-    <category term="Urara" scheme="https://data.csaladen.es//?tags=Urara" />
-    <category term="Elements" scheme="https://data.csaladen.es//?tags=Elements" />
+    <category term="News" scheme="https://powerforplanet.com//?tags=News" />
+    <category term="Blog" scheme="https://powerforplanet.com//?tags=Blog" />
+    <category term="Future" scheme="https://powerforplanet.com//?tags=Future" />
+    <category term="Non-Recyclable Waste" scheme="https://powerforplanet.com//?tags=Non-Recyclable%20Waste" />
   </entry>
   <entry>
-    <title type="html"><![CDATA[Explorables]]></title>
-    <link href="https://data.csaladen.es//explorables" />
-    <id>https://data.csaladen.es//explorables</id>
+    <title type="html"><![CDATA[The Challenges Facing the Power from Waste Industry]]></title>
+    <link href="https://powerforplanet.com//news/the-challenges-facing-the-power-from-waste-industry" />
+    <id>https://powerforplanet.com//news/the-challenges-facing-the-power-from-waste-industry</id>
     <published>2023-03-24T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.364Z</updated>
+    <updated>2023-08-09T09:33:49.152Z</updated>
     <content type="html">
-      <![CDATA[<h2 id="headings"><a href="#headings">Headings</a></h2><h3 id="heading"><a href="#heading">Heading</a></h3><h4 id="heading-1"><a href="#heading-1">Heading</a></h4><h5 id="heading-2"><a href="#heading-2">Heading</a></h5><h6 id="heading-3"><a href="#heading-3">Heading</a></h6><hr><img src="Frame 13.png"><h2 id="paragraphs"><a href="#paragraphs">Paragraphs</a></h2><p><span class="spoiler">spoiler</span></p><p><strong><em>The</em></strong> <em>quick</em> <u>brown</u> <a href="https://www.foxnews.com/" rel="nofollow noopener noreferrer external" target="_blank">fox</a> <code>jumps</code> <del>over</del> the lazy <strong>dog</strong>.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>建格的何另始養離腳合兒現各談花車是都無處與費別、信善行修覺自！壓總談下市率應次司公母兒用什一線送用標地倒直作任老數年白安足個後引使名隊懷持日落異今特族？</p><p>一士我像衣買了人義，計念？</p><p>期老外並中般灣作各現初知強車我的品式企國立市它北待不型師文人注信方，各成能久，然的孩界，他事應在創灣字母寫麼，會不作散際，學節水……全當名己會天還著行多是生如內他道了家至種樣見景時一……區行水影。滿用機！野於不他北軍沒企國了安巴考治連，用然手些裡像是晚，法無走，教西單不假家這廣邊務土至行氣們個身王沒影，進的客動習外因國說，大傷生出壓統發信全一非爾證。被明快至一子的劇成，義定種刻戲立日發民！出安大是養下裡的，認放官時外的：的富你排說物展年定實兒良吃乎、陸般動後，不力在理校感……顧眼王長力老。</p><p>重多一？生光聯……動說麼了：起形市般我題臉事級。</p><blockquote><p>In solitude, where we are least alone.</p></blockquote><p>私は絶対いよいよ漠然たる相当心に対してはずの他にできるならな。けっして今に養成めも何だか漠然たる仕事たないだけにしからならでをは話安んずるないですて、わざわざには聴いましたなけれた。権力を気がつきなのはどうしても先刻が毫もらしくでう。</p><p>ようやく嘉納さんに供獄とても承諾をやるでしょ習慣その主義それか攻撃にに対してお関係でたあるですと、その今は俺か釣竿頭に喜ぶば、嘉納さんののより考のそれをよくごふりと云ってあなた一団がお融和へ見えようにまあご経験にしずませば、とうとうもっとも誤解になるたでいるないのを思っですた。しかもしかしながら大首へする気もずいぶん美味と移ろたて、この言葉にもいうですてってがたにしてしまえたない。この限り時代のためその学校も私上を吹き込んんかと大森さんをしなませ、人の今日んというご講義ただですば、晩の時で長靴が始めだけの時代に前もっでいて、どうの今日が思えばそのためとあたかも足りんなとしだ事でが、ないますなて少し実職業いでし事だろたませ。</p><p>さて学校か不幸か話に教えですけれども、今中力が起るて得るですためがご講演の今に訊かたです。多年をはどうしても思うでいうんたずでと、まるで何とも繰り返しが周旋はさっそく悪いうので。</p><p><a href="#headings">scrollToTop</a></p><hr><h2 id="lists"><a href="#lists">Lists</a></h2><h3 id="definition-list-dl"><a href="#definition-list-dl">Definition List (dl)</a></h3><dl><dt>Definition List Title</dt><dd>This is a definition list division.</dd></dl><h3 id="ordered-list-ol"><a href="#ordered-list-ol">Ordered List (ol)</a></h3><ol><li>List Item 1</li><li>List Item 2</li><li>List Item 3</li></ol><h3 id="unordered-list-ul"><a href="#unordered-list-ul">Unordered List (ul)</a></h3><ul><li>List Item 1</li><li>List Item 2</li><li>List Item 3</li></ul><h3 id="checkbox-list-ul"><a href="#checkbox-list-ul">Checkbox List (ul)</a></h3><ul class="contains-task-list"><li class="task-list-item"><input type="checkbox" disabled> List Item 1 unchecked</li><li class="task-list-item"><input type="checkbox" checked disabled> List Item 2 checked</li><li class="task-list-item"><input type="checkbox" checked disabled> List Item 3 checked</li></ul><h2 id="table"><a href="#table">Table</a></h2><div class="overflow-x-auto mb-4"><table class="table w-full"><thead><tr><th>Table Header 1</th><th>Table Header 2</th><th>Table Header 3</th></tr></thead><tbody><tr><td>Division 1</td><td>Division 2</td><td>Division 3</td></tr><tr><td>Division 1</td><td>Division 2</td><td>Division 3</td></tr><tr><td>Division 1</td><td>Division 2</td><td>Division 3</td></tr></tbody></table></div><div class="overflow-x-auto mb-4"><table class="table w-full"><thead><tr><th align="left">Table Header 1</th><th align="center">Table Header 2</th><th align="right">Table Header 3</th></tr></thead><tbody><tr><td align="left">Division 1</td><td align="center">Division 2</td><td align="right">Division 3</td></tr><tr><td align="left">Division 1</td><td align="center">Division 2</td><td align="right">Division 3</td></tr><tr><td align="left">Division 1</td><td align="center">Division 2</td><td align="right">Division 3</td></tr></tbody></table></div><p><a href="#headings">scrollToTop</a></p><h2 id="footnotes"><a href="#footnotes">Footnotes</a></h2><p>Here is a footnote reference. <sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup></p><p>This is a long note. <sup id="fnref-longnote"><a href="#fn-longnote" class="footnote-ref">longnote</a></sup></p><p>This is an inline note. <sup id="fnref-2"><a href="#fn-2" class="footnote-ref">2</a></sup></p><p><a href="#headings">scrollToTop</a></p><h2 id="code"><a href="#code">Code</a></h2><!-- HTML_TAG_START --><pre class="shiki material-default with-title twoslash lsp" ts="true" title="examples/index.ts"><div class='code-title'>examples/index.ts</div><div class="language-id">ts</div><div class='code-container'><code><div class='line'>for (let <data-lsp lsp='let x: string' >x</data-lsp> in [0]) <data-lsp lsp='var console: Console' >console</data-lsp>.<data-lsp lsp='(method) Console.log(...data: any[]): void' >log</data-lsp>(<data-lsp lsp='let x: string' >x</data-lsp>)</div></code></div></pre><!-- HTML_TAG_END --><!-- HTML_TAG_START --><pre class="shiki material-default twoslash lsp" ts="true"><div class="language-id">ts</div><div class='code-container'><code><div class='line highlight'>interface IdLabel &#123;</div><div class='line highlight'>  id: number /* some fields */</div><div class='line highlight'>&#125;</div><div class='line highlight'>interface NameLabel &#123;</div><div class='line highlight'>  name<data-lsp lsp='let a: NameLabel' ></data-lsp>: string /* other fields */</div><div class='line highlight'>&#125;</div><div class='line dim'>type NameOrId&lt;T extends number | string&gt; = T extends number ? IdLabel : NameLabel</div><div class='line dim'>// This comment should not be included</div><div class='line dim'>&nbsp;</div><div class='line dim'>// ---cut---</div><div class='line dim'>function createLabel&lt;T extends number | string&gt;(idOrName: T): NameOrId&lt;T&gt; &#123;</div><div class='line dim'>  throw &apos;unimplemented&apos;</div><div class='line dim'>&#125;</div><div class='line dim'>&nbsp;</div><div class='line dim'>let a = createLabel(&apos;typescript&apos;)</div></code></div></pre><!-- HTML_TAG_END --><h2 id="misc"><a href="#misc">Misc</a></h2><sup>Lorem</sup> <sub>ipsum</sub> <cite>dolor sit amet</cite>, <acronym title="Consectetur Adipiscing Elit">consectetur adipiscing elit</acronym>, <abbr title="Aliqua">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</abbr>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br><p>リバースカードオープン、エネミーコントローラー！</p><p>ライフを 1000 払い、コマンド入力、<kbd>←</kbd> <kbd>→</kbd> <kbd>A</kbd> <kbd>B</kbd>！</p><p>このコマンドにより、全てのアニヲタを破壊する！</p><p><a href="#headings">scrollToTop</a></p><h2 id="svelte-components"><a href="#svelte-components">Svelte Components</a></h2><div data-testid="general-observer"></div><br><div data-testid="general-observer"></div><br><div data-testid="general-observer"></div><div class="footnotes"><hr><ol><li id="fn-1">Here is the footnote.<a href="#fnref-1" class="footnote-backref">↩</a></li><li id="fn-longnote">Here’s one footnote with longer identifier.<a href="#fnref-longnote" class="footnote-backref">↩</a></li><li id="fn-2">You can type footnotes inline, so you don’t have to pick an identifier manually.<a href="#fnref-2" class="footnote-backref">↩</a></li></ol></div>]]>
+      <![CDATA[<p>The power from waste industry has made significant strides in recent years, but there are still challenges that need to be addressed. Here are some of the most pressing challenges facing the industry today:  </p><h2 id="public-perception"><a href="#public-perception">Public Perception</a></h2><p>One of the biggest challenges facing the power from waste industry is public perception. Many people still associate waste incineration with pollution and hazardous emissions. However, modern waste-to-energy facilities use advanced technologies that are designed to minimize emissions and protect the environment.  </p><p>To overcome this challenge, the industry needs to engage with the public and increase awareness about the benefits of waste-to-energy. This can be achieved through community outreach programs and educational campaigns.</p><h2 id="technology-challenges"><a href="#technology-challenges">Technology Challenges</a></h2><p>Another challenge facing the power from waste industry is technology. While there have been significant advances in waste-to-energy technology, there is still room for improvement. Some of the key areas where technology needs to evolve include waste sorting, emissions control, and energy efficiency.  </p><p>To address these challenges, the industry needs to invest in research and development to develop new and more effective technologies. Additionally, there needs to be more collaboration between industry stakeholders, technology developers, and regulatory bodies.</p><h2 id="regulatorylegal-challenges"><a href="#regulatorylegal-challenges">Regulatory/Legal Challenges</a></h2><p>Finally, the power from waste industry is also facing regulatory and legal challenges. The industry is heavily regulated, and there are strict rules and regulations governing waste disposal and emissions control. These regulations can be challenging to navigate, particularly for smaller operators.  </p><p>To address these challenges, the industry needs to work closely with regulatory bodies and policymakers to ensure that the rules and regulations are fair and effective. There also needs to be more clarity around the regulations, particularly around waste classification and emissions limits.  </p><p>In conclusion, the power from waste industry is facing several challenges that need to be addressed. Public perception, technology, and regulatory challenges are some of the key issues that need to be tackled. By working together, the industry can overcome these challenges and continue to make progress towards a more sustainable future.</p>]]>
     </content>
-    <category term="Urara" scheme="https://data.csaladen.es//?tags=Urara" />
-    <category term="Elements" scheme="https://data.csaladen.es//?tags=Elements" />
+    <category term="News" scheme="https://powerforplanet.com//?tags=News" />
+    <category term="Blog" scheme="https://powerforplanet.com//?tags=Blog" />
+    <category term="Waste into Energy" scheme="https://powerforplanet.com//?tags=Waste%20into%20Energy" />
   </entry>
   <entry>
-    <title type="html"><![CDATA[Resources]]></title>
-    <link href="https://data.csaladen.es//resources" />
-    <id>https://data.csaladen.es//resources</id>
+    <title type="html"><![CDATA[The Challenges Facing the Power from Waste Industry]]></title>
+    <link href="https://powerforplanet.com//the-challenges-facing-the-power-from-waste-industry" />
+    <id>https://powerforplanet.com//the-challenges-facing-the-power-from-waste-industry</id>
     <published>2023-03-24T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.368Z</updated>
+    <updated>2023-08-09T09:33:49.152Z</updated>
     <content type="html">
-      <![CDATA[<h2 id="headings"><a href="#headings">Headings</a></h2><h3 id="heading"><a href="#heading">Heading</a></h3><h4 id="heading-1"><a href="#heading-1">Heading</a></h4><h5 id="heading-2"><a href="#heading-2">Heading</a></h5><h6 id="heading-3"><a href="#heading-3">Heading</a></h6><hr><iframe height="740" width="100%" frameborder="0" allowfullscreen="" src="https://roem-html.csaladen.es/panels/mapbox8.html#EN&dark&3&2022-06-13"></iframe><h2 id="paragraphs"><a href="#paragraphs">Paragraphs</a></h2><p><span class="spoiler">spoiler</span></p><p><strong><em>The</em></strong> <em>quick</em> <u>brown</u> <a href="https://www.foxnews.com/" rel="nofollow noopener noreferrer external" target="_blank">fox</a> <code>jumps</code> <del>over</del> the lazy <strong>dog</strong>.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>建格的何另始養離腳合兒現各談花車是都無處與費別、信善行修覺自！壓總談下市率應次司公母兒用什一線送用標地倒直作任老數年白安足個後引使名隊懷持日落異今特族？</p><p>一士我像衣買了人義，計念？</p><p>期老外並中般灣作各現初知強車我的品式企國立市它北待不型師文人注信方，各成能久，然的孩界，他事應在創灣字母寫麼，會不作散際，學節水……全當名己會天還著行多是生如內他道了家至種樣見景時一……區行水影。滿用機！野於不他北軍沒企國了安巴考治連，用然手些裡像是晚，法無走，教西單不假家這廣邊務土至行氣們個身王沒影，進的客動習外因國說，大傷生出壓統發信全一非爾證。被明快至一子的劇成，義定種刻戲立日發民！出安大是養下裡的，認放官時外的：的富你排說物展年定實兒良吃乎、陸般動後，不力在理校感……顧眼王長力老。</p><p>重多一？生光聯……動說麼了：起形市般我題臉事級。</p><blockquote><p>In solitude, where we are least alone.</p></blockquote><p>私は絶対いよいよ漠然たる相当心に対してはずの他にできるならな。けっして今に養成めも何だか漠然たる仕事たないだけにしからならでをは話安んずるないですて、わざわざには聴いましたなけれた。権力を気がつきなのはどうしても先刻が毫もらしくでう。</p><p>ようやく嘉納さんに供獄とても承諾をやるでしょ習慣その主義それか攻撃にに対してお関係でたあるですと、その今は俺か釣竿頭に喜ぶば、嘉納さんののより考のそれをよくごふりと云ってあなた一団がお融和へ見えようにまあご経験にしずませば、とうとうもっとも誤解になるたでいるないのを思っですた。しかもしかしながら大首へする気もずいぶん美味と移ろたて、この言葉にもいうですてってがたにしてしまえたない。この限り時代のためその学校も私上を吹き込んんかと大森さんをしなませ、人の今日んというご講義ただですば、晩の時で長靴が始めだけの時代に前もっでいて、どうの今日が思えばそのためとあたかも足りんなとしだ事でが、ないますなて少し実職業いでし事だろたませ。</p><p>さて学校か不幸か話に教えですけれども、今中力が起るて得るですためがご講演の今に訊かたです。多年をはどうしても思うでいうんたずでと、まるで何とも繰り返しが周旋はさっそく悪いうので。</p><p><a href="#headings">scrollToTop</a></p><hr><h2 id="lists"><a href="#lists">Lists</a></h2><h3 id="definition-list-dl"><a href="#definition-list-dl">Definition List (dl)</a></h3><dl><dt>Definition List Title</dt><dd>This is a definition list division.</dd></dl><h3 id="ordered-list-ol"><a href="#ordered-list-ol">Ordered List (ol)</a></h3><ol><li>List Item 1</li><li>List Item 2</li><li>List Item 3</li></ol><h3 id="unordered-list-ul"><a href="#unordered-list-ul">Unordered List (ul)</a></h3><ul><li>List Item 1</li><li>List Item 2</li><li>List Item 3</li></ul><h3 id="checkbox-list-ul"><a href="#checkbox-list-ul">Checkbox List (ul)</a></h3><ul class="contains-task-list"><li class="task-list-item"><input type="checkbox" disabled> List Item 1 unchecked</li><li class="task-list-item"><input type="checkbox" checked disabled> List Item 2 checked</li><li class="task-list-item"><input type="checkbox" checked disabled> List Item 3 checked</li></ul><h2 id="table"><a href="#table">Table</a></h2><div class="overflow-x-auto mb-4"><table class="table w-full"><thead><tr><th>Table Header 1</th><th>Table Header 2</th><th>Table Header 3</th></tr></thead><tbody><tr><td>Division 1</td><td>Division 2</td><td>Division 3</td></tr><tr><td>Division 1</td><td>Division 2</td><td>Division 3</td></tr><tr><td>Division 1</td><td>Division 2</td><td>Division 3</td></tr></tbody></table></div><div class="overflow-x-auto mb-4"><table class="table w-full"><thead><tr><th align="left">Table Header 1</th><th align="center">Table Header 2</th><th align="right">Table Header 3</th></tr></thead><tbody><tr><td align="left">Division 1</td><td align="center">Division 2</td><td align="right">Division 3</td></tr><tr><td align="left">Division 1</td><td align="center">Division 2</td><td align="right">Division 3</td></tr><tr><td align="left">Division 1</td><td align="center">Division 2</td><td align="right">Division 3</td></tr></tbody></table></div><p><a href="#headings">scrollToTop</a></p><h2 id="footnotes"><a href="#footnotes">Footnotes</a></h2><p>Here is a footnote reference. <sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup></p><p>This is a long note. <sup id="fnref-longnote"><a href="#fn-longnote" class="footnote-ref">longnote</a></sup></p><p>This is an inline note. <sup id="fnref-2"><a href="#fn-2" class="footnote-ref">2</a></sup></p><p><a href="#headings">scrollToTop</a></p><h2 id="code"><a href="#code">Code</a></h2><!-- HTML_TAG_START --><pre class="shiki material-default with-title twoslash lsp" ts="true" title="examples/index.ts"><div class='code-title'>examples/index.ts</div><div class="language-id">ts</div><div class='code-container'><code><div class='line'>for (let <data-lsp lsp='let x: string' >x</data-lsp> in [0]) <data-lsp lsp='var console: Console' >console</data-lsp>.<data-lsp lsp='(method) Console.log(...data: any[]): void' >log</data-lsp>(<data-lsp lsp='let x: string' >x</data-lsp>)</div></code></div></pre><!-- HTML_TAG_END --><!-- HTML_TAG_START --><pre class="shiki material-default twoslash lsp" ts="true"><div class="language-id">ts</div><div class='code-container'><code><div class='line highlight'>interface IdLabel &#123;</div><div class='line highlight'>  id: number /* some fields */</div><div class='line highlight'>&#125;</div><div class='line highlight'>interface NameLabel &#123;</div><div class='line highlight'>  name<data-lsp lsp='let a: NameLabel' ></data-lsp>: string /* other fields */</div><div class='line highlight'>&#125;</div><div class='line dim'>type NameOrId&lt;T extends number | string&gt; = T extends number ? IdLabel : NameLabel</div><div class='line dim'>// This comment should not be included</div><div class='line dim'>&nbsp;</div><div class='line dim'>// ---cut---</div><div class='line dim'>function createLabel&lt;T extends number | string&gt;(idOrName: T): NameOrId&lt;T&gt; &#123;</div><div class='line dim'>  throw &apos;unimplemented&apos;</div><div class='line dim'>&#125;</div><div class='line dim'>&nbsp;</div><div class='line dim'>let a = createLabel(&apos;typescript&apos;)</div></code></div></pre><!-- HTML_TAG_END --><h2 id="misc"><a href="#misc">Misc</a></h2><sup>Lorem</sup> <sub>ipsum</sub> <cite>dolor sit amet</cite>, <acronym title="Consectetur Adipiscing Elit">consectetur adipiscing elit</acronym>, <abbr title="Aliqua">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</abbr>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br><p>リバースカードオープン、エネミーコントローラー！</p><p>ライフを 1000 払い、コマンド入力、<kbd>←</kbd> <kbd>→</kbd> <kbd>A</kbd> <kbd>B</kbd>！</p><p>このコマンドにより、全てのアニヲタを破壊する！</p><p><a href="#headings">scrollToTop</a></p><h2 id="svelte-components"><a href="#svelte-components">Svelte Components</a></h2><div data-testid="general-observer"></div><br><div data-testid="general-observer"></div><br><div data-testid="general-observer"></div><div class="footnotes"><hr><ol><li id="fn-1">Here is the footnote.<a href="#fnref-1" class="footnote-backref">↩</a></li><li id="fn-longnote">Here’s one footnote with longer identifier.<a href="#fnref-longnote" class="footnote-backref">↩</a></li><li id="fn-2">You can type footnotes inline, so you don’t have to pick an identifier manually.<a href="#fnref-2" class="footnote-backref">↩</a></li></ol></div>]]>
+      <![CDATA[<p>The power from waste industry has made significant strides in recent years, but there are still challenges that need to be addressed. Here are some of the most pressing challenges facing the industry today:  </p><h2 id="public-perception"><a href="#public-perception">Public Perception</a></h2><p>One of the biggest challenges facing the power from waste industry is public perception. Many people still associate waste incineration with pollution and hazardous emissions. However, modern waste-to-energy facilities use advanced technologies that are designed to minimize emissions and protect the environment.  </p><p>To overcome this challenge, the industry needs to engage with the public and increase awareness about the benefits of waste-to-energy. This can be achieved through community outreach programs and educational campaigns.</p><h2 id="technology-challenges"><a href="#technology-challenges">Technology Challenges</a></h2><p>Another challenge facing the power from waste industry is technology. While there have been significant advances in waste-to-energy technology, there is still room for improvement. Some of the key areas where technology needs to evolve include waste sorting, emissions control, and energy efficiency.  </p><p>To address these challenges, the industry needs to invest in research and development to develop new and more effective technologies. Additionally, there needs to be more collaboration between industry stakeholders, technology developers, and regulatory bodies.</p><h2 id="regulatorylegal-challenges"><a href="#regulatorylegal-challenges">Regulatory/Legal Challenges</a></h2><p>Finally, the power from waste industry is also facing regulatory and legal challenges. The industry is heavily regulated, and there are strict rules and regulations governing waste disposal and emissions control. These regulations can be challenging to navigate, particularly for smaller operators.  </p><p>To address these challenges, the industry needs to work closely with regulatory bodies and policymakers to ensure that the rules and regulations are fair and effective. There also needs to be more clarity around the regulations, particularly around waste classification and emissions limits.  </p><p>In conclusion, the power from waste industry is facing several challenges that need to be addressed. Public perception, technology, and regulatory challenges are some of the key issues that need to be tackled. By working together, the industry can overcome these challenges and continue to make progress towards a more sustainable future.</p>]]>
     </content>
-    <category term="Urara" scheme="https://data.csaladen.es//?tags=Urara" />
-    <category term="Elements" scheme="https://data.csaladen.es//?tags=Elements" />
+    <category term="News" scheme="https://powerforplanet.com//?tags=News" />
+    <category term="Blog" scheme="https://powerforplanet.com//?tags=Blog" />
+    <category term="Waste into Energy" scheme="https://powerforplanet.com//?tags=Waste%20into%20Energy" />
   </entry>
   <entry>
-    <title type="html"><![CDATA[Prizes]]></title>
-    <link href="https://data.csaladen.es//about/prizes" />
-    <id>https://data.csaladen.es//about/prizes</id>
-    <published>2023-03-22T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.356Z</updated>
+    <title type="html"><![CDATA[Financial options]]></title>
+    <link href="https://powerforplanet.com//financial-options" />
+    <id>https://powerforplanet.com//financial-options</id>
+    <published>2023-03-21T00:00:00.000Z</published>
+    <updated>2023-08-09T09:33:49.152Z</updated>
     <content type="html">
-      <![CDATA[<p>Yes, we’ve got prizes 🏆</p>]]>
-    </content>undefined
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[Inflation with image]]></title>
-    <link href="https://data.csaladen.es//blog/post5" />
-    <id>https://data.csaladen.es//blog/post5</id>
-    <published>2023-02-01T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.364Z</updated>
-    <content type="html">
-      <![CDATA[<p>[RO] 💰📉 Economia României, precum și cea a Europei în general, a reușit treptat să găsească modalități de înlocuire a produselor și serviciilor afectate de război, inclusiv cele energetice. 👉 Astfel, presiunile pe piața mărfurilor s-au diminuat, ceea ce a condus la atingerea unui platou, iar luna Martie 2023 ar putea marca intrarea pe un trend descendent a ratei anuale a inflației.</p><p>[HU] 💰📉 A romániai, valamint az európai gazdaság fokozatosan kezdi megtalálni a háború által érintett termékek és szolgáltatások helyettesítésének a módját, beleértve az energetikai piacot is. 👉 Ezáltal az árupiacokra nehezedő nyomás csökkent, ami az infláció tetőzését eredményezte az elmúlt időszakban, március hónap pedig az éves inflációs ráta csökkentő trendjének kezdetét is elhozhatja.</p><p>[EN] 💰📉 The Romanian, but also the whole European economy, has gradually found alternatives to replace goods and services affected by the war, including energy products. 👉 Thus, pressures on product markets have eased, leading to a plateau in the evolution of inflation, while March 2023 could mark the beginning of a downward trend in the annual rate of inflation. Kevesebb jelenjen meg</p>]]>
+      <![CDATA[<p>If you’re in adopting a power-from-waste project to make use of your current waste and feedbackheat and electricity, there are several funding options available to cover the initial costs (CAPEX)required to take your project from feasibility to operation. These options include:</p><ul><li>Self-funding</li><li>Asset finance</li><li>Equity funding</li><li>Grants</li><li>Government subsidies</li><li>Carbon credits</li><li>Plastic creditsChoose the option that best fits your business needs and get your power-from-waste project off theground today.</li></ul>]]>
     </content>
-    <category term="inflation" scheme="https://data.csaladen.es//?tags=inflation" />
-    <category term="Facebook" scheme="https://data.csaladen.es//?tags=Facebook" />
+    <category term="Green energy" scheme="https://powerforplanet.com//?tags=Green%20energy" />
+    <category term="Financial options" scheme="https://powerforplanet.com//?tags=Financial%20options" />
   </entry>
   <entry>
-    <title type="html"><![CDATA[Inflation with Facebook embed]]></title>
-    <link href="https://data.csaladen.es//blog/post3" />
-    <id>https://data.csaladen.es//blog/post3</id>
-    <published>2023-01-01T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.364Z</updated>
+    <title type="html"><![CDATA[Financial options]]></title>
+    <link href="https://powerforplanet.com//resources/financial-options" />
+    <id>https://powerforplanet.com//resources/financial-options</id>
+    <published>2023-03-21T00:00:00.000Z</published>
+    <updated>2023-08-09T09:33:49.152Z</updated>
     <content type="html">
-      <![CDATA[<p>[RO] 💰📉 Economia României, precum și cea a Europei în general, a reușit treptat să găsească modalități de înlocuire a produselor și serviciilor afectate de război, inclusiv cele energetice. 👉 Astfel, presiunile pe piața mărfurilor s-au diminuat, ceea ce a condus la atingerea unui platou, iar luna Martie 2023 ar putea marca intrarea pe un trend descendent a ratei anuale a inflației.</p><p>[HU] 💰📉 A romániai, valamint az európai gazdaság fokozatosan kezdi megtalálni a háború által érintett termékek és szolgáltatások helyettesítésének a módját, beleértve az energetikai piacot is. 👉 Ezáltal az árupiacokra nehezedő nyomás csökkent, ami az infláció tetőzését eredményezte az elmúlt időszakban, március hónap pedig az éves inflációs ráta csökkentő trendjének kezdetét is elhozhatja.</p><p>[EN] 💰📉 The Romanian, but also the whole European economy, has gradually found alternatives to replace goods and services affected by the war, including energy products. 👉 Thus, pressures on product markets have eased, leading to a plateau in the evolution of inflation, while March 2023 could mark the beginning of a downward trend in the annual rate of inflation. Kevesebb jelenjen meg</p><iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRoEconMonitor%2Fposts%2Fpfbid0h7QZgZnXgnN3h3DeBK6aQfgpt2m8UHeG5HeicmbavLyuQUgzWA7eq9XApLVh2M1Al&width=700&show_text=false&appId=269625294416765&height=498" width="700" height="498" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>]]>
+      <![CDATA[<p>If you’re in adopting a power-from-waste project to make use of your current waste and feedbackheat and electricity, there are several funding options available to cover the initial costs (CAPEX)required to take your project from feasibility to operation. These options include:</p><ul><li>Self-funding</li><li>Asset finance</li><li>Equity funding</li><li>Grants</li><li>Government subsidies</li><li>Carbon credits</li><li>Plastic creditsChoose the option that best fits your business needs and get your power-from-waste project off theground today.</li></ul>]]>
     </content>
-    <category term="inflation" scheme="https://data.csaladen.es//?tags=inflation" />
-    <category term="Facebook" scheme="https://data.csaladen.es//?tags=Facebook" />
+    <category term="Green energy" scheme="https://powerforplanet.com//?tags=Green%20energy" />
+    <category term="Financial options" scheme="https://powerforplanet.com//?tags=Financial%20options" />
   </entry>
   <entry>
-    <title type="html"><![CDATA[Post 2]]></title>
-    <link href="https://data.csaladen.es//blog/post2" />
-    <id>https://data.csaladen.es//blog/post2</id>
-    <published>2021-12-02T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.364Z</updated>
+    <title type="html"><![CDATA[Contact Us]]></title>
+    <link href="https://powerforplanet.com//contact" />
+    <id>https://powerforplanet.com//contact</id>
+    <published>2023-02-24T00:00:00.000Z</published>
+    <updated>2023-08-09T09:33:49.152Z</updated>
     <content type="html">
-      <![CDATA[<p>P2</p>]]>
+      <![CDATA[<p><strong>Turn your green energy vision into reality, schedule a conversation with us at your convenience:</strong></p><h3 id="book-a-meeting-with-us"><a href="#book-a-meeting-with-us">Book a meeting with us</a></h3><iframe height="1100" width="100%" frameborder="0" allowfullscreen="" src="https://calendly.com/csaladenes-6ee/30min?hide_landing_page_details=1&hide_gdpr_banner=1&text_color=394e6a&primary_color=3f9378&back=1&month=2023-07" title="book"></iframe><h3 id="find-us"><a href="#find-us">Find us</a></h3><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" height="340" width="100%" src="https://maps.google.com/maps?q=78%20Pall%20Mall%2C%20St.%20James%27s%2C%20London%20SW1Y%205ES&t=m&z=10&output=embed&iwloc=near" title="78 Pall Mall, St. James's, London SW1Y 5ES" aria-label="78 Pall Mall, St. James's, London SW1Y 5ES"></iframe><hr><p><strong>Power for Planet</strong><br>78 Pall Mall<br>SW1Y 5ES<br>London, United Kingdom  </p><p>+44 7796 302 102</p><a href="mailto:dermot@powerforplanet.com">dermot@powerforplanet.com</a>]]>
     </content>
-    <category term="one" scheme="https://data.csaladen.es//?tags=one" />
-    <category term="two" scheme="https://data.csaladen.es//?tags=two" />
+    <category term="Contact" scheme="https://powerforplanet.com//?tags=Contact" />
+    <category term="Meet" scheme="https://powerforplanet.com//?tags=Meet" />
+    <category term="Book" scheme="https://powerforplanet.com//?tags=Book" />
   </entry>
   <entry>
-    <title type="html"><![CDATA[Blog]]></title>
-    <link href="https://data.csaladen.es//blog" />
-    <id>https://data.csaladen.es//blog</id>
-    <published>2021-12-01T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.364Z</updated>
+    <title type="html"><![CDATA[Case studies & Success stories]]></title>
+    <link href="https://powerforplanet.com//case-studies" />
+    <id>https://powerforplanet.com//case-studies</id>
+    <published>2023-02-19T00:00:00.000Z</published>
+    <updated>2023-08-09T09:33:49.152Z</updated>
     <content type="html">
-      <![CDATA[<p>Blog</p>]]>
-    </content>undefined
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[Post4]]></title>
-    <link href="https://data.csaladen.es//blog/pos4" />
-    <id>https://data.csaladen.es//blog/pos4</id>
-    <published>2021-12-01T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.364Z</updated>
-    <content type="html">
-      <![CDATA[<p>Poast1</p>]]>
-    </content>undefined
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[Post6]]></title>
-    <link href="https://data.csaladen.es//blog/post6" />
-    <id>https://data.csaladen.es//blog/post6</id>
-    <published>2021-12-01T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.364Z</updated>
-    <content type="html">
-      <![CDATA[<p>Poast1</p>]]>
-    </content>undefined
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[Post7]]></title>
-    <link href="https://data.csaladen.es//blog/post7" />
-    <id>https://data.csaladen.es//blog/post7</id>
-    <published>2021-12-01T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.364Z</updated>
-    <content type="html">
-      <![CDATA[<p>Poast1</p>]]>
-    </content>undefined
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[Post8]]></title>
-    <link href="https://data.csaladen.es//blog/post8" />
-    <id>https://data.csaladen.es//blog/post8</id>
-    <published>2021-12-01T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.364Z</updated>
-    <content type="html">
-      <![CDATA[<p>Poast1</p>]]>
-    </content>undefined
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[Post9]]></title>
-    <link href="https://data.csaladen.es//blog/post9" />
-    <id>https://data.csaladen.es//blog/post9</id>
-    <published>2021-12-01T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.364Z</updated>
-    <content type="html">
-      <![CDATA[<p>Poast1</p>]]>
-    </content>undefined
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[Highlights]]></title>
-    <link href="https://data.csaladen.es//highlights" />
-    <id>https://data.csaladen.es//highlights</id>
-    <published>2021-12-01T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.368Z</updated>
-    <content type="html">
-      <![CDATA[<p>Highlights</p>]]>
-    </content>undefined
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[Team]]></title>
-    <link href="https://data.csaladen.es//about/team" />
-    <id>https://data.csaladen.es//about/team</id>
-    <published>2021-11-05T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.356Z</updated>
-    <content type="html">
-      <![CDATA[<p>Team</p>]]>
-    </content>undefined
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[Data]]></title>
-    <link href="https://data.csaladen.es//about/data" />
-    <id>https://data.csaladen.es//about/data</id>
-    <published>2021-11-02T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.356Z</updated>
-    <content type="html">
-      <![CDATA[<p>Data</p>]]>
-    </content>undefined
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[Careers]]></title>
-    <link href="https://data.csaladen.es//about/careers" />
-    <id>https://data.csaladen.es//about/careers</id>
-    <published>2021-11-01T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.356Z</updated>
-    <content type="html">
-      <![CDATA[<p>Careers</p>]]>
-    </content>undefined
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[Project]]></title>
-    <link href="https://data.csaladen.es//about/project" />
-    <id>https://data.csaladen.es//about/project</id>
-    <published>2021-11-01T00:00:00.000Z</published>
-    <updated>2021-12-12T00:00:00.000Z</updated>
-    <content type="html">
-      <![CDATA[<p>Modelling </p><h2 id="developing"><a href="#developing">Developing</a></h2><p>Start a development server:</p><!-- HTML_TAG_START --><pre class="shiki material-default" bash="true"><div class="language-id">bash</div><div class='code-container'><code><div class='line'># http://127.0.0.1:5173</div><div class='line'>pnpm dev</div></code></div></pre><!-- HTML_TAG_END --><p>or listen to different IP and port:</p><!-- HTML_TAG_START --><pre class="shiki material-default" bash="true"><div class="language-id">bash</div><div class='code-container'><code><div class='line'># http://127.0.0.1:3000</div><div class='line'>pnpm dev --port 3000</div><div class='line'></div><div class='line'># http://0.0.0.0:3000</div><div class='line'>nr dev --host 0.0.0.0 --port 3000</div></code></div></pre><!-- HTML_TAG_END --><h2 id="building"><a href="#building">Building</a></h2><p>Create a production version of ur blog:</p><!-- HTML_TAG_START --><pre class="shiki material-default" bash="true"><div class="language-id">bash</div><div class='code-container'><code><div class='line'>pnpm build</div></code></div></pre><!-- HTML_TAG_END -->]]>
+      <![CDATA[<p>Case studies</p>]]>
     </content>
-    <category term="project" scheme="https://data.csaladen.es//?tags=project" />
+    <category term="Resources" scheme="https://powerforplanet.com//?tags=Resources" />
+    <category term="Case studies" scheme="https://powerforplanet.com//?tags=Case%20studies" />
+    <category term="Success stories" scheme="https://powerforplanet.com//?tags=Success%20stories" />
   </entry>
   <entry>
-    <title type="html"><![CDATA[]]></title>
-    <link href="https://data.csaladen.es//modelling" />
-    <id>https://data.csaladen.es//modelling</id>
-    <published>2021-08-01T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.368Z</updated>
+    <title type="html"><![CDATA[Case studies & Success stories]]></title>
+    <link href="https://powerforplanet.com//resources/case-studies" />
+    <id>https://powerforplanet.com//resources/case-studies</id>
+    <published>2023-02-19T00:00:00.000Z</published>
+    <updated>2023-08-09T09:33:49.152Z</updated>
     <content type="html">
-      <![CDATA[<h1 id="modelling"><a href="#modelling">Modelling</a></h1><iframe height="940" width="100%" frameborder="0" allowfullscreen="" src="https://roem-html.csaladen.es/panels/heatmap_macro7.html#EN&dark&all"></iframe><h2 id="crimine-per-videri-petit-referentem-mori"><a href="#crimine-per-videri-petit-referentem-mori">Crimine per videri petit referentem mori</a></h2><p>Lorem markdownum paravi submovet edidit, tumebat calamis, ablata est. Diedelapsus ferinis dapibusque ferrum raptoresque obstitit quodque capiat multoscelsior Saturnia solent nos nisi, peritura. Tenet hortus erigitur serpens iactassurgit spectant Thebaides in reice subvectaque iter, est hic; utque illam vino.Prohibetis canoro dextera oculorum caeruleos et pectora argento occupat!</p><p>volume = -5 + gui_design_unmount;xpUsernameSyn(marginSku.digital(eps_website_leaderboard -contextual_lamp_utf, artSouthbridgeCad(-4)), passiveDay.pci(hdtv_management), -4);jumper = 3;bin.analog(modem_file);gis_cad += associationClassUltra - primary_node(92, remoteGigoPoint);</p><h2 id="quae-nato-ritus-videri-pronuba-iuncis-foliis"><a href="#quae-nato-ritus-videri-pronuba-iuncis-foliis">Quae nato ritus videri pronuba iuncis foliis</a></h2><p>Inponi urnam, <em>ortos quoque</em> et sidera vates haerent, Atlantis istis. Fictialimenta, voce, experiensque dicta Troiani.</p><h2 id="nec-trahit-pedes-iuventam"><a href="#nec-trahit-pedes-iuventam">Nec trahit pedes iuventam</a></h2><p>Ora et tenet, hac cum repletum primum labor opacas altera visaque positaeque.Oblite <a href="http://qua-tum.io/magni.html" rel="nofollow noopener noreferrer external" target="_blank">non ora</a> ingentique, quoque, demiteLucifer nutantem.</p><blockquote><p>Sua laudat torvis, porrexerat munera redit nisi iamdudum Noricus tendentemqueveste. Est stratis Baucis lux fuga qui quam Serpens suspectus hiems, fuit. Inilli arcanis ego fateri amor!</p></blockquote><h2 id="fele-post-sequantur"><a href="#fele-post-sequantur">Fele post sequantur</a></h2>]]>
-    </content>undefined
+      <![CDATA[<p>Case studies</p>]]>
+    </content>
+    <category term="Resources" scheme="https://powerforplanet.com//?tags=Resources" />
+    <category term="Case studies" scheme="https://powerforplanet.com//?tags=Case%20studies" />
+    <category term="Success stories" scheme="https://powerforplanet.com//?tags=Success%20stories" />
   </entry>
   <entry>
-    <title type="html"><![CDATA[Publications]]></title>
-    <link href="https://data.csaladen.es//about/publications" />
-    <id>https://data.csaladen.es//about/publications</id>
-    <published>2020-08-01T00:00:00.000Z</published>
-    <updated>2023-03-24T12:22:35.356Z</updated>
+    <title type="html"><![CDATA[Policy Landscape]]></title>
+    <link href="https://powerforplanet.com//policy" />
+    <id>https://powerforplanet.com//policy</id>
+    <published>2023-02-17T00:00:00.000Z</published>
+    <updated>2023-08-09T09:33:49.152Z</updated>
     <content type="html">
-      <![CDATA[<p>Pub</p>]]>
-    </content>undefined
+      <![CDATA[<p>The policy landscape surrounding waste management and renewable energy is constantly evolving,both locally and globally. From government regulations to public sentiment, there are numerousfactors that impact the way businesses approach power-from-waste projects. Whether you’reoperating on a local or global level, it’s important to stay up-to-date with the latest policies andtrends in your industry.  </p><p>Locally in the UK, the government has set ambitious targets for reducing greenhouse gas emissionsand increasing the use of renewable energy. The Renewable Heat Incentive (RHI) and Contracts forDifference (CfD) schemes are designed to encourage the development of renewable energy projects,including power-from-waste initiatives. The UK also has a landfill tax, which incentivizes businessesto find alternative waste disposal methods, such as power-from-waste.  </p><p>Globally, the United Nations Sustainable Development Goals (SDGs) include specific targets forsustainable waste management and renewable energy. The SDGs call for a significant reduction inthe amount of waste generated worldwide, as well as an increase in the amount of waste that isrecycled or recovered for energy. Additionally, several countries have implemented policies andregulations to encourage the development of power-from-waste projects, including feed-in tariffs,carbon pricing, and renewable energy mandates.q</p>]]>
+    </content>
+    <category term="Resources" scheme="https://powerforplanet.com//?tags=Resources" />
+    <category term="Policy" scheme="https://powerforplanet.com//?tags=Policy" />
+    <category term="Governance" scheme="https://powerforplanet.com//?tags=Governance" />
+    <category term="Laws" scheme="https://powerforplanet.com//?tags=Laws" />
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[Policy Landscape]]></title>
+    <link href="https://powerforplanet.com//resources/policy" />
+    <id>https://powerforplanet.com//resources/policy</id>
+    <published>2023-02-17T00:00:00.000Z</published>
+    <updated>2023-08-09T09:33:49.152Z</updated>
+    <content type="html">
+      <![CDATA[<p>The policy landscape surrounding waste management and renewable energy is constantly evolving,both locally and globally. From government regulations to public sentiment, there are numerousfactors that impact the way businesses approach power-from-waste projects. Whether you’reoperating on a local or global level, it’s important to stay up-to-date with the latest policies andtrends in your industry.  </p><p>Locally in the UK, the government has set ambitious targets for reducing greenhouse gas emissionsand increasing the use of renewable energy. The Renewable Heat Incentive (RHI) and Contracts forDifference (CfD) schemes are designed to encourage the development of renewable energy projects,including power-from-waste initiatives. The UK also has a landfill tax, which incentivizes businessesto find alternative waste disposal methods, such as power-from-waste.  </p><p>Globally, the United Nations Sustainable Development Goals (SDGs) include specific targets forsustainable waste management and renewable energy. The SDGs call for a significant reduction inthe amount of waste generated worldwide, as well as an increase in the amount of waste that isrecycled or recovered for energy. Additionally, several countries have implemented policies andregulations to encourage the development of power-from-waste projects, including feed-in tariffs,carbon pricing, and renewable energy mandates.q</p>]]>
+    </content>
+    <category term="Resources" scheme="https://powerforplanet.com//?tags=Resources" />
+    <category term="Policy" scheme="https://powerforplanet.com//?tags=Policy" />
+    <category term="Governance" scheme="https://powerforplanet.com//?tags=Governance" />
+    <category term="Laws" scheme="https://powerforplanet.com//?tags=Laws" />
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[Research Articles]]></title>
+    <link href="https://powerforplanet.com//articles" />
+    <id>https://powerforplanet.com//articles</id>
+    <published>2023-01-22T00:00:00.000Z</published>
+    <updated>2023-08-09T09:33:48.952Z</updated>
+    <content type="html">
+      <![CDATA[<p>Articles</p>]]>
+    </content>
+    <category term="Resources" scheme="https://powerforplanet.com//?tags=Resources" />
+    <category term="Articles" scheme="https://powerforplanet.com//?tags=Articles" />
+    <category term="Research" scheme="https://powerforplanet.com//?tags=Research" />
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[Research Articles]]></title>
+    <link href="https://powerforplanet.com//resources/articles" />
+    <id>https://powerforplanet.com//resources/articles</id>
+    <published>2023-01-22T00:00:00.000Z</published>
+    <updated>2023-08-09T09:33:49.152Z</updated>
+    <content type="html">
+      <![CDATA[<p>Articles</p>]]>
+    </content>
+    <category term="Resources" scheme="https://powerforplanet.com//?tags=Resources" />
+    <category term="Articles" scheme="https://powerforplanet.com//?tags=Articles" />
+    <category term="Research" scheme="https://powerforplanet.com//?tags=Research" />
   </entry>
 </feed>

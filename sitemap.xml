@@ -7,112 +7,92 @@
     xmlns:image="https://www.google.com/schemas/sitemap-image/1.1"
     xmlns:video="https://www.google.com/schemas/sitemap-video/1.1">
     <url>
-      <loc>https://data.csaladen.es/</loc>
+      <loc>https://powerforplanet.com/</loc>
     </url>
     
         <url>
-            <loc>https://data.csaladen.es//blog/post1</loc>
-            <lastmod>2023-03-24T12:22:35.364Z</lastmod>
+            <loc>https://powerforplanet.com//about</loc>
+            <lastmod>2023-08-09T09:33:48.952Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://data.csaladen.es//contact</loc>
-            <lastmod>2023-03-24T12:22:35.364Z</lastmod>
+            <loc>https://powerforplanet.com//explore</loc>
+            <lastmod>2023-08-09T09:33:49.152Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://data.csaladen.es//explorables</loc>
-            <lastmod>2023-03-24T12:22:35.364Z</lastmod>
+            <loc>https://powerforplanet.com//green-energy</loc>
+            <lastmod>2023-08-09T09:33:49.152Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://data.csaladen.es//resources</loc>
-            <lastmod>2023-03-24T12:22:35.368Z</lastmod>
+            <loc>https://powerforplanet.com//how-non-recyclable-waste-can-help-fuel-the-future</loc>
+            <lastmod>2023-08-09T09:33:49.152Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://data.csaladen.es//about/prizes</loc>
-            <lastmod>2023-03-24T12:22:35.356Z</lastmod>
+            <loc>https://powerforplanet.com//news</loc>
+            <lastmod>2023-08-09T09:33:49.152Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://data.csaladen.es//blog/post5</loc>
-            <lastmod>2023-03-24T12:22:35.364Z</lastmod>
+            <loc>https://powerforplanet.com//news/how-non-recyclable-waste-can-help-fuel-the-future</loc>
+            <lastmod>2023-08-09T09:33:49.152Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://data.csaladen.es//blog/post3</loc>
-            <lastmod>2023-03-24T12:22:35.364Z</lastmod>
+            <loc>https://powerforplanet.com//news/the-challenges-facing-the-power-from-waste-industry</loc>
+            <lastmod>2023-08-09T09:33:49.152Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://data.csaladen.es//blog/post2</loc>
-            <lastmod>2023-03-24T12:22:35.364Z</lastmod>
+            <loc>https://powerforplanet.com//the-challenges-facing-the-power-from-waste-industry</loc>
+            <lastmod>2023-08-09T09:33:49.152Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://data.csaladen.es//blog</loc>
-            <lastmod>2023-03-24T12:22:35.364Z</lastmod>
+            <loc>https://powerforplanet.com//financial-options</loc>
+            <lastmod>2023-08-09T09:33:49.152Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://data.csaladen.es//blog/pos4</loc>
-            <lastmod>2023-03-24T12:22:35.364Z</lastmod>
+            <loc>https://powerforplanet.com//resources/financial-options</loc>
+            <lastmod>2023-08-09T09:33:49.152Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://data.csaladen.es//blog/post6</loc>
-            <lastmod>2023-03-24T12:22:35.364Z</lastmod>
+            <loc>https://powerforplanet.com//contact</loc>
+            <lastmod>2023-08-09T09:33:49.152Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://data.csaladen.es//blog/post7</loc>
-            <lastmod>2023-03-24T12:22:35.364Z</lastmod>
+            <loc>https://powerforplanet.com//case-studies</loc>
+            <lastmod>2023-08-09T09:33:49.152Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://data.csaladen.es//blog/post8</loc>
-            <lastmod>2023-03-24T12:22:35.364Z</lastmod>
+            <loc>https://powerforplanet.com//resources/case-studies</loc>
+            <lastmod>2023-08-09T09:33:49.152Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://data.csaladen.es//blog/post9</loc>
-            <lastmod>2023-03-24T12:22:35.364Z</lastmod>
+            <loc>https://powerforplanet.com//policy</loc>
+            <lastmod>2023-08-09T09:33:49.152Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://data.csaladen.es//highlights</loc>
-            <lastmod>2023-03-24T12:22:35.368Z</lastmod>
+            <loc>https://powerforplanet.com//resources/policy</loc>
+            <lastmod>2023-08-09T09:33:49.152Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://data.csaladen.es//about/team</loc>
-            <lastmod>2023-03-24T12:22:35.356Z</lastmod>
+            <loc>https://powerforplanet.com//articles</loc>
+            <lastmod>2023-08-09T09:33:48.952Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://data.csaladen.es//about/data</loc>
-            <lastmod>2023-03-24T12:22:35.356Z</lastmod>
-            <priority>0.5</priority>
-        </url>
-        <url>
-            <loc>https://data.csaladen.es//about/careers</loc>
-            <lastmod>2023-03-24T12:22:35.356Z</lastmod>
-            <priority>0.5</priority>
-        </url>
-        <url>
-            <loc>https://data.csaladen.es//about/project</loc>
-            <lastmod>2021-12-12T00:00:00.000Z</lastmod>
-            <priority>0.5</priority>
-        </url>
-        <url>
-            <loc>https://data.csaladen.es//modelling</loc>
-            <lastmod>2023-03-24T12:22:35.368Z</lastmod>
-            <priority>0.5</priority>
-        </url>
-        <url>
-            <loc>https://data.csaladen.es//about/publications</loc>
-            <lastmod>2023-03-24T12:22:35.356Z</lastmod>
+            <loc>https://powerforplanet.com//resources/articles</loc>
+            <lastmod>2023-08-09T09:33:49.152Z</lastmod>
             <priority>0.5</priority>
         </url>
   </urlset>
