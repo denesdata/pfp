@@ -1,4 +1,4 @@
-// Generated with Bifrost on 8/9/2023, 6:18:39 AM
+// Generated with Bifrost on 8/15/2023, 7:12:55 AM
 // Figma Link: https://www.figma.com/file/F3gVNpS59XymtzfPcVOTzE?node-id=305:674
 import clsx from 'clsx';
 type CTAProps = {
@@ -34,11 +34,7 @@ function CTA({ Style = 'Default' }: CTAProps) {
 
 function ArrowRightCircle() {
 	return (
-		<img
-			src="/images/XGreen energy/arrow-right-circle.svg"
-			alt="arrow-right-circle"
-			className="h-5 w-5"
-		/>
+		<img src="/images/XNews/arrow-right-circle.svg" alt="arrow-right-circle" className="h-5 w-5" />
 	);
 }
 export default CTA;

@@ -11,7 +11,9 @@
   import About from '$lib/components/new_about_us.svelte'
   import Green from '$lib/components/new_green_energy.svelte'
   import Explore from '$lib/components/explore.svelte'
-  import Blog from '$lib/components/news.svelte'
+  import Blog from '$lib/components/new_news.svelte'
+  import Contact from '$lib/components/new_contact.svelte'
+  import Financial_options from '$lib/components/resources_financial_options.svelte'
   import 'uno.css'
   import '../app.pcss'
   import PostCard from '$lib/components/post_card.svelte'
@@ -50,6 +52,10 @@
     <About />
   {:else if path == '/green-energy' || path == '/green-energy/'}
     <Green />
+  {:else if path == '/contact' || path == '/contact/'}
+    <Contact />
+  {:else if path == '/resources/financial-options' || path == '/resources/financial-options/'}
+    <Financial_options />
   {:else}
     <!-- {path.split('/')[1]} -->
     <slot />

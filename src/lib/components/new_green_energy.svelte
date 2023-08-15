@@ -324,7 +324,7 @@
               </a>
             </div>
           </div>
-          <div class="bg-[#e7f5f5] flex-col w-full flex items-start gap-10 px-10 pt-10 pb-[50px] rounded-[20px]">
+          <div class="bg-[#e7f5f5] flex-col w-full flex items-start gap-10 px-10 pt-10 pb-[50px] rounded-[20px] mt-5">
             <div class="w-full flex-col flex justify-center items-center gap-[30px] text-[#2e3855]">
               <div class="flex items-center gap-10">
                 <img
