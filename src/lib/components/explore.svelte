@@ -141,9 +141,9 @@
       font-size: 1.2rem;
     }
   </style>
-  <div class="h-full mw-[1060px]">
+  <div class="h-full max-w-[1260px]">
     <!-- ===================after landing page =================== -->
-    <section class="w-[1530px]">
+    <section class="w-full">
       <div class="flex rounded-2xl overflow-hidden mt-12">
         <div class="w-3/5 p-10 pr-12 bg-white">
           <h2 class="uppercase pb-5 text-pfp-green font-bold">Exploration station</h2>

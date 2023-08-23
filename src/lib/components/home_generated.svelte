@@ -7,7 +7,7 @@
       </div> -->
       <div class="w-full z-[0] h-[400px] rounded-[20px] overflow-hidden">
         <video autoplay loop muted class="w-full">
-          <source src="/assets/bg.mp4" type="video/mp4" />
+          <source src="/assets/iStock-1127568776.mov" type="video/mp4" />
         </video>
       </div>
       <div
