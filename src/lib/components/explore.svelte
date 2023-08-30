@@ -135,6 +135,10 @@
   </script>
   <!-- <img src="/assets/field.png" alt="" style="height:100%; position:fixed; top:10px;" /> -->
 </div>
+<div class="mt-[-2000px] pt-[2000px]" id="map2" />
+<div class="mt-[-840px] pt-[840px]" id="calculator2" />
+<div class="mt-[-5000px] pt-[5000px]" id="map3" />
+<div class="mt-[-3900px] pt-[3900px]" id="calculator3" />
 <div class="flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap mt-8">
   <style>
     p {
@@ -147,7 +151,7 @@
       <div class="flex rounded-2xl overflow-hidden mt-12">
         <div class="w-3/5 p-10 pr-12 bg-white">
           <h2 class="uppercase pb-5 text-pfp-green font-bold">Exploration station</h2>
-          <h2 class="card-title text-3xl">Green power from non-recycled waste</h2>
+          <h2 class="text-3xl leading-[33px] font-bold text-[#2e3855] font-Poppins">Green power from non-recycled waste</h2>
           <p class="pt-6">
             Power-from-waste technology can convert non-recycled waste into a myriad of different outputs, including
             electricity, heating, cooling, and biochar, among others
@@ -238,11 +242,11 @@
           vertical-align: middle;
         }
       </style>
-      <h2 class="card-title text-3xl pb-10 justify-center">How it works</h2>
+      <h2 class="text-3xl font-bold text-[#2e3855] font-Poppins text-center justify-center mb-10">How it works</h2>
       <div class=" grid gap-6 md:grid-cols-5 grid-cols-2 w-full" id="thegrid">
         <div
           class="p-3 relative bg-[#DDF3EA] rounded-2xl leading-6 text-[#2E3855] mb-0 text-start font-bold text-xl tracking-wider after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#DDF3EA] after:border-r-transparent after:border-l-transparent">
-          <div class="flex justify-center h-40"><img src="/assets/pet bottle 1.png" alt="" /></div>
+          <div class="flex justify-center h-20"><img src="/assets/pet bottle 1.png" alt="" /></div>
           <div class="w-2/4">Plastic waste</div>
         </div>
         <div
@@ -348,7 +352,7 @@
             <h2 style="font-family: 'Poppins', sans-serif;" class="uppercase pb-0 text-pfp-green font-bold">
               Exploration station
             </h2>
-            <div style="font-family: 'Poppins', sans-serif;" class="card-title text-3xl leading-10 text-[#2E3855] mt-5">
+            <div style="font-family: 'Poppins', sans-serif;" class="text-3xl font-bold text-[#2e3855] font-Poppins mt-5">
               Interact with our exploration <br />
               station to learn more
             </div>
@@ -1069,7 +1073,7 @@
             <h2 style="font-family: 'Poppins', sans-serif;" class="uppercase pb-0 text-pfp-green font-bold">
               The PFP Calculator
             </h2>
-            <div style="font-family: 'Poppins', sans-serif;" class="card-title text-3xl leading-10 text-[#2E3855] mt-5">
+            <div style="font-family: 'Poppins', sans-serif;" class="text-3xl font-bold text-[#2e3855] font-Poppins mt-5">
               Find the right technology
               <br />
               for your needs
@@ -1200,7 +1204,7 @@
     <section id="calculate">
       <div class="container rounded-2xl bg-white p-20 pt-12 pb-16 z-23" id="growcalc">
         <div class="text-center pb-10">
-          <h1 style="font-family: 'Poppins', sans-serif;" class="card card-title text-3xl leading-10 text-[#2E3855]">
+          <h1 style="font-family: 'Poppins', sans-serif;" class="card text-3xl font-bold text-[#2e3855] font-Poppins text-center">
             The PFP Calculator
           </h1>
           <p style=" font-family: 'Public Sans', sans-serif;" class="text-[#2E3855] tracking-wider mt-5 pl-24 pr-24">

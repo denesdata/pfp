@@ -17,7 +17,7 @@
               Examining the global impact of food production and mitigation strategies
             </div>
 
-            <a href="/explore">
+            <a href="/news-item">
               <div
                 class="bg-[#3f9378] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-base leading-[20px] font-normal tracking-wider text-white">
                 <img
@@ -40,7 +40,7 @@
               A war worth fighting
             </div>
 
-            <a href="/explore">
+            <a href="/news-item">
               <div
                 class="bg-[#3f9378] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-base leading-[20px] font-normal tracking-wider text-white">
                 <img
@@ -65,7 +65,7 @@
               One ecosystem, one overall solution
             </div>
 
-            <a href="/explore">
+            <a href="/news-item">
               <div
                 class="bg-[#3f9378] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-base leading-[20px] font-normal tracking-wider text-white">
                 <img
@@ -87,7 +87,7 @@
             <div class="text-xl leading-[34px] font-bold text-[#2e3855] font-Poppins w-[462px]">
               The “Great Greenwashing” of 2023
             </div>
-            <a href="/explore">
+            <a href="/news-item">
               <div
                 class="bg-[#3f9378] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-base leading-[20px] font-normal tracking-wider text-white">
                 <img

@@ -1,4 +1,4 @@
-<div class="bg-[#e4eaea] flex-col flex items-center gap-10 h-fit mt-32 mw-[1060px]">
+<div class="bg-[#e4eaea] flex-col flex items-center gap-10 h-fit mt-32 sm:w-[560px] min-w-[1060px]">
   <div class="flex-col flex items-start gap-5">
     <div class="flex-col w-[1060px] flex items-start gap-[-100px] rounded-[20px] text-white">
       <!-- <div
@@ -11,7 +11,7 @@
         </video>
       </div>
       <div
-        class="bg-cover bg-[#2e3855] bg-opacity-[0.4] z-[1] w-full h-[400px] mt-[-400px] flex justify-center items-center gap-2.5 px-[50px] pt-[30px] pb-[50px] rounded-[20px] text-[44px] leading-[46px] font-bold text-center font-Poppins mb-[-100px]">
+        class="bg-cover bg-[#2e3855] bg-opacity-[0.7] z-[1] w-full h-[400px] mt-[-400px] flex justify-center items-center gap-2.5 px-[50px] pt-[30px] pb-[50px] rounded-[20px] text-[44px] leading-[46px] font-bold text-center font-Poppins mb-[-100px]">
         <div class="z-[2]">Non-recycled waste is fuel.</div>
       </div>
       <div class="w-full flex-col flex items-center gap-2.5 z-[2]">
@@ -127,7 +127,7 @@
                   Our tool can automatically assess the potential of your non-recycled waste stream and match it to a specific
                   technology
                 </div>
-                <a href="/explore">
+                <a href="/explore#calculator2">
                   <div
                     class="bg-[#eb8b5a] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-base leading-[20px] font-normal tracking-wider text-white">
                     <img
@@ -198,7 +198,7 @@
               <div class="text-md leading-[26px] font-light tracking-wider w-[590px]">
                 Discover how your business can tap into the potential of power-from-waste technology
               </div>
-              <a href="/explore">
+              <a href="/explore#map2">
                 <div
                   class="bg-[#2e3855] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-base leading-[20px] font-normal tracking-wider">
                   <img
@@ -227,46 +227,114 @@
         </div>
         <div class="w-full flex-col flex justify-center items-center gap-[30px]">
           <div class="w-full flex justify-center items-center gap-6">
-            <a href="#">
+            <button onclick="scrollElement(-1)">
               <div class="bg-[#2e3855] flex justify-center items-center gap-2.5 p-1.5 rounded-[30px]">
                 <img
                   src="/assets/new/arrow-left-white.svg"
                   alt="arrow-left-31-slider-arrowleft-31-carousel-31-slider-31-Frame18-31-testimonials-31-wrapper-31-03Greenenergy"
                   class="h-6 w-6" />
               </div>
-            </a>
-            <div
-              class="bg-[#e7f5f5] flex-col flex justify-center items-center gap-2.5 px-10 pt-[30px] pb-5 rounded-[10px] text-sm leading-[26px] text-center text-[#2e3855] font-PublicSans">
-              <div class="italic font-light w-[700px]">
-                “Not only did ABC Company deliver outstanding results, but they also provided exceptional customer service.
-                Their team was always responsive, accommodating, and willing to go the extra mile to address any questions or
-                concerns we had.”
+            </button>
+            <div class="flex flex-col h-[164px] overflow-x-hidden">
+              <div
+                id="customer1"
+                class="bg-[#e7f5f5] duration-300 flex-col flex justify-center items-center gap-2.5 px-10 pt-[30px] pb-5 rounded-[10px] text-sm leading-[26px] text-center text-[#2e3855] font-PublicSans">
+                <div class="italic font-light w-[700px]">
+                  “Not only did ABC Company deliver outstanding results, but they also provided exceptional customer service.
+                  Their team was always responsive, accommodating, and willing to go the extra mile to address any questions or
+                  concerns we had.”
+                </div>
+                <div class="font-semibold w-[700px]">John Doe, Customer</div>
               </div>
-              <div class="font-semibold w-[700px]">John Doe, Customer</div>
+              <div
+                id="customer2"
+                class="bg-[#e7f5f5] mt-[-164px] -translate-x-full opacity-0 duration-300 flex-col flex justify-center items-center gap-2.5 px-10 pt-[30px] pb-5 rounded-[10px] text-sm leading-[26px] text-center text-[#2e3855] font-PublicSans">
+                <div class="italic font-light w-[700px]">
+                  “Not only did ABC Company 2 deliver outstanding results, but they also provided exceptional customer service.
+                  Their team was always responsive, accommodating, and willing to go the extra mile to address any questions or
+                  concerns we had.”
+                </div>
+                <div class="font-semibold w-[700px]">John Doe 2, Customer 2</div>
+              </div>
+              <div
+                id="customer3"
+                class="bg-[#e7f5f5] mt-[-164px] -translate-x-full opacity-0 duration-300 flex-col flex justify-center items-center gap-2.5 px-10 pt-[30px] pb-5 rounded-[10px] text-sm leading-[26px] text-center text-[#2e3855] font-PublicSans">
+                <div class="italic font-light w-[700px]">
+                  “Not only did ABC Company 3 deliver outstanding results, but they also provided exceptional customer service.
+                  Their team was always responsive, accommodating, and willing to go the extra mile to address any questions or
+                  concerns we had.”
+                </div>
+                <div class="font-semibold w-[700px]">John Doe 3, Customer 3</div>
+              </div>
             </div>
-            <a href="#">
+            <button onclick="scrollElement(1)">
               <div class="bg-[#2e3855] flex justify-center items-center gap-2.5 p-1.5 rounded-[30px]">
                 <img
                   src="/assets/new/arrow-right-white.svg"
                   alt="arrow-right-31-slider-arrowright-31-carousel-31-slider-31-Frame18-31-testimonials-31-wrapper-31-03Greenenergy"
                   class="h-6 w-6" />
               </div>
-            </a>
+            </button>
           </div>
           <div class="flex items-start gap-2">
             <img
+              id="bullet1a"
+              src="/assets/new/Ellipse2-31-slider-bullets-31-slider-31-Frame18-31-testimonials-31-wrapper-31-03Greenenergy.svg"
+              alt="Ellipse1-31-slider-bullets-31-slider-31-Frame18-31-testimonials-31-wrapper-31-03Greenenergy"
+              class="h-3 w-3 hidden" />
+            <img
+              id="bullet1"
               src="/assets/new/Ellipse1-31-slider-bullets-31-slider-31-Frame18-31-testimonials-31-wrapper-31-03Greenenergy.svg"
               alt="Ellipse1-31-slider-bullets-31-slider-31-Frame18-31-testimonials-31-wrapper-31-03Greenenergy"
               class="h-3 w-3" />
             <img
+              id="bullet2a"
               src="/assets/new/Ellipse2-31-slider-bullets-31-slider-31-Frame18-31-testimonials-31-wrapper-31-03Greenenergy.svg"
               alt="Ellipse2-31-slider-bullets-31-slider-31-Frame18-31-testimonials-31-wrapper-31-03Greenenergy"
               class="h-3 w-3" />
             <img
-              src="/assets/new/Ellipse3-31-slider-bullets-31-slider-31-Frame18-31-testimonials-31-wrapper-31-03Greenenergy.svg"
+              id="bullet2"
+              src="/assets/new/Ellipse1-31-slider-bullets-31-slider-31-Frame18-31-testimonials-31-wrapper-31-03Greenenergy.svg"
+              alt="Ellipse2-31-slider-bullets-31-slider-31-Frame18-31-testimonials-31-wrapper-31-03Greenenergy"
+              class="h-3 w-3 hidden" />
+            <img
+              id="bullet3a"
+              src="/assets/new/Ellipse2-31-slider-bullets-31-slider-31-Frame18-31-testimonials-31-wrapper-31-03Greenenergy.svg"
               alt="Ellipse3-31-slider-bullets-31-slider-31-Frame18-31-testimonials-31-wrapper-31-03Greenenergy"
               class="h-3 w-3" />
+            <img
+              id="bullet3"
+              src="/assets/new/Ellipse1-31-slider-bullets-31-slider-31-Frame18-31-testimonials-31-wrapper-31-03Greenenergy.svg"
+              alt="Ellipse3-31-slider-bullets-31-slider-31-Frame18-31-testimonials-31-wrapper-31-03Greenenergy"
+              class="h-3 w-3 hidden" />
           </div>
+          <script>
+            let customer = 1
+            function scrollElement(k) {
+              if (customer + k < 4 && customer + k > 0) {
+                customer += k
+                var element = document.querySelector('#customer' + customer)
+                element.classList.toggle('-translate-x-full')
+                element.classList.toggle('opacity-0')
+
+                var element = document.querySelector('#customer' + (customer - k))
+                element.classList.toggle('-translate-x-full')
+                element.classList.toggle('opacity-0')
+
+                var element = document.querySelector('#bullet' + customer)
+                element.classList.toggle('hidden')
+
+                var element = document.querySelector('#bullet' + (customer - k))
+                element.classList.toggle('hidden')
+
+                var element = document.querySelector('#bullet' + customer + 'a')
+                element.classList.toggle('hidden')
+
+                var element = document.querySelector('#bullet' + (customer - k) + 'a')
+                element.classList.toggle('hidden')
+              }
+            }
+          </script>
         </div>
       </div>
     </div>

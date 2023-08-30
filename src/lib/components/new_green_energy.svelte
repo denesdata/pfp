@@ -290,7 +290,7 @@
                   </div>
                 </div>
               </div>
-              <a href="/explore#map">
+              <a href="/explore#map3">
                 <div class="bg-[#eb8b5a] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-white">
                   <img
                     src="/assets/new/arrow-right-circle.svg"
@@ -313,7 +313,7 @@
                   </div>
                 </div>
               </div>
-              <a href="/explore#calculator">
+              <a href="/explore#calculator3">
                 <div class="bg-[#eb8b5a] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-white">
                   <img
                     src="/assets/new/arrow-right-circle.svg"
@@ -356,9 +356,9 @@
       </div>
       <div class="flex-col flex items-start gap-[30px]">
         <div class="flex-col w-[1060px] flex items-start rounded-[20px]">
-          <div class="bg-white w-full flex items-center rounded-t-[20px]">
+          <div class="bg-white w-full flex items-center rounded-t-[20px]" id="xsp1box">
             <div
-              class="bg-cover bg-[url('/assets/new/E11.jpg')] bg-center flex-col  h-[240px] w-[460px] flex justify-center items-center gap-5 px-[50px] py-10 rounded-tl-[20px]">
+              class="bg-cover bg-[url('/assets/new/E11.jpg')] bg-center flex-col h-[240px] w-[460px] flex justify-center items-center gap-5 px-[50px] py-10 rounded-tl-[20px]" id="xsp1img">
               <div class="flex-col flex items-center gap-5" />
             </div>
             <div class="flex-1 flex-col flex items-start gap-4 px-10 py-[30px]">
@@ -369,12 +369,17 @@
                   Solar power converts the Sun’s photons into electricity through solar panels. It works in most locations and
                   has several benefits.
                 </div>
-                <img src="/assets/new/rl.png" />
+                <button onclick="toggleElement('xsp1')" href="#">
+                  <img id="xsp1a" src="/assets/new/rl.png" />
+                  <img id="xsp1b" class="hidden" src="/assets/new/rm.png" />
+                </button>
               </div>
             </div>
           </div>
-          <div class="bg-white w-full flex-col flex items-start gap-10 rounded-b-[20px] text-sm text-[#2e3855]">
-            <div class="bg-[#e7f5f5] w-full flex items-start gap-10 px-[60px] pt-[30px] pb-[50px]">
+          <div
+            id="xsp1"
+            class="h-[250px] h-[0px] duration-300 bg-none w-full flex-col flex items-start gap-10 rounded-b-[20px] text-sm text-[#2e3855]">
+            <div class="bg-[#e7f5f5] w-full h-full flex items-start gap-10 px-[60px] rounded-b-[20px] pt-[30px]">
               <div class="flex-1 flex-col flex items-start gap-4">
                 <div class="w-full flex items-center gap-3.5 leading-[21px] font-semibold text-center font-Poppins">
                   <img
@@ -412,9 +417,9 @@
           </div>
         </div>
         <div class="flex-col w-[1060px] flex items-start rounded-[20px]">
-          <div class="bg-white w-full flex items-center rounded-t-[20px]">
+          <div class="bg-white w-full flex items-center rounded-t-[20px] rounded-b-[20px]" id="xsp2box">
             <div
-              class="bg-cover bg-[url('/assets/new/E12.jpg')] bg-center flex-col  h-[240px] w-[460px] flex justify-center items-center gap-5 px-[50px] py-10 rounded-l-[20px]">
+              class="bg-cover bg-[url('/assets/new/E12.jpg')] bg-center flex-col h-[240px] w-[460px] flex justify-center items-center gap-5 px-[50px] py-10 rounded-tl-[20px] rounded-bl-[20px]" id="xsp2img">
               <div class="flex-col flex items-center gap-5" />
             </div>
             <div class="flex-1 flex-col flex items-start gap-4 px-10 py-[30px]">
@@ -422,15 +427,57 @@
               <div
                 class="w-full flex-col flex items-start gap-[39px] text-md leading-[26px] font-light text-[#2e3855] font-PublicSans">
                 <div class="w-[520px]">Wind power, also called “Eolic” energy, generates electricity using wind turbines.</div>
-                <img src="/assets/new/rm.png" />
+                <button onclick="toggleElement('xsp2')" href="#">
+                  <img id="xsp2a" class="hidden" src="/assets/new/rl.png" />
+                  <img id="xsp2b" src="/assets/new/rm.png" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            id="xsp2"
+            class="-translate-y-full opacity-0 duration-300 h-[0px] bg-white w-full flex-col flex items-start gap-10 rounded-b-[20px] text-sm text-[#2e3855]">
+            <div class="bg-[#e7f5f5] w-full h-full flex items-start gap-10 px-[60px] rounded-b-[20px] pt-[30px]">
+              <div class="flex-1 flex-col flex items-start gap-4">
+                <div class="w-full flex items-center gap-3.5 leading-[21px] font-semibold text-center font-Poppins">
+                  <img
+                    src="/assets/new/badge-plus.svg"
+                    alt="badge-plus-31-Frame31-31-pros-31-proscons-31-content-31-solarpower-31-Frame32-31-Frame32-31-wrapper-31-03Greenenergy0"
+                    class="h-6 w-6" />
+                  <div class="uppercase">Pros</div>
+                </div>
+                <div class="leading-[26px] font-light font-PublicSans w-[450px]">
+                  <ul class="list-disc">
+                    <li>Often cheaper than fossil fuels by 2023</li>
+                    <li>Environmentally friendly Low maintenance and long-lasting</li>
+                    <li>Emissions-free during use</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="h-full flex-1 flex-col flex items-start gap-4">
+                <div class="w-full flex items-center gap-3.5 leading-[21px] font-semibold text-center font-Poppins">
+                  <img
+                    src="/assets/new/badge-minus.svg"
+                    alt="badge-minus-31-Frame31-31-pros-31-proscons-31-content-31-solarpower-31-Frame32-31-Frame32-31-wrapper-31-03Greenenergy00"
+                    class="h-6 w-6" />
+                  <div class="uppercase">Cons</div>
+                </div>
+                <div class="leading-[26px] font-light font-PublicSans w-[450px]">
+                  <ul class="list-disc">
+                    <li>High initial costs</li>
+                    <li>Intermittent power supply, requiring grid connection or battery storage</li>
+                    <li>Environmental impacts during production and disposal</li>
+                    <li>Potential local resistance to solar farm installations near habitation</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="flex-col w-[1060px] flex items-start rounded-[20px]">
-          <div class="bg-white w-full flex items-center rounded-t-[20px]">
+        <div class="flex-col w-[1060px] flex items-start rounded-[20px] mt-[10px]">
+          <div class="bg-white w-full flex items-center rounded-t-[20px] rounded-b-[20px]" id="xsp3box">
             <div
-              class="bg-cover bg-[url('/assets/new/E13.jpg')] bg-center flex-col  h-[240px] w-[460px] flex justify-center items-center gap-5 px-[50px] py-10 rounded-l-[20px]">
+              class="bg-cover bg-[url('/assets/new/E13.jpg')] bg-center flex-col h-[240px] w-[460px] flex justify-center items-center gap-5 px-[50px] py-10 rounded-tl-[20px] rounded-bl-[20px]" id="xsp3img">
               <div class="flex-col flex items-center gap-5" />
             </div>
             <div class="flex-1 flex-col flex items-start gap-4 px-10 py-[30px]">
@@ -440,7 +487,49 @@
                 <div class="w-[520px]">
                   Energy storage is a crucial technology that allows us to store excess energy for future use.
                 </div>
-                <img src="/assets/new/rm.png" />
+                <button onclick="toggleElement('xsp3')" href="#">
+                  <img id="xsp3a" src="/assets/new/rl.png" class="hidden" />
+                  <img id="xsp3b" src="/assets/new/rm.png" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            id="xsp3"
+            class="-translate-y-full opacity-0 duration-300 h-[0px] bg-white w-full flex-col flex items-start gap-10 rounded-b-[20px] text-sm text-[#2e3855]">
+            <div class="bg-[#e7f5f5] w-full h-full flex items-start gap-10 px-[60px] pt-[30px] rounded-b-[20px]">
+              <div class="flex-1 flex-col flex items-start gap-4">
+                <div class="w-full flex items-center gap-3.5 leading-[21px] font-semibold text-center font-Poppins">
+                  <img
+                    src="/assets/new/badge-plus.svg"
+                    alt="badge-plus-31-Frame31-31-pros-31-proscons-31-content-31-solarpower-31-Frame32-31-Frame32-31-wrapper-31-03Greenenergy0"
+                    class="h-6 w-6" />
+                  <div class="uppercase">Pros</div>
+                </div>
+                <div class="leading-[26px] font-light font-PublicSans w-[450px]">
+                  <ul class="list-disc">
+                    <li>Often cheaper than fossil fuels by 2023</li>
+                    <li>Environmentally friendly Low maintenance and long-lasting</li>
+                    <li>Emissions-free during use</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="h-full flex-1 flex-col flex items-start gap-4">
+                <div class="w-full flex items-center gap-3.5 leading-[21px] font-semibold text-center font-Poppins">
+                  <img
+                    src="/assets/new/badge-minus.svg"
+                    alt="badge-minus-31-Frame31-31-pros-31-proscons-31-content-31-solarpower-31-Frame32-31-Frame32-31-wrapper-31-03Greenenergy00"
+                    class="h-6 w-6" />
+                  <div class="uppercase">Cons</div>
+                </div>
+                <div class="leading-[26px] font-light font-PublicSans w-[450px]">
+                  <ul class="list-disc">
+                    <li>High initial costs</li>
+                    <li>Intermittent power supply, requiring grid connection or battery storage</li>
+                    <li>Environmental impacts during production and disposal</li>
+                    <li>Potential local resistance to solar farm installations near habitation</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -470,4 +559,19 @@
       </div>
     </div>
   </div>
+  <script>
+    function toggleElement(k) {
+      var element = document.querySelector('#' + k)
+
+      element.classList.toggle('-translate-y-full')
+      element.classList.toggle('opacity-0')
+      setTimeout(() => {
+        element.classList.toggle('h-[250px]')
+        document.querySelector('#' + k + 'a').classList.toggle('hidden')
+        document.querySelector('#' + k + 'b').classList.toggle('hidden')
+        document.querySelector('#' + k + 'box').classList.toggle('rounded-b-[20px]')
+        document.querySelector('#' + k + 'img').classList.toggle('rounded-bl-[20px]')
+      }, 50)
+    }
+  </script>
 </div>

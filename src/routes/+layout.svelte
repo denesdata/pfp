@@ -12,6 +12,7 @@
   import Green from '$lib/components/new_green_energy.svelte'
   import Explore from '$lib/components/explore.svelte'
   import Blog from '$lib/components/new_news.svelte'
+  import NewsItem from '$lib/components/news_item.svelte'
   import Contact from '$lib/components/new_contact.svelte'
   import Financial_options from '$lib/components/resources_financial_options.svelte'
   import 'uno.css'
@@ -46,6 +47,8 @@
 <Transition {path}>
   {#if path == '/news' || path == '/news/'}
     <Blog />
+  {:else if path == '/news-item' || path == '/news-item/'}
+    <NewsItem />
   {:else if path == '/explore' || path == '/explore/'}
     <Explore />
   {:else if path == '/about' || path == '/about/'}

@@ -10,7 +10,9 @@
           Contact us and turn your green energy vision into reality
         </div>
         <div class="w-full flex-col flex items-center gap-5">
-          <div class="bg-[#e7f5f5] w-full flex-col flex justify-center items-center gap-[30px] pb-10 rounded-[20px]">
+          <div
+            id="calendar"
+            class="bg-[#e7f5f5] w-full overflow-hidden h-[100px] pt-[100px] flex-col flex justify-center items-center gap-[30px] pb-10 rounded-[20px]">
             <div class="w-full flex items-center gap-[50px] pr-[50px]">
               <div class="bg-[#e7f5f5] flex justify-center items-center gap-2.5 px-[50px] py-5 rounded-l-[20px]">
                 <img src="/assets/new/calendar-days.svg" alt="calendar-days" class="h-10 w-10" />
@@ -19,7 +21,7 @@
                 Schedule a conversation with us
               </div>
               <div class="flex items-center gap-2.5 pl-[50px]">
-                <img src="/assets/new/chevron-down.svg" alt="chevron-down" class="h-6 w-6" />
+                <button onclick="toggleElement('calendar')"><img src="/assets/new/chevron-down.svg" alt="chevron-down" class="h-6 w-6" /></button>
               </div>
             </div>
             <iframe
@@ -31,6 +33,13 @@
               src="https://calendly.com/csaladenes-6ee/30min?hide_landing_page_details=1&hide_gdpr_banner=1&text_color=394e6a&primary_color=3f9378&back=1&month=2023-07"
               title="book" />
           </div>
+          <script>
+            function toggleElement(k) {
+              var element = document.querySelector('#' + k)
+              element.classList.toggle('h-[1100px]')
+              element.classList.toggle('pt-[100px]')
+            }
+          </script>
           <div class="bg-[#e7f5f5] w-full flex-col flex justify-center items-center gap-[30px] pb-10 rounded-[20px] z-[2]">
             <div class="w-full flex items-center gap-[50px] pr-[50px]">
               <div class="bg-[#e7f5f5] flex justify-center items-center gap-2.5 px-[50px] py-5 rounded-l-[20px]">
