@@ -246,7 +246,7 @@
       <div class=" grid gap-6 md:grid-cols-5 grid-cols-2 w-full" id="thegrid">
         <div
           class="p-3 relative bg-[#DDF3EA] rounded-2xl leading-6 text-[#2E3855] mb-0 text-start font-bold text-xl tracking-wider after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#DDF3EA] after:border-r-transparent after:border-l-transparent">
-          <div class="flex justify-center h-20"><img src="/assets/pet bottle 1.png" alt="" /></div>
+          <div class="flex justify-center h-32"><img src="/assets/pet bottle 1.png" alt="" /></div>
           <div class="w-2/4">Plastic waste</div>
         </div>
         <div
@@ -1237,7 +1237,6 @@
                   <option class="bg-[#E7F5F5]" value="srf-rdf">SRF and RDF</option>
                   <option class="bg-[#E7F5F5]" value="coffee-grounds">Coffee grounds</option>
                   <option class="bg-[#E7F5F5]" value="crop-residues">Crop residues</option>
-
                   <option class="bg-[#E7F5F5]" value="maize-silage">Maize silage</option>
                   <option class="bg-[#E7F5F5]" value="cereal">Cereal</option>
                   <option class="bg-[#E7F5F5]" value="grass-silage">Grass silage</option>
@@ -1259,20 +1258,20 @@
               </div>
             </div>
             <div class="inline-flex rounded-xl shadow-sm w-full mt-5" role="group">
-              <button type="button" class="text-xl w-1/2 h-16 text-white bg-[#2E3855] rounded-l-xl">Tonnes per year</button>
+              <button type="button" class="text-xl w-1/2 h-16 text-white bg-[#2E3855] rounded-l-xl">Kilograms per day</button>
 
               <div
                 class="button dropdown w-1/2 flex justify-between flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-xl font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
                 <select
                   id="colorselector2"
                   class="w-full bg-transparent text-center focus-0 after:border-0 before:border-0 after:border-[#E7F5F5]">
-                  <option class="bg-[#E7F5F5]" value="2.5">&lt; 5 t</option>
-                  <option class="bg-[#E7F5F5]" value="50">5 - 100 t</option>
-                  <option class="bg-[#E7F5F5]" value="500">100 - 1000 t</option>
-                  <option class="bg-[#E7F5F5]" value="5000">1000 - 10,000 t</option>
-                  <option class="bg-[#E7F5F5]" value="15000">10,000 - 20,000 t</option>
-                  <option class="bg-[#E7F5F5]" value="40000">20,000 - 60,000 t</option>
-                  <option class="bg-[#E7F5F5]" value="60000">&gt; 60,000 t</option>
+                  <option class="bg-[#E7F5F5]" value="10">10 kg</option>
+                  <option class="bg-[#E7F5F5]" value="100">100 kg</option>
+                  <option class="bg-[#E7F5F5]" value="1000">1000 kg</option>
+                  <option class="bg-[#E7F5F5]" value="10000">10,000 kg</option>
+                  <option class="bg-[#E7F5F5]" value="20000">20,000 kg</option>
+                  <option class="bg-[#E7F5F5]" value="40000">40,000 kg</option>
+                  <option class="bg-[#E7F5F5]" value="60000">&gt; 40,000 kg</option>
                 </select>
               </div>
             </div>
@@ -1647,7 +1646,7 @@
 
         var d = data[document.querySelector('#colorselector').value]
         var feasible = d['feasibility'] == 'Y'
-        document.querySelector('#feasible').innerHTML = 'Your project is ' + (feasible ? '' : '<u>not</u> ') + 'feasible'
+        document.querySelector('#feasible').innerHTML = 'Your project is ' + (feasible ? '' : '<u style="color:#ec8b5a;">not</u> ') + 'feasible'
 
         if (feasible) {
           var calcimg = document.querySelector('#calc-img')
@@ -1730,6 +1729,28 @@
         callbutton2.classList.toggle('opacity-0')
       }
     </script>
+    <div class="w-[1260px] flex justify-between items-center pt-[30px] pb-[50px]">
+    <div class="text-xs leading-[14px] font-semibold text-[#2e3855] font-PublicSans w-[530px]">
+      Copyright © 2023 Power for Planet
+    </div>
+    <div class="flex-1 flex justify-end items-center gap-10">
+      <div class="text-xs leading-[14px] font-semibold text-[#2e3855] font-PublicSans underline">Privacy Policy</div>
+      <div class="flex items-center gap-5">
+        <img
+          src="/assets/new/mdilinkedin-31-social-31-right-31-footer-31-03Greenenergy.svg"
+          alt="mdilinkedin-31-social-31-right-31-footer-31-03Greenenergy"
+          class="h-6 w-6" />
+        <img
+          src="/assets/new/mditwitter-31-social-31-right-31-footer-31-03Greenenergy.svg"
+          alt="mditwitter-31-social-31-right-31-footer-31-03Greenenergy"
+          class="h-6 w-6" />
+        <img
+          src="/assets/new/CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy.svg"
+          alt="CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy"
+          class="h-6 w-6" />
+      </div>
+    </div>
+  </div>
   </div>
   <script>
     function toggleElement(k) {

@@ -12,16 +12,24 @@
         <div class="w-full flex-col flex items-center gap-5">
           <div
             id="calendar"
-            class="bg-[#e7f5f5] w-full overflow-hidden h-[100px] pt-[100px] flex-col flex justify-center items-center gap-[30px] pb-10 rounded-[20px]">
+            class="bg-[#e7f5f5] w-full overflow-hidden duration-200 h-[100px] pt-[80px] flex-col flex justify-center items-center gap-[30px] pb-0 rounded-[20px] align-top">
             <div class="w-full flex items-center gap-[50px] pr-[50px]">
-              <div class="bg-[#e7f5f5] flex justify-center items-center gap-2.5 px-[50px] py-5 rounded-l-[20px]">
+              <div
+                id="calendar-heading"
+                class="bg-none duration-200 flex justify-center items-center gap-2.5 px-[50px] py-5 rounded-l-[20px]">
                 <img src="/assets/new/calendar-days.svg" alt="calendar-days" class="h-10 w-10" />
               </div>
               <div class="text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins w-[596px]">
                 Schedule a conversation with us
               </div>
               <div class="flex items-center gap-2.5 pl-[50px]">
-                <button onclick="toggleElement('calendar')"><img src="/assets/new/chevron-down.svg" alt="chevron-down" class="h-6 w-6" /></button>
+                <button onclick="toggleElement('calendar')">
+                  <img
+                    id="calendar-chevron"
+                    src="/assets/new/chevron-down.svg"
+                    alt="chevron-down"
+                    class="h-6 w-6 rotate-180 duration-180" />
+                </button>
               </div>
             </div>
             <iframe
@@ -37,19 +45,44 @@
             function toggleElement(k) {
               var element = document.querySelector('#' + k)
               element.classList.toggle('h-[1100px]')
-              element.classList.toggle('pt-[100px]')
+              element.classList.toggle('pt-[80px]')
+              element.classList.toggle('pt-[20px]')
+              toggleElementX(k)
+            }
+
+            function toggleElement2(k) {
+              // alert('a')
+              var element = document.querySelector('#' + k)
+              element.classList.toggle('h-[80px]')
+              // element.classList.toggle('pt-[100px]')
+              toggleElementX(k)
+            }
+
+            function toggleElementX(k) {
+              document.querySelector('#' + k + '-chevron').classList.toggle('rotate-180')
+              // document.querySelector('#' + k + '-heading').classList.toggle('bg-pfp-green')
             }
           </script>
-          <div class="bg-[#e7f5f5] w-full flex-col flex justify-center items-center gap-[30px] pb-10 rounded-[20px] z-[2]">
+          <div
+            id="contactform"
+            class="bg-[#e7f5f5] duration-200 w-full overflow-hidden flex-col flex justify-center items-center gap-[30px] pb-10 rounded-[20px] z-[2]">
             <div class="w-full flex items-center gap-[50px] pr-[50px]">
-              <div class="bg-[#e7f5f5] flex justify-center items-center gap-2.5 px-[50px] py-5 rounded-l-[20px]">
+              <div
+                id="contactform-heading"
+                class="bg-none duration-200 flex justify-center items-center gap-2.5 px-[50px] py-5 rounded-l-[20px]">
                 <img src="/assets/new/mail.svg" alt="mail" class="h-10 w-10" />
               </div>
               <div class="text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins w-[596px]">
                 Message us through our contact form
               </div>
               <div class="flex items-center gap-2.5 pl-[50px]">
-                <img src="/assets/new/chevron-down.svg" alt="chevron-down" class="h-6 w-6" />
+                <button >
+                  <img
+                    id="contactform-chevron"
+                    src="/assets/new/chevron-down.svg"
+                    alt="chevron-down"
+                    class="h-6 w-6 duration-200" />
+                </button>
               </div>
             </div>
             <div class="w-[600px] flex justify-center items-center gap-[30px] leading-[26px] text-[#2e3855] font-PublicSans">
@@ -123,7 +156,11 @@
                     <div class="text-sm leading-[26px] font-PublicSans w-[390px]">
                       78 Pall Mall SW1Y 5ES London, United Kingdom
                     </div>
-                    <img src="/assets/new/map.png" class="mt-5" />
+                    <a
+                      href="https://www.google.com/maps/place/78+Pall+Mall,+St.+James's,+London+SW1Y+5ES/@51.5057924,-0.1362653,19z/data=!4m6!3m5!1s0x487604d7477ba0bb:0x5ecb442822d2e0e!8m2!3d51.5056999!4d-0.1359853!16s%2Fg%2F1tj90_zr?entry=ttu"
+                      target="_blank">
+                      <img src="/assets/new/map.png" class="mt-5" />
+                    </a>
                   </div>
                 </div>
               </div>

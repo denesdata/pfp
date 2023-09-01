@@ -38,16 +38,8 @@ export const header: HeaderConfig = {
           link: '/resources/financial-options'
         },
         {
-          text: 'Research Articles',
+          text: 'FAQ',
           link: '/resources/articles'
-        },
-        {
-          text: 'Case studies',
-          link: '/resources/case-studies'
-        },
-        {
-          text: 'Policy Landscape',
-          link: '/resources/policy'
         }
       ]
     },

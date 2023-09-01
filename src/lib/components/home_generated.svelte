@@ -7,7 +7,7 @@
       </div> -->
       <div class="w-full z-[0] h-[400px] rounded-[20px] overflow-hidden">
         <video autoplay loop muted class="w-full">
-          <source src="/assets/iStock-1127568776.mov" type="video/mp4" />
+          <source src="/assets/bg2.mp4" type="video/mp4" />
         </video>
       </div>
       <div
@@ -98,7 +98,7 @@
                   By harnessing the power of non-recycled waste, our platform provides a secure and reliable energy source,
                   giving you peace of mind knowing that you&#039;ll never run out of power.
                 </div>
-                <a href="/explore">
+                <a href="/explore#map2">
                   <div
                     class="bg-[#eb8b5a] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-base leading-[20px] font-normal tracking-wider text-white">
                     <img

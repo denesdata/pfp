@@ -13,8 +13,12 @@
   import Explore from '$lib/components/explore.svelte'
   import Blog from '$lib/components/new_news.svelte'
   import NewsItem from '$lib/components/news_item.svelte'
+  import NewsItem2 from '$lib/components/news_item2.svelte'
+  import NewsItem3 from '$lib/components/news_item3.svelte'
+  import NewsItem4 from '$lib/components/news_item4.svelte'
   import Contact from '$lib/components/new_contact.svelte'
   import Financial_options from '$lib/components/resources_financial_options.svelte'
+  import FAQ from '$lib/components/resources_faq.svelte'
   import 'uno.css'
   import '../app.pcss'
   import PostCard from '$lib/components/post_card.svelte'
@@ -49,6 +53,12 @@
     <Blog />
   {:else if path == '/news-item' || path == '/news-item/'}
     <NewsItem />
+  {:else if path == '/news-item2' || path == '/news-item2/'}
+    <NewsItem2 />
+  {:else if path == '/news-item3' || path == '/news-item3/'}
+    <NewsItem3 />
+  {:else if path == '/news-item4' || path == '/news-item4/'}
+    <NewsItem4 />
   {:else if path == '/explore' || path == '/explore/'}
     <Explore />
   {:else if path == '/about' || path == '/about/'}
@@ -59,6 +69,8 @@
     <Contact />
   {:else if path == '/resources/financial-options' || path == '/resources/financial-options/'}
     <Financial_options />
+  {:else if path == '/resources/articles' || path == '/resources/articles/'}
+    <FAQ />
   {:else}
     <!-- {path.split('/')[1]} -->
     <slot />

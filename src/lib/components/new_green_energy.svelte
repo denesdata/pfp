@@ -79,7 +79,7 @@
                 </div>
               </div>
               <div class="bg-[#e7f5f5] w-full flex items-center gap-10 px-[60px] pt-[30px] pb-[50px] text-sm">
-                <div class="flex-1 flex-col flex items-start gap-4">
+                <div class="flex-1 flex-col flex items-start gap-4 align-top">
                   <div class="w-full flex items-center gap-3.5 leading-[21px] font-semibold text-center font-Poppins">
                     <img
                       src="/assets/new/badge-plus.svg"
@@ -108,6 +108,8 @@
                     <ul class="list-disc">
                       <li>Covers are not airtight, so some methane may still escape.</li>
                       <li>If biogas cannot be used on site, finding an off-taker is necessary.</li>
+                      
+                      &nbsp;
                     </ul>
                   </div>
                 </div>
@@ -162,6 +164,7 @@
                       <li>
                         Smaller units for food waste are relatively affordable and usually don’t require planning consent.
                       </li>
+                      &nbsp;<br>&nbsp;
                     </ul>
                   </div>
                 </div>
@@ -251,6 +254,7 @@
                       <li>High initial investment, especially for larger operations.</li>
                       <li>Demand for technical expertise and skilled personnel.</li>
                       <li>Emission monitoring and management required to minimize environmental impacts.</li>
+                      &nbsp;<br>&nbsp;
                     </ul>
                   </div>
                 </div>
@@ -358,7 +362,8 @@
         <div class="flex-col w-[1060px] flex items-start rounded-[20px]">
           <div class="bg-white w-full flex items-center rounded-t-[20px]" id="xsp1box">
             <div
-              class="bg-cover bg-[url('/assets/new/E11.jpg')] bg-center flex-col h-[240px] w-[460px] flex justify-center items-center gap-5 px-[50px] py-10 rounded-tl-[20px]" id="xsp1img">
+              class="bg-cover bg-[url('/assets/new/E11.jpg')] bg-center flex-col h-[245px] w-[460px] flex justify-center items-center gap-5 px-[50px] py-10 rounded-tl-[20px]"
+              id="xsp1img">
               <div class="flex-col flex items-center gap-5" />
             </div>
             <div class="flex-1 flex-col flex items-start gap-4 px-10 py-[30px]">
@@ -419,7 +424,8 @@
         <div class="flex-col w-[1060px] flex items-start rounded-[20px]">
           <div class="bg-white w-full flex items-center rounded-t-[20px] rounded-b-[20px]" id="xsp2box">
             <div
-              class="bg-cover bg-[url('/assets/new/E12.jpg')] bg-center flex-col h-[240px] w-[460px] flex justify-center items-center gap-5 px-[50px] py-10 rounded-tl-[20px] rounded-bl-[20px]" id="xsp2img">
+              class="bg-cover bg-[url('/assets/new/E12.jpg')] bg-center flex-col h-[245px] w-[460px] flex justify-center items-center gap-5 px-[50px] py-10 rounded-tl-[20px] rounded-bl-[20px]"
+              id="xsp2img">
               <div class="flex-col flex items-center gap-5" />
             </div>
             <div class="flex-1 flex-col flex items-start gap-4 px-10 py-[30px]">
@@ -477,7 +483,8 @@
         <div class="flex-col w-[1060px] flex items-start rounded-[20px] mt-[10px]">
           <div class="bg-white w-full flex items-center rounded-t-[20px] rounded-b-[20px]" id="xsp3box">
             <div
-              class="bg-cover bg-[url('/assets/new/E13.jpg')] bg-center flex-col h-[240px] w-[460px] flex justify-center items-center gap-5 px-[50px] py-10 rounded-tl-[20px] rounded-bl-[20px]" id="xsp3img">
+              class="bg-cover bg-[url('/assets/new/E13.jpg')] bg-center flex-col h-[245px] w-[460px] flex justify-center items-center gap-5 px-[50px] py-10 rounded-tl-[20px] rounded-bl-[20px]"
+              id="xsp3img">
               <div class="flex-col flex items-center gap-5" />
             </div>
             <div class="flex-1 flex-col flex items-start gap-4 px-10 py-[30px]">

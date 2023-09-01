@@ -3,7 +3,7 @@
     <div class="flex-col w-full flex items-start gap-[30px]">
       <div class="w-full flex-col flex justify-center items-start gap-2.5 text-sm leading-[26px] font-PublicSans">
         <div class="flex items-center gap-2.5">
-          <div class="font-bold text-[#3f9378]">News</div>
+          <a href="/news"><div class="font-bold text-[#3f9378]">News</div></a>
           <div class="font-semibold text-[#2e3855]">
             Examining the global impact of food production and mitigation strategies
           </div>
@@ -16,7 +16,7 @@
           <div class="w-full flex-col flex items-start gap-4 font-Poppins">
             <div
               class="bg-[#d0e6f2] flex items-start gap-2.5 px-2.5 py-1 rounded-[5px] text-sm leading-[21px] font-semibold text-center">
-              <div class="uppercase">July 24, 2023</div>
+              <div class="uppercase">June 15, 2023</div>
             </div>
             <div class="text-2xl leading-[33px] font-bold w-[680px]">
               Examining the global impact of food production and mitigation strategies
@@ -50,7 +50,7 @@
               </div>
             </div>
             <div class="w-full flex-col flex items-start gap-4 text-sm leading-[25px] font-light font-PublicSans">
-              <img class="object-cover w-full h-[350px]" alt="1686828442283 1" src="/assets/new/XN3.png" />
+              <img class="object-cover w-full h-[350px] rounded-2xl" alt="1686828442283 1" src="/assets/new/XN3.png" />
               <div class="italic w-[680px]">
                 Monoculture farming: a short-term yield with long-term environmental implications (photo by Tim Hüfner on
                 Unsplash)

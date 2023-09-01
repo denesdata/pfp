@@ -11,7 +11,7 @@
           <div class="rounded-b-[20px] bg-white w-full flex-col flex items-start gap-4 px-6 pt-5 pb-6">
             <div
               class="bg-[#d0e6f2] flex items-start gap-2.5 px-2.5 py-1 rounded-[5px] text-sm leading-[21px] font-semibold text-center text-[#2e3855] font-Poppins">
-              <div class="uppercase">July 24, 2023</div>
+              <div class="uppercase">June 15, 2023</div>
             </div>
             <div class="text-xl leading-[34px] font-bold text-[#2e3855] font-Poppins w-[462px]">
               Examining the global impact of food production and mitigation strategies
@@ -34,13 +34,13 @@
           <div class="rounded-b-[20px] bg-white w-full flex-1 flex-col flex items-start gap-4 px-6 pt-5 pb-6">
             <div
               class="bg-[#d0e6f2] flex items-start gap-2.5 px-2.5 py-1 rounded-[5px] text-sm leading-[21px] font-semibold text-center text-[#2e3855] font-Poppins">
-              <div class="uppercase">July 24, 2023</div>
+              <div class="uppercase">May 9, 2023</div>
             </div>
             <div class="text-xl leading-[34px] font-bold text-[#2e3855] font-Poppins h-[68px] w-[462px]">
               A war worth fighting
             </div>
 
-            <a href="/news-item">
+            <a href="/news-item2">
               <div
                 class="bg-[#3f9378] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-base leading-[20px] font-normal tracking-wider text-white">
                 <img
@@ -59,13 +59,13 @@
           <div class="rounded-b-[20px] bg-white w-full flex-col flex items-start gap-4 px-6 pt-5 pb-6">
             <div
               class="bg-[#d0e6f2] flex items-start gap-2.5 px-2.5 py-1 rounded-[5px] text-sm leading-[21px] font-semibold text-center text-[#2e3855] font-Poppins">
-              <div class="uppercase">July 24, 2023</div>
+              <div class="uppercase">April 6, 2023</div>
             </div>
             <div class="text-xl leading-[34px] font-bold text-[#2e3855] font-Poppins w-[462px]">
               One ecosystem, one overall solution
             </div>
 
-            <a href="/news-item">
+            <a href="/news-item3">
               <div
                 class="bg-[#3f9378] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-base leading-[20px] font-normal tracking-wider text-white">
                 <img
@@ -82,12 +82,12 @@
           <div class="rounded-b-[20px] bg-white w-full flex-col flex items-start gap-4 px-6 pt-5 pb-6">
             <div
               class="bg-[#d0e6f2] flex items-start gap-2.5 px-2.5 py-1 rounded-[5px] text-sm leading-[21px] font-semibold text-center text-[#2e3855] font-Poppins">
-              <div class="uppercase">July 24, 2023</div>
+              <div class="uppercase">March 6, 2023</div>
             </div>
             <div class="text-xl leading-[34px] font-bold text-[#2e3855] font-Poppins w-[462px]">
               The “Great Greenwashing” of 2023
             </div>
-            <a href="/news-item">
+            <a href="/news-item4">
               <div
                 class="bg-[#3f9378] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-base leading-[20px] font-normal tracking-wider text-white">
                 <img
