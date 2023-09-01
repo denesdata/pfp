@@ -26,7 +26,7 @@ Buffaloo ,Y,400,Anaerobic Digestion,100,10,7882,7252,2759,508,28835
 Chicken layer manure,Y,400,Anaerobic Digestion,100,39,30740,28281,10759,1980,28835
 Chicken broiler manure,Y,400,Anaerobic Digestion,100,36,28375,26105,9931,1827,28835
 Sheep,Y,400,Anaerobic Digestion,100,19,14976,13778,5242,964,28835
-Food waste ,Y,5,Anaerobic Digestion,,,,,,,
+Food waste ,Y,5,Anaerobic Digestion,100,	45,	35469,	32632,	12414,	2284,	28835
 Fish waste,Y,400,Anaerobic Digestion,100,59,46504,42784,16276,2995,28835
 Coffee grounds ,Y,400,Anaerobic Digestion,,,,,,,
 Crop residues,Y,400,Anaerobic Digestion,,,,,,,
