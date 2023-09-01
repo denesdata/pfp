@@ -1,0 +1,73 @@
+﻿Cheese production (37% milk) ,Y,400,Anaerobic Digestion,100,50,39410,36258,13794,2538,28835
+Butter production (29% milk),Y,400,Anaerobic Digestion,100,50,39410,36258,13794,2538,28835
+Ice cream (13% milk),Y,400,Anaerobic Digestion,100,50,39410,36258,13794,2538,28835
+Beer production ,Y,400,Anaerobic Digestion,100,50,39410,36258,13794,2538,28835
+Wine production,Y,400,Anaerobic Digestion,100,50,39410,36258,13794,2538,28835
+Spirits production ,Y,400,Anaerobic Digestion,100,50,39410,36258,13794,2538,28835
+Ethanol production ,Y,400,Anaerobic Digestion,100,50,39410,36258,13794,2538,28835
+Pulp production ,Y,400,Anaerobic Digestion,100,50,39410,36258,13794,2538,28835
+Juice production ,Y,400,Anaerobic Digestion,100,45,35469,32632,12414,2284,28835
+Tomato ketchup ,Y,400,Anaerobic Digestion,100,45,35469,32632,12414,2284,28835
+Bovine meat ,Y,400,Anaerobic Digestion,100,50,39410,36258,13794,2538,28835
+Pig meat ,Y,400,Anaerobic Digestion,100,50,39410,36258,13794,2538,28835
+Sheep meat ,Y,400,Anaerobic Digestion,100,50,39410,36258,13794,2538,28835
+Frozen potatoes ,Y,400,Anaerobic Digestion,100,50,39410,36258,13794,2538,28835
+Prepared potatoes (crisps),Y,400,Anaerobic Digestion,100,50,39410,36258,13794,2538,28835
+Potato starch ,Y,400,Anaerobic Digestion,100,50,39410,36258,13794,2538,28835
+Dried potatoes ,Y,400,Anaerobic Digestion,100,50,39410,36258,13794,2538,28835
+Sugar production ,Y,400,Anaerobic Digestion,100,50,39410,36258,13794,2538,28835
+Yeast production,Y,400,Anaerobic Digestion,100,35,27587,25380,9656,1777,28835
+Vegetable oils production ,Y,400,Anaerobic Digestion,100,40,31528,29006,11035,2030,28835
+Biodiesel production ,Y,400,Anaerobic Digestion,100,50,39410,36258,13794,2538,28835
+Pig manure,Y,400,Anaerobic Digestion,100,45,35469,32632,12414,2284,28835
+Dairy Cattle ,Y,400,Anaerobic Digestion,100,24,18917,17404,6621,1218,28835
+Non diary cattle,Y,400,Anaerobic Digestion,100,18,14188,13053,4966,914,28835
+Buffaloo ,Y,400,Anaerobic Digestion,100,10,7882,7252,2759,508,28835
+Chicken layer manure,Y,400,Anaerobic Digestion,100,39,30740,28281,10759,1980,28835
+Chicken broiler manure,Y,400,Anaerobic Digestion,100,36,28375,26105,9931,1827,28835
+Sheep,Y,400,Anaerobic Digestion,100,19,14976,13778,5242,964,28835
+Food waste ,Y,5,Anaerobic Digestion,100,	45,	35469,	32632,	12414,	2284,	28835
+Fish waste,Y,400,Anaerobic Digestion,100,59,46504,42784,16276,2995,28835
+Coffee grounds ,Y,400,Anaerobic Digestion,,,,,,,
+Crop residues,Y,400,Anaerobic Digestion,,,,,,,
+Maize silage,Y,400,Anaerobic Digestion,,,,,,,
+Cereal ,Y,400,Anaerobic Digestion,,,,,,,
+Grass silage,Y,400,Anaerobic Digestion,,,,,,,
+,,,,,,,,,,
+,Feasibility ,Limits (kg/day),Technology ,kg per day ,Energy Content (MJ/kg),electricity produced (kWh) pa,heat produced (kWh) pa,electricity savings pa,heat savings pa,char (kg) pa
+Pulp & Paper Waste,Y,4000,Pyrolysis ,1000,13.5,410954,684923,143834,47945,91250
+Textile Waste,Y,4000,Pyrolysis ,1000,17,517497,862495,181124,60375,91250
+PE Plastic,Y,4000,Pyrolysis ,1000,46,1400286,2333810,490100,163367,91250
+SRF,Y,4000,Pyrolysis ,1000,22,669702,1116170,234396,78132,91250
+RDF,Y,4000,Pyrolysis ,1000,18,547938,913230,191778,63926,91250
+PP Plastic,Y,4000,Pyrolysis ,1000,46,1400286,2333810,490100,163367,91250
+PS Plastic,Y,4000,Pyrolysis ,1000,46,1400286,2333810,490100,163367,91250
+PVC Plastic,Y,4000,Pyrolysis ,1000,25,761025,1268375,266359,88786,91250
+PET Plastic,Y,4000,Pyrolysis ,1000,18,547938,913230,191778,63926,91250
+Rubber,Y,4000,Pyrolysis ,1000,17,517497,862495,181124,60375,91250
+Wood waste,Y,4000,Pyrolysis ,1000,14,426174,710290,149161,49720,91250
+Municipal Solid Waste (MSW),Y,4000,Pyrolysis ,1000,2,60882,101470,21309,7103,91250
+Medical Waste,Y,4000,Pyrolysis ,1000,18,547938,913230,191778,63926,91250
+,,,,,,,,,,
+,Feasibility ,,,,,,,,,
+Ceramics,N,,,,,,,,,
+Sand ,N,,,,,,,,,
+Dust ,N,,,,,,,,,
+Glass ,N,,,,,,,,,
+Metals,N,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
