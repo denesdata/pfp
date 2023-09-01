@@ -1997,7 +1997,7 @@
             if (key != 'feasibility') {
               var el = document.querySelector('#' + key)
               if (el) {
-                el.innerHTML = (d[key] * Math.round(wt2.value / d['kgperday'], 0)).toLocaleString()
+                el.innerHTML = Math.round(d[key] * wt2.value / d['kgperday'], 0).toLocaleString()
               }
             }
           }
