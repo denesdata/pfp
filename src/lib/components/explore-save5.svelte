@@ -1127,7 +1127,7 @@
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
-              <span id="energycontent">18</span>
+              <span id="gcv">18</span>
               MJ/kg
             </div>
           </div>
@@ -1140,8 +1140,8 @@
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
-              <span id="heatproduced">11,200</span>
-              kWh per year
+              <span id="heat-produced">11,200</span>
+              MWh per year
             </div>
           </div>
           <div class="flex justify-center mb-6">
@@ -1154,7 +1154,7 @@
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
               £
-              <span id="heatsavingspa">48,000</span>
+              <span id="heat-savings">48,000</span>
               per year
             </div>
           </div>
@@ -1167,8 +1167,8 @@
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
-              <span id="electricityproduced">4,800</span>
-              kWh per year
+              <span id="electricity-produced">4,800</span>
+              MWh per year
             </div>
           </div>
           <div class="flex justify-center mb-6">
@@ -1181,7 +1181,7 @@
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
               £
-              <span id="electricitysavingspa">70,000</span>
+              <span id="electrical-savings">70,000</span>
               per year
             </div>
           </div>
@@ -1194,7 +1194,7 @@
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
-              <span id="fertiliser">500</span>
+              <span id="char">500</span>
               tonnes
             </div>
           </div>
@@ -1204,9 +1204,7 @@
     <section id="calculate">
       <div class="container rounded-2xl bg-white p-20 pt-12 pb-16 z-23" id="growcalc">
         <div class="text-center pb-10">
-          <h1
-            style="font-family: 'Poppins', sans-serif;"
-            class="card text-3xl font-bold text-[#2e3855] font-Poppins text-center">
+          <h1 style="font-family: 'Poppins', sans-serif;" class="card text-3xl font-bold text-[#2e3855] font-Poppins text-center">
             The PFP Calculator
           </h1>
           <p style=" font-family: 'Public Sans', sans-serif;" class="text-[#2E3855] tracking-wider mt-5 pl-24 pr-24">
@@ -1227,60 +1225,35 @@
               <div
                 class="button dropdown w-1/2 flex justify-between z-10 inline-flex items-center py-2.5 px-4 text-xl font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
                 <select id="colorselector" class="w-full bg-transparent text-center border-0">
-                  <option class="bg-[#E7F5F5]" value="Cheese production (37% milk)">Cheese production (37% milk)</option>
-                  <option class="bg-[#E7F5F5]" value="Butter production (29% milk)">Butter production (29% milk)</option>
-                  <option class="bg-[#E7F5F5]" value="Ice cream (13% milk)">Ice cream (13% milk)</option>
-                  <option class="bg-[#E7F5F5]" value="Beer production">Beer production</option>
-                  <option class="bg-[#E7F5F5]" value="Wine production">Wine production</option>
-                  <option class="bg-[#E7F5F5]" value="Spirits production">Spirits production</option>
-                  <option class="bg-[#E7F5F5]" value="Ethanol production">Ethanol production</option>
-                  <option class="bg-[#E7F5F5]" value="Pulp production">Pulp production</option>
-                  <option class="bg-[#E7F5F5]" value="Juice production">Juice production</option>
-                  <option class="bg-[#E7F5F5]" value="Tomato ketchup">Tomato ketchup</option>
-                  <option class="bg-[#E7F5F5]" value="Bovine meat">Bovine meat</option>
-                  <option class="bg-[#E7F5F5]" value="Pig meat">Pig meat</option>
-                  <option class="bg-[#E7F5F5]" value="Sheep meat">Sheep meat</option>
-                  <option class="bg-[#E7F5F5]" value="Frozen potatoes">Frozen potatoes</option>
-                  <option class="bg-[#E7F5F5]" value="Prepared potatoes (crisps)">Prepared potatoes (crisps)</option>
-                  <option class="bg-[#E7F5F5]" value="Potato starch">Potato starch</option>
-                  <option class="bg-[#E7F5F5]" value="Dried potatoes">Dried potatoes</option>
-                  <option class="bg-[#E7F5F5]" value="Sugar production">Sugar production</option>
-                  <option class="bg-[#E7F5F5]" value="Yeast production">Yeast production</option>
-                  <option class="bg-[#E7F5F5]" value="Vegetable oils production">Vegetable oils production</option>
-                  <option class="bg-[#E7F5F5]" value="Biodiesel production">Biodiesel production</option>
-                  <option class="bg-[#E7F5F5]" value="Pig manure">Pig manure</option>
-                  <option class="bg-[#E7F5F5]" value="Dairy Cattle">Dairy Cattle</option>
-                  <option class="bg-[#E7F5F5]" value="Non diary cattle">Non diary cattle</option>
-                  <option class="bg-[#E7F5F5]" value="Buffalo">Buffalo</option>
-                  <option class="bg-[#E7F5F5]" value="Chicken layer manure">Chicken layer manure</option>
-                  <option class="bg-[#E7F5F5]" value="Chicken broiler manure">Chicken broiler manure</option>
-                  <option class="bg-[#E7F5F5]" value="Sheep">Sheep</option>
-                  <option class="bg-[#E7F5F5]" value="Food waste">Food waste</option>
-                  <option class="bg-[#E7F5F5]" value="Fish waste">Fish waste</option>
-                  <option class="bg-[#E7F5F5]" value="Coffee grounds">Coffee grounds</option>
-                  <option class="bg-[#E7F5F5]" value="Crop residues">Crop residues</option>
-                  <option class="bg-[#E7F5F5]" value="Maize silage">Maize silage</option>
-                  <option class="bg-[#E7F5F5]" value="Cereal">Cereal</option>
-                  <option class="bg-[#E7F5F5]" value="Grass silage">Grass silage</option>
-                  <option class="bg-[#E7F5F5]" value="Pulp & Paper Waste">Pulp & Paper Waste</option>
-                  <option class="bg-[#E7F5F5]" value="Textile Waste">Textile Waste</option>
-                  <option class="bg-[#E7F5F5]" value="PE Plastic">PE Plastic</option>
-                  <option class="bg-[#E7F5F5]" value="SRF">SRF</option>
-                  <option class="bg-[#E7F5F5]" value="RDF">RDF</option>
-                  <option class="bg-[#E7F5F5]" value="PP Plastic">PP Plastic</option>
-                  <option class="bg-[#E7F5F5]" value="PS Plastic">PS Plastic</option>
-                  <option class="bg-[#E7F5F5]" value="PVC Plastic">PVC Plastic</option>
-                  <option class="bg-[#E7F5F5]" value="PET Plastic">PET Plastic</option>
-                  <option class="bg-[#E7F5F5]" value="Rubber">Rubber</option>
-                  <option class="bg-[#E7F5F5]" value="Wood waste">Wood waste</option>
-                  <option class="bg-[#E7F5F5]" value="Municipal Solid Waste (MSW)">Municipal Solid Waste (MSW)</option>
-                  <option class="bg-[#E7F5F5]" value="Medical Waste">Medical Waste</option>
+                  <option class="bg-[#E7F5F5]" value="cow-manure">Cow manure</option>
+                  <option class="bg-[#E7F5F5]" value="pig-slurry">Pig slurry</option>
+                  <option class="bg-[#E7F5F5]" value="food-waste">Food waste</option>
+                  <option class="bg-[#E7F5F5]" value="fish-waste">Fish waste</option>
+                  <option class="bg-[#E7F5F5]" value="poultry-litter">Poultry litter</option>
+                  <option class="bg-[#E7F5F5]" value="brewery-waste">Brewery waste</option>
+                  <option class="bg-[#E7F5F5]" value="pulp-paper-waste">Pulp & paper waste</option>
+                  <option class="bg-[#E7F5F5]" value="textile-waste">Textile waste</option>
+                  <option class="bg-[#E7F5F5]" value="pe-plastic">PE plastic</option>
+                  <option class="bg-[#E7F5F5]" value="srf-rdf">SRF and RDF</option>
+                  <option class="bg-[#E7F5F5]" value="coffee-grounds">Coffee grounds</option>
+                  <option class="bg-[#E7F5F5]" value="crop-residues">Crop residues</option>
+                  <option class="bg-[#E7F5F5]" value="maize-silage">Maize silage</option>
+                  <option class="bg-[#E7F5F5]" value="cereal">Cereal</option>
+                  <option class="bg-[#E7F5F5]" value="grass-silage">Grass silage</option>
+                  <option class="bg-[#E7F5F5]" value="pp-plastic">PP Plastic</option>
+                  <option class="bg-[#E7F5F5]" value="ps-plastic">PS Plastic</option>
+                  <option class="bg-[#E7F5F5]" value="pvc-plastic">PVC Plastic</option>
+                  <option class="bg-[#E7F5F5]" value="pet-plastic">PET Plastic</option>
+                  <option class="bg-[#E7F5F5]" value="rubber">Rubber</option>
+                  <option class="bg-[#E7F5F5]" value="wood-waste">Wood waste</option>
+                  <option class="bg-[#E7F5F5]" value="municipal-solid-waste">Municipal Solid Waste</option>
+                  <option class="bg-[#E7F5F5]" value="medical-waste">Medical Waste</option>
 
-                  <option class="bg-[#E7F5F5]" value="Ceramics">Ceramics</option>
-                  <option class="bg-[#E7F5F5]" value="Sand">Sand</option>
-                  <option class="bg-[#E7F5F5]" value="Dust">Dust</option>
-                  <option class="bg-[#E7F5F5]" value="Glass">Glass</option>
-                  <option class="bg-[#E7F5F5]" value="Metals">Metals</option>
+                  <option class="bg-[#E7F5F5]" value="ceramics">Ceramics</option>
+                  <option class="bg-[#E7F5F5]" value="sand">Sand</option>
+                  <option class="bg-[#E7F5F5]" value="dust">Dust</option>
+                  <option class="bg-[#E7F5F5]" value="glass">Glass</option>
+                  <option class="bg-[#E7F5F5]" value="metals">Metals</option>
                 </select>
               </div>
             </div>
@@ -1361,606 +1334,321 @@
     <script>
       function calculate() {
         const data = {
-          Ceramics: {
-            feasibility: 'N'
-          },
-          Sand: { feasibility: 'N' },
-          Dust: { feasibility: 'N' },
-          Glass: { feasibility: 'N' },
-          Metals: { feasibility: 'N' },
-          'Cheese production (37% milk)': {
+          'cow-manure': {
+            tech: 'anaerobic-digestion',
+            gcv: 15.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 50.0,
-            electricityproduced: 39410.3275,
-            heatproduced: 36257.5013,
-            electricitysavingspa: 13793.614625,
-            heatsavingspa: 2538.025091,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 15000.0,
+            'heat-savings': 1050000.0,
+            'electricity-produced': 3000.0,
+            'electrical-savings': 1050000.0,
+            char: 50.0
           },
-          'Butter production (29% milk)': {
+          'food-waste': {
+            tech: 'anaerobic-digestion',
+            gcv: 17.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 50.0,
-            electricityproduced: 39410.3275,
-            heatproduced: 36257.5013,
-            electricitysavingspa: 13793.614625,
-            heatsavingspa: 2538.025091,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 17000.0,
+            'heat-savings': 1190000.0,
+            'electricity-produced': 3400.0,
+            'electrical-savings': 1190000.0,
+            char: 60.0
           },
-          'Ice cream (13% milk)': {
+          'pig-slurry': {
+            tech: 'anaerobic-digestion',
+            gcv: 13.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 50.0,
-            electricityproduced: 39410.3275,
-            heatproduced: 36257.5013,
-            electricitysavingspa: 13793.614625,
-            heatsavingspa: 2538.025091,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 11380.0,
+            'heat-savings': 797600.0,
+            'electricity-produced': 2276.0,
+            'electrical-savings': 796600.0,
+            char: 40.0
           },
-          'Beer production': {
+          'fish-waste': {
+            tech: 'anaerobic-digestion',
+            gcv: 15.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 50.0,
-            electricityproduced: 39410.3275,
-            heatproduced: 36257.5013,
-            electricitysavingspa: 13793.614625,
-            heatsavingspa: 2538.025091,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 13140.0,
+            'heat-savings': 919800.0,
+            'electricity-produced': 2628.0,
+            'electrical-savings': 919800.0,
+            char: 60.0
           },
-          'Wine production': {
+          'poultry-litter': {
+            tech: 'anaerobic-digestion',
+            gcv: 14.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 50.0,
-            electricityproduced: 39410.3275,
-            heatproduced: 36257.5013,
-            electricitysavingspa: 13793.614625,
-            heatsavingspa: 2538.025091,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 12260.0,
+            'heat-savings': 858200.0,
+            'electricity-produced': 2452.0,
+            'electrical-savings': 858200.0,
+            char: 50.0
           },
-          'Spirits production': {
+          'brewery-waste': {
+            tech: 'anaerobic-digestion',
+            gcv: 12.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 50.0,
-            electricityproduced: 39410.3275,
-            heatproduced: 36257.5013,
-            electricitysavingspa: 13793.614625,
-            heatsavingspa: 2538.025091,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 10512.0,
+            'heat-savings': 736840.0,
+            'electricity-produced': 2102.0,
+            'electrical-savings': 736840.0,
+            char: 45.0
           },
-          'Ethanol production': {
+          'pulp-paper-waste': {
+            tech: 'pyrolysis',
+            gcv: 15.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 50.0,
-            electricityproduced: 39410.3275,
-            heatproduced: 36257.5013,
-            electricitysavingspa: 13793.614625,
-            heatsavingspa: 2538.025091,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 13140.0,
+            'heat-savings': 919800.0,
+            'electricity-produced': 2628.0,
+            'electrical-savings': 919800.0,
+            char: 55.0
           },
-          'Pulp production': {
+          'textile-waste': {
+            tech: 'pyrolysis',
+            gcv: 20.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 50.0,
-            electricityproduced: 39410.3275,
-            heatproduced: 36257.5013,
-            electricitysavingspa: 13793.614625,
-            heatsavingspa: 2538.025091,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 17520.0,
+            'heat-savings': 1226400.0,
+            'electricity-produced': 3504.0,
+            'electrical-savings': 1226400.0,
+            char: 80.0
           },
-          'Juice production': {
+          'pe-plastic': {
+            tech: 'pyrolysis',
+            gcv: 46.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 45.0,
-            electricityproduced: 35469.29475,
-            heatproduced: 32631.75117,
-            electricitysavingspa: 12414.2531625,
-            heatsavingspa: 2284.2225819,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 40336.0,
+            'heat-savings': 2823520.0,
+            'electricity-produced': 8067.0,
+            'electrical-savings': 2823520.0,
+            char: 200.0
           },
-          'Tomato ketchup': {
+          'srf-rdf': {
+            tech: 'pyrolysis',
+            gcv: 18.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 45.0,
-            electricityproduced: 35469.29475,
-            heatproduced: 32631.75117,
-            electricitysavingspa: 12414.2531625,
-            heatsavingspa: 2284.2225819,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 15768.0,
+            'heat-savings': 1103760.0,
+            'electricity-produced': 3154.0,
+            'electrical-savings': 1103760.0,
+            char: 75.0
           },
-          'Bovine meat': {
+          'coffee-grounds': {
+            tech: 'anaerobic-digestion',
+            gcv: 16.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 50.0,
-            electricityproduced: 39410.3275,
-            heatproduced: 36257.5013,
-            electricitysavingspa: 13793.614625,
-            heatsavingspa: 2538.025091,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 14016.0,
+            'heat-savings': 981120.0,
+            'electricity-produced': 2803.0,
+            'electrical-savings': 981120.0,
+            char: 60.0
           },
-          'Pig meat': {
+          'crop-residues': {
+            tech: 'anaerobic-digestion',
+            gcv: 17.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 50.0,
-            electricityproduced: 39410.3275,
-            heatproduced: 36257.5013,
-            electricitysavingspa: 13793.614625,
-            heatsavingspa: 2538.025091,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 14904.0,
+            'heat-savings': 1043280.0,
+            'electricity-produced': 2981.0,
+            'electrical-savings': 1043280.0,
+            char: 65.0
           },
-          'Sheep meat': {
+          'maize-silage': {
+            tech: 'anaerobic-digestion',
+            gcv: 17.51,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 50.0,
-            electricityproduced: 39410.3275,
-            heatproduced: 36257.5013,
-            electricitysavingspa: 13793.614625,
-            heatsavingspa: 2538.025091,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 17500.0,
+            'heat-savings': 1225000.0,
+            'electricity-produced': 4375.0,
+            'electrical-savings': 1531250.0,
+            char: 50.0
           },
-          'Frozen potatoes': {
+          cereal: {
+            tech: 'anaerobic-digestion',
+            gcv: 15.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 50.0,
-            electricityproduced: 39410.3275,
-            heatproduced: 36257.5013,
-            electricitysavingspa: 13793.614625,
-            heatsavingspa: 2538.025091,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 15000.0,
+            'heat-savings': 1050000.0,
+            'electricity-produced': 3750.0,
+            'electrical-savings': 1312500.0,
+            char: 40.0
           },
-          'Prepared potatoes (crisps)': {
+          'grass-silage': {
+            tech: 'anaerobic-digestion',
+            gcv: 18.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 50.0,
-            electricityproduced: 39410.3275,
-            heatproduced: 36257.5013,
-            electricitysavingspa: 13793.614625,
-            heatsavingspa: 2538.025091,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 18000.0,
+            'heat-savings': 1260000.0,
+            'electricity-produced': 4500.0,
+            'electrical-savings': 1575000.0,
+            char: 60.0
           },
-          'Potato starch': {
+          'pp-plastic': {
+            tech: 'pyrolysis',
+            gcv: 44.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 50.0,
-            electricityproduced: 39410.3275,
-            heatproduced: 36257.5013,
-            electricitysavingspa: 13793.614625,
-            heatsavingspa: 2538.025091,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 44000.0,
+            'heat-savings': 3080000.0,
+            'electricity-produced': 11000.0,
+            'electrical-savings': 3850000.0,
+            char: 50.0
           },
-          'Dried potatoes': {
+          'ps-plastic': {
+            tech: 'pyrolysis',
+            gcv: 41.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 50.0,
-            electricityproduced: 39410.3275,
-            heatproduced: 36257.5013,
-            electricitysavingspa: 13793.614625,
-            heatsavingspa: 2538.025091,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 41000.0,
+            'heat-savings': 2870000.0,
+            'electricity-produced': 10250.0,
+            'electrical-savings': 3587500.0,
+            char: 40.0
           },
-          'Sugar production': {
+          'pvc-plastic': {
+            tech: 'pyrolysis',
+            gcv: 18.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 50.0,
-            electricityproduced: 39410.3275,
-            heatproduced: 36257.5013,
-            electricitysavingspa: 13793.614625,
-            heatsavingspa: 2538.025091,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 18000.0,
+            'heat-savings': 1260000.0,
+            'electricity-produced': 4500.0,
+            'electrical-savings': 1575000.0,
+            char: 20.0
           },
-          'Yeast production': {
+          'pet-plastic': {
+            tech: 'pyrolysis',
+            gcv: 21.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 35.0,
-            electricityproduced: 27587.22925,
-            heatproduced: 25380.25091,
-            electricitysavingspa: 9655.5302375,
-            heatsavingspa: 1776.6175637,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 21000.0,
+            'heat-savings': 1470000.0,
+            'electricity-produced': 5250.0,
+            'electrical-savings': 1837500.0,
+            char: 30.0
           },
-          'Vegetable oils production': {
+          rubber: {
+            tech: 'pyrolysis',
+            gcv: 32.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 40.0,
-            electricityproduced: 31528.262,
-            heatproduced: 29006.00104,
-            electricitysavingspa: 11034.8917,
-            heatsavingspa: 2030.4200728,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 32000.0,
+            'heat-savings': 2240000.0,
+            'electricity-produced': 8000.0,
+            'electrical-savings': 2800000.0,
+            char: 40.0
           },
-          'Biodiesel production': {
+          'wood-waste': {
+            tech: 'pyrolysis',
+            gcv: 15.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 50.0,
-            electricityproduced: 39410.3275,
-            heatproduced: 36257.5013,
-            electricitysavingspa: 13793.614625,
-            heatsavingspa: 2538.025091,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 15000.0,
+            'heat-savings': 1050000.0,
+            'electricity-produced': 3750.0,
+            'electrical-savings': 1312500.0,
+            char: 40.0
           },
-          'Pig manure': {
+          'municipal-solid-waste': {
+            tech: 'pyrolysis',
+            gcv: 10.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 45.0,
-            electricityproduced: 35469.29475,
-            heatproduced: 32631.75117,
-            electricitysavingspa: 12414.2531625,
-            heatsavingspa: 2284.2225819,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 10000.0,
+            'heat-savings': 700000.0,
+            'electricity-produced': 2500.0,
+            'electrical-savings': 875000.0,
+            char: null
           },
-          'Dairy Cattle': {
+          'medical-waste': {
+            tech: 'pyrolysis',
+            gcv: 13.0,
             feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 24.0,
-            electricityproduced: 18916.9572,
-            heatproduced: 17403.600624,
-            electricitysavingspa: 6620.93502,
-            heatsavingspa: 1218.25204368,
-            fertiliser: 28835
+            tonnes: 8760.0,
+            'heat-produced': 13000.0,
+            'heat-savings': 910000.0,
+            'electricity-produced': 3250.0,
+            'electrical-savings': 1137500.0,
+            char: null
           },
-          'Non diary cattle': {
-            feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 18.0,
-            electricityproduced: 14187.7179,
-            heatproduced: 13052.700468,
-            electricitysavingspa: 4965.701265,
-            heatsavingspa: 913.68903276,
-            fertiliser: 28835
+          ceramics: {
+            tech: null,
+            gcv: 0.0,
+            feasibility: 'N',
+            tonnes: null,
+            'heat-produced': null,
+            'heat-savings': null,
+            'electricity-produced': null,
+            'electrical-savings': null,
+            char: null
           },
-          Buffalo: {
-            feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 10.0,
-            electricityproduced: 7882.0655,
-            heatproduced: 7251.50026,
-            electricitysavingspa: 2758.722925,
-            heatsavingspa: 507.6050182,
-            fertiliser: 28835
+          sand: {
+            tech: null,
+            gcv: 0.0,
+            feasibility: 'N',
+            tonnes: null,
+            'heat-produced': null,
+            'heat-savings': null,
+            'electricity-produced': null,
+            'electrical-savings': null,
+            char: null
           },
-          'Chicken layer manure': {
-            feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 39.0,
-            electricityproduced: 30740.05545,
-            heatproduced: 28280.851014,
-            electricitysavingspa: 10759.0194075,
-            heatsavingspa: 1979.65957098,
-            fertiliser: 28835
+          dust: {
+            tech: null,
+            gcv: 0.0,
+            feasibility: 'N',
+            tonnes: null,
+            'heat-produced': null,
+            'heat-savings': null,
+            'electricity-produced': null,
+            'electrical-savings': null,
+            char: null
           },
-          'Chicken broiler manure': {
-            feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 36.0,
-            electricityproduced: 28375.4358,
-            heatproduced: 26105.400936,
-            electricitysavingspa: 9931.40253,
-            heatsavingspa: 1827.37806552,
-            fertiliser: 28835
+          glass: {
+            tech: null,
+            gcv: 0.0,
+            feasibility: 'N',
+            tonnes: null,
+            'heat-produced': null,
+            'heat-savings': null,
+            'electricity-produced': null,
+            'electrical-savings': null,
+            char: null
           },
-          Sheep: {
-            feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 19.0,
-            electricityproduced: 14975.92445,
-            heatproduced: 13777.850494,
-            electricitysavingspa: 5241.5735575,
-            heatsavingspa: 964.44953458,
-            fertiliser: 28835
-          },
-          'Food waste': {
-            feasibility: 'Y',
-            limit: 5,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 45.0,
-            electricityproduced: 35469.29,
-            heatproduced: 32631.75,
-            electricitysavingspa: 12414.25,
-            heatsavingspa: 2284.22,
-            fertiliser: 28835
-          },
-          'Fish waste': {
-            feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 59.0,
-            electricityproduced: 46504.18645,
-            heatproduced: 42783.851534,
-            electricitysavingspa: 16276.4652575,
-            heatsavingspa: 2994.86960738,
-            fertiliser: 28835
-          },
-          'Coffee grounds': {
-            feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 59.0,
-            electricityproduced: 46504.18645,
-            heatproduced: 42783.851534,
-            electricitysavingspa: 16276.4652575,
-            heatsavingspa: 2994.86960738,
-            fertiliser: 28835
-          },
-          'Crop residues': {
-            feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 59.0,
-            electricityproduced: 46504.18645,
-            heatproduced: 42783.851534,
-            electricitysavingspa: 16276.4652575,
-            heatsavingspa: 2994.86960738,
-            fertiliser: 28835
-          },
-          'Maize silage': {
-            feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 59.0,
-            electricityproduced: 46504.18645,
-            heatproduced: 42783.851534,
-            electricitysavingspa: 16276.4652575,
-            heatsavingspa: 2994.86960738,
-            fertiliser: 28835
-          },
-          Cereal: {
-            feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 59.0,
-            electricityproduced: 46504.18645,
-            heatproduced: 42783.851534,
-            electricitysavingspa: 16276.4652575,
-            heatsavingspa: 2994.86960738,
-            fertiliser: 28835
-          },
-          'Grass silage': {
-            feasibility: 'Y',
-            limit: 400,
-            technology: 'Anaerobic Digestion',
-            kgperday: 100,
-            energycontent: 59.0,
-            electricityproduced: 46504.18645,
-            heatproduced: 42783.851534,
-            electricitysavingspa: 16276.4652575,
-            heatsavingspa: 2994.86960738,
-            fertiliser: 28835
-          },
-          'Pulp & Paper Waste': {
-            feasibility: 'Y',
-            limit: 4000,
-            technology: 'Pyrolysis',
-            kgperday: 1000,
-            energycontent: 13.5,
-            electricityproduced: 410953.5,
-            heatproduced: 684922.5,
-            electricitysavingspa: 143833.725,
-            heatsavingspa: 47944.575,
-            fertiliser: 91250
-          },
-          'Textile Waste': {
-            feasibility: 'Y',
-            limit: 4000,
-            technology: 'Pyrolysis',
-            kgperday: 1000,
-            energycontent: 17.0,
-            electricityproduced: 517497.0,
-            heatproduced: 862495.0,
-            electricitysavingspa: 181123.95,
-            heatsavingspa: 60374.65,
-            fertiliser: 91250
-          },
-          'PE Plastic': {
-            feasibility: 'Y',
-            limit: 4000,
-            technology: 'Pyrolysis',
-            kgperday: 1000,
-            energycontent: 46.0,
-            electricityproduced: 1400286.0,
-            heatproduced: 2333810.0,
-            electricitysavingspa: 490100.1,
-            heatsavingspa: 163366.7,
-            fertiliser: 91250
-          },
-          SRF: {
-            feasibility: 'Y',
-            limit: 4000,
-            technology: 'Pyrolysis',
-            kgperday: 1000,
-            energycontent: 22.0,
-            electricityproduced: 669702.0,
-            heatproduced: 1116170.0,
-            electricitysavingspa: 234395.7,
-            heatsavingspa: 78131.9,
-            fertiliser: 91250
-          },
-          RDF: {
-            feasibility: 'Y',
-            limit: 4000,
-            technology: 'Pyrolysis',
-            kgperday: 1000,
-            energycontent: 18.0,
-            electricityproduced: 547938.0,
-            heatproduced: 913230.0000000001,
-            electricitysavingspa: 191778.3,
-            heatsavingspa: 63926.1,
-            fertiliser: 91250
-          },
-          'PP Plastic': {
-            feasibility: 'Y',
-            limit: 4000,
-            technology: 'Pyrolysis',
-            kgperday: 1000,
-            energycontent: 46.0,
-            electricityproduced: 1400286.0,
-            heatproduced: 2333810.0,
-            electricitysavingspa: 490100.1,
-            heatsavingspa: 163366.7,
-            fertiliser: 91250
-          },
-          'PS Plastic': {
-            feasibility: 'Y',
-            limit: 4000,
-            technology: 'Pyrolysis',
-            kgperday: 1000,
-            energycontent: 46.0,
-            electricityproduced: 1400286.0,
-            heatproduced: 2333810.0,
-            electricitysavingspa: 490100.1,
-            heatsavingspa: 163366.7,
-            fertiliser: 91250
-          },
-          'PVC Plastic': {
-            feasibility: 'Y',
-            limit: 4000,
-            technology: 'Pyrolysis',
-            kgperday: 1000,
-            energycontent: 25.0,
-            electricityproduced: 761025.0,
-            heatproduced: 1268375.0,
-            electricitysavingspa: 266358.75,
-            heatsavingspa: 88786.25,
-            fertiliser: 91250
-          },
-          'PET Plastic': {
-            feasibility: 'Y',
-            limit: 4000,
-            technology: 'Pyrolysis',
-            kgperday: 1000,
-            energycontent: 18.0,
-            electricityproduced: 547938.0,
-            heatproduced: 913230.0000000001,
-            electricitysavingspa: 191778.3,
-            heatsavingspa: 63926.1,
-            fertiliser: 91250
-          },
-          Rubber: {
-            feasibility: 'Y',
-            limit: 4000,
-            technology: 'Pyrolysis',
-            kgperday: 1000,
-            energycontent: 17.0,
-            electricityproduced: 517497.0,
-            heatproduced: 862495.0,
-            electricitysavingspa: 181123.95,
-            heatsavingspa: 60374.65,
-            fertiliser: 91250
-          },
-          'Wood waste': {
-            feasibility: 'Y',
-            limit: 4000,
-            technology: 'Pyrolysis',
-            kgperday: 1000,
-            energycontent: 14.0,
-            electricityproduced: 426174.0,
-            heatproduced: 710290.0,
-            electricitysavingspa: 149160.9,
-            heatsavingspa: 49720.3,
-            fertiliser: 91250
-          },
-          'Municipal Solid Waste (MSW)': {
-            feasibility: 'Y',
-            limit: 4000,
-            technology: 'Pyrolysis',
-            kgperday: 1000,
-            energycontent: 2.0,
-            electricityproduced: 60882.0,
-            heatproduced: 101470.0,
-            electricitysavingspa: 21308.7,
-            heatsavingspa: 7102.9,
-            fertiliser: 91250
-          },
-          'Medical Waste': {
-            feasibility: 'Y',
-            limit: 4000,
-            technology: 'Pyrolysis',
-            kgperday: 1000,
-            energycontent: 18.0,
-            electricityproduced: 547938.0,
-            heatproduced: 913230.0000000001,
-            electricitysavingspa: 191778.3,
-            heatsavingspa: 63926.1,
-            fertiliser: 91250
+          metals: {
+            tech: null,
+            gcv: 0.0,
+            feasibility: 'N',
+            tonnes: null,
+            'heat-produced': null,
+            'heat-savings': null,
+            'electricity-produced': null,
+            'electrical-savings': null,
+            char: null
           }
         }
 
         var d = data[document.querySelector('#colorselector').value]
         var feasible = d['feasibility'] == 'Y'
-        var wt1 = document.querySelector('#colorselector')
-        document.querySelector('#waste-type1').innerHTML = wt1.options[wt1.selectedIndex].text
+        document.querySelector('#feasible').innerHTML = 'Your project is ' + (feasible ? '' : '<u style="color:#ec8b5a;">not</u> ') + 'feasible'
 
-        var wt2 = document.querySelector('#colorselector2')
-        document.querySelector('#waste-type2').innerHTML = wt2.options[wt2.selectedIndex].text
-
-        var minlimit = d['limit'] <= wt2.options[wt2.selectedIndex].value
-
-        document.querySelector('#feasible').innerHTML = feasible
-          ? (minlimit)?'Your project is feasible':'This feedstock amount is <u style="color:#ec8b5a;">too small</u>'
-          : 'This feedstock is <u style="color:#ec8b5a;">not</u> feasible'
-
-        if (feasible & minlimit) {
+        if (feasible) {
           var calcimg = document.querySelector('#calc-img')
           if (calcimg.src.includes('Group14.png')) {
             calcimg.src = '/assets/cow 1 (1).png'
@@ -1989,15 +1677,21 @@
             }, 20)
           }
 
-          const techs = { 'Anaerobic Digestion': 'Anaerobic Digestion', Pyrolysis: 'Pyrolysis' }
-          document.querySelector('#matched-tech').innerHTML = techs[d['technology']]
-          document.querySelector('#matched-img').src = '/assets/medres/' + d['technology'] + '.jpg'
+          var wt1 = document.querySelector('#colorselector')
+          document.querySelector('#waste-type1').innerHTML = wt1.options[wt1.selectedIndex].text
+
+          var wt2 = document.querySelector('#colorselector2')
+          document.querySelector('#waste-type2').innerHTML = wt2.options[wt2.selectedIndex].text
+
+          const techs = { 'anaerobic-digestion': 'Anaerobic Digestion', pyrolysis: 'Pyrolysis' }
+          document.querySelector('#matched-tech').innerHTML = techs[d['tech']]
+          document.querySelector('#matched-img').src = '/assets/medres/' + d['tech'] + '.jpg'
 
           for (var key in d) {
             if (key != 'feasibility') {
               var el = document.querySelector('#' + key)
               if (el) {
-                el.innerHTML = (d[key] * Math.round(wt2.value / d['kgperday'], 0)).toLocaleString()
+                el.innerHTML = (d[key] * (key == 'gcv' ? 1 : Math.round(wt2.value / 8760, 2))).toLocaleString()
               }
             }
           }
@@ -2036,27 +1730,27 @@
       }
     </script>
     <div class="w-[1260px] flex justify-between items-center pt-[30px] pb-[50px]">
-      <div class="text-xs leading-[14px] font-semibold text-[#2e3855] font-PublicSans w-[530px]">
-        Copyright © 2023 Power for Planet
-      </div>
-      <div class="flex-1 flex justify-end items-center gap-10">
-        <div class="text-xs leading-[14px] font-semibold text-[#2e3855] font-PublicSans underline">Privacy Policy</div>
-        <div class="flex items-center gap-5">
-          <img
-            src="/assets/new/mdilinkedin-31-social-31-right-31-footer-31-03Greenenergy.svg"
-            alt="mdilinkedin-31-social-31-right-31-footer-31-03Greenenergy"
-            class="h-6 w-6" />
-          <img
-            src="/assets/new/mditwitter-31-social-31-right-31-footer-31-03Greenenergy.svg"
-            alt="mditwitter-31-social-31-right-31-footer-31-03Greenenergy"
-            class="h-6 w-6" />
-          <img
-            src="/assets/new/CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy.svg"
-            alt="CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy"
-            class="h-6 w-6" />
-        </div>
+    <div class="text-xs leading-[14px] font-semibold text-[#2e3855] font-PublicSans w-[530px]">
+      Copyright © 2023 Power for Planet
+    </div>
+    <div class="flex-1 flex justify-end items-center gap-10">
+      <div class="text-xs leading-[14px] font-semibold text-[#2e3855] font-PublicSans underline">Privacy Policy</div>
+      <div class="flex items-center gap-5">
+        <img
+          src="/assets/new/mdilinkedin-31-social-31-right-31-footer-31-03Greenenergy.svg"
+          alt="mdilinkedin-31-social-31-right-31-footer-31-03Greenenergy"
+          class="h-6 w-6" />
+        <img
+          src="/assets/new/mditwitter-31-social-31-right-31-footer-31-03Greenenergy.svg"
+          alt="mditwitter-31-social-31-right-31-footer-31-03Greenenergy"
+          class="h-6 w-6" />
+        <img
+          src="/assets/new/CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy.svg"
+          alt="CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy"
+          class="h-6 w-6" />
       </div>
     </div>
+  </div>
   </div>
   <script>
     function toggleElement(k) {
