@@ -246,7 +246,7 @@
       <div class=" grid gap-6 md:grid-cols-5 grid-cols-2 w-full" id="thegrid">
         <div
           class="p-3 relative bg-[#DDF3EA] rounded-2xl leading-6 text-[#2E3855] mb-0 text-start font-bold text-xl tracking-wider after:absolute after:-bottom-2 after:left-1/2 after:content[''] after:block after:border-solid after:border-top after:border-r-8 after:border-l-8 after:border-t-8 after:border-t-green after:border-t-[#DDF3EA] after:border-r-transparent after:border-l-transparent">
-          <div class="flex justify-center h-32"><img src="/assets/pet bottle 1.png" alt="" /></div>
+          <div class="flex justify-center h-40"><img src="/assets/pet bottle 1.png" alt="" /></div>
           <div class="w-2/4">Plastic waste</div>
         </div>
         <div

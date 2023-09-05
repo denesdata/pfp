@@ -9,8 +9,10 @@
         <div class="text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins">
           Contact us and turn your green energy vision into reality
         </div>
-        <div class="w-full flex-col gap-5 flex items-center">
-          <div class="bg-[#e7f5f5] w-full pt-[0px] flex-col flex justify-center items-center rounded-[20px] align-top">
+        <div class="w-full flex-col flex items-center gap-5">
+          <div
+            id="calendar"
+            class="bg-[#e7f5f5] w-full overflow-hidden duration-300 h-[100px] pt-[80px] flex-col flex justify-center items-center gap-[30px] pb-0 rounded-[20px] align-top">
             <button onclick="toggleElement('calendar')">
               <div class="w-full flex items-center gap-[50px] pr-[50px]">
                 <div
@@ -33,114 +35,29 @@
                 </div>
               </div>
             </button>
-            <div id="calendar" class="bg-none overflow-hidden duration-300 h-[0px] w-full">
-              <iframe
-                style="background:none; filter: contrast(1.07); margin-bottom:-100px;"
-                height="1100"
-                width="100%"
-                frameborder="0"
-                allowfullscreen=""
-                src="https://calendly.com/csaladenes-6ee/30min?hide_landing_page_details=1&hide_gdpr_banner=1&text_color=394e6a&primary_color=3f9378&back=1&month=2023-07"
-                title="book" />
-            </div>
-          </div>
-          <div class="bg-[#e7f5f5] w-full pt-[0px] flex-col flex justify-center items-center rounded-[20px] align-top">
-            <button onclick="toggleElement2('contactform')">
-              <div class="w-full flex items-center gap-[50px] pr-[50px]">
-                <div
-                  id="contactform-heading"
-                  class="bg-pfp-green bg-none duration-100 flex justify-center items-center gap-2.5 px-[50px] py-8 rounded-l-[20px]">
-                  <img src="/assets/new/mail.svg" alt="mail" class="h-10 w-10 grayscale contrast-200 invert" />
-                </div>
-                <div class="text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins w-[596px]">
-                  Message us through our contact form
-                </div>
-                <div class="flex items-center gap-2.5 pl-[50px]">
-                  <img
-                    id="contactform-chevron"
-                    src="/assets/new/chevron-down.svg"
-                    alt="chevron-down"
-                    class="h-6 w-6 rotate-180 duration-180" />
-                </div>
-              </div>
-            </button>
-            <form
-              id="contactform"
-              class="bg-none overflow-hidden duration-300 h-[0px] w-full"
-              action="https://api.staticforms.xyz/submit"
-              method="post">
-              <div class="overflow-hidden flex-col flex justify-center items-center gap-[30px] pb-10 rounded-[20px] z-[2]">
-                <div
-                  class="w-[600px] flex justify-center items-center gap-[30px] leading-[26px] text-[#2e3855] font-PublicSans">
-                  <div class="flex-1 flex-col flex items-start gap-2">
-                    <div class="text-sm font-bold">Name*</div>
-                    <div
-                      class="bg-white w-full flex items-center gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855] text-base font-medium">
-                      <input class="w-[299px]" type="text" name="name" placeholder="Your Name" required/>
-                    </div>
-                  </div>
-                  <div class="flex-1 flex-col flex items-start gap-2">
-                    <div class="text-sm font-bold">Email*</div>
-                    <div
-                      class="bg-white w-full flex items-center gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855] text-base font-medium">
-                      <input class="w-[299px]" type="email" name="email" placeholder="Your email" required/>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-[700px] flex justify-center items-center gap-[30px]">
-                  <div class="flex-1 flex-col flex items-start gap-2 leading-[26px] text-[#2e3855] font-PublicSans">
-                    <div class="text-sm font-bold">Organization/Company name (optional)</div>
-                    <div
-                      class="bg-white w-full flex items-center gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855] text-base font-medium">
-                      <input class="w-[299px]" type="text" name="company" placeholder="Your company" />
-                    </div>
-                  </div>
-                  <div class="flex-1 flex-col flex items-start gap-2">
-                    <div class="text-sm leading-[26px] font-bold text-[#2e3855] font-PublicSans">Type of query/contact*</div>
-                    <div
-                      class="bg-white w-full flex items-center gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855]">
-                      <div class="text-base leading-[26px] font-medium text-[#909090] font-PublicSans w-[265px]">Select...</div>
-                      <img src="/assets/new/chevron-down.svg" alt="chevron-down" class="h-6 w-6" />
-                    </div>
-                  </div>
-                </div>
-                <div class="w-[600px] h-5/12 flex justify-center items-center gap-[30px] leading-[26px] font-PublicSans">
-                  <div class="h-full flex-1 flex-col flex items-start gap-2">
-                    <div class="text-sm font-bold text-[#2e3855]">Your message*</div>
-                    <div
-                      class="bg-white min-h-[150px] w-full flex-1 flex items-start gap-2.5 rounded-[6px] p-4 border border-[#2e3855] text-base font-medium text-[#909090]">
-                      <textarea class="w-[664px] min-h-[150px] " name="message" required/>
-                    </div>
-                  </div>
-                </div>
-                <input type="text" name="honeypot" style="display:none" />
-                <input type="hidden" name="accessKey" value="b3ab5267-ffe0-4a59-be25-07b9a27e4335" />
-                <input type="hidden" name="subject" value="PFP Contact us form submission" />
-                <input type="hidden" name="replyTo" value="@" />
-                <input type="hidden" name="redirectTo" id="redirect" />
-                <button type="submit">
-                  <div
-                    class="bg-[#3f9378] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-base leading-[20px] font-normal tracking-wider text-white">
-                    <img
-                      src="/assets/new/arrow-right-circle.svg"
-                      alt="arrow-right-circle-31-CTA-31-Frame24-31-Frame24-31-Frame24-31-Frame18-31-Gridindependence-31-blockrow1-31-wrapper-31-03Greenenergy"
-                      class="h-5 w-5" />
-                    Send message
-                  </div>
-                </button>
-              </div>
-            </form>
+            <iframe
+              style="background:none; filter: contrast(1.07); margin-bottom:-100px;"
+              height="1100"
+              width="100%"
+              frameborder="0"
+              allowfullscreen=""
+              src="https://calendly.com/csaladenes-6ee/30min?hide_landing_page_details=1&hide_gdpr_banner=1&text_color=394e6a&primary_color=3f9378&back=1&month=2023-07"
+              title="book" />
           </div>
           <script>
             function toggleElement(k) {
               var element = document.querySelector('#' + k)
-              element.classList.toggle('h-[1000px]')
+              element.classList.toggle('h-[1100px]')
+              element.classList.toggle('pt-[80px]')
+              element.classList.toggle('pt-[20px]')
               toggleElementX(k)
             }
 
             function toggleElement2(k) {
+              // alert('a')
               var element = document.querySelector('#' + k)
-              element.classList.toggle('h-[500px]')
+              element.classList.toggle('h-[80px]')
+              // element.classList.toggle('pt-[100px]')
               toggleElementX(k)
             }
 
@@ -151,11 +68,81 @@
               document.querySelector('#' + k + '-heading').classList.toggle('contrast-200')
               document.querySelector('#' + k + '-heading').classList.toggle('invert')
             }
-
-            setTimeout(() => {
-              document.querySelector('#redirect').value = window.location.href
-            }, 1000)
           </script>
+          <div
+            id="contactform"
+            class="bg-[#e7f5f5] duration-200 w-full overflow-hidden flex-col flex justify-center items-center gap-[30px] pb-10 rounded-[20px] z-[2]">
+            <div class="w-full flex items-center gap-[50px] pr-[50px]">
+              <div
+                id="contactform-heading"
+                class="bg-none duration-200 flex justify-center items-center gap-2.5 px-[50px] py-5 rounded-l-[20px]">
+                <img src="/assets/new/mail.svg" alt="mail" class="h-10 w-10" />
+              </div>
+              <div class="text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins w-[596px]">
+                Message us through our contact form
+              </div>
+              <div class="flex items-center gap-2.5 pl-[50px]">
+                <button>
+                  <img
+                    id="contactform-chevron"
+                    src="/assets/new/chevron-down.svg"
+                    alt="chevron-down"
+                    class="h-6 w-6 duration-200" />
+                </button>
+              </div>
+            </div>
+            <div class="w-[600px] flex justify-center items-center gap-[30px] leading-[26px] text-[#2e3855] font-PublicSans">
+              <div class="flex-1 flex-col flex items-start gap-2">
+                <div class="text-sm font-bold">First name*</div>
+                <div
+                  class="bg-white w-full flex items-center gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855] text-base font-medium">
+                  <div class="w-[299px]">Input text</div>
+                </div>
+              </div>
+              <div class="flex-1 flex-col flex items-start gap-2">
+                <div class="text-sm font-bold">Surname*</div>
+                <div
+                  class="bg-white w-full flex items-center gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855] text-base font-medium">
+                  <div class="w-[299px]">Input text</div>
+                </div>
+              </div>
+            </div>
+            <div class="w-[700px] flex justify-center items-center gap-[30px]">
+              <div class="flex-1 flex-col flex items-start gap-2 leading-[26px] text-[#2e3855] font-PublicSans">
+                <div class="text-sm font-bold">Organization/Company name (optional)</div>
+                <div
+                  class="bg-white w-full flex items-center gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855] text-base font-medium">
+                  <div class="w-[299px]">Input text</div>
+                </div>
+              </div>
+              <div class="flex-1 flex-col flex items-start gap-2">
+                <div class="text-sm leading-[26px] font-bold text-[#2e3855] font-PublicSans">Type of query/contact*</div>
+                <div class="bg-white w-full flex items-center gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855]">
+                  <div class="text-base leading-[26px] font-medium text-[#909090] font-PublicSans w-[265px]">Select...</div>
+                  <img src="/assets/new/chevron-down.svg" alt="chevron-down" class="h-6 w-6" />
+                </div>
+              </div>
+            </div>
+            <div class="w-[600px] h-5/12 flex justify-center items-center gap-[30px] leading-[26px] font-PublicSans">
+              <div class="h-full flex-1 flex-col flex items-start gap-2">
+                <div class="text-sm font-bold text-[#2e3855]">Your message*</div>
+                <div
+                  class="bg-white min-h-[150px] w-full flex-1 flex items-start gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855] text-base font-medium text-[#909090]">
+                  <div class="w-[664px]">Type your message here</div>
+                </div>
+              </div>
+            </div>
+            <a href="/explore">
+              <div
+                class="bg-[#3f9378] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-base leading-[20px] font-normal tracking-wider text-white">
+                <img
+                  src="/assets/new/arrow-right-circle.svg"
+                  alt="arrow-right-circle-31-CTA-31-Frame24-31-Frame24-31-Frame24-31-Frame18-31-Gridindependence-31-blockrow1-31-wrapper-31-03Greenenergy"
+                  class="h-5 w-5" />
+                <div>Send message</div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
       <div class="bg-white w-full flex-col flex items-center gap-[50px] px-[50px] py-10 rounded-[20px]">

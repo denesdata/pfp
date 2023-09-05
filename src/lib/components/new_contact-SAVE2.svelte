@@ -67,8 +67,8 @@
             <form
               id="contactform"
               class="bg-none overflow-hidden duration-300 h-[0px] w-full"
-              action="https://api.staticforms.xyz/submit"
-              method="post">
+              action="https://formspree.io/f/xnqkvgvn"
+              method="POST">
               <div class="overflow-hidden flex-col flex justify-center items-center gap-[30px] pb-10 rounded-[20px] z-[2]">
                 <div
                   class="w-[600px] flex justify-center items-center gap-[30px] leading-[26px] text-[#2e3855] font-PublicSans">
@@ -76,14 +76,18 @@
                     <div class="text-sm font-bold">Name*</div>
                     <div
                       class="bg-white w-full flex items-center gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855] text-base font-medium">
-                      <input class="w-[299px]" type="text" name="name" placeholder="Your Name" required/>
+                      <label>
+                        <input class="w-[299px]" type="text" name="name" />
+                      </label>
                     </div>
                   </div>
                   <div class="flex-1 flex-col flex items-start gap-2">
                     <div class="text-sm font-bold">Email*</div>
                     <div
                       class="bg-white w-full flex items-center gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855] text-base font-medium">
-                      <input class="w-[299px]" type="email" name="email" placeholder="Your email" required/>
+                      <label>
+                        <input class="w-[299px]" type="email" name="email" />
+                      </label>
                     </div>
                   </div>
                 </div>
@@ -92,7 +96,9 @@
                     <div class="text-sm font-bold">Organization/Company name (optional)</div>
                     <div
                       class="bg-white w-full flex items-center gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855] text-base font-medium">
-                      <input class="w-[299px]" type="text" name="company" placeholder="Your company" />
+                      <label>
+                        <input class="w-[299px]" type="text" name="company" />
+                      </label>
                     </div>
                   </div>
                   <div class="flex-1 flex-col flex items-start gap-2">
@@ -108,16 +114,13 @@
                   <div class="h-full flex-1 flex-col flex items-start gap-2">
                     <div class="text-sm font-bold text-[#2e3855]">Your message*</div>
                     <div
-                      class="bg-white min-h-[150px] w-full flex-1 flex items-start gap-2.5 rounded-[6px] p-4 border border-[#2e3855] text-base font-medium text-[#909090]">
-                      <textarea class="w-[664px] min-h-[150px] " name="message" required/>
+                      class="bg-white min-h-[150px] w-full flex-1 flex items-start gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855] text-base font-medium text-[#909090]">
+                      <label>
+                        <textarea class="w-[664px]" type="text" name="message" />
+                      </label>
                     </div>
                   </div>
                 </div>
-                <input type="text" name="honeypot" style="display:none" />
-                <input type="hidden" name="accessKey" value="b3ab5267-ffe0-4a59-be25-07b9a27e4335" />
-                <input type="hidden" name="subject" value="PFP Contact us form submission" />
-                <input type="hidden" name="replyTo" value="@" />
-                <input type="hidden" name="redirectTo" id="redirect" />
                 <button type="submit">
                   <div
                     class="bg-[#3f9378] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-base leading-[20px] font-normal tracking-wider text-white">
@@ -151,10 +154,6 @@
               document.querySelector('#' + k + '-heading').classList.toggle('contrast-200')
               document.querySelector('#' + k + '-heading').classList.toggle('invert')
             }
-
-            setTimeout(() => {
-              document.querySelector('#redirect').value = window.location.href
-            }, 1000)
           </script>
         </div>
       </div>
