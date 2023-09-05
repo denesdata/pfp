@@ -61,7 +61,7 @@
             <div class="text-2xl leading-[33px] font-bold text-[#2e3855] font-Poppins w-[440px]">Achieve grid independence</div>
             <div class="w-full flex-1 flex items-start gap-[18px] font-PublicSans">
               <div class="h-full flex-1 flex-col flex items-start gap-8">
-                <div class="text-sm leading-[26px] font-light text-[#2e3855] h-[104px] w-[300px]">
+                <div class="text-md leading-[26px] font-light text-[#2e3855] h-[104px] w-[300px]">
                   Using our extensive database of technologies, we can match you with the most suitable option for your specific
                   needs and requirements
                 </div>

@@ -30,7 +30,7 @@
     tippy('.calc-heat-savings', {
       theme: 'tomato',
       content:
-        "This indicates how much heat energy a company can save by using the heat produced from waste processing, instead of getting it from conventional sources. This is assuming you're currently paying 0.7p/kWh"
+        "This indicates how much heat energy a company can save by using the heat produced from waste processing, instead of getting it from conventional sources. This is assuming you're currently paying 7p/kWh"
     })
     tippy('.calc-electricity-produced', {
       theme: 'tomato',
@@ -41,7 +41,7 @@
     tippy('.calc-electrical-savings', {
       theme: 'tomato',
       content:
-        'This shows how much a company can save on electricity costs by using the electricity produced from waste processing, instead of purchasing it from the grid. This is based off the assumption you are paying 0.35p/kWh'
+        'This shows how much a company can save on electricity costs by using the electricity produced from waste processing, instead of purchasing it from the grid. This is based off the assumption you are paying 35p/kWh'
     })
     tippy('.calc-char', {
       theme: 'tomato',
@@ -1227,9 +1227,9 @@
               <div
                 class="button dropdown w-1/2 flex justify-between z-10 inline-flex items-center py-2.5 px-4 text-xl font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
                 <select id="colorselector" class="w-full bg-transparent text-center border-0">
-                  <option class="bg-[#E7F5F5]" value="Cheese production (37% milk)">Cheese production (37% milk)</option>
-                  <option class="bg-[#E7F5F5]" value="Butter production (29% milk)">Butter production (29% milk)</option>
-                  <option class="bg-[#E7F5F5]" value="Ice cream (13% milk)">Ice cream (13% milk)</option>
+                  <option class="bg-[#E7F5F5]" value="Cheese production">Cheese production</option>
+                  <option class="bg-[#E7F5F5]" value="Butter production">Butter production</option>
+                  <option class="bg-[#E7F5F5]" value="Ice cream">Ice cream</option>
                   <option class="bg-[#E7F5F5]" value="Beer production">Beer production</option>
                   <option class="bg-[#E7F5F5]" value="Wine production">Wine production</option>
                   <option class="bg-[#E7F5F5]" value="Spirits production">Spirits production</option>
@@ -1322,7 +1322,7 @@
           class="w-[784px] ml-80 pl-16 h-60 p-10 pt-16 md:mt-0 mt-5 duration-300 transform absolute -translate-x-full opacity-0 -translate-y-full bg-[#E7F5F5] rounded-2xl"
           id="calc-message">
           <div class="text-4xl font-bold" id="feasible">Your project is feasible</div>
-          <p style=" font-family: 'Public Sans', sans-serif;" class="text-[#2E3855] tracking-wider mt-5">
+          <p style=" font-family: 'Public Sans', sans-serif;" class="text-[#2E3855] tracking-wider mt-5" id="feasible-results">
             Review your results to explore the different possibilities and
             <br />
             book a slot with us for personalised guidance on next steps
@@ -1368,7 +1368,7 @@
           Dust: { feasibility: 'N' },
           Glass: { feasibility: 'N' },
           Metals: { feasibility: 'N' },
-          'Cheese production (37% milk)': {
+          'Cheese production': {
             feasibility: 'Y',
             limit: 400,
             technology: 'Anaerobic Digestion',
@@ -1380,7 +1380,7 @@
             heatsavingspa: 2538.025091,
             fertiliser: 28835
           },
-          'Butter production (29% milk)': {
+          'Butter production': {
             feasibility: 'Y',
             limit: 400,
             technology: 'Anaerobic Digestion',
@@ -1392,7 +1392,7 @@
             heatsavingspa: 2538.025091,
             fertiliser: 28835
           },
-          'Ice cream (13% milk)': {
+          'Ice cream': {
             feasibility: 'Y',
             limit: 400,
             technology: 'Anaerobic Digestion',
@@ -1957,8 +1957,25 @@
         var minlimit = d['limit'] <= wt2.options[wt2.selectedIndex].value
 
         document.querySelector('#feasible').innerHTML = feasible
-          ? (minlimit)?'Your project is feasible':'This feedstock amount is <u style="color:#ec8b5a;">too small</u>'
+          ? minlimit
+            ? 'Your project is feasible'
+            : 'This feedstock amount is <u style="color:#ec8b5a;">too small</u>'
           : 'This feedstock is <u style="color:#ec8b5a;">not</u> feasible'
+
+        document.querySelector('#feasible-results').innerHTML =
+          !feasible || minlimit
+            ? 'Review your results to explore the different possibilities and<br />book a slot with us for personalised guidance on next steps'
+            : d['technology'] == 'Pyrolysis'
+            ? "To get the best out of <b>Pyrolysis</b>, you'll need at least<br /><b>" +
+              d['limit'] +
+              '</b> kilograms of <b>' +
+              wt1.options[wt1.selectedIndex].text +
+              '</b> waste per day.'
+            : 'For cost-effective <b>Anaerobic Digestion</b> of <b>' +
+              wt1.options[wt1.selectedIndex].text +
+              "</b><br />waste you'll need a daily input of at least <b>" +
+              d['limit'] +
+              '</b> kilograms.'
 
         if (feasible & minlimit) {
           var calcimg = document.querySelector('#calc-img')
@@ -1991,13 +2008,13 @@
 
           const techs = { 'Anaerobic Digestion': 'Anaerobic Digestion', Pyrolysis: 'Pyrolysis' }
           document.querySelector('#matched-tech').innerHTML = techs[d['technology']]
-          document.querySelector('#matched-img').src = '/assets/medres/' + d['technology'] + '.jpg'
+          document.querySelector('#matched-img').src = '/assets/medres/' + d['technology'] + '1.jpg'
 
           for (var key in d) {
             if (key != 'feasibility') {
               var el = document.querySelector('#' + key)
               if (el) {
-                el.innerHTML = Math.round(d[key] * wt2.value / d['kgperday'], 0).toLocaleString()
+                el.innerHTML = Math.round(d[key] * (key == 'energycontent' ? 1 : wt2.value / d['kgperday']), 0).toLocaleString()
               }
             }
           }
