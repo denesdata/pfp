@@ -1102,7 +1102,7 @@
 
     <!-- ===================after landing page =================== -->
     <section class="duration-300 transition opacity-0 container mb-[-630px] bg-white p-16 pb-6 rounded-b-2xl" id="results">
-      <div class="flex flex-row gap-8 items-center p-5 pt-1 mt-[-20px]">
+      <div class="flex flex-row gap-8 items-center p-5 pt-16 mt-[-20px]">
         <div class="w-1/3 flex-col justify-center" style="font-family: 'Poppins', sans-serif;">
           <div class="bg-[#E7F5F5] rounded-2xl text-center p-6 mb-10 text-[#2E3855]">
             <p class="uppercase text-xl m-5">Waste type</p>
@@ -1978,8 +1978,8 @@
 
         document.querySelector('#feasible-results').innerHTML =
           !feasible || minlimit
-            ? 'Review your results to explore the different possibilities and<br />book a slot with us for personalised guidance on next steps'
-            // ? "Take a look at the results below to find out how much you could save on energy bills, not to mention waste disposal costs! If you're curious about the investment (CAPEX), reach out and we'll dive deeper with a comprehensive feasibility study!"
+            ? // ? 'Review your results to explore the different possibilities and<br />book a slot with us for personalised guidance on next steps'
+              "Take a look at the results below to find out how much you could save on energy bills, not to mention waste disposal costs! If you're curious about the investment (CAPEX), reach out and we'll dive deeper with a comprehensive feasibility study!"
             : d['technology'] == 'Pyrolysis'
             ? "To get the best out of <b>Pyrolysis</b>, you'll need at least<br /><b>" +
               d['limit'] +
@@ -1991,6 +1991,8 @@
               "</b><br />waste you'll need a daily input of at least <b>" +
               d['limit'] +
               '</b> kilograms.'
+
+        if (!feasible || minlimit) document.querySelector('#feasible').classList.toggle('mt-[-24px]')
 
         if (feasible & minlimit) {
           var calcimg = document.querySelector('#calc-img')
