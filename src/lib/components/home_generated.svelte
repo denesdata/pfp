@@ -358,10 +358,10 @@
           class="object-cover w-1/5 pr-5"
           alt="APEM"
           src="/assets/partners/Apem Logo.png" />
-        <img
+        <!-- <img
           class="object-cover h-[110px] w-[139px] hidden"
           alt="Fifty Shades Greener"
-          src="/assets/partners/Fifty Shades Greener.png" />
+          src="/assets/partners/Fifty Shades Greener.png" /> -->
       </div>
       <div class="w-full flex justify-between items-center">
         <img
