@@ -24,7 +24,7 @@
               <div class="w-[440px]">
                 <span class="font-bold text-xl leading-[34px] font-Poppins">Unlike solar and wind, it provides</span>
                 <span class="font-bold text-xl leading-[34px] text-[#3f9378] font-Poppins">continuous</span>
-                <span class="font-bold text-xl leading-[34px] font-Poppins">power 24/7.</span>
+                <span class="font-bold text-xl leading-[34px] font-Poppins">power 24/7</span>
               </div>
             </div>
           </div>
@@ -36,7 +36,7 @@
               <div class="text-xl leading-[34px] font-bold text-[#2e3855] font-Poppins w-[440px]">
                 Using non-recycled waste{' '}
                 <span class="font-bold text-xl leading-[34px] text-[#3f9378] font-Poppins">prevents it from polluting</span>
-                our soil, water, and atmosphere in uncontrolled ways.
+                our soil, water, and atmosphere in uncontrolled ways
               </div>
             </div>
           </div>

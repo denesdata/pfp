@@ -12,6 +12,11 @@
       content:
         "This is the amount of heat energy that could be released if a certain amount of waste is completely burnt. It's like a measure of the <i>energy potential</i> of waste. A higher GCV means the waste can produce more energy."
     })
+    tippy('.map-biogas', {
+      theme: 'tomato',
+      allowHTML: true,
+      content: 'This is the volume of biogas produced per unit of organic material during anaerobic digestion.'
+    })
     tippy('.map-case-study', {
       theme: 'tomato',
       content: 'Project Reference Biogas Plant: Guichen, France | HoSt'
@@ -30,7 +35,7 @@
     tippy('.calc-heat-savings', {
       theme: 'tomato',
       content:
-        "This indicates how much heat energy a company can save by using the heat produced from waste processing, instead of getting it from conventional sources. This is assuming you're currently paying 7p/kWh"
+        "This indicates how much heat energy a company can save by using the heat produced from waste processing, instead of getting it from conventional sources. This is assuming you're currently paying 6p/kWh"
     })
     tippy('.calc-electricity-produced', {
       theme: 'tomato',
@@ -41,7 +46,7 @@
     tippy('.calc-electrical-savings', {
       theme: 'tomato',
       content:
-        'This shows how much a company can save on electricity costs by using the electricity produced from waste processing, instead of purchasing it from the grid. This is based off the assumption you are paying 35p/kWh'
+        'This shows how much a company can save on electricity costs by using the electricity produced from waste processing, instead of purchasing it from the grid. This is based off the assumption you are paying 27p/kWh'
     })
     tippy('.calc-char', {
       theme: 'tomato',
@@ -358,7 +363,7 @@
             </div>
             <p style=" font-family: 'Public Sans', sans-serif;" class="text-[#2E3855] tracking-wider mt-5">
               Whether you’re a business owner, facility manager, community leader or just interested in sustainable energy
-              solutions, our exploration station has something for you
+              solutions, our exploration station has something for you!
             </p>
           </div>
         </div>
@@ -403,9 +408,9 @@
                   Cow manure
                 </h1>
                 <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
-                  <span class="font-bold text-xl">GCV:</span>
-                  15 MJ/kg
-                  <img class="ml-5 map-gcv info-pop" src="/assets/Frame 15.png" alt="" />
+                  <span class="font-bold text-xl pr-3">Biogas Yield:</span>
+                  18m³
+                  <img class="ml-5 map-biogas info-pop" src="/assets/Frame 15.png" alt="" />
                 </p>
                 <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">Energy content:</span>
@@ -466,7 +471,7 @@
             <div class="flex flex-col p-5">
               <div class="flex">
                 <div class="mt-2">
-                  <img src="/assets/medres/anaerobic-digestion.jpg" class="rounded-full w-16 h-16" alt="" />
+                  <img src="/assets/medres/Anaerobic Digestion1.jpg" class="rounded-full w-16 h-16" alt="" />
                 </div>
                 <div class="ml-5">
                   <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
@@ -532,9 +537,9 @@
                   Food waste
                 </h1>
                 <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
-                  <span class="font-bold text-xl">GCV:</span>
-                  17 MJ/kg
-                  <img class="ml-5 map-gcv info-pop" src="/assets/Frame 15.png" alt="" />
+                  <span class="font-bold text-xl pr-3">Biogas Yield:</span>
+                  45m³
+                  <img class="ml-5 map-biogas info-pop" src="/assets/Frame 15.png" alt="" />
                 </p>
                 <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">Energy content:</span>
@@ -595,7 +600,7 @@
             <div class="flex flex-col p-5">
               <div class="flex">
                 <div class="mt-2">
-                  <img src="/assets/medres/anaerobic-digestion.jpg" class="rounded-full w-16 h-16" alt="" />
+                  <img src="/assets/medres/Anaerobic Digestion1.jpg" class="rounded-full w-16 h-16" alt="" />
                 </div>
                 <div class="ml-5">
                   <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
@@ -661,7 +666,7 @@
                   PE plastic
                 </h1>
                 <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
-                  <span class="font-bold text-xl">GCV:</span>
+                  <span class="font-bold text-xl pr-3">GCV:</span>
                   46 MJ/kg
                   <img class="ml-5 map-gcv info-pop" src="/assets/Frame 15.png" alt="" />
                 </p>
@@ -723,7 +728,7 @@
           <div class="bg-[#2E3855] rounded-b-2xl rounded-r-none h-[180px] absolute bottom-0 left-0 mb-0 w-full pl-2">
             <div class="flex flex-col p-5">
               <div class="flex">
-                <div class="mt-2 w-16"><img src="/assets/medres/pyrolysis.jpg" class="rounded-full w-16 h-16" alt="" /></div>
+                <div class="mt-2 w-16"><img src="/assets/medres/Pyrolysis1.jpg" class="rounded-full w-16 h-16" alt="" /></div>
                 <div class="ml-5">
                   <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
                     Most appropriate technology
@@ -850,7 +855,7 @@
           <div class="bg-[#2E3855] rounded-b-2xl rounded-r-none h-[180px] absolute bottom-0 left-0 mb-0 w-full pl-2">
             <div class="flex flex-col p-5">
               <div class="flex">
-                <div class="mt-2 w-16"><img src="/assets/medres/pyrolysis.jpg" class="rounded-full w-16 h-16" alt="" /></div>
+                <div class="mt-2 w-16"><img src="/assets/medres/Pyrolysis1.jpg" class="rounded-full w-16 h-16" alt="" /></div>
                 <div class="ml-5">
                   <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
                     Most appropriate technology
@@ -889,7 +894,7 @@
       <div
         id="cow-shadow"
         class="bg-base-100"
-        style="width:1000px; height:750px; position: relative; left: -1000px; top: 0px; margin-bottom:-750px; z-index:99" />
+        style="width:1000px; height:750px; position: relative; left: -1000px; top: 0px; margin-bottom:-750px; z-index:39" />
     </h1>
 
     <!-- ===================after landing page =================== -->
@@ -1105,11 +1110,12 @@
               <span id="waste-type1">PE Plastic</span>
               <br />
               <span id="waste-type2">10,000 tonnes</span>
+              &nbsp;per day
             </h2>
           </div>
           <div class="bg-[#2E3855] rounded-2xl flex flex-col justify-center p-6 py-12 mb-6">
             <div class="mx-auto">
-              <img src="/assets/medres/pyrolysis.jpg" class="rounded-full w-24 h-24" id="matched-img" alt="" />
+              <img src="/assets/medres/Pyrolysis1.jpg" class="rounded-full w-24 h-24" id="matched-img" alt="" />
             </div>
             <div class="text-center text-white">
               <h3 class="uppercase text-xl m-5 mt-6">Most appropriate technology</h3>
@@ -1128,7 +1134,7 @@
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
               <span id="energycontent">18</span>
-              MJ/kg
+              <span id="energycontent-unit">MJ/kg</span>
             </div>
           </div>
           <div class="flex justify-center mb-2">
@@ -1190,12 +1196,14 @@
               style="font-family: 'Poppins', sans-serif;"
               class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
-              Char produced <img class="ml-5 calc-char info-pop" src="/assets/info.png" alt="" />
+              <span id="char-fert">Char</span>
+              &nbsp;produced
+              <img class="ml-5 calc-char info-pop" src="/assets/info.png" alt="" />
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
               <span id="fertiliser">500</span>
-              tonnes
+              kilograms
             </div>
           </div>
         </div>
@@ -1210,9 +1218,12 @@
             The PFP Calculator
           </h1>
           <p style=" font-family: 'Public Sans', sans-serif;" class="text-[#2E3855] tracking-wider mt-5 pl-24 pr-24">
-            Our user-friendly calculator is designed to evaluate your project's
+            Our easy-to-use calculator is here to give you a quick snapshot of what your waste-to-energy project could look
+            like. It helps you identify the most suitable technology and estimate energy output, serving as a valuable first
+            step in your journey to green power.
             <br />
-            feasibility, relevant technology and energy output
+            <br />
+            Think of it as a helpful starting point!
           </p>
         </div>
         <div
@@ -1226,7 +1237,7 @@
               <button type="button" class="text-xl w-1/2 h-16 text-white bg-[#2E3855] rounded-l-xl">Waste type</button>
               <div
                 class="button dropdown w-1/2 flex justify-between z-10 inline-flex items-center py-2.5 px-4 text-xl font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
-                <select id="colorselector" class="w-full bg-transparent text-center border-0">
+                <select id="colorselector" class="w-full bg-transparent text-center border-0 line-h-20">
                   <option class="bg-[#E7F5F5]" value="Cheese production">Cheese production</option>
                   <option class="bg-[#E7F5F5]" value="Butter production">Butter production</option>
                   <option class="bg-[#E7F5F5]" value="Ice cream">Ice cream</option>
@@ -1292,9 +1303,12 @@
                 <select
                   id="colorselector2"
                   class="w-full bg-transparent text-center focus-0 after:border-0 before:border-0 after:border-[#E7F5F5]">
+                  <option class="bg-[#E7F5F5]" value="5">5 kg</option>
                   <option class="bg-[#E7F5F5]" value="10">10 kg</option>
                   <option class="bg-[#E7F5F5]" value="100">100 kg</option>
+                  <option class="bg-[#E7F5F5]" value="400">400 kg</option>
                   <option class="bg-[#E7F5F5]" value="1000">1000 kg</option>
+                  <option class="bg-[#E7F5F5]" value="4000">4000 kg</option>
                   <option class="bg-[#E7F5F5]" value="10000">10,000 kg</option>
                   <option class="bg-[#E7F5F5]" value="20000">20,000 kg</option>
                   <option class="bg-[#E7F5F5]" value="40000">40,000 kg</option>
@@ -1960,11 +1974,12 @@
           ? minlimit
             ? 'Your project is feasible'
             : 'This feedstock amount is <u style="color:#ec8b5a;">too small</u>'
-          : 'This feedstock is <u style="color:#ec8b5a;">not</u> feasible'
+          : wt1.options[wt1.selectedIndex].text + ' feedstock is <u style="color:#ec8b5a;">not</u> feasible'
 
         document.querySelector('#feasible-results').innerHTML =
           !feasible || minlimit
             ? 'Review your results to explore the different possibilities and<br />book a slot with us for personalised guidance on next steps'
+            // ? "Take a look at the results below to find out how much you could save on energy bills, not to mention waste disposal costs! If you're curious about the investment (CAPEX), reach out and we'll dive deeper with a comprehensive feasibility study!"
             : d['technology'] == 'Pyrolysis'
             ? "To get the best out of <b>Pyrolysis</b>, you'll need at least<br /><b>" +
               d['limit'] +
@@ -2018,6 +2033,9 @@
               }
             }
           }
+
+          document.querySelector('#energycontent-unit').innerHTML = d['technology'] == 'Pyrolysis' ? 'MJ/kg' : 'm³ biogas'
+          document.querySelector('#char-fert').innerHTML = d['technology'] == 'Pyrolysis' ? 'Char' : 'Fertiliser'
         }
 
         var calcselectors = document.querySelector('#calc-selectors')
@@ -2130,5 +2148,41 @@
       toggleAll()
       toggleAll()
     }, 100)
+
+    function sortCombo(comboBoxId) {
+      //get drop down
+      let comboBox = document.getElementById(comboBoxId)
+
+      //create array for storage
+      let optionsText = []
+      let optionsTextSorted = []
+      let optionsValues = []
+      let sortedOptionsAll = []
+
+      //store in the array
+      Array.from(comboBox.options).forEach(x => {
+        optionsText.push(x.text)
+        optionsValues.push(x.value)
+      })
+
+      optionsTextSorted = [...optionsText]
+      optionsTextSorted.sort()
+      optionsTextSorted.forEach(x => {
+        sortedOptionsAll.push({ value: optionsValues[optionsText.indexOf(x)], text: x })
+      })
+
+      //clear the combo box
+      Array.from(comboBox.options).forEach(x => (x.text = ''))
+
+      //fill the combobox
+      for (let i = 0; i < sortedOptionsAll.length; i++) {
+        document.getElementById(comboBoxId)[i].text = sortedOptionsAll[i].text
+        document.getElementById(comboBoxId)[i].value = sortedOptionsAll[i].value
+      }
+    }
+
+    setTimeout(() => {
+      sortCombo('colorselector')
+    }, 200)
   </script>
 </div>

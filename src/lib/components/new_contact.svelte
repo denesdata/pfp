@@ -140,7 +140,7 @@
 
             function toggleElement2(k) {
               var element = document.querySelector('#' + k)
-              element.classList.toggle('h-[500px]')
+              element.classList.toggle('h-[540px]')
               toggleElementX(k)
             }
 

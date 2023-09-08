@@ -96,7 +96,7 @@
               <div class="flex-1 flex-col flex items-start gap-8">
                 <div class="text-md leading-[26px] font-light text-[#2e3855] w-[320px]">
                   By harnessing the power of non-recycled waste, our platform provides a secure and reliable energy source,
-                  giving you peace of mind knowing that you&#039;ll never run out of power.
+                  giving you peace of mind knowing that you&#039;ll never run out of power
                 </div>
                 <a href="/explore#map2">
                   <div
@@ -223,7 +223,7 @@
       <div class="w-full flex-col flex items-start gap-[30px]">
         <div
           class="w-full flex-col flex items-start gap-[18px] text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins">
-          <div class="w-[980px]">Customer testimonials</div>
+          <div class="w-[980px]">Testimonials</div>
         </div>
         <div class="w-full flex-col flex justify-center items-center gap-[30px]">
           <div class="w-full flex justify-center items-center gap-6">
@@ -338,12 +338,30 @@
         </div>
       </div>
     </div>
-    <div class="bg-white w-full flex-col flex items-start px-10 pt-10 pb-[30px] rounded-[20px]">
+    <div class="bg-white gap-10 w-full flex-col flex items-start px-10 pt-10 pb-[30px] rounded-[20px]">
       <div
         class="w-full flex-col flex items-start gap-6 text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins">
         <div class="w-full flex-col flex items-start gap-[18px]">
           <div class="w-[980px]">Our partners</div>
         </div>
+      </div>
+      <div class="w-full flex justify-between items-center">
+        <img
+          class="object-cover w-1/4"
+          alt="Furlong Energy"
+          src="/assets/partners/Furlong Energy Logo.png" />
+        <img
+          class="object-cover w-1/2"
+          alt="Handprint"
+          src="/assets/partners/Handprint logo.png" />
+        <img
+          class="object-cover w-1/5 pr-5"
+          alt="APEM"
+          src="/assets/partners/Apem Logo.png" />
+        <img
+          class="object-cover h-[110px] w-[139px] hidden"
+          alt="Fifty Shades Greener"
+          src="/assets/partners/Fifty Shades Greener.png" />
       </div>
       <div class="w-full flex justify-between items-center">
         <img
