@@ -4,6 +4,7 @@
   import tippy from 'tippy.js'
   import 'tippy.js/dist/tippy.css'
   import 'tippy.js/themes/light.css'
+  import { query_selector_all } from 'svelte/internal'
 
   onMount(() => {
     tippy('.map-gcv', {
@@ -409,7 +410,7 @@
                 </h1>
                 <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
                   <span class="font-bold text-xl pr-3">Biogas Yield:</span>
-                  18m³
+                  0.18m³/kg
                   <img class="ml-5 map-biogas info-pop" src="/assets/Frame 15.png" alt="" />
                 </p>
                 <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
@@ -538,7 +539,7 @@
                 </h1>
                 <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
                   <span class="font-bold text-xl pr-3">Biogas Yield:</span>
-                  45m³
+                  0.45m³/kg
                   <img class="ml-5 map-biogas info-pop" src="/assets/Frame 15.png" alt="" />
                 </p>
                 <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
@@ -1203,7 +1204,7 @@
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
               <span id="fertiliser">500</span>
-              kilograms
+              kg per year
             </div>
           </div>
         </div>
@@ -1217,13 +1218,10 @@
             class="card text-3xl font-bold text-[#2e3855] font-Poppins text-center">
             The PFP Calculator
           </h1>
-          <p style=" font-family: 'Public Sans', sans-serif;" class="text-[#2E3855] tracking-wider mt-5 pl-24 pr-24">
+          <p style=" font-family: 'Public Sans', sans-serif;" class="text-[#2E3855] tracking-wider mt-5 px-0">
             Our easy-to-use calculator is here to give you a quick snapshot of what your waste-to-energy project could look
             like. It helps you identify the most suitable technology and estimate energy output, serving as a valuable first
-            step in your journey to green power.
-            <br />
-            <br />
-            Think of it as a helpful starting point!
+            step in your journey to green power. Think of it as a helpful starting point!
           </p>
         </div>
         <div
@@ -1237,61 +1235,86 @@
               <button type="button" class="text-xl w-1/2 h-16 text-white bg-[#2E3855] rounded-l-xl">Waste type</button>
               <div
                 class="button dropdown w-1/2 flex justify-between z-10 inline-flex items-center py-2.5 px-4 text-xl font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
-                <select id="colorselector" class="w-full bg-transparent text-center border-0 line-h-20">
-                  <option class="bg-[#E7F5F5]" value="Cheese production">Cheese production</option>
-                  <option class="bg-[#E7F5F5]" value="Butter production">Butter production</option>
-                  <option class="bg-[#E7F5F5]" value="Ice cream">Ice cream</option>
-                  <option class="bg-[#E7F5F5]" value="Beer production">Beer production</option>
-                  <option class="bg-[#E7F5F5]" value="Wine production">Wine production</option>
-                  <option class="bg-[#E7F5F5]" value="Spirits production">Spirits production</option>
-                  <option class="bg-[#E7F5F5]" value="Ethanol production">Ethanol production</option>
-                  <option class="bg-[#E7F5F5]" value="Pulp production">Pulp production</option>
-                  <option class="bg-[#E7F5F5]" value="Juice production">Juice production</option>
-                  <option class="bg-[#E7F5F5]" value="Tomato ketchup">Tomato ketchup</option>
-                  <option class="bg-[#E7F5F5]" value="Bovine meat">Bovine meat</option>
-                  <option class="bg-[#E7F5F5]" value="Pig meat">Pig meat</option>
-                  <option class="bg-[#E7F5F5]" value="Sheep meat">Sheep meat</option>
-                  <option class="bg-[#E7F5F5]" value="Frozen potatoes">Frozen potatoes</option>
-                  <option class="bg-[#E7F5F5]" value="Prepared potatoes (crisps)">Prepared potatoes (crisps)</option>
-                  <option class="bg-[#E7F5F5]" value="Potato starch">Potato starch</option>
-                  <option class="bg-[#E7F5F5]" value="Dried potatoes">Dried potatoes</option>
-                  <option class="bg-[#E7F5F5]" value="Sugar production">Sugar production</option>
-                  <option class="bg-[#E7F5F5]" value="Yeast production">Yeast production</option>
-                  <option class="bg-[#E7F5F5]" value="Vegetable oils production">Vegetable oils production</option>
-                  <option class="bg-[#E7F5F5]" value="Biodiesel production">Biodiesel production</option>
-                  <option class="bg-[#E7F5F5]" value="Pig manure">Pig manure</option>
-                  <option class="bg-[#E7F5F5]" value="Dairy Cattle">Dairy Cattle</option>
-                  <option class="bg-[#E7F5F5]" value="Non diary cattle">Non diary cattle</option>
-                  <option class="bg-[#E7F5F5]" value="Buffalo">Buffalo</option>
-                  <option class="bg-[#E7F5F5]" value="Chicken layer manure">Chicken layer manure</option>
-                  <option class="bg-[#E7F5F5]" value="Chicken broiler manure">Chicken broiler manure</option>
-                  <option class="bg-[#E7F5F5]" value="Sheep">Sheep</option>
-                  <option class="bg-[#E7F5F5]" value="Food waste">Food waste</option>
-                  <option class="bg-[#E7F5F5]" value="Fish waste">Fish waste</option>
-                  <option class="bg-[#E7F5F5]" value="Coffee grounds">Coffee grounds</option>
-                  <option class="bg-[#E7F5F5]" value="Crop residues">Crop residues</option>
-                  <option class="bg-[#E7F5F5]" value="Maize silage">Maize silage</option>
-                  <option class="bg-[#E7F5F5]" value="Cereal">Cereal</option>
-                  <option class="bg-[#E7F5F5]" value="Grass silage">Grass silage</option>
-                  <option class="bg-[#E7F5F5]" value="Pulp & Paper Waste">Pulp & Paper Waste</option>
-                  <option class="bg-[#E7F5F5]" value="Textile Waste">Textile Waste</option>
-                  <option class="bg-[#E7F5F5]" value="PE Plastic">PE Plastic</option>
-                  <option class="bg-[#E7F5F5]" value="SRF">SRF</option>
-                  <option class="bg-[#E7F5F5]" value="RDF">RDF</option>
-                  <option class="bg-[#E7F5F5]" value="PP Plastic">PP Plastic</option>
-                  <option class="bg-[#E7F5F5]" value="PS Plastic">PS Plastic</option>
-                  <option class="bg-[#E7F5F5]" value="PVC Plastic">PVC Plastic</option>
-                  <option class="bg-[#E7F5F5]" value="PET Plastic">PET Plastic</option>
-                  <option class="bg-[#E7F5F5]" value="Rubber">Rubber</option>
-                  <option class="bg-[#E7F5F5]" value="Wood waste">Wood waste</option>
-                  <option class="bg-[#E7F5F5]" value="Municipal Solid Waste (MSW)">Municipal Solid Waste (MSW)</option>
-                  <option class="bg-[#E7F5F5]" value="Medical Waste">Medical Waste</option>
-
-                  <option class="bg-[#E7F5F5]" value="Ceramics">Ceramics</option>
-                  <option class="bg-[#E7F5F5]" value="Sand">Sand</option>
-                  <option class="bg-[#E7F5F5]" value="Dust">Dust</option>
-                  <option class="bg-[#E7F5F5]" value="Glass">Glass</option>
-                  <option class="bg-[#E7F5F5]" value="Metals">Metals</option>
+                <select id="colorselector" class="w-full bg-transparent text-left border-0 line-h-20">
+                  <optgroup class="bg-[#e2e6e6]" label="Alcohol and Beverages Industry">
+                    <option class="bg-[#E7F5F5]" value="Beer production">Beer production</option>
+                    <option class="bg-[#E7F5F5]" value="Wine production">Wine production</option>
+                    <option class="bg-[#E7F5F5]" value="Spirits production">Spirits production</option>
+                    <option class="bg-[#E7F5F5]" value="Ethanol production">Ethanol production</option>
+                    <option class="bg-[#E7F5F5]" value="Juice production">Juice production</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Biofuels Industry">
+                    <option class="bg-[#E7F5F5]" value="Biodiesel production">Biodiesel production</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Construction and Demolition Waste">
+                    <option class="bg-[#E7F5F5]" value="Ceramics">Ceramics</option>
+                    <option class="bg-[#E7F5F5]" value="Sand">Sand</option>
+                    <option class="bg-[#E7F5F5]" value="Dust">Dust</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Dairy Industry">
+                    <option class="bg-[#E7F5F5]" value="Cheese production">Cheese production</option>
+                    <option class="bg-[#E7F5F5]" value="Butter production">Butter production</option>
+                    <option class="bg-[#E7F5F5]" value="Ice cream">Ice cream</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Food Processing Industry">
+                    <option class="bg-[#E7F5F5]" value="Pulp production">Pulp production</option>
+                    <option class="bg-[#E7F5F5]" value="Tomato ketchup">Tomato ketchup</option>
+                    <option class="bg-[#E7F5F5]" value="Frozen potatoes">Frozen potatoes</option>
+                    <option class="bg-[#E7F5F5]" value="Prepared potatoes (crisps)">Prepared potatoes (crisps)</option>
+                    <option class="bg-[#E7F5F5]" value="Potato starch">Potato starch</option>
+                    <option class="bg-[#E7F5F5]" value="Dried potatoes">Dried potatoes</option>
+                    <option class="bg-[#E7F5F5]" value="Sugar production">Sugar production</option>
+                    <option class="bg-[#E7F5F5]" value="Yeast production">Yeast production</option>
+                    <option class="bg-[#E7F5F5]" value="Vegetable oils production">Vegetable oils production</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Hospitality">
+                    <option class="bg-[#E7F5F5]" value="Coffee grounds">Coffee grounds</option>
+                    <option class="bg-[#E7F5F5]" value="Crop residues">Crop residues</option>
+                    <option class="bg-[#E7F5F5]" value="Maize silage">Maize silage</option>
+                    <option class="bg-[#E7F5F5]" value="Cereal">Cereal</option>
+                    <option class="bg-[#E7F5F5]" value="Grass silage">Grass silage</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Industrial Waste">
+                    <option class="bg-[#E7F5F5]" value="Pulp & Paper Waste">Pulp & Paper Waste</option>
+                    <option class="bg-[#E7F5F5]" value="Textile Waste">Textile Waste</option>
+                    <option class="bg-[#E7F5F5]" value="SRF">SRF</option>
+                    <option class="bg-[#E7F5F5]" value="RDF">RDF</option>
+                    <option class="bg-[#E7F5F5]" value="Rubber">Rubber</option>
+                    <option class="bg-[#E7F5F5]" value="Wood waste">Wood waste</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Manure and Animal Waste">
+                    <option class="bg-[#E7F5F5]" value="Pig manure">Pig manure</option>
+                    <option class="bg-[#E7F5F5]" value="Dairy Cattle">Dairy Cattle</option>
+                    <option class="bg-[#E7F5F5]" value="Non diary cattle">Non diary cattle</option>
+                    <option class="bg-[#E7F5F5]" value="Buffalo">Buffalo</option>
+                    <option class="bg-[#E7F5F5]" value="Chicken layer manure">Chicken layer manure</option>
+                    <option class="bg-[#E7F5F5]" value="Chicken broiler manure">Chicken broiler manure</option>
+                    <option class="bg-[#E7F5F5]" value="Sheep">Sheep</option>
+                    <option class="bg-[#E7F5F5]" value="Food waste">Food waste</option>
+                    <option class="bg-[#E7F5F5]" value="Fish waste">Fish waste</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Meat Industry">
+                    <option class="bg-[#E7F5F5]" value="Bovine meat">Bovine meat</option>
+                    <option class="bg-[#E7F5F5]" value="Pig meat">Pig meat</option>
+                    <option class="bg-[#E7F5F5]" value="Sheep meat">Sheep meat</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Medical Waste">
+                    <option class="bg-[#E7F5F5]" value="Medical Waste">Medical Waste</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Municipal Waste">
+                    <option class="bg-[#E7F5F5]" value="Municipal Solid Waste (MSW)">Municipal Solid Waste (MSW)</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Plastic Waste">
+                    <option class="bg-[#E7F5F5]" value="PE Plastic">PE Plastic</option>
+                    <option class="bg-[#E7F5F5]" value="PP Plastic">PP Plastic</option>
+                    <option class="bg-[#E7F5F5]" value="PS Plastic">PS Plastic</option>
+                    <option class="bg-[#E7F5F5]" value="PVC Plastic">PVC Plastic</option>
+                    <option class="bg-[#E7F5F5]" value="PET Plastic">PET Plastic</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Recyclable Materials">
+                    <option class="bg-[#E7F5F5]" value="Glass">Glass</option>
+                    <option class="bg-[#E7F5F5]" value="Metals">Metals</option>
+                  </optgroup>
                 </select>
               </div>
             </div>
@@ -1322,10 +1345,11 @@
               <div
                 class="button dropdown w-1/2 flex justify-between flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-xl font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
                 <select id="colorselector3" class="w-full bg-transparent text-center">
-                  <option class="bg-[#E7F5F5]" value="electricity">Electricity</option>
-                  <option class="bg-[#E7F5F5]" value="heating-cooling">Heating / Cooling</option>
-                  <option class="bg-[#E7F5F5]" value="carbon-credits">Carbon credits</option>
-                  <option class="bg-[#E7F5F5]" value="fertiliser">Fertiliser</option>
+                  <option class="bg-[#E7F5F5] nofood" value="electricity">Electricity</option>
+                  <option class="bg-[#E7F5F5] nofood" value="heating-cooling">Heating / Cooling</option>
+                  <option class="bg-[#E7F5F5] nofood" value="carbon-credits">Carbon credits</option>
+                  <option class="bg-[#E7F5F5] food" value="cooking-biogas">Cooking biogas</option>
+                  <option class="bg-[#E7F5F5] nofood food" value="fertiliser">Fertiliser</option>
                 </select>
               </div>
             </div>
@@ -1976,6 +2000,9 @@
             : 'This feedstock amount is <u style="color:#ec8b5a;">too small</u>'
           : wt1.options[wt1.selectedIndex].text + ' feedstock is <u style="color:#ec8b5a;">not</u> feasible'
 
+        // document.querySelectorAll('.nofood').classList.toggle('hidden', wt1.value != 'Food waste')
+        // document.querySelectorAll('.food').classList.toggle('hidden', wt1.value == 'Food waste')
+        
         document.querySelector('#feasible-results').innerHTML =
           !feasible || minlimit
             ? // ? 'Review your results to explore the different possibilities and<br />book a slot with us for personalised guidance on next steps'
@@ -2183,8 +2210,8 @@
       }
     }
 
-    setTimeout(() => {
-      sortCombo('colorselector')
-    }, 200)
+    // setTimeout(() => {
+    //   sortCombo('colorselector')
+    // }, 200)
   </script>
 </div>
