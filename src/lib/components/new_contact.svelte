@@ -40,7 +40,7 @@
                 width="100%"
                 frameborder="0"
                 allowfullscreen=""
-                src="https://calendly.com/csaladenes-6ee/30min?hide_landing_page_details=1&hide_gdpr_banner=1&text_color=394e6a&primary_color=3f9378&back=1&month=2023-07"
+                src="https://calendly.com/contact-9g8/?hide_landing_page_details=1&hide_gdpr_banner=1&text_color=394e6a&primary_color=3f9378&back=1&month=2023-07"
                 title="book" />
             </div>
           </div>

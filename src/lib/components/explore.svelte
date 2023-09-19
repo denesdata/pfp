@@ -5,6 +5,8 @@
   import 'tippy.js/dist/tippy.css'
   import 'tippy.js/themes/light.css'
   import { query_selector_all } from 'svelte/internal'
+  import Select from 'svelte-select'
+  // import Select from 'svelte-select/no-styles/Select.svelte'
 
   onMount(() => {
     tippy('.map-gcv', {
@@ -55,6 +57,15 @@
         "Char is the solid material that's left over after some waste processing methods, like pyrolysis and gasification. It can sometimes be used as a fuel or soil conditioner. This value shows how much char would be produced from the waste."
     })
   })
+
+  let collection = [
+    { value: 'cow', label: 'Cow manure' },
+    { value: 'food', label: 'Food waste' },
+    { value: 'bottle', label: 'PW plastic' },
+    { value: 'technology', label: 'Technology' }
+  ]
+
+  let selected
 </script>
 
 <div style="display:none;">
@@ -248,6 +259,7 @@
           vertical-align: middle;
         }
       </style>
+
       <h2 class="text-3xl font-bold text-[#2e3855] font-Poppins text-center justify-center mb-10">How it works</h2>
       <div class=" grid gap-6 md:grid-cols-5 grid-cols-2 w-full" id="thegrid">
         <div
@@ -1042,11 +1054,18 @@
             id="full-screen-buttons"
             style="width:200px; position:relative; top: -10px; left: calc(100% - 300px);">
             <div class="inline-flex items-center justify-center">
-              <input
+              <!-- <input
                 type="text"
                 placeholder="Search up waste..."
-                class="px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300" />
-              <button aria-label="search" class="btn btn-square btn-ghost ml-[-45px]">
+                class="px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300" /> -->
+              <div class="w-[235px] pt-1">
+                <Select
+                  items={collection}
+                  class="w-[100px]"
+                  bind:value={selected}
+                  on:change={() => toggleElement(selected.value)} />
+              </div>
+              <button aria-label="search" class="hidden btn btn-square btn-ghost ml-[-45px]">
                 <span class="i-heroicons-outline-search" />
               </button>
             </div>
@@ -1359,7 +1378,7 @@
         <div
           class="w-[784px] ml-80 pl-16 h-60 p-10 pt-16 md:mt-0 mt-5 duration-300 transform absolute -translate-x-full opacity-0 -translate-y-full bg-[#E7F5F5] rounded-2xl"
           id="calc-message">
-          <div class="text-4xl font-bold" id="feasible">Your project is feasible</div>
+          <div class="text-4xl font-bold duration-100 mt-[-30px]" id="feasible">Your project is feasible</div>
           <p style=" font-family: 'Public Sans', sans-serif;" class="text-[#2E3855] tracking-wider mt-5" id="feasible-results">
             Review your results to explore the different possibilities and
             <br />
@@ -2002,7 +2021,7 @@
 
         // document.querySelectorAll('.nofood').classList.toggle('hidden', wt1.value != 'Food waste')
         // document.querySelectorAll('.food').classList.toggle('hidden', wt1.value == 'Food waste')
-        
+
         document.querySelector('#feasible-results').innerHTML =
           !feasible || minlimit
             ? // ? 'Review your results to explore the different possibilities and<br />book a slot with us for personalised guidance on next steps'
@@ -2017,9 +2036,12 @@
               wt1.options[wt1.selectedIndex].text +
               "</b><br />waste you'll need a daily input of at least <b>" +
               d['limit'] +
-              '</b> kilograms.'
+              '</b> kilograms.' +
+              ' However, we can collaborate with other waste generators so you can still take part in this green journey! <a class="underline text-pfp-green" href="/contact"><b>Contact us</b></a> to explore the opportunities! '
+        //takes out "if you don't have that amount"
 
-        if (!feasible || minlimit) document.querySelector('#feasible').classList.toggle('mt-[-24px]')
+        // if (!minlimit) document.querySelector('#feasible').classList.toggle('mt-[-24px]')
+        // if (!feasible || minlimit) document.querySelector('#feasible').classList.toggle('mt-[-24px]')
 
         if (feasible & minlimit) {
           var calcimg = document.querySelector('#calc-img')
