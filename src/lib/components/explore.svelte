@@ -128,6 +128,10 @@
     .tippy-box[data-theme~='tomato'][data-placement^='right'] > .tippy-arrow::before {
       border-right-color: #e7f5f5;
     }
+
+    select {
+      text-align-last: center;
+    }
   </style>
 
   <script>
@@ -2023,7 +2027,7 @@
         // document.querySelectorAll('.food').classList.toggle('hidden', wt1.value == 'Food waste')
 
         document.querySelector('#feasible-results').innerHTML =
-          !feasible || minlimit
+          feasible ? minlimit
             ? // ? 'Review your results to explore the different possibilities and<br />book a slot with us for personalised guidance on next steps'
               "Take a look at the results below to find out how much you could save on energy bills, not to mention waste disposal costs! If you're curious about the investment (CAPEX), reach out and we'll dive deeper with a comprehensive feasibility study!"
             : d['technology'] == 'Pyrolysis'
@@ -2038,6 +2042,7 @@
               d['limit'] +
               '</b> kilograms.' +
               ' However, we can collaborate with other waste generators so you can still take part in this green journey! <a class="underline text-pfp-green" href="/contact"><b>Contact us</b></a> to explore the opportunities! '
+              :'However, we can collaborate with other waste generators so you can still take part in this green journey! <a class="underline text-pfp-green" href="/contact"><b>Contact us</b></a> to explore the opportunities! '
         //takes out "if you don't have that amount"
 
         // if (!minlimit) document.querySelector('#feasible').classList.toggle('mt-[-24px]')
