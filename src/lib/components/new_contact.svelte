@@ -1,4 +1,10 @@
 <div class="flex-col flex items-center gap-10 h-fit mt-20">
+  <style>
+    form input {
+      border: none;
+      outline: none;
+    }
+  </style>
   <div class="flex-col w-full flex items-start gap-[60px] max-w-[1060px] rounded-[20px]">
     <div
       class="w-full flex-col flex justify-center items-center gap-2.5 text-4xl leading-[46px] font-bold text-center text-[#2e3855] font-Poppins">
@@ -40,7 +46,7 @@
                 width="100%"
                 frameborder="0"
                 allowfullscreen=""
-                src="https://calendly.com/contact-9g8/?hide_landing_page_details=1&hide_gdpr_banner=1&text_color=394e6a&primary_color=3f9378&back=1&month=2023-07"
+                src="https://calendly.com/contact-9g8/introductory-call?hide_landing_page_details=1&hide_gdpr_banner=1&text_color=394e6a&primary_color=3f9378&back=1"
                 title="book" />
             </div>
           </div>
@@ -76,14 +82,14 @@
                     <div class="text-sm font-bold">Name*</div>
                     <div
                       class="bg-white w-full flex items-center gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855] text-base font-medium">
-                      <input class="w-[299px]" type="text" name="name" placeholder="Your Name" required/>
+                      <input class="w-[299px]" type="text" name="name" placeholder="Your Name" required />
                     </div>
                   </div>
                   <div class="flex-1 flex-col flex items-start gap-2">
                     <div class="text-sm font-bold">Email*</div>
                     <div
                       class="bg-white w-full flex items-center gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855] text-base font-medium">
-                      <input class="w-[299px]" type="email" name="email" placeholder="Your email" required/>
+                      <input class="w-[299px]" type="email" name="email" placeholder="Your email" required />
                     </div>
                   </div>
                 </div>
@@ -109,7 +115,7 @@
                     <div class="text-sm font-bold text-[#2e3855]">Your message*</div>
                     <div
                       class="bg-white min-h-[150px] w-full flex-1 flex items-start gap-2.5 rounded-[6px] p-4 border border-[#2e3855] text-base font-medium text-[#909090]">
-                      <textarea class="w-[664px] min-h-[150px] " name="message" required/>
+                      <textarea class="w-[664px] min-h-[150px]" name="message" required />
                     </div>
                   </div>
                 </div>
@@ -209,7 +215,7 @@
                 <div class="flex justify-center items-center gap-4">
                   <img src="/assets/new/mdi_linkedin.svg" alt="mdi:linkedin" class="h-10 w-10" />
                   <img src="/assets/new/mdi_twitter.svg" alt="mdi:twitter" class="h-10 w-10" />
-                  <img src="/assets/new/mdi_instagram.svg" alt="mdi:instagram" class="h-10 w-10" />
+                  <img src="/assets/new/mdi_spotify.svg" alt="mdi:spotify" class="h-10 w-10" />
                 </div>
               </div>
             </div>
@@ -232,12 +238,16 @@
             src="/assets/new/mditwitter-31-social-31-right-31-footer-31-03Greenenergy.svg"
             alt="mditwitter-31-social-31-right-31-footer-31-03Greenenergy"
             class="h-6 w-6" />
-          <img
-            src="/assets/new/CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy.svg"
-            alt="CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy"
-            class="h-6 w-6" />
+          <img src="/assets/new/mdi_spotify.svg" alt="mdi_spotify" class="h-6 w-6" />
         </div>
       </div>
     </div>
   </div>
 </div>
+
+<style>
+  form input {
+    border: none;
+    outline: none;
+  }
+</style>

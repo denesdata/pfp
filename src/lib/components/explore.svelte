@@ -56,6 +56,11 @@
       content:
         "Char is the solid material that's left over after some waste processing methods, like pyrolysis and gasification. It can sometimes be used as a fuel or soil conditioner. This value shows how much char would be produced from the waste."
     })
+    tippy('.calc-fert', {
+      theme: 'tomato',
+      content:
+        "This is the amount of fertiliser that can be produced from the waste. This is assuming the waste is processed using anaerobic digestion, which produces a nutrient-rich liquid that can be used as fertiliser."
+    })
   })
 
   let collection = [
@@ -396,7 +401,7 @@
           }
         </style>
         <div
-          class="cow-element pt-0 opacity-0 -translate-x-full h-[663px] absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-l-2xl mt-10"
+          class="cow-element pt-0 opacity-0 -translate-x-full h-[665px] absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-l-2xl rounded-b-2xl mt-10"
           id="cow">
           <div class="relative left-[98%] rounded-r-2xl">
             <script>
@@ -411,7 +416,7 @@
               type="button"
               onclick="toggleElementOff('cow')"
               style=" font-family: 'Public Sans', sans-serif; box-shadow: 8px 8px 8px -6px rgba(0, 0, 0, 0.3);"
-              class="flex items-center justify-center text-[#2E3855] bg-white font-semibold rounded-lg rounded-t-none text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
+              class="flex items-center justify-center text-[#2E3855] bg-white font-semibold rounded-lg rounded-t-none cow-close-button text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
               <img class="mr-2" src="/assets/x-circle.png" alt="" />
             </button>
           </div>
@@ -427,7 +432,7 @@
                 <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
                   <span class="font-bold text-xl pr-3">Biogas Yield:</span>
                   0.18m³/kg
-                  <img class="ml-5 map-biogas info-pop" src="/assets/Frame 15.png" alt="" />
+                  <img class="ml-2 map-biogas info-pop" src="/assets/Frame 15.svg" alt="" />
                 </p>
                 <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">Energy content:</span>
@@ -473,7 +478,7 @@
               <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
                 <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
               </h1>
-              <img class="ml-5 map-case-study info-pop" src="/assets/Frame 15.png" alt="" />
+              <img class="ml-2 map-case-study info-pop" src="/assets/Frame 15.svg" alt="" />
             </div>
 
             <div style=" font-family: 'Public Sans', sans-serif;" class="mt-3 pl-2">
@@ -484,7 +489,7 @@
               </ul>
             </div>
           </div>
-          <div class="bg-[#2E3855] rounded-b-2xl rounded-r-none h-[180px] absolute bottom-0 left-0 mb-0 w-full pl-2">
+          <div class="bg-[#2E3855] rounded-b-2xl rounded-r-none cow-close-rbottom h-[180px] absolute bottom-0 left-0 mb-0 w-full pl-2">
             <div class="flex flex-col p-5">
               <div class="flex">
                 <div class="mt-2">
@@ -525,7 +530,7 @@
           </div>
         </div>
         <div
-          class="cow-element pt-0 opacity-0 -translate-x-full h-[663px] absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-l-2xl mt-10"
+          class="cow-element pt-0 opacity-0 -translate-x-full h-[665px] absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-l-2xl rounded-b-2xl mt-10"
           id="food">
           <div class="relative left-[98%] rounded-r-2xl">
             <script>
@@ -540,7 +545,7 @@
               type="button"
               onclick="toggleElementOff('food')"
               style=" font-family: 'Public Sans', sans-serif; box-shadow: 8px 8px 8px -6px rgba(0, 0, 0, 0.3);"
-              class="flex items-center justify-center text-[#2E3855] bg-white font-semibold rounded-lg rounded-t-none text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
+              class="flex items-center justify-center text-[#2E3855] bg-white font-semibold rounded-lg rounded-t-none cow-close-button text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
               <img class="mr-2" src="/assets/x-circle.png" alt="" />
             </button>
           </div>
@@ -556,7 +561,7 @@
                 <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
                   <span class="font-bold text-xl pr-3">Biogas Yield:</span>
                   0.45m³/kg
-                  <img class="ml-5 map-biogas info-pop" src="/assets/Frame 15.png" alt="" />
+                  <img class="ml-2 map-biogas info-pop" src="/assets/Frame 15.svg" alt="" />
                 </p>
                 <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">Energy content:</span>
@@ -602,7 +607,7 @@
               <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
                 <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
               </h1>
-              <img class="ml-5 map-case-study info-pop" src="/assets/Frame 15.png" alt="" />
+              <img class="ml-2 map-case-study info-pop" src="/assets/Frame 15.svg" alt="" />
             </div>
 
             <div style=" font-family: 'Public Sans', sans-serif;" class="mt-3 pl-2">
@@ -613,7 +618,7 @@
               </ul>
             </div>
           </div>
-          <div class="bg-[#2E3855] rounded-b-2xl rounded-r-none h-[180px] absolute bottom-0 left-0 mb-0 w-full pl-2">
+          <div class="bg-[#2E3855] rounded-b-2xl rounded-r-none cow-close-rbottom h-[180px] absolute bottom-0 left-0 mb-0 w-full pl-2">
             <div class="flex flex-col p-5">
               <div class="flex">
                 <div class="mt-2">
@@ -654,7 +659,7 @@
           </div>
         </div>
         <div
-          class="cow-element pt-0 opacity-0 -translate-x-full h-[663px] absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-l-2xl mt-10"
+          class="cow-element pt-0 opacity-0 -translate-x-full h-[665px] absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-l-2xl rounded-b-2xl mt-10"
           id="bottle">
           <div class="relative left-[98%] rounded-r-2xl">
             <script>
@@ -669,7 +674,7 @@
               type="button"
               onclick="toggleElementOff('bottle')"
               style=" font-family: 'Public Sans', sans-serif; box-shadow: 8px 8px 8px -6px rgba(0, 0, 0, 0.3);"
-              class="flex items-center justify-center text-[#2E3855] bg-white font-semibold rounded-lg rounded-t-none text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
+              class="flex items-center justify-center text-[#2E3855] bg-white font-semibold rounded-lg rounded-t-none cow-close-button text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
               <img class="mr-2" src="/assets/x-circle.png" alt="" />
             </button>
           </div>
@@ -685,7 +690,7 @@
                 <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
                   <span class="font-bold text-xl pr-3">GCV:</span>
                   46 MJ/kg
-                  <img class="ml-5 map-gcv info-pop" src="/assets/Frame 15.png" alt="" />
+                  <img class="ml-2 map-gcv info-pop" src="/assets/Frame 15.svg" alt="" />
                 </p>
                 <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">Energy content:</span>
@@ -731,7 +736,7 @@
               <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
                 <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
               </h1>
-              <img class="ml-5 map-case-study info-pop" src="/assets/Frame 15.png" alt="" />
+              <img class="ml-2 map-case-study info-pop" src="/assets/Frame 15.svg" alt="" />
             </div>
 
             <div style=" font-family: 'Public Sans', sans-serif;" class="mt-3 pl-2">
@@ -742,7 +747,7 @@
               </ul>
             </div>
           </div>
-          <div class="bg-[#2E3855] rounded-b-2xl rounded-r-none h-[180px] absolute bottom-0 left-0 mb-0 w-full pl-2">
+          <div class="bg-[#2E3855] rounded-b-2xl rounded-r-none cow-close-rbottom h-[180px] absolute bottom-0 left-0 mb-0 w-full pl-2">
             <div class="flex flex-col p-5">
               <div class="flex">
                 <div class="mt-2 w-16"><img src="/assets/medres/Pyrolysis1.jpg" class="rounded-full w-16 h-16" alt="" /></div>
@@ -781,7 +786,7 @@
           </div>
         </div>
         <div
-          class="cow-element pt-0 opacity-0 -translate-x-full h-[663px] absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-l-2xl mt-10"
+          class="cow-element pt-0 opacity-0 -translate-x-full h-[665px] absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-l-2xl rounded-b-2xl mt-10"
           id="technology">
           <div class="relative left-[98%] rounded-r-2xl">
             <script>
@@ -796,7 +801,7 @@
               type="button"
               onclick="toggleElementOff('technology')"
               style=" font-family: 'Public Sans', sans-serif; box-shadow: 8px 8px 8px -6px rgba(0, 0, 0, 0.3);"
-              class="flex items-center justify-center text-[#2E3855] bg-white font-semibold rounded-lg rounded-t-none text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
+              class="flex items-center justify-center text-[#2E3855] bg-white font-semibold rounded-lg rounded-t-none cow-close-button text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
               <img class="mr-2" src="/assets/x-circle.png" alt="" />
             </button>
           </div>
@@ -812,7 +817,7 @@
                 <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">GCV:</span>
                   N/A MJ/kg
-                  <img class="ml-5 map-gcv info-pop" src="/assets/Frame 15.png" alt="" />
+                  <img class="ml-2 map-gcv info-pop" src="/assets/Frame 15.svg" alt="" />
                 </p>
                 <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
                   <span class="font-bold text-xl">Energy content:</span>
@@ -858,7 +863,7 @@
               <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-xl leading-10 text-[#2E3855]">
                 <a href="https://www.host.nl/en/case/guichen-france/" target="_blank">Case study</a>
               </h1>
-              <img class="ml-5 map-case-study info-pop" src="/assets/Frame 15.png" alt="" />
+              <img class="ml-2 map-case-study info-pop" src="/assets/Frame 15.svg" alt="" />
             </div>
 
             <div style=" font-family: 'Public Sans', sans-serif;" class="mt-3 pl-2">
@@ -869,7 +874,7 @@
               </ul>
             </div>
           </div>
-          <div class="bg-[#2E3855] rounded-b-2xl rounded-r-none h-[180px] absolute bottom-0 left-0 mb-0 w-full pl-2">
+          <div class="bg-[#2E3855] rounded-b-2xl rounded-r-none cow-close-rbottom h-[180px] absolute bottom-0 left-0 mb-0 w-full pl-2">
             <div class="flex flex-col p-5">
               <div class="flex">
                 <div class="mt-2 w-16"><img src="/assets/medres/Pyrolysis1.jpg" class="rounded-full w-16 h-16" alt="" /></div>
@@ -1222,7 +1227,8 @@
                             tracking-wider text-[#2E3855]">
               <span id="char-fert">Char</span>
               &nbsp;produced
-              <img class="ml-5 calc-char info-pop" src="/assets/info.png" alt="" />
+              <img class="ml-5 calc-char info-pop hidden" src="/assets/info.png" alt="" />
+              <img class="ml-5 calc-fert info-pop hidden" src="/assets/info.png" alt="" />
             </div>
             <div
               class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
@@ -1289,6 +1295,7 @@
                     <option class="bg-[#E7F5F5]" value="Sugar production">Sugar production</option>
                     <option class="bg-[#E7F5F5]" value="Yeast production">Yeast production</option>
                     <option class="bg-[#E7F5F5]" value="Vegetable oils production">Vegetable oils production</option>
+                    <option class="bg-[#E7F5F5]" value="Food waste">Food waste</option>
                   </optgroup>
                   <optgroup class="bg-[#e2e6e6]" label="Hospitality">
                     <option class="bg-[#E7F5F5]" value="Coffee grounds">Coffee grounds</option>
@@ -1313,7 +1320,6 @@
                     <option class="bg-[#E7F5F5]" value="Chicken layer manure">Chicken layer manure</option>
                     <option class="bg-[#E7F5F5]" value="Chicken broiler manure">Chicken broiler manure</option>
                     <option class="bg-[#E7F5F5]" value="Sheep">Sheep</option>
-                    <option class="bg-[#E7F5F5]" value="Food waste">Food waste</option>
                     <option class="bg-[#E7F5F5]" value="Fish waste">Fish waste</option>
                   </optgroup>
                   <optgroup class="bg-[#e2e6e6]" label="Meat Industry">
@@ -2026,8 +2032,8 @@
         // document.querySelectorAll('.nofood').classList.toggle('hidden', wt1.value != 'Food waste')
         // document.querySelectorAll('.food').classList.toggle('hidden', wt1.value == 'Food waste')
 
-        document.querySelector('#feasible-results').innerHTML =
-          feasible ? minlimit
+        document.querySelector('#feasible-results').innerHTML = feasible
+          ? minlimit
             ? // ? 'Review your results to explore the different possibilities and<br />book a slot with us for personalised guidance on next steps'
               "Take a look at the results below to find out how much you could save on energy bills, not to mention waste disposal costs! If you're curious about the investment (CAPEX), reach out and we'll dive deeper with a comprehensive feasibility study!"
             : d['technology'] == 'Pyrolysis'
@@ -2042,7 +2048,7 @@
               d['limit'] +
               '</b> kilograms.' +
               ' However, we can collaborate with other waste generators so you can still take part in this green journey! <a class="underline text-pfp-green" href="/contact"><b>Contact us</b></a> to explore the opportunities! '
-              :'However, we can collaborate with other waste generators so you can still take part in this green journey! <a class="underline text-pfp-green" href="/contact"><b>Contact us</b></a> to explore the opportunities! '
+          : 'However, we can collaborate with other waste generators so you can still take part in this green journey! <a class="underline text-pfp-green" href="/contact"><b>Contact us</b></a> to explore the opportunities! '
         //takes out "if you don't have that amount"
 
         // if (!minlimit) document.querySelector('#feasible').classList.toggle('mt-[-24px]')
@@ -2092,6 +2098,8 @@
 
           document.querySelector('#energycontent-unit').innerHTML = d['technology'] == 'Pyrolysis' ? 'MJ/kg' : 'm³ biogas'
           document.querySelector('#char-fert').innerHTML = d['technology'] == 'Pyrolysis' ? 'Char' : 'Fertiliser'
+          document.querySelector('.calc-char').classList.toggle('hidden', d['technology'] != 'Pyrolysis')
+          document.querySelector('.calc-fert').classList.toggle('hidden', d['technology'] == 'Pyrolysis')
         }
 
         var calcselectors = document.querySelector('#calc-selectors')
@@ -2141,10 +2149,7 @@
             src="/assets/new/mditwitter-31-social-31-right-31-footer-31-03Greenenergy.svg"
             alt="mditwitter-31-social-31-right-31-footer-31-03Greenenergy"
             class="h-6 w-6" />
-          <img
-            src="/assets/new/CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy.svg"
-            alt="CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy"
-            class="h-6 w-6" />
+          <img src="/assets/new/mdi_spotify.svg" alt="mdi_spotify" class="h-6 w-6" />
         </div>
       </div>
     </div>
@@ -2196,6 +2201,17 @@
 
       var techbuttons = document.querySelector('.techbuttons')
       techbuttons.classList.toggle('fulld')
+
+      var closebuttons = document.querySelectorAll('.cow-close-button')
+      closebuttons.forEach(b => b.classList.toggle('rounded-t-none'))
+
+      var rclosebuttons = document.querySelectorAll('.cow-close-rbottom')
+      rclosebuttons.forEach(b => b.classList.toggle('rounded-r-none'))
+      rclosebuttons.forEach(b => b.classList.toggle('rounded-b-2xl'))
+      rclosebuttons.forEach(b => b.classList.toggle('rounded-br-2xl'))
+
+      var cowelements = document.querySelectorAll('.cow-element')
+      cowelements.forEach(b => b.classList.toggle('rounded-l-2xl'))
 
       document.querySelector('#cow-shadow').classList.toggle('hidden')
     }

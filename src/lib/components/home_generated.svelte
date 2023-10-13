@@ -1,17 +1,17 @@
-<div class="bg-[#e4eaea] flex-col flex items-center gap-10 h-fit mt-32 sm:w-[560px] min-w-[1060px]">
-  <div class="flex-col flex items-start gap-5">
-    <div class="flex-col w-[1060px] flex items-start gap-[-100px] rounded-[20px] text-white">
+<div class="bg-[#e4eaea] flex-col flex items-center gap-10 h-fit mt-10 lg:mt-32 lg:w-[1060px] w-full">
+  <div class="flex-col flex items-start gap-5 w-full">
+    <div class="flex-col flex items-start gap-[-100px] lg:rounded-[20px] text-white w-full">
       <!-- <div
         class="bg-cover bg-[url('/assets/new/frame19-31-hero-31-wrapper-31-03greenenergy.png')] bg-[#2e3855] bg-opacity-[0.4] w-full h-[400px] flex justify-center items-center gap-2.5 px-[50px] pt-[30px] pb-[50px] rounded-[20px] text-[44px] leading-[46px] font-bold text-center font-Poppins mb-[-100px]">
         <div>&nbsp;</div>
       </div> -->
-      <div class="w-full z-[0] h-[400px] rounded-[20px] overflow-hidden">
+      <div class="w-full z-[0] h-[400px] lg:rounded-[20px] overflow-hidden">
         <video autoplay loop muted class="w-full">
           <source src="/assets/bg2.mp4" type="video/mp4" />
         </video>
       </div>
       <div
-        class="bg-cover bg-[#2e3855] bg-opacity-[0.7] z-[1] w-full h-[400px] mt-[-400px] flex justify-center items-center gap-2.5 px-[50px] pt-[30px] pb-[50px] rounded-[20px] text-[44px] leading-[46px] font-bold text-center font-Poppins mb-[-100px]">
+        class="bg-cover bg-[#2e3855] bg-opacity-[0.7] z-[1] w-full h-[400px] mt-[-400px] flex justify-center items-center gap-2.5 px-[30px] pt-[30px] pb-[50px] lg:rounded-[20px] text-[44px] leading-[46px] font-bold text-center font-Poppins mb-[-100px]">
         <div class="z-[2]">Non-recycled waste is fuel.</div>
       </div>
       <div class="w-full flex-col flex items-center gap-2.5 z-[2]">
@@ -65,7 +65,7 @@
                   Using our extensive database of technologies, we can match you with the most suitable option for your specific
                   needs and requirements
                 </div>
-                <a href="/explore">
+                <a href="/explore" class="absolute bottom-0 pb-10">
                   <div
                     class="bg-[#eb8b5a] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-base leading-[20px] font-normal tracking-wider text-white">
                     <img
@@ -91,14 +91,14 @@
             <img
               src="/assets/new/XH2.svg"
               alt="Calque_1-31-Frame24-31-Frame18-31-Controlsupply-31-blockrow1-31-wrapper-31-03Greenenergy"
-              class="h-[251px] w-[211px] right-[-40px] bottom-[-17px] absolute z-[1]" />
+              class="h-[251px] w-[211px] right-[-40px] bottom-[-90px] absolute z-[1]" />
             <div class="w-full flex items-start gap-[18px] font-PublicSans z-[2]">
               <div class="flex-1 flex-col flex items-start gap-8">
                 <div class="text-md leading-[26px] font-light text-[#2e3855] w-[320px]">
                   By harnessing the power of non-recycled waste, our platform provides a secure and reliable energy source,
                   giving you peace of mind knowing that you&#039;ll never run out of power
                 </div>
-                <a href="/explore#map2">
+                <a href="/explore#map2"  class="absolute bottom-0" style="margin-bottom:-90px">
                   <div
                     class="bg-[#eb8b5a] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-base leading-[20px] font-normal tracking-wider text-white">
                     <img
@@ -127,7 +127,7 @@
                   Our tool can automatically assess the potential of your non-recycled waste stream and match it to a specific
                   technology
                 </div>
-                <a href="/explore#calculator2">
+                <a href="/explore#calculator2" class="absolute bottom-0" style="margin-bottom:-60px">
                   <div
                     class="bg-[#eb8b5a] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-base leading-[20px] font-normal tracking-wider text-white">
                     <img
@@ -158,7 +158,7 @@
                   Power from waste technology is not only clean and renewable, but also helps reduce waste in landfills and
                   reduces greenhouse gas emissions. We help create circular, on site sustainable solutions and supply chains
                 </div>
-                <a href="/explore">
+                <a href="/explore"  class="absolute bottom-0" style="margin-bottom:-80px">
                   <div
                     class="bg-[#eb8b5a] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-base leading-[20px] font-normal text-white tracking-wider">
                     <img
@@ -198,7 +198,7 @@
               <div class="text-md leading-[26px] font-light tracking-wider w-[590px]">
                 Discover how your business can tap into the potential of power-from-waste technology
               </div>
-              <a href="/explore#map2">
+              <a href="/explore#map2"  class="absolute bottom-0" style="margin-bottom:5px">
                 <div
                   class="bg-[#2e3855] h-11 flex justify-center items-center gap-2.5 px-5 py-2 rounded-[6px] text-base leading-[20px] font-normal tracking-wider">
                   <img
@@ -403,7 +403,7 @@
           alt="mditwitter-31-social-31-right-31-footer-31-03Greenenergy"
           class="h-6 w-6" />
         <img
-          src="/assets/new/CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy.svg"
+          src="/assets/new/mdi_spotify.svg"
           alt="CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy"
           class="h-6 w-6" />
       </div>

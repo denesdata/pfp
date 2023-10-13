@@ -100,8 +100,8 @@
             alt="mditwitter-31-social-31-right-31-footer-31-03Greenenergy"
             class="h-6 w-6" />
           <img
-            src="/assets/new/CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy.svg"
-            alt="CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy"
+            src="/assets/new/mdi_spotify.svg"
+            alt="mdi_spotify"
             class="h-6 w-6" />
         </div>
       </div>

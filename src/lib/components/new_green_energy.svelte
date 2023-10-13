@@ -375,8 +375,8 @@
                   has several benefits.
                 </div>
                 <button onclick="toggleElement('xsp1')" href="#">
-                  <img id="xsp1a" src="/assets/new/rl.png" />
-                  <img id="xsp1b" class="hidden" src="/assets/new/rm.png" />
+                  <img id="xsp1a" src="/assets/new/rl.svg" />
+                  <img id="xsp1b" class="hidden" src="/assets/new/rm.svg" />
                 </button>
               </div>
             </div>
@@ -434,8 +434,8 @@
                 class="w-full flex-col flex items-start gap-[39px] text-md leading-[26px] font-light text-[#2e3855] font-PublicSans">
                 <div class="w-[520px]">Wind power, also called “Eolic” energy, generates electricity using wind turbines.</div>
                 <button onclick="toggleElement('xsp2')" href="#">
-                  <img id="xsp2a" class="hidden" src="/assets/new/rl.png" />
-                  <img id="xsp2b" src="/assets/new/rm.png" />
+                  <img id="xsp2a" class="hidden" src="/assets/new/rl.svg" />
+                  <img id="xsp2b" src="/assets/new/rm.svg" />
                 </button>
               </div>
             </div>
@@ -495,8 +495,8 @@
                   Energy storage is a crucial technology that allows us to store excess energy for future use.
                 </div>
                 <button onclick="toggleElement('xsp3')" href="#">
-                  <img id="xsp3a" src="/assets/new/rl.png" class="hidden" />
-                  <img id="xsp3b" src="/assets/new/rm.png" />
+                  <img id="xsp3a" src="/assets/new/rl.svg" class="hidden" />
+                  <img id="xsp3b" src="/assets/new/rm.svg" />
                 </button>
               </div>
             </div>
@@ -560,8 +560,8 @@
           alt="mditwitter-31-social-31-right-31-footer-31-03Greenenergy"
           class="h-6 w-6" />
         <img
-          src="/assets/new/CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy.svg"
-          alt="CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy"
+          src="/assets/new/mdi_spotify.svg"
+          alt="mdi_spotify"
           class="h-6 w-6" />
       </div>
     </div>

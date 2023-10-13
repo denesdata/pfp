@@ -133,7 +133,9 @@
                   leading digital wealth management platform. He has also held numerous consultancy, board adviser and NED roles
                   and is a published author on leadership.
                 </div>
-                <img src="/assets/LI.png" />
+                <a href="//www.linkedin.com/in/dermot-mckeever-bsc-5600b3175/" target="_blank" style='margin-top:29px'>
+                  <img src="/assets/CTA.svg" />
+                </a>
               </div>
               <div class="bg-[#e7f5f5] flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
                 <div class="w-full flex items-center gap-6 text-[#2e3855]">
@@ -157,7 +159,9 @@
                   Sandhurst, after which he served in The Royal Green Jackets (now Rifles). He co-founded PFP to facilitate and
                   encourage a quantum shift in utilising waste as a green renewable energy source.
                 </div>
-                <img src="/assets/LI.png" />
+                <a href="//www.linkedin.com/in/james-cole-33558312/" target="_blank"  style='margin-top:5px'>
+                  <img src="/assets/CTA.svg" />
+                </a>
               </div>
             </div>
             <div class="w-full flex items-start gap-5">
@@ -183,7 +187,9 @@
                   impacts of utilising waste as a power source. Additionally, he runs the PFP introducer network, consisting of
                   industry heavyweights tasked with identifying potential projects.
                 </div>
-                <img src="/assets/LI.png" />
+                <a href="//www.linkedin.com/in/simon-edwards-0024a327/" target="_blank">
+                  <img src="/assets/CTA.svg" />
+                </a>
               </div>
               <div class="bg-[#e7f5f5] h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
                 <div class="w-full flex items-center gap-6 text-[#2e3855]">
@@ -201,7 +207,9 @@
                   journey, she has been involved in international development projects, focusing on designing off-grid solutions
                   to benefit communities in the developing world.
                 </div>
-                <img src="/assets/LI.png" />
+                <a href="//www.linkedin.com/in/alice-c-4126b517b/" target="_blank"  style='margin-top:50px'>
+                  <img src="/assets/CTA.svg" />
+                </a>
               </div>
             </div>
             <div class="w-full flex items-start gap-5">
@@ -222,7 +230,9 @@
                   piece on how finance professionals can help achieve society’s goals on climate change was published alongside
                   distinguished academics, business leaders, and politicians.
                 </div>
-                <img src="/assets/LI.png" />
+                <a href="//www.linkedin.com/in/tim-edwards-664004187/" target="_blank">
+                  <img src="/assets/CTA.svg" />
+                </a>
               </div>
               <div class="bg-[#e7f5f5] h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
                 <div class="w-full flex items-center gap-6 text-[#2e3855]">
@@ -240,7 +250,9 @@
                   Authority. Passionate about renewable energy and carbon-negative initiatives, he holds degrees from the
                   universities of Leeds and Liverpool, making a valuable asset to our team.
                 </div>
-                <img src="/assets/LI.png" />
+                <a href="//www.linkedin.com/in/paulleekeypair/" target="_blank"  style='margin-top:50px'>
+                  <img src="/assets/CTA.svg" />
+                </a>
               </div>
             </div>
           </div>
@@ -282,7 +294,9 @@
                   the world for large corporates, research organisations, SME’s, spin-offs and start-ups (social enterprise) and
                   is passionate about using this experience to help people to mitigate climate change.
                 </div>
-                <img src="/assets/LI.png" />
+                <a href="//www.linkedin.com/in/dr-linda-hilton-phd-cchem-frsc-csci-b975865/" target="_blank"  style='margin-top:100px'>
+                  <img src="/assets/CTA.svg" />
+                </a>
               </div>
               <div class="bg-[#e7f5f5] flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
                 <div class="w-full flex items-center gap-6 text-[#2e3855]">
@@ -303,7 +317,9 @@
                   Harvard, and INSEAD. His passion for addressing climate change and sustainable development make him a vital
                   contributor to the ongoing global transition to a more sustainable future.
                 </div>
-                <img src="/assets/LI.png" />
+                <a href="//www.linkedin.com/in/alexandre-chavarot-b23555/" target="_blank">
+                  <img src="/assets/CTA.svg" />
+                </a>
               </div>
             </div>
             <div class="w-full flex items-start gap-5">
@@ -328,7 +344,9 @@
                   the business’s legal requirements and advises on the contracts required for individual projects. Jayne holds a
                   degree from The University of Cambridge.
                 </div>
-                <img src="/assets/LI.png" />
+                <a href="//www.linkedin.com/in/jayne-walters-21465311/" target="_blank"  style='margin-top:125px'>
+                  <img src="/assets/CTA.svg" />
+                </a>
               </div>
               <div class="bg-[#e7f5f5] h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
                 <div class="w-full flex items-center gap-6 text-[#2e3855]">
@@ -349,7 +367,9 @@
                   the supply of credit and finance to SMEs, enabling these companies to contribute effectively to the UK
                   economy.
                 </div>
-                <img src="/assets/LI.png" />
+                <a href="//www.linkedin.com/in/shanika-amarasekara-mbe-8b69a674/" target="_blank">
+                  <img src="/assets/CTA.svg" />
+                </a>
               </div>
             </div>
           </div>
@@ -370,10 +390,7 @@
               src="/assets/new/mditwitter-31-social-31-right-31-footer-31-03Greenenergy.svg"
               alt="mditwitter-31-social-31-right-31-footer-31-03Greenenergy"
               class="h-6 w-6" />
-            <img
-              src="/assets/new/CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy.svg"
-              alt="CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy"
-              class="h-6 w-6" />
+            <img src="/assets/new/mdi_spotify.svg" alt="mdi_spotify" class="h-6 w-6" />
           </div>
         </div>
       </div>
