@@ -184,7 +184,7 @@
                     <a
                       href="https://www.google.com/maps/place/78+Pall+Mall,+St.+James's,+London+SW1Y+5ES/@51.5057924,-0.1362653,19z/data=!4m6!3m5!1s0x487604d7477ba0bb:0x5ecb442822d2e0e!8m2!3d51.5056999!4d-0.1359853!16s%2Fg%2F1tj90_zr?entry=ttu"
                       target="_blank">
-                      <img src="/assets/new/map.png" class="mt-5" />
+                      <img src="/assets/new/map.svg" class="mt-5" />
                     </a>
                   </div>
                 </div>
