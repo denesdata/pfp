@@ -1,6 +1,6 @@
 <div class="w-full">
-  <div class="bg-[#e4eaea] flex-col flex items-center gap-[50px] h-fit mt-20">
-    <div class="flex-col mw-[1060px] flex items-start gap-[50px]">
+  <div class="bg-[#e4eaea] flex-col flex items-center gap-[50px] h-fit mt-20 w-full">
+    <div class="flex-col w-full sm:w-[1060px] flex items-start gap-[50px] px-5 sm:px-0">
       <div
         class="w-full flex-col flex justify-center items-center gap-2.5 text-4xl leading-[46px] font-bold text-center text-[#2e3855] font-Poppins">
         <div>About us</div>
@@ -12,21 +12,21 @@
           class="h-[670px] w-2.5 left-[130px] bottom-[-130px] relative mb-[-700px] z-1" />
         <div class="w-full flex items-center gap-[30px] rounded-[20px] z-[2]">
           <div
-            class="bg-white flex-col h-[260px] w-1/4 flex justify-center items-center gap-3 rounded-full text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins">
+            class="bg-white flex-col h-[260px] w-1/4 hidden sm:flex justify-center items-center gap-3 rounded-full text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins">
             <div>Purpose</div>
             <img src="/assets/new/graphic.svg" alt="graphic" class="h-[110px] w-[65px]" />
           </div>
           <div class="flex-1 flex items-start gap-5">
             <div class="bg-white flex-1 flex-col flex items-start gap-4 p-10 rounded-[20px]">
               <div class="bg-[#2e3855] rounded-[6px] h-2 w-[50px]" />
-              <div class="text-lg leading-[30px] font-bold text-[#2e3855] font-Poppins w-[690px]">
+              <div class="text-lg leading-[30px] font-bold text-[#2e3855] font-Poppins w-full sm:w-[690px]">
                 Our mission is to empower communities and businesses by helping them take control of their energy and
                 environmental footprint.
               </div>
               <div
                 class="w-full flex-col flex items-start gap-6 text-sm leading-[26px] font-light text-[#2e3855] font-PublicSans">
                 <div class="w-full flex-col flex items-start gap-[18px]">
-                  <div class="w-[690px]">
+                  <div class="w-full sm:w-[690px]">
                     By choosing to generate power from non-recycled waste, you can achieve supply security, cost control, and
                     environmental improvements while reducing dependence on the grid. Our projects operate continuously,
                     ensuring uninterrupted energy supply. They enable you to establish your own energy pricing while providing
@@ -39,7 +39,7 @@
           </div>
         </div>
         <div class="w-full flex items-center gap-[30px] rounded-[20px] z-[2]">
-          <div class="bg-white flex-col h-[260px] w-1/4 flex justify-center items-center gap-3 rounded-full">
+          <div class="bg-white flex-col h-[260px] w-1/4 hidden sm:flex justify-center items-center gap-3 rounded-full">
             <div class="text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins">Mission</div>
             <div class="flex justify-center items-center gap-2.5 pr-[13px]">
               <div>
@@ -50,14 +50,14 @@
           <div class="flex-1 flex items-start gap-5">
             <div class="bg-white flex-1 flex-col flex items-start gap-4 p-10 rounded-[20px]">
               <div class="bg-[#2e3855] rounded-[6px] h-2 w-[50px]" />
-              <div class="text-lg leading-[30px] font-bold text-[#2e3855] font-Poppins w-[690px]">
+              <div class="text-lg leading-[30px] font-bold text-[#2e3855] font-Poppins w-full sm:w-[690px]">
                 Our innovative digital ecosystem enables you to discover the potential of power generation from non-recycled
                 waste across various sectors, including agriculture, food services, manufacturing, and distribution chains.{' '}
               </div>
               <div
                 class="w-full flex-col flex items-start gap-6 text-sm leading-[26px] font-light text-[#2e3855] font-PublicSans">
                 <div class="w-full flex-col flex items-start gap-[18px]">
-                  <div class="w-[690px]">
+                  <div class="w-full sm:w-[690px]">
                     We’ll collaborate with you to develop a tailored project. Our platform streamlines your journey from
                     feasibility to operation by connecting you with essential partners, such as technology providers, materials
                     analysts, funders, permit specialists, and construction and operation teams. No matter the size of your
@@ -71,20 +71,20 @@
         </div>
         <div class="w-full flex items-center gap-[30px] rounded-[20px] z-[2]">
           <div
-            class="bg-white flex-col h-[260px] w-1/4 flex justify-center items-center gap-3 rounded-full text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins">
+            class="bg-white flex-col h-[260px] w-1/4 hidden sm:flex justify-center items-center gap-3 rounded-full text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins">
             <div>Vision</div>
             <img src="/assets/new/graphic-10.svg" alt="graphic" class="h-[120px] w-[120px]" />
           </div>
           <div class="flex-1 flex items-start gap-5">
             <div class="bg-white flex-1 flex-col flex items-start gap-4 p-10 rounded-[20px]">
               <div class="bg-[#2e3855] rounded-[6px] h-2 w-[50px]" />
-              <div class="text-lg leading-[30px] font-bold text-[#2e3855] font-Poppins w-[690px]">
+              <div class="text-lg leading-[30px] font-bold text-[#2e3855] font-Poppins w-full sm:w-[690px]">
                 Our vision is founded on the “6R” principles: Reduce, Reuse, Recycle, Repurpose, Regenerate, and Regrowth.
               </div>
               <div
                 class="w-full flex-col flex items-start gap-6 text-sm leading-[26px] font-light text-[#2e3855] font-PublicSans">
                 <div class="w-full flex-col flex items-start gap-[18px]">
-                  <div class="w-[690px]">
+                  <div class="w-full sm:w-[690px]">
                     Reduce consumption and resource use in our daily lives Reuse items until they no longer serve a purpose
                     Recycle all recyclable materials Repurpose non-recycled waste to generate green energy locally Regenerate
                     our environment by adopting circular models focused on nature, including our own by-products like organic
@@ -105,8 +105,8 @@
           </div>
           <div class="w-full h-[1550px] flex-col flex items-center gap-5">
             <div class="w-full flex items-start gap-5">
-              <div class="bg-[#e7f5f5] h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
-                <div class="w-full flex items-center gap-6 text-[#2e3855]">
+              <div class="bg-[#e7f5f5] w-full h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
+                <div class="w-full flex-row sm:flex items-center gap-6 text-[#2e3855]">
                   <img src="/assets/new/Vector-11.svg" alt="Vector" class="h-[100px] w-[100px]" />
                   <div class="flex-1 flex-col flex items-start gap-2">
                     <div class="w-full flex-col flex items-start font-bold">
@@ -137,8 +137,8 @@
                   <img src="/assets/CTA.svg" />
                 </a>
               </div>
-              <div class="bg-[#e7f5f5] flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
-                <div class="w-full flex items-center gap-6 text-[#2e3855]">
+              <div class="bg-[#e7f5f5] w-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
+                <div class="w-full flex-row sm:flex items-center gap-6 text-[#2e3855]">
                   <img src="/assets/new/Vector-12.svg" alt="Vector" class="h-[100px] w-[100px]" />
                   <div class="flex-1 flex-col flex items-start gap-2">
                     <div class="w-full flex-col flex items-start font-bold">
@@ -165,8 +165,8 @@
               </div>
             </div>
             <div class="w-full flex items-start gap-5">
-              <div class="bg-[#e7f5f5] h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
-                <div class="w-full flex items-center gap-6 text-[#2e3855]">
+              <div class="bg-[#e7f5f5] w-full h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
+                <div class="w-full flex-row sm:flex items-center gap-6 text-[#2e3855]">
                   <img src="/assets/new/Vector-13.svg" alt="Vector" class="h-[100px] w-[100px]" />
                   <div class="flex-1 flex-col flex items-start gap-2">
                     <div class="w-full flex-col flex items-start font-bold">
@@ -191,8 +191,8 @@
                   <img src="/assets/CTA.svg" />
                 </a>
               </div>
-              <div class="bg-[#e7f5f5] h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
-                <div class="w-full flex items-center gap-6 text-[#2e3855]">
+              <div class="bg-[#e7f5f5] w-full h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
+                <div class="w-full flex-row sm:flex items-center gap-6 text-[#2e3855]">
                   <img src="/assets/new/Vector-14.svg" alt="Vector" class="h-[100px] w-[100px]" />
                   <div class="flex-1 flex-col flex items-start gap-2">
                     <div class="w-full flex-col flex items-start font-bold">
@@ -213,8 +213,8 @@
               </div>
             </div>
             <div class="w-full flex items-start gap-5">
-              <div class="bg-[#e7f5f5] h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
-                <div class="w-full flex items-center gap-6 text-[#2e3855]">
+              <div class="bg-[#e7f5f5] w-full h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
+                <div class="w-full flex-row sm:flex items-center gap-6 text-[#2e3855]">
                   <img src="/assets/new/Vector-15.svg" alt="Vector" class="h-[100px] w-[100px]" />
                   <div class="flex-1 flex-col flex items-start gap-2">
                     <div class="w-full flex-col flex items-start font-bold">
@@ -234,8 +234,8 @@
                   <img src="/assets/CTA.svg" />
                 </a>
               </div>
-              <div class="bg-[#e7f5f5] h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
-                <div class="w-full flex items-center gap-6 text-[#2e3855]">
+              <div class="bg-[#e7f5f5] w-full h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
+                <div class="w-full flex-row sm:flex items-center gap-6 text-[#2e3855]">
                   <img src="/assets/new/Vector-16.svg" alt="Vector" class="h-[100px] w-[100px]" />
                   <div class="flex-1 flex-col flex items-start gap-2">
                     <div class="w-full flex-col flex items-start font-bold">
@@ -262,8 +262,8 @@
           </div>
           <div class="w-full h-[1200px] flex-col flex items-center gap-5">
             <div class="w-full flex items-start gap-5">
-              <div class="bg-[#e7f5f5] h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
-                <div class="w-full flex items-center gap-6 text-[#2e3855]">
+              <div class="bg-[#e7f5f5] w-full h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
+                <div class="w-full flex-row sm:flex items-center gap-6 text-[#2e3855]">
                   <img src="/assets/new/Vector-17.svg" alt="Vector" class="h-[100px] w-[100px]" />
                   <div class="flex-1 flex-col flex items-start gap-2">
                     <div class="w-full flex-col flex items-start font-bold">
@@ -298,8 +298,8 @@
                   <img src="/assets/CTA.svg" />
                 </a>
               </div>
-              <div class="bg-[#e7f5f5] flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
-                <div class="w-full flex items-center gap-6 text-[#2e3855]">
+              <div class="bg-[#e7f5f5] w-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
+                <div class="w-full flex-row sm:flex items-center gap-6 text-[#2e3855]">
                   <img src="/assets/new/Vector-18.svg" alt="Vector" class="h-[100px] w-[100px]" />
                   <div class="flex-1 flex-col flex items-start gap-2">
                     <div class="w-full flex-col flex items-start font-bold">
@@ -323,8 +323,8 @@
               </div>
             </div>
             <div class="w-full flex items-start gap-5">
-              <div class="bg-[#e7f5f5] h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
-                <div class="w-full flex items-center gap-6 text-[#2e3855]">
+              <div class="bg-[#e7f5f5] w-full h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
+                <div class="w-full flex-row sm:flex items-center gap-6 text-[#2e3855]">
                   <img src="/assets/new/Vector-19.svg" alt="Vector" class="h-[100px] w-[100px]" />
                   <div class="flex-1 flex-col flex items-start gap-2">
                     <div class="w-full flex-col flex items-start font-bold">
@@ -348,8 +348,8 @@
                   <img src="/assets/CTA.svg" />
                 </a>
               </div>
-              <div class="bg-[#e7f5f5] h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
-                <div class="w-full flex items-center gap-6 text-[#2e3855]">
+              <div class="bg-[#e7f5f5] w-full h-full flex-1 flex-col flex items-start gap-6 p-10 rounded-[20px]">
+                <div class="w-full flex-row sm:flex items-center gap-6 text-[#2e3855]">
                   <img src="/assets/new/Vector-20.svg" alt="Vector" class="h-[100px] w-[100px]" />
                   <div class="flex-1 flex-col flex items-start gap-2">
                     <div class="w-full flex-col flex items-start font-bold">
