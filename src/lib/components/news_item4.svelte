@@ -1,5 +1,5 @@
-<div class="bg-[#e4eaea] flex-col flex items-center gap-10 h-fit mt-20 min-w-[1060px]">
-  <div class="flex-col flex items-start gap-[50px] h-fit w-[1060px]">
+<div class="bg-[#e4eaea] flex-col flex items-center gap-10 h-fit mt-20 w-full sm:min-w-[1060px] px-5 sm:px-0">
+  <div class="flex-col flex items-start gap-[50px] h-fit w-full sm:w-[1060px]">
     <div class="flex-col w-full flex items-start gap-[30px]">
       <div class="w-full flex-col flex justify-center items-start gap-2.5 text-sm leading-[26px] font-PublicSans">
         <div class="flex items-center gap-2.5">
@@ -16,11 +16,11 @@
               class="bg-[#d0e6f2] flex items-start gap-2.5 px-2.5 py-1 rounded-[5px] text-sm leading-[21px] font-semibold text-center">
               <div class="uppercase">March 6, 2023</div>
             </div>
-            <div class="text-2xl leading-[33px] font-bold w-[680px]">The "Great Greenwashing” of 2023</div>
+            <div class="text-2xl leading-[33px] font-bold w-full">The "Great Greenwashing” of 2023</div>
           </div>
           <div class="w-full flex-col flex items-start gap-6">
-            <div class="text-xl leading-[34px] font-bold font-Poppins w-[680px]">From Euronews green</div>
-            <div class="text-sm leading-[25px] font-light font-PublicSans w-[680px]">
+            <div class="text-xl leading-[34px] font-bold font-Poppins w-full">From Euronews green</div>
+            <div class="text-sm leading-[25px] font-light font-PublicSans w-full">
               In recent news, Lufthansa released a poster reading "Protecting the Planet", featuring a plane overlaid on an
               image of the Earth, which was rapidly banned in the UK for misleading consumers about the airline's environmental
               impact. While Lufthansa has set a goal to become carbon neutral by 2050 and has invested in sustainable aviation
@@ -28,13 +28,13 @@
               technologies in the aviation industry which would substantiate the green claim "protecting the future".
             </div>
             <div class="w-full flex-col flex items-start gap-3">
-              <div class="text-xl leading-[34px] font-bold font-Poppins w-[680px]">From the Guardian</div>
-              <div class="text-sm leading-[25px] font-light font-PublicSans w-[680px]">
+              <div class="text-xl leading-[34px] font-bold font-Poppins w-full">From the Guardian</div>
+              <div class="text-sm leading-[25px] font-light font-PublicSans w-full">
                 A recent investigation has revealed troubling news about forest carbon offsets. The world's leading certifier,
                 Verra, relied upon by major corporations like Disney, Shell, Gucci have been approving offset projects that are
                 largely ineffective at combating climate change.
               </div>
-              <div class="text-sm leading-[25px] font-light font-PublicSans w-[680px]">
+              <div class="text-sm leading-[25px] font-light font-PublicSans w-full">
                 The investigation analysed a significant percentage of Verra's projects and found that over 90% of the
                 rainforest offset credits - which are among the most commonly used by companies - are likely to be "phantom
                 credits". These credits do not represent genuine carbon reductions, which means that the purported benefits of
@@ -44,12 +44,12 @@
           </div>
           <div class="w-full flex-col flex items-start gap-3">
             <div class="text-xl leading-[34px] font-bold font-Poppins">From journalist Robin Hicks</div>
-            <div class="text-sm leading-[25px] font-light font-PublicSans w-[680px]">
+            <div class="text-sm leading-[25px] font-light font-PublicSans w-full">
               Meanwhile, the South Korean government has said it will start taking action against companies that make misleading
               sustainability claims. It is a first-of-its-kind move in Asia and other governments and regulatory bodies should
               take note and follow suit.
             </div>
-            <div class="text-sm leading-[25px] font-light font-PublicSans w-[680px]">
+            <div class="text-sm leading-[25px] font-light font-PublicSans w-full">
               Under a draft new law, companies that mislead the public about their environmental impact will face fines of up to
               KRW3 million (£1,920). The news comes four months after the country’s largest oil and gas company SK E&C was
               forced to modify a marketing campaign that claimed the firm would produce “CO2-free” liquefied natural gas at a
@@ -58,13 +58,13 @@
           </div>
           <div class="w-full flex-col flex items-start gap-3">
             <div class="text-xl leading-[34px] font-bold font-Poppins">From the Planet</div>
-            <div class="text-sm leading-[25px] font-light font-PublicSans w-[680px]">
+            <div class="text-sm leading-[25px] font-light font-PublicSans w-full">
               The environmental harm caused by humans has led to a rapid acceleration of natural changes in my climate system.
               Of course, as a planet, I will still be here for quite some time - around 7.5 billion years, give or take a
               millennium. But unfortunately, the same cannot be said for the multitude of life forms, particularly the human
               species. Climate extremes will soon become the norm and coping with them will be a tremendous challenge.
             </div>
-            <div class="text-sm leading-[25px] font-light font-PublicSans w-[680px]">
+            <div class="text-sm leading-[25px] font-light font-PublicSans w-full">
               However, if humanity chooses to prioritise environmental repair over damage, there is a chance we can mitigate the
               worst effects of climate change. It will require more than just PR stunts and lip service. Real, substantive
               action is what's necessary - action that shows a genuine concern for the environment and a willingness to do what
@@ -73,7 +73,7 @@
           </div>
           <div class="w-full flex-col flex items-start gap-3">
             <div class="text-xl leading-[34px] font-bold font-Poppins">From the People</div>
-            <div class="text-sm leading-[25px] font-light font-PublicSans w-[680px]">
+            <div class="text-sm leading-[25px] font-light font-PublicSans w-full">
               We are no longer falling for flashy ad campaigns and PR-led trickery. We are wise to the tactics that corporations
               use to distract from their harmful actions. We are keeping a close eye on the leaders who perpetuate this cycle of
               deception, and they will be held accountable for their actions. In fact, the charge for corporate manslaughter is
@@ -82,8 +82,8 @@
           </div>
           <div class="w-full flex-col flex items-start gap-3">
             <div class="text-xl leading-[34px] font-bold font-Poppins">From PFP</div>
-            <div class="text-sm leading-[25px] font-light font-PublicSans w-[680px]">Dear Shell et al,</div>
-            <div class="text-sm leading-[25px] font-light font-PublicSans w-[680px]">
+            <div class="text-sm leading-[25px] font-light font-PublicSans w-full">Dear Shell et al,</div>
+            <div class="text-sm leading-[25px] font-light font-PublicSans w-full">
               You have the power to make a real difference. Instead of spending millions of dollars on PR campaigns that only
               serve to create the impression that you care about the environment, why not put your resources to work on projects
               that actually remove CO2 from the atmosphere? You could take non-recyclable waste and turn it into green energy,

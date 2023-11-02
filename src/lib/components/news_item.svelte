@@ -1,5 +1,5 @@
-<div class="bg-[#e4eaea] flex-col flex items-center gap-10 h-fit mt-20 min-w-[1060px]">
-  <div class="flex-col flex items-start gap-[50px] h-fit w-[1060px]">
+<div class="bg-[#e4eaea] flex-col flex items-center gap-10 h-fit mt-20 w-full sm:min-w-[1060px] px-5 sm:px-0">
+  <div class="flex-col flex items-start gap-[50px] h-fit w-full sm:w-[1060px]">
     <div class="flex-col w-full flex items-start gap-[30px]">
       <div class="w-full flex-col flex justify-center items-start gap-2.5 text-sm leading-[26px] font-PublicSans">
         <div class="flex items-center gap-2.5">
@@ -18,12 +18,12 @@
               class="bg-[#d0e6f2] flex items-start gap-2.5 px-2.5 py-1 rounded-[5px] text-sm leading-[21px] font-semibold text-center">
               <div class="uppercase">June 15, 2023</div>
             </div>
-            <div class="text-2xl leading-[33px] font-bold w-[680px]">
+            <div class="text-2xl leading-[33px] font-bold w-full">
               Examining the global impact of food production and mitigation strategies
             </div>
           </div>
           <div class="w-full flex-col flex items-start gap-6">
-            <div class="text-sm leading-[25px] font-light font-PublicSans w-[680px]">
+            <div class="text-sm leading-[25px] font-light font-PublicSans w-full">
               Food consumption accounts for 28% of the world&#039;s ecological footprint according to the US Environmental
               Protection Agency (EPA). As a consequence, our feeding habits yield profound and sometimes irreversible
               environmental impact. Alarmingly, we squander approximately 25% of global calorie production amidst a staggering
@@ -33,10 +33,10 @@
               actions harmoniously.
             </div>
             <div class="w-full flex-col flex items-start gap-3">
-              <div class="text-xl leading-[34px] font-bold font-Poppins w-[680px]">
+              <div class="text-xl leading-[34px] font-bold font-Poppins w-full">
                 Food production&#039;s environmental impacts are wide-ranging:
               </div>
-              <div class="text-sm leading-[25px] font-light font-PublicSans w-[680px]">
+              <div class="text-sm leading-[25px] font-light font-PublicSans w-full">
                 <span class="font-bold text-sm leading-[25px] font-PublicSans">Water usage</span>
                 : Food production consumes 70% of global water usage. Water scarcity currently plagues 1.1 billion people lacking
                 sufficient clean water.
@@ -51,14 +51,14 @@
             </div>
             <div class="w-full flex-col flex items-start gap-4 text-sm leading-[25px] font-light font-PublicSans">
               <img class="object-cover w-full h-[350px] rounded-2xl" alt="1686828442283 1" src="/assets/new/XN3.png" />
-              <div class="italic w-[680px]">
+              <div class="italic w-full">
                 Monoculture farming: a short-term yield with long-term environmental implications (photo by Tim Hüfner on
                 Unsplash)
               </div>
             </div>
             <div class="w-full flex-col flex items-start gap-3">
               <div class="text-xl leading-[34px] font-bold font-Poppins">Quote example</div>
-              <div class="text-sm leading-[25px] font-light font-PublicSans w-[680px]">Someone explains:</div>
+              <div class="text-sm leading-[25px] font-light font-PublicSans w-full">Someone explains:</div>
               <div
                 class="w-full flex items-start gap-2.5 pl-6 border-l-[3px] border-[#3f9378] text-sm leading-[25px] font-semibold font-PublicSans">
                 <div class="w-[656px]">
@@ -70,7 +70,7 @@
             </div>
             <div class="w-full flex-col flex items-start gap-3">
               <div class="text-xl leading-[34px] font-bold font-Poppins">Technology Challenge</div>
-              <div class="text-sm leading-[25px] font-light font-PublicSans w-[680px]">
+              <div class="text-sm leading-[25px] font-light font-PublicSans w-full">
                 Another challenge facing the power from waste industry is technology. While there have been significant
                 <span class="font-light text-sm leading-[25px] font-PublicSans" />
                 <span class="font-bold text-sm leading-[25px] text-[#3f9378] font-PublicSans">link example</span>

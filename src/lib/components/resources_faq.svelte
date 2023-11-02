@@ -1,4 +1,4 @@
-<div class="flex-col flex items-center gap-[50px] h-fit mt-20">
+<div class="flex-col flex items-center gap-[50px] h-fit mt-20 px-5 sm:px-0">
   <div class="flex-col w-full flex items-start gap-[60px] rounded-[20px] max-w-[1060px]">
     <div
       class="w-full flex-col flex justify-center items-center gap-2.5 text-4xl leading-[46px] font-bold text-center text-[#2e3855] font-Poppins">
@@ -10,14 +10,14 @@
           <div class="w-full flex-col flex items-start gap-[18px]">
             <div class="w-full flex justify-end items-start gap-[18px]">
               <div class="h-full flex-1 flex-col flex items-start gap-[18px]">
-                <div class="text-3xl leading-[33px] font-bold font-Poppins w-[650px]">General Questions</div>
-                <div class="text-2xl leading-[33px] font-bold font-Poppins w-[650px]">1. What does your company do?</div>
+                <div class="text-3xl leading-[33px] font-bold font-Poppins w-full sm:w-[650px]">General Questions</div>
+                <div class="text-2xl leading-[33px] font-bold font-Poppins w-full sm:w-[650px]">1. What does your company do?</div>
                 <div class="text-md leading-[26px] font-light font-PublicSans w-full">
                   We facilitate power-from-waste projects by matching businesses with the right technology providers. Our goal
                   is to turn non-recyclable waste into low-cost, green power, and we offer a range of technologies such as
                   anaerobic digestion units, pyrolysis, gasification and AD slurry covers.
                 </div>
-                <div class="text-2xl leading-[33px] font-bold font-Poppins w-[650px]">2. What is power-from-waste?</div>
+                <div class="text-2xl leading-[33px] font-bold font-Poppins w-full sm:w-[650px]">2. What is power-from-waste?</div>
                 <div class="text-md leading-[26px] font-light font-PublicSans w-full">
                   Power-from-waste refers to the process of generating electricity or heat by treating waste materials. These
                   processes aim to divert waste from landfills while creating a sustainable energy source.
@@ -29,13 +29,13 @@
                   Power-from-waste solutions offer a sustainable way to manage waste and generate green power, reducing both
                   your carbon footprint and your operational costs.
                 </div>
-                <div class="text-2xl leading-[33px] font-bold font-Poppins w-[650px]">4. What types of waste can be used?</div>
+                <div class="text-2xl leading-[33px] font-bold font-Poppins w-full sm:w-[650px]">4. What types of waste can be used?</div>
                 <div class="text-md leading-[26px] font-light font-PublicSans w-full">
                   We can facilitate solutions for a broad spectrum of non-recyclable waste materials including industrial waste,
                   organic waste, and much more. However, it's worth noting that we are unable to work with e-waste, sand, glass,
                   or ceramics.
                 </div>
-                <div class="text-2xl leading-[33px] font-bold font-Poppins w-[650px]">
+                <div class="text-2xl leading-[33px] font-bold font-Poppins w-full sm:w-[650px]">
                   5. How do I know which technology is best for me?
                 </div>
                 <div class="text-md leading-[26px] font-light font-PublicSans w-full">
@@ -45,8 +45,8 @@
                   technology and provider for your specific needs, ensuring the best fit for your waste management and power
                   generation goals.
                 </div>
-                <div class="text-3xl pt-10 leading-[33px] font-bold font-Poppins w-[650px]">Calculator Tool</div>
-                <div class="text-2xl leading-[33px] font-bold font-Poppins w-[650px]">
+                <div class="text-3xl pt-10 leading-[33px] font-bold font-Poppins w-full sm:w-[650px]">Calculator Tool</div>
+                <div class="text-2xl leading-[33px] font-bold font-Poppins w-full sm:w-[650px]">
                   6. How does the calculator tool work?
                 </div>
                 <div class="text-md leading-[26px] font-light font-PublicSans w-full">
@@ -56,20 +56,20 @@
                   on investment (ROI). This helps you to quickly gauge the feasibility and profitability of a power-from-waste
                   solution.
                 </div>
-                <div class="text-2xl leading-[33px] font-bold font-Poppins w-[650px]">
+                <div class="text-2xl leading-[33px] font-bold font-Poppins w-full sm:w-[650px]">
                   7. What parameters do I need to input into the calculator?
                 </div>
                 <div class="text-md leading-[26px] font-light font-PublicSans w-full">
                   Typically, you'll need to input details like the type and amount of waste generated and your energy needs.
                 </div>
-                <div class="text-2xl leading-[33px] font-bold font-Poppins w-[650px]">8. Is the calculator free to use?</div>
+                <div class="text-2xl leading-[33px] font-bold font-Poppins w-full sm:w-[650px]">8. Is the calculator free to use?</div>
                 <div class="text-md leading-[26px] font-light font-PublicSans w-full">
                   Yes, the calculator is free and open for anyone to use. We understand that obtaining such estimates from
                   technology providers can be a lengthy and cumbersome process. Our tool aims to simplify this, giving you fast,
                   reliable figures to aid in your decision-making.
                 </div>
-                <div class="text-3xl pt-10 leading-[33px] font-bold font-Poppins w-[650px]">Technology Providers</div>
-                <div class="text-2xl leading-[33px] font-bold font-Poppins w-[650px]">
+                <div class="text-3xl pt-10 leading-[33px] font-bold font-Poppins w-full sm:w-[650px]">Technology Providers</div>
+                <div class="text-2xl leading-[33px] font-bold font-Poppins w-full sm:w-[650px]">
                   9. How do you select technology providers?
                 </div>
                 <div class="text-md leading-[26px] font-light font-PublicSans w-full">
@@ -78,7 +78,7 @@
                   and compliance with environmental regulations. This exhaustive vetting process ensures that we only recommend
                   technology providers who meet our stringent criteria for quality and reliability.
                 </div>
-                <div class="text-2xl leading-[33px] font-bold font-Poppins w-[650px]">
+                <div class="text-2xl leading-[33px] font-bold font-Poppins w-full sm:w-[650px]">
                   10. Can I choose my own technology provider?
                 </div>
                 <div class="text-md leading-[26px] font-light font-PublicSans w-full">
@@ -86,21 +86,21 @@
                   with multiple options. This enables you to be a significant part of the decision-making process. If you prefer
                   a particular technology provider, we can certainly incorporate that into the project planning.
                 </div>
-                <div class="text-3xl pt-10 leading-[33px] font-bold font-Poppins w-[650px]">Costs and Financing</div>
-                <div class="text-2xl leading-[33px] font-bold font-Poppins w-[650px]">13. What are the costs involved?</div>
+                <div class="text-3xl pt-10 leading-[33px] font-bold font-Poppins w-full sm:w-[650px]">Costs and Financing</div>
+                <div class="text-2xl leading-[33px] font-bold font-Poppins w-full sm:w-[650px]">13. What are the costs involved?</div>
                 <div class="text-md leading-[26px] font-light font-PublicSans w-full">
                   Costs can vary widely depending on factors such as the technology used and the scale of the project.
                   Typically, there's an initial cost for a feasibility study, which includes lab analysis of the waste material
                   to determine its suitability for power generation. Other costs include planning & permissions, equipment,
                   installation, and operational expenses.
                 </div>
-                <div class="text-2xl leading-[33px] font-bold font-Poppins w-[650px]">14. Do you offer financing options?</div>
+                <div class="text-2xl leading-[33px] font-bold font-Poppins w-full sm:w-[650px]">14. Do you offer financing options?</div>
                 <div class="text-md leading-[26px] font-light font-PublicSans w-full">
                   We work with financial partners to provide various financing options that can be customised to meet your
                   needs. Please get in contact with us to discuss further.
                 </div>
-                <div class="text-3xl pt-10 leading-[33px] font-bold font-Poppins w-[650px]">Project Implementation</div>
-                <div class="text-2xl leading-[33px] font-bold font-Poppins w-[650px]">
+                <div class="text-3xl pt-10 leading-[33px] font-bold font-Poppins w-full sm:w-[650px]">Project Implementation</div>
+                <div class="text-2xl leading-[33px] font-bold font-Poppins w-full sm:w-[650px]">
                   15. How long does it take to implement a project?
                 </div>
                 <div class="text-md leading-[26px] font-light font-PublicSans w-full">
@@ -110,7 +110,7 @@
                   includes the time needed for feasibility studies, procurement, construction, and commissioning of the
                   facility.
                 </div>
-                <div class="text-2xl leading-[33px] font-bold font-Poppins w-[650px]">
+                <div class="text-2xl leading-[33px] font-bold font-Poppins w-full sm:w-[650px]">
                   16. What is the process after we decide to proceed?
                 </div>
                 <div class="text-md leading-[26px] font-light font-PublicSans w-full">
@@ -127,11 +127,11 @@
         </div>
       </div>
     </div>
-    <div class="w-[1060px] flex justify-between items-center pt-[30px] pb-[50px]">
-      <div class="text-xs leading-[14px] font-semibold text-[#2e3855] font-PublicSans w-[530px]">
+    <div class="w-full sm:w-[1060px] flex justify-between items-center pt-[30px] pb-[50px] ml-2 sm:ml-0">
+      <div class="text-xs leading-[14px] font-semibold text-[#2e3855] font-PublicSans w-[130px] sm:w-[530px]">
         Copyright © 2023 Power for Planet
       </div>
-      <div class="flex-1 flex justify-end items-center gap-10">
+      <div class="flex-1 flex justify-end items-center gap-10 pr-10 sm:p-0">
         <div class="text-xs leading-[14px] font-semibold text-[#2e3855] font-PublicSans underline">Privacy Policy</div>
         <div class="flex items-center gap-5">
           <img
@@ -144,7 +144,7 @@
             class="h-6 w-6" />
           <img
             src="/assets/new/mdi_spotify.svg"
-            alt="mdi_spotify"
+            alt="CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy"
             class="h-6 w-6" />
         </div>
       </div>

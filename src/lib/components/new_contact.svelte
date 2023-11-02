@@ -1,36 +1,36 @@
-<div class="flex-col flex items-center gap-10 h-fit mt-20">
+<div class="flex-col flex items-center gap-10 h-fit mt-20 px-5 sm:px-0">
   <style>
     form input {
       border: none;
       outline: none;
     }
   </style>
-  <div class="flex-col w-full flex items-start gap-[60px] max-w-[1060px] rounded-[20px]">
+  <div class="flex-col w-full flex items-start gap-[60px] sm:max-w-[1060px] rounded-[20px]">
     <div
       class="w-full flex-col flex justify-center items-center gap-2.5 text-4xl leading-[46px] font-bold text-center text-[#2e3855] font-Poppins">
       <div>Contact us</div>
     </div>
     <div class="w-full flex-col flex items-start gap-5">
-      <div class="bg-white w-full flex-col flex items-center gap-[50px] px-[50px] py-10 rounded-[20px]">
+      <div class="bg-white w-full flex-col flex items-center gap-[50px] p-5 sm:px-[50px] py-10 rounded-[20px]">
         <div class="text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins">
           Contact us and turn your green energy vision into reality
         </div>
         <div class="w-full flex-col gap-5 flex items-center">
           <div class="bg-[#e7f5f5] w-full pt-[0px] flex-col flex justify-center items-center rounded-[20px] align-top">
             <button onclick="toggleElement('calendar')">
-              <div class="w-full flex items-center gap-[50px] pr-[50px]">
+              <div class="w-full flex items-center gap-[50px] pr-0 sm:pr-[50px]">
                 <div
                   id="calendar-heading"
-                  class="bg-pfp-green bg-none duration-100 flex justify-center items-center gap-2.5 px-[50px] py-8 rounded-l-[20px]">
+                  class="bg-pfp-green bg-none duration-100 hidden sm:flex justify-center items-center gap-2.5 px-[50px] py-8 rounded-l-[20px]">
                   <img
                     src="/assets/new/calendar-days.svg"
                     alt="calendar-days"
                     class="h-10 w-10 grayscale contrast-200 invert" />
                 </div>
-                <div class="text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins w-[596px]">
+                <div class="text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins w-full sm:w-[596px] p-4 sm:p-0">
                   Schedule a conversation with us
                 </div>
-                <div class="flex items-center gap-2.5 pl-[50px]">
+                <div class="hidden sm:flex items-center gap-2.5 pl-[50px]">
                   <img
                     id="calendar-chevron"
                     src="/assets/new/chevron-down.svg"
@@ -52,16 +52,16 @@
           </div>
           <div class="bg-[#e7f5f5] w-full pt-[0px] flex-col flex justify-center items-center rounded-[20px] align-top">
             <button onclick="toggleElement2('contactform')">
-              <div class="w-full flex items-center gap-[50px] pr-[50px]">
+              <div class="w-full flex items-center gap-[50px] pr-0 sm:pr-[50px]">
                 <div
                   id="contactform-heading"
-                  class="bg-pfp-green bg-none duration-100 flex justify-center items-center gap-2.5 px-[50px] py-8 rounded-l-[20px]">
+                  class="bg-pfp-green bg-none duration-100 hidden sm:flex justify-center items-center gap-2.5 px-[50px] py-8 rounded-l-[20px]">
                   <img src="/assets/new/mail.svg" alt="mail" class="h-10 w-10 grayscale contrast-200 invert" />
                 </div>
-                <div class="text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins w-[596px]">
+                <div class="text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins w-full sm:w-[596px]  p-4 sm:p-0">
                   Message us through our contact form
                 </div>
-                <div class="flex items-center gap-2.5 pl-[50px]">
+                <div class="hidden sm:flex items-center gap-2.5 pl-[50px]">
                   <img
                     id="contactform-chevron"
                     src="/assets/new/chevron-down.svg"
@@ -169,16 +169,16 @@
           <div>Find us</div>
         </div>
         <div class="w-full flex-col flex items-center gap-5">
-          <div class="w-full flex items-start gap-5">
-            <div class=" h-full bg-[#e7f5f5] flex-1 flex-col flex items-center gap-6 p-10 rounded-[20px]">
+          <div class="w-full flex flex-col sm:flex-row items-start gap-5">
+            <div class="w-full h-full bg-[#e7f5f5] flex-1 flex-col flex items-center gap-6 p-10 rounded-[20px]">
               <div class="w-full flex-col flex justify-center items-center gap-6">
                 <div class="bg-[#2e3855] flex justify-center items-center gap-2.5 p-5 rounded-[40px]">
                   <img src="/assets/new/map-pin.svg" alt="map-pin" class="h-10 w-10" />
                 </div>
                 <div class="w-full flex-col flex items-start gap-2 font-bold text-center text-[#2e3855]">
                   <div class="w-full flex-col flex items-center">
-                    <div class="text-xl leading-[34px] font-Poppins w-[390px]">Power for Planet</div>
-                    <div class="text-sm leading-[26px] font-PublicSans w-[390px]">
+                    <div class="text-xl leading-[34px] font-Poppins w-full">Power for Planet</div>
+                    <div class="text-sm leading-[26px] font-PublicSans w-full">
                       78 Pall Mall SW1Y 5ES London, United Kingdom
                     </div>
                     <a
@@ -190,15 +190,15 @@
                 </div>
               </div>
             </div>
-            <div class="bg-[#e7f5f5] h-full flex-1 flex-col flex items-center gap-6 p-10 pb-20 rounded-[20px]">
+            <div class="bg-[#e7f5f5] w-full h-full flex-1 flex-col flex items-center gap-6 p-10 pb-20 rounded-[20px]">
               <div class="w-full flex-1 flex-col flex items-center gap-6">
                 <div class="bg-[#2e3855] flex justify-center items-center gap-2.5 p-5 rounded-[40px]">
                   <img src="/assets/new/message-circle.svg" alt="message-circle" class="h-10 w-10" />
                 </div>
                 <div class="w-full flex-col flex items-start gap-2 font-bold text-center text-[#2e3855]">
                   <div class="w-full flex-col h-full flex items-start">
-                    <div class="text-xl leading-[34px] font-Poppins w-[390px]">Contact us</div>
-                    <div class="text-sm leading-[26px] font-PublicSans h-[52px] w-[390px]">
+                    <div class="text-xl leading-[34px] font-Poppins w-full">Contact us</div>
+                    <div class="text-sm leading-[26px] font-PublicSans h-[52px] w-full">
                       +44 7796 302 102 dermot@powerforplanet.com
                     </div>
                   </div>
@@ -208,7 +208,7 @@
           </div>
           <div class="w-full flex items-start gap-5">
             <div class="bg-[#e7f5f5] flex-1 flex-col flex items-center gap-6 p-10 rounded-[20px]">
-              <div class="w-full flex justify-center items-center gap-10">
+              <div class="w-full flex flex-col sm:flex-row justify-center items-center gap-10">
                 <div class="text-xl leading-[34px] font-bold text-center text-[#2e3855] font-Poppins">
                   Follow us on social media
                 </div>
@@ -223,11 +223,11 @@
         </div>
       </div>
     </div>
-    <div class="w-[1060px] flex justify-between items-center pt-[30px] pb-[50px]">
-      <div class="text-xs leading-[14px] font-semibold text-[#2e3855] font-PublicSans w-[530px]">
+    <div class="w-full sm:w-[1060px] flex justify-between items-center pt-[30px] pb-[50px] ml-2 sm:ml-0">
+      <div class="text-xs leading-[14px] font-semibold text-[#2e3855] font-PublicSans w-[130px] sm:w-[530px]">
         Copyright © 2023 Power for Planet
       </div>
-      <div class="flex-1 flex justify-end items-center gap-10">
+      <div class="flex-1 flex justify-end items-center gap-10 pr-10 sm:p-0">
         <div class="text-xs leading-[14px] font-semibold text-[#2e3855] font-PublicSans underline">Privacy Policy</div>
         <div class="flex items-center gap-5">
           <img
@@ -238,7 +238,10 @@
             src="/assets/new/mditwitter-31-social-31-right-31-footer-31-03Greenenergy.svg"
             alt="mditwitter-31-social-31-right-31-footer-31-03Greenenergy"
             class="h-6 w-6" />
-          <img src="/assets/new/mdi_spotify.svg" alt="mdi_spotify" class="h-6 w-6" />
+          <img
+            src="/assets/new/mdi_spotify.svg"
+            alt="CTAmdiinstagram-31-social-31-right-31-footer-31-03Greenenergy"
+            class="h-6 w-6" />
         </div>
       </div>
     </div>
