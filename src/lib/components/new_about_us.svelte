@@ -9,7 +9,7 @@
         <img
           src="/assets/new/Line-1.svg"
           alt="Line 1"
-          class="h-[670px] w-2.5 left-[130px] bottom-[-130px] relative mb-[-700px] z-1" />
+          class="hidden sm:flex h-[670px] w-2.5 left-[125px] bottom-[-130px] relative mb-[-700px] z-1" />
         <div class="w-full flex items-center gap-[30px] rounded-[20px] z-[2]">
           <div
             class="bg-white flex-col h-[260px] w-1/4 hidden sm:flex justify-center items-center gap-3 rounded-full text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins">

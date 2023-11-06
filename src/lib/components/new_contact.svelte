@@ -1,3 +1,17 @@
+<script>
+  import { query_selector_all } from 'svelte/internal'
+  import Select from 'svelte-select'
+
+  let collection = [
+    { value: 'cow', label: 'Cow manure' },
+    { value: 'food', label: 'Food waste' },
+    { value: 'bottle', label: 'PW plastic' },
+    { value: 'technology', label: 'Technology' }
+  ]
+
+  let selected
+</script>
+
 <div class="flex-col flex items-center gap-10 h-fit mt-20 px-5 sm:px-0">
   <style>
     form input {
@@ -27,7 +41,8 @@
                     alt="calendar-days"
                     class="h-10 w-10 grayscale contrast-200 invert" />
                 </div>
-                <div class="text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins w-full sm:w-[596px] p-4 sm:p-0">
+                <div
+                  class="text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins w-full sm:w-[596px] p-4 sm:p-0">
                   Schedule a conversation with us
                 </div>
                 <div class="hidden sm:flex items-center gap-2.5 pl-[50px]">
@@ -58,7 +73,8 @@
                   class="bg-pfp-green bg-none duration-100 hidden sm:flex justify-center items-center gap-2.5 px-[50px] py-8 rounded-l-[20px]">
                   <img src="/assets/new/mail.svg" alt="mail" class="h-10 w-10 grayscale contrast-200 invert" />
                 </div>
-                <div class="text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins w-full sm:w-[596px]  p-4 sm:p-0">
+                <div
+                  class="text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins w-full sm:w-[596px] p-4 sm:p-0">
                   Message us through our contact form
                 </div>
                 <div class="hidden sm:flex items-center gap-2.5 pl-[50px]">
@@ -72,50 +88,67 @@
             </button>
             <form
               id="contactform"
-              class="bg-none overflow-hidden duration-300 h-[0px] w-full"
+              class="bg-none overflow-hidden duration-300 w-full h-[0px]"
               action="https://api.staticforms.xyz/submit"
               method="post">
               <div class="overflow-hidden flex-col flex justify-center items-center gap-[30px] pb-10 rounded-[20px] z-[2]">
                 <div
-                  class="w-[600px] flex justify-center items-center gap-[30px] leading-[26px] text-[#2e3855] font-PublicSans">
+                  class="w-[600px] flex flex-col sm:flex-row justify-center items-center gap-[30px] leading-[26px] text-[#2e3855] font-PublicSans">
                   <div class="flex-1 flex-col flex items-start gap-2">
                     <div class="text-sm font-bold">Name*</div>
                     <div
                       class="bg-white w-full flex items-center gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855] text-base font-medium">
-                      <input class="w-[299px]" type="text" name="name" placeholder="Your Name" required />
+                      <input class="w-[269px] sm:w-[299px]" type="text" name="name" placeholder="Your Name" required />
                     </div>
                   </div>
                   <div class="flex-1 flex-col flex items-start gap-2">
                     <div class="text-sm font-bold">Email*</div>
                     <div
                       class="bg-white w-full flex items-center gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855] text-base font-medium">
-                      <input class="w-[299px]" type="email" name="email" placeholder="Your email" required />
+                      <input class="w-[269px] sm:w-[299px]" type="email" name="email" placeholder="Your email" required />
                     </div>
                   </div>
                 </div>
-                <div class="w-[700px] flex justify-center items-center gap-[30px]">
+                <div class="w-[700px] flex flex-col sm:flex-row justify-center items-center gap-[30px]">
                   <div class="flex-1 flex-col flex items-start gap-2 leading-[26px] text-[#2e3855] font-PublicSans">
                     <div class="text-sm font-bold">Organization/Company name (optional)</div>
                     <div
                       class="bg-white w-full flex items-center gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855] text-base font-medium">
-                      <input class="w-[299px]" type="text" name="company" placeholder="Your company" />
+                      <input class="w-[269px] sm:w-[299px]" type="text" name="company" placeholder="Your company" />
                     </div>
                   </div>
                   <div class="flex-1 flex-col flex items-start gap-2">
                     <div class="text-sm leading-[26px] font-bold text-[#2e3855] font-PublicSans">Type of query/contact*</div>
                     <div
-                      class="bg-white w-full flex items-center gap-2.5 px-[18px] py-2.5 rounded-[6px] border border-[#2e3855]">
-                      <div class="text-base leading-[26px] font-medium text-[#909090] font-PublicSans w-[265px]">Select...</div>
-                      <img src="/assets/new/chevron-down.svg" alt="chevron-down" class="h-6 w-6" />
+                      class="bg-white w-full flex items-center gap-2.5 px-0 py-0 rounded-[6px] border border-[#2e3855]">
+                      <div class="text-base leading-[26px] font-medium text-[#909090] font-PublicSans w-full">
+                        <style>
+                          input {
+                            border: none !important;
+                          }
+                        </style>
+                        <div class="w-[299px] pt-0">
+                          <Select
+                            items={collection}
+                            class="w-full"
+                            bind:value={selected}
+                            on:change={() => toggleElement(selected.value)} />
+                        </div>
+                        <!-- <button aria-label="search" class="hidden btn btn-square btn-ghost ml-[-45px]">
+                          <span class="i-heroicons-outline-search" />
+                        </button> -->
+                      </div>
+                      <!-- <img src="/assets/new/chevron-down.svg" alt="chevron-down" class="h-6 w-6" /> -->
                     </div>
                   </div>
                 </div>
-                <div class="w-[600px] h-5/12 flex justify-center items-center gap-[30px] leading-[26px] font-PublicSans">
+                <div
+                  class="w-[300px] sm:w-[600px] h-5/12 flex justify-center items-center gap-[30px] leading-[26px] font-PublicSans">
                   <div class="h-full flex-1 flex-col flex items-start gap-2">
                     <div class="text-sm font-bold text-[#2e3855]">Your message*</div>
                     <div
                       class="bg-white min-h-[150px] w-full flex-1 flex items-start gap-2.5 rounded-[6px] p-4 border border-[#2e3855] text-base font-medium text-[#909090]">
-                      <textarea class="w-[664px] min-h-[150px]" name="message" required />
+                      <textarea class="w-[264px] sm:w-[664px] min-h-[150px]" name="message" required />
                     </div>
                   </div>
                 </div>
@@ -140,13 +173,15 @@
           <script>
             function toggleElement(k) {
               var element = document.querySelector('#' + k)
-              element.classList.toggle('h-[1000px]')
+              element.classList.toggle('h-[600px]')
+              element.classList.toggle('sm:h-[1000px]')
               toggleElementX(k)
             }
 
             function toggleElement2(k) {
               var element = document.querySelector('#' + k)
-              element.classList.toggle('h-[540px]')
+              element.classList.toggle('h-[750px]')
+              element.classList.toggle('sm:h-[540px]')
               toggleElementX(k)
             }
 
@@ -223,7 +258,7 @@
         </div>
       </div>
     </div>
-    <div class="w-full sm:w-[1060px] flex justify-between items-center pt-[30px] pb-[50px] ml-2 sm:ml-0">
+    <div class="w-full sm:w-[1060px] flex justify-between items-center pt-[30px] pb-[50px] ml-3 sm:ml-0">
       <div class="text-xs leading-[14px] font-semibold text-[#2e3855] font-PublicSans w-[130px] sm:w-[530px]">
         Copyright © 2023 Power for Planet
       </div>
