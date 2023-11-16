@@ -393,6 +393,11 @@
         </div>
       </div>
       <div
+        class="opacity-0 bg-[#2E3855] hidden sm:hidden duration-300"
+        id="curtain"
+        style="z-index:29;position:fixed;top:0px;left:0px;height:100%;width:100%">
+      </div>
+      <div
         class="items-center rounded-2xl w-full sm:w-[700px]"
         id="cow-panel"
         style="z-index:30;position:relative;top:0px;left:0px;height:0px;">
@@ -403,23 +408,22 @@
           }
         </style>
         <div
-          class="cow-element pt-0 opacity-0 -translate-x-full h-[665px] absolute top-0 bg-white w-full sm:w-4/5 flex flex-col duration-300 transform rounded-l-2xl rounded-b-2xl mt-10"
+          class="cow-element pt-0 opacity-0 -translate-x-full h-[820px] sm:h-[665px] absolute top-0 bg-white w-full sm:w-4/5 flex flex-col duration-300 transform rounded-l-2xl rounded-b-2xl mt-10"
           id="cow">
-          <div class="relative left-[98%] rounded-r-2xl">
-            <script>
-              function toggleElement(k) {
-                var element = document.querySelector('#' + k)
-                // element.classList.toggle('hidden')
-                element.classList.toggle('-translate-x-full')
-                element.classList.toggle('opacity-0')
-              }
-            </script>
+          <div class="relative left-[98%] sm:rounded-r-2xl">
             <button
               type="button"
               onclick="toggleElementOff('cow')"
               style=" font-family: 'Public Sans', sans-serif; box-shadow: 8px 8px 8px -6px rgba(0, 0, 0, 0.3);"
-              class="flex items-center justify-center text-[#2E3855] bg-white font-semibold rounded-lg rounded-t-none cow-close-button text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
+              class="opacity-0 sm:opacity-100 flex items-center justify-center text-[#2E3855] bg-white font-semibold rounded-lg rounded-t-none cow-close-button text-sm px-2 py-2.5 text-center inline-flex items-center mr-2 pl-5 mb-2">
               <img class="mr-2" src="/assets/x-circle.png" alt="" />
+            </button>
+            <button
+              type="button"
+              onclick="toggleElementOff('cow')"
+              style=" font-family: 'Public Sans', sans-serif; "
+              class="flex sm:hidden items-center justify-center text-[#2E3855] bg-white font-semibold rounded-t-lg cow-close-button-small text-sm px-2 py-2.5 text-center inline-flex items-center ml-[-127px] pl-5 mt-[-48px] absolute">
+              <img class="mb-2 mr-3" src="/assets/x-circle.png" alt="" />
             </button>
           </div>
           <div class="p-6">
@@ -428,16 +432,16 @@
                 <img style="height:70%;padding:20px;margin-left:5%;" src="/assets/cow 1.png" alt="" />
               </div>
               <div class="w-1/2">
-                <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 mb-4 font-bold text-3xl leading-10 text-[#2E3855]">
+                <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 mb-4 font-bold text-xl sm:text-3xl leading-10 text-[#2E3855]">
                   Cow manure
                 </h1>
                 <p style=" font-family: 'Public Sans', sans-serif;" class="flex items-center text-[#2E3855] text-lg">
-                  <span class="font-bold text-xl pr-3">Biogas Yield:</span>
+                  <span class="font-bold text-sm sm:text-xl pr-3">Biogas Yield:</span>
                   0.18m³/kg
                   <img class="ml-2 map-biogas info-pop" src="/assets/Frame 15.svg" alt="" />
                 </p>
                 <p style=" font-family: 'Public Sans', sans-serif;" class=" text-[#2E3855] text-lg">
-                  <span class="font-bold text-xl">Energy content:</span>
+                  <span class="font-bold text-sm sm:text-xl">Energy content:</span>
                   Low
                 </p>
               </div>
@@ -454,7 +458,7 @@
               <button
                 type="button"
                 style=" font-family: 'Public Sans', sans-serif;"
-                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm p-2 pr-4 text-center inline-flex items-center mr-4">
+                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#FFD9D9] font-semibold rounded-lg text-sm p-2 pr-4 text-center inline-flex items-center sm:mr-4">
                 <img class="mr-3" src="/assets/bar-chart.png" alt="" />
                 High nutrient content
               </button>
@@ -470,7 +474,7 @@
               <button
                 type="button"
                 style=" font-family: 'Public Sans', sans-serif;"
-                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#D9F5E4] font-semibold rounded-lg text-sm p-2 pr-4 text-center inline-flex items-center mr-4">
+                class="flex items-center justify-center mt-5 text-[#2E3855] bg-[#D9F5E4] font-semibold rounded-lg text-sm p-2 pr-4 text-center inline-flex items-center sm:mr-4">
                 <img class="mr-3" src="/assets/bar-chart (1).png" alt="" />
                 Low pH levels
               </button>
@@ -492,14 +496,14 @@
             </div>
           </div>
           <div
-            class="bg-[#2E3855] rounded-b-2xl rounded-r-none cow-close-rbottom h-[180px] absolute bottom-0 left-0 mb-0 w-full pl-2">
+            class="bg-[#2E3855] rounded-b-2xl sm:rounded-r-none cow-close-rbottom h-[260px] sm:h-[180px] absolute bottom-0 left-0 mb-0 w-full pl-2">
             <div class="flex flex-col p-5">
               <div class="flex">
                 <div class="mt-2">
                   <img src="/assets/medres/Anaerobic Digestion1.jpg" class="rounded-full w-16 h-16" alt="" />
                 </div>
                 <div class="ml-5">
-                  <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-lg leading-10 text-white">
+                  <h1 style="font-family: 'Poppins', sans-serif;" class="mt-0 font-bold text-md sm:text-lg leading-10 text-white">
                     Most appropriate technology
                   </h1>
                   <p style=" font-family: 'Public Sans', sans-serif;" class="text-white text-xl mt-1 tracking-wider">
@@ -508,13 +512,13 @@
                 </div>
               </div>
 
-              <div class="flex w-full">
+              <div class="flex w-full flex-col sm:flex-row">
                 <a href="#calculator">
                   <button
                     type="button"
                     onclick="toggleAlOff();"
                     style=" font-family: 'Public Sans', sans-serif;"
-                    class="w-60 flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-5 py-2.5 text-center inline-flex items-center mr-10 mb-2">
+                    class="w-full sm:w-60 flex justify-center items-center mt-5 text-white bg-[#EC8B5A] font-semibold rounded-lg text-base px-5 py-2.5 text-center inline-flex items-center mr-10 mb-2">
                     <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
                     Start your project
                   </button>
@@ -523,7 +527,7 @@
                   <button
                     type="button"
                     style=" font-family: 'Public Sans', sans-serif;"
-                    class="w-52 h-[45px] flex justify-center items-center mt-5 text-white bg-[#2E3855] border border-1 border-white font-semibold rounded-lg text-base px-5 py-2.5 text-center inline-flex items-center mr-10 mb-2">
+                    class="w-full sm:w-52 h-[45px] flex justify-center items-center mt-5 text-white bg-[#2E3855] border border-1 border-white font-semibold rounded-lg text-base px-5 py-2.5 text-center inline-flex items-center mr-10 mb-2">
                     <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
                     Learn more
                   </button>
@@ -536,14 +540,6 @@
           class="cow-element pt-0 opacity-0 -translate-x-full h-[665px] absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-l-2xl rounded-b-2xl mt-10"
           id="food">
           <div class="relative left-[98%] rounded-r-2xl">
-            <script>
-              function toggleElement(k) {
-                var element = document.querySelector('#' + k)
-                // element.classList.toggle('hidden')
-                element.classList.toggle('-translate-x-full')
-                element.classList.toggle('opacity-0')
-              }
-            </script>
             <button
               type="button"
               onclick="toggleElementOff('food')"
@@ -666,14 +662,6 @@
           class="cow-element pt-0 opacity-0 -translate-x-full h-[665px] absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-l-2xl rounded-b-2xl mt-10"
           id="bottle">
           <div class="relative left-[98%] rounded-r-2xl">
-            <script>
-              function toggleElement(k) {
-                var element = document.querySelector('#' + k)
-                // element.classList.toggle('hidden')
-                element.classList.toggle('-translate-x-full')
-                element.classList.toggle('opacity-0')
-              }
-            </script>
             <button
               type="button"
               onclick="toggleElementOff('bottle')"
@@ -794,14 +782,6 @@
           class="cow-element pt-0 opacity-0 -translate-x-full h-[665px] absolute top-0 bg-white w-4/5 flex flex-col duration-300 transform rounded-l-2xl rounded-b-2xl mt-10"
           id="technology">
           <div class="relative left-[98%] rounded-r-2xl">
-            <script>
-              function toggleElement(k) {
-                var element = document.querySelector('#' + k)
-                // element.classList.toggle('hidden')
-                element.classList.toggle('-translate-x-full')
-                element.classList.toggle('opacity-0')
-              }
-            </script>
             <button
               type="button"
               onclick="toggleElementOff('technology')"
@@ -921,7 +901,7 @@
       </div>
       <div
         id="cow-shadow"
-        class="bg-base-100"
+        class="bg-base-100 hidden sm:flex"
         style="width:1000px; height:750px; position: relative; left: -1000px; top: 0px; margin-bottom:-750px; z-index:39" />
     </h1>
 
@@ -2174,13 +2154,25 @@
         element.classList.toggle('-translate-x-full')
         element.classList.toggle('opacity-0')
       }, 10)
+      setTimeout(() => {
+        document.querySelector('#curtain').classList.toggle('hidden')
+      }, 100)
+      setTimeout(() => {
+        document.querySelector('#curtain').classList.toggle('opacity-80')
+      }, 200)
     }
 
     function toggleElementOff(k) {
       var element = document.querySelector('#' + k)
       // element.classList.toggle('hidden')
       element.classList.add('-translate-x-full')
-      element.classList.add('opacity-0')
+      element.classList.add('opacity-0')      
+      setTimeout(() => {
+        document.querySelector('#curtain').classList.toggle('opacity-80')
+      }, 100)
+      setTimeout(() => {
+        document.querySelector('#curtain').classList.toggle('hidden')
+      }, 200)
     }
 
     function toggleAlOff() {
@@ -2230,6 +2222,7 @@
     setTimeout(() => {
       toggleAll()
       toggleAll()
+      // toggleElement('cow')
     }, 100)
 
     function sortCombo(comboBoxId) {
