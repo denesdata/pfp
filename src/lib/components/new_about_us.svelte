@@ -118,7 +118,7 @@
             class="flex-col flex items-center gap-2 text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins">
             <div>Meet the team</div>
           </div>
-          <div class="w-full h-[2420px] sm:h-[1550px] flex-col flex items-center gap-5">
+          <div class="w-full flex-col flex items-center gap-5">
             <div class="w-full flex-col sm:flex-row flex items-start gap-5">
               <div
                 class="bg-[#e7f5f5] w-full h-full flex-1 flex-col flex items-center sm:items-start gap-6 p-5 sm:p-10 rounded-[20px]">
@@ -144,16 +144,19 @@
                     </div>
                   </div>
                 </div>
-                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-[390px] hidden sm:flex">
+                <div
+                  class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-full sm:w-[390px] h-0 sm:h-full px-5 sm:px-0 duration-300 overflow-hidden"
+                  id="dermot">
                   Dermot studied climatology at Leicester University and has extensive experience in the renewable space.
                   Throughout his career, Dermot has demonstrated expertise in business development by holding senior leadership
                   positions across a wide range of business models, from global enterprises to start-ups such as Nutmeg, a
                   leading digital wealth management platform. He has also held numerous consultancy, board adviser and NED roles
                   and is a published author on leadership.
                 </div>
-                <a href="//www.linkedin.com/in/dermot-mckeever-bsc-5600b3175/" target="_blank" class="sm:hidden">
-                  <img src="/assets/arm.svg" />
-                </a>
+                <button onclick="show_person('dermot')" class="sm:hidden">
+                  <img src="/assets/arm.svg" class="dermot-rm" />
+                  <img src="/assets/arl.svg" class="dermot-rl hidden" />
+                </button>
                 <a href="//www.linkedin.com/in/dermot-mckeever-bsc-5600b3175/" target="_blank" class="sm:hidden">
                   <img src="/assets/arn.svg" />
                 </a>
@@ -183,16 +186,18 @@
                     </div>
                   </div>
                 </div>
-                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-[390px] hidden sm:flex">
+                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-full sm:w-[390px] sm:w-[390px] h-0 sm:h-full px-5 sm:px-0 duration-300 overflow-hidden"
+                  id="james">
                   James has over 30 years of experience in real estate development and consultancy for multinational groups in
                   Asia, North America, Continental Europe and the UK. Furthermore, he has invested in and guided businesses in
                   private aviation, real estate investment, and renewable energy. Graduated from the Royal Military Academy
                   Sandhurst, after which he served in The Royal Green Jackets (now Rifles). He co-founded PFP to facilitate and
                   encourage a quantum shift in utilising waste as a green renewable energy source.
                 </div>
-                <a href="//www.linkedin.com/in/james-cole-33558312/" target="_blank" class="sm:hidden">
-                  <img src="/assets/arm.svg" />
-                </a>
+                <button onclick="show_person('james')" class="sm:hidden">
+                  <img src="/assets/arm.svg" class="james-rm" />
+                  <img src="/assets/arl.svg" class="james-rl hidden" />
+                </button>
                 <a href="//www.linkedin.com/in/james-cole-33558312/" target="_blank" class="sm:hidden">
                   <img src="/assets/arn.svg" />
                 </a>
@@ -224,16 +229,18 @@
                     </div>
                   </div>
                 </div>
-                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-[390px] hidden sm:flex">
+                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-full sm:w-[390px] sm:w-[390px] h-0 sm:h-full px-5 sm:px-0 duration-300 overflow-hidden"
+                  id="simon">
                   Simon, a University of Warwick alumnus, has 30+ years’ experience providing clients across all sectors of the
                   economy with energy reduction/management solutions and electricity/ gas procurement advice. Simon is utilising
                   his vast experience and connections in the energy sector to advise PFP’s clients on the cost savings and
                   impacts of utilising waste as a power source. Additionally, he runs the PFP introducer network, consisting of
                   industry heavyweights tasked with identifying potential projects.
                 </div>
-                <a href="//www.linkedin.com/in/simon-edwards-0024a327/" target="_blank" class="sm:hidden">
-                  <img src="/assets/arm.svg" />
-                </a>
+                <button onclick="show_person('simon')" class="sm:hidden">
+                  <img src="/assets/arm.svg" class="simon-rm" />
+                  <img src="/assets/arl.svg" class="simon-rl hidden" />
+                </button>
                 <a href="//www.linkedin.com/in/simon-edwards-0024a327/" target="_blank" class="sm:hidden">
                   <img src="/assets/arn.svg" />
                 </a>
@@ -254,15 +261,17 @@
                     </div>
                   </div>
                 </div>
-                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-[390px] hidden sm:flex">
+                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-full sm:w-[390px]  sm:w-[390px] h-0 sm:h-full px-5 sm:px-0 duration-300 overflow-hidden"
+                  id="alice">
                   Alice holds a Master of Science in Engineering for International Development from the University College
                   London, complemented with a Bachelors in Environmental Engineering. Throughout her academic and professional
                   journey, she has been involved in international development projects, focusing on designing off-grid solutions
                   to benefit communities in the developing world.
                 </div>
-                <a href="//www.linkedin.com/in/alice-c-4126b517b/" target="_blank" class="sm:hidden">
-                  <img src="/assets/arm.svg" />
-                </a>
+                <button onclick="show_person('alice')" class="sm:hidden">
+                  <img src="/assets/arm.svg" class="alice-rm" />
+                  <img src="/assets/arl.svg" class="alice-rl hidden" />
+                </button>
                 <a href="//www.linkedin.com/in/alice-c-4126b517b/" target="_blank" class="sm:hidden">
                   <img src="/assets/arn.svg" />
                 </a>
@@ -289,16 +298,18 @@
                     </div>
                   </div>
                 </div>
-                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-[390px] hidden sm:flex">
+                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-full sm:w-[390px]  sm:w-[390px] h-0 sm:h-full px-5 sm:px-0 duration-300 overflow-hidden"
+                  id="tim">
                   Tim is an economist with specialised skills in data, analytics, and strategy. He applies his understanding of
                   economic principles to analyse data and develop effective strategies for PFP’s clients. A University of
                   Bristol graduate, Tim boasts an accolade from The Chartered Banker Institute’s essay competition, where his
                   piece on how finance professionals can help achieve society’s goals on climate change was published alongside
                   distinguished academics, business leaders, and politicians.
                 </div>
-                <a href="//www.linkedin.com/in/tim-edwards-664004187/" target="_blank" class="sm:hidden">
-                  <img src="/assets/arm.svg" />
-                </a>
+                <button onclick="show_person('tim')" class="sm:hidden">
+                  <img src="/assets/arm.svg" class="tim-rm" />
+                  <img src="/assets/arl.svg" class="tim-rl hidden" />
+                </button>
                 <a href="//www.linkedin.com/in/tim-edwards-664004187/" target="_blank" class="sm:hidden">
                   <img src="/assets/arn.svg" />
                 </a>
@@ -319,15 +330,17 @@
                     </div>
                   </div>
                 </div>
-                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-[390px] hidden sm:flex">
+                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-full sm:w-[390px] sm:w-[390px] h-0 sm:h-full px-5 sm:px-0 duration-300 overflow-hidden"
+                  id="paul">
                   Paul is an experienced Information Security Leader with expertise in FinTech and cryptocurrency. With 19 years
                   of experience in the UK and US, he has directed the infrastructure for a leading Security Certificate
                   Authority. Passionate about renewable energy and carbon-negative initiatives, he holds degrees from the
                   universities of Leeds and Liverpool, making a valuable asset to our team.
                 </div>
-                <a href="//www.linkedin.com/in/paulleekeypair/" target="_blank" class="sm:hidden">
-                  <img src="/assets/arm.svg" />
-                </a>
+                <button onclick="show_person('paul')" class="sm:hidden">
+                  <img src="/assets/arm.svg" class="paul-rm" />
+                  <img src="/assets/arl.svg" class="paul-rl hidden" />
+                </button>
                 <a href="//www.linkedin.com/in/paulleekeypair/" target="_blank" class="sm:hidden">
                   <img src="/assets/arn.svg" />
                 </a>
@@ -338,10 +351,10 @@
             </div>
           </div>
           <div
-            class="flex-col flex items-center gap-2 text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins">
+            class="flex-col flex items-center gap-2 text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins sm:mt-10">
             <div>Advisory board</div>
           </div>
-          <div class="w-full h-[1600px] sm:h-[1200px] flex-col flex items-center gap-5">
+          <div class="w-full flex-col flex items-center gap-5">
             <div class="w-full flex-col sm:flex-row flex items-start gap-5">
               <div
                 class="bg-[#e7f5f5] w-full h-full flex-1 flex-col flex items-center sm:items-start gap-6 p-5 sm:p-10 rounded-[20px]">
@@ -368,16 +381,18 @@
                     </div>
                   </div>
                 </div>
-                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-[390px] hidden sm:flex">
+                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-full sm:w-[390px] sm:w-[390px] h-0 sm:h-full px-5 sm:px-0 duration-300 overflow-hidden"
+                  id="linda">
                   Linda brings a unique blend of strategy, science, technology and management expertise gained across various
                   sectors including FMCG, IT, engineering, nuclear, environmental and renewables. Capable of offering both
                   strategic and operational insight, Linda has worked in a variety of different roles and environments around
                   the world for large corporates, research organisations, SME’s, spin-offs and start-ups (social enterprise) and
                   is passionate about using this experience to help people to mitigate climate change.
                 </div>
-                <a href="//www.linkedin.com/in/dr-linda-hilton-phd-cchem-frsc-csci-b975865/" target="_blank" class="sm:hidden">
-                  <img src="/assets/arm.svg" />
-                </a>
+                <button onclick="show_person('linda')" class="sm:hidden">
+                  <img src="/assets/arm.svg" class="linda-rm" />
+                  <img src="/assets/arl.svg" class="linda-rl hidden" />
+                </button>
                 <a href="//www.linkedin.com/in/dr-linda-hilton-phd-cchem-frsc-csci-b975865/" target="_blank" class="sm:hidden">
                   <img src="/assets/arn.svg" />
                 </a>
@@ -400,7 +415,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-[390px] hidden sm:flex">
+                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-full sm:w-[390px]  sm:w-[390px] h-0 sm:h-full px-5 sm:px-0 duration-300 overflow-hidden"
+                  id="alexandre">
                   Alexandre, a UK-based independent climate and energy transition finance professional offers expert advisory
                   services to a diverse range of clients, including corporates, asset owners and managers, government entities,
                   and foundations. His background spans project and corporate acquisitions, risk assessments, investments, and
@@ -409,9 +425,10 @@
                   Harvard, and INSEAD. His passion for addressing climate change and sustainable development make him a vital
                   contributor to the ongoing global transition to a more sustainable future.
                 </div>
-                <a href="//www.linkedin.com/in/alexandre-chavarot-b23555/" target="_blank" class="sm:hidden">
-                  <img src="/assets/arm.svg" />
-                </a>
+                <button onclick="show_person('alexandre')" class="sm:hidden">
+                  <img src="/assets/arm.svg" class="alexandre-rm" />
+                  <img src="/assets/arl.svg" class="alexandre-rl hidden" />
+                </button>
                 <a href="//www.linkedin.com/in/alexandre-chavarot-b23555/" target="_blank" class="sm:hidden">
                   <img src="/assets/arn.svg" />
                 </a>
@@ -437,15 +454,17 @@
                     </div>
                   </div>
                 </div>
-                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-[390px] hidden sm:flex">
+                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-full sm:w-[390px] sm:w-[390px] h-0 sm:h-full px-5 sm:px-0 duration-300 overflow-hidden"
+                  id="jayne">
                   Jayne is a lawyer with extensive legal experience having been a partner in a major City law firm and General
                   Counsel for property investment, development and financing businesses. Jayne oversees PFP’s compliance with
                   the business’s legal requirements and advises on the contracts required for individual projects. Jayne holds a
                   degree from The University of Cambridge.
                 </div>
-                <a href="//www.linkedin.com/in/jayne-walters-21465311/" target="_blank" class="sm:hidden">
-                  <img src="/assets/arm.svg" />
-                </a>
+                <button onclick="show_person('jayne')" class="sm:hidden">
+                  <img src="/assets/arm.svg" class="jayne-rm" />
+                  <img src="/assets/arl.svg" class="jayne-rl hidden" />
+                </button>
                 <a href="//www.linkedin.com/in/jayne-walters-21465311/" target="_blank" class="sm:hidden">
                   <img src="/assets/arn.svg" />
                 </a>
@@ -468,7 +487,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-[390px] hidden sm:flex">
+                <div class="text-sm leading-[25px] font-light text-[#2e3855] font-PublicSans w-full sm:w-[390px] sm:w-[390px] h-0 sm:h-full px-5 sm:px-0 duration-300 overflow-hidden"
+                  id="shanika">
                   Shanika was Chief Impact Officer at British Business Bank and an Executive Committee member responsible for
                   ESG, Economics, Policy and Strategy. Recently, Shanika was involved in the creation of both the Coronavirus
                   Business Interruption Loan Scheme (CBILS) and the Future Fund. The scale of both schemes expanded the bank’s
@@ -477,9 +497,10 @@
                   the supply of credit and finance to SMEs, enabling these companies to contribute effectively to the UK
                   economy.
                 </div>
-                <a href="//www.linkedin.com/in/shanika-amarasekara-mbe-8b69a674/" target="_blank" class="sm:hidden">
-                  <img src="/assets/arm.svg" />
-                </a>
+                <button onclick="show_person('shanika')" class="sm:hidden">
+                  <img src="/assets/arm.svg" class="shanika-rm" />
+                  <img src="/assets/arl.svg" class="shanika-rl hidden" />
+                </button>
                 <a href="//www.linkedin.com/in/shanika-amarasekara-mbe-8b69a674/" target="_blank" class="sm:hidden">
                   <img src="/assets/arn.svg" />
                 </a>
@@ -490,6 +511,16 @@
             </div>
           </div>
         </div>
+        <script>
+          function show_person(k) {
+            console.log(k)
+            var element = document.querySelector('#' + k)
+            element.classList.toggle('h-full')
+            element.classList.toggle('h-0')
+            document.querySelector('.' + k+'-rm').classList.toggle('hidden')
+            document.querySelector('.' + k+'-rl').classList.toggle('hidden')
+          }
+        </script>
       </div>
       <div class="w-full sm:w-[1060px] flex justify-between items-center pt-[30px] pb-[50px] ml-2 sm:ml-0">
         <div class="text-xs leading-[14px] font-semibold text-[#2e3855] font-PublicSans w-[130px] sm:w-[530px]">

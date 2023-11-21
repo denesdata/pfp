@@ -63,7 +63,7 @@
           <Nav {path} {title} {pin} {scrollY} nav={headerConfig.nav} />
         {/if}
         <a href="/" class="btn btn-ghost normal-case text-lg gap-3">
-          <img src="/assets/pfp.png" alt="logo" class="u-photo z-14 h-14" />
+          <img src="/assets/pfp_logo.svg" alt="logo" class="u-photo z-14 h-14" />
           <!-- {site.title} -->
         </a>
       </div>
@@ -110,9 +110,9 @@
       </div>
     </div>
   {:else}
-    <div in:fly={{ x: 50, duration: 300, delay: 300 }} out:fly={{ x: 50, duration: 300 }} class="navbar">
+    <div in:fly={{ x: 50, duration: 300, delay: 300 }} out:fly={{ x: 50, duration: 300 }} class="navbar px-5">
       <Search />
-      <button on:click={() => (search = !search)} tabindex="0" class="btn btn-square btn-ghost mr-8">
+      <button on:click={() => (search = !search)} tabindex="0" class="btn btn-square btn-ghost sm:mr-8">
         <span class="i-heroicons-outline-x" />
       </button>
     </div>

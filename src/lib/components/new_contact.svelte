@@ -3,10 +3,12 @@
   import Select from 'svelte-select'
 
   let collection = [
-    { value: 'cow', label: 'Cow manure' },
-    { value: 'food', label: 'Food waste' },
-    { value: 'bottle', label: 'PW plastic' },
-    { value: 'technology', label: 'Technology' }
+    { value: 'general-enquiries', label: 'General Enquiries' },
+    { value: 'partnership-business-enquiries', label: 'Partnership & Business Enquiries' },
+    { value: 'educational-resources', label: 'Educational Resources' },
+    { value: 'research-development ', label: 'Research & Development' },
+    { value: 'career-opportunities', label: 'Career Opportunities' },
+    { value: 'other', label: 'Other' }
   ]
 
   let selected
@@ -21,13 +23,15 @@
   </style>
   <div class="flex-col w-full flex items-start gap-[60px] sm:max-w-[1060px] rounded-[20px]">
     <div
-      class="w-full flex-col flex justify-center items-center gap-2.5 text-4xl leading-[46px] font-bold text-center text-[#2e3855] font-Poppins">
+      class="w-full flex-col hidden sm:flex justify-center items-center gap-2.5 text-4xl leading-[46px] font-bold text-center text-[#2e3855] font-Poppins">
       <div>Contact us</div>
+      <!-- check size - remove on mobile only -->
     </div>
     <div class="w-full flex-col flex items-start gap-5">
       <div class="bg-white w-full flex-col flex items-center gap-[50px] p-5 sm:px-[50px] py-10 rounded-[20px]">
-        <div class="text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins">
+        <div class="hidden sm:flex text-2xl leading-[33px] font-bold text-center text-[#2e3855] font-Poppins">
           Contact us and turn your green energy vision into reality
+          <!-- turn off on mobile -->
         </div>
         <div class="w-full flex-col gap-5 flex items-center">
           <div class="bg-[#e7f5f5] w-full pt-[0px] flex-col flex justify-center items-center rounded-[20px] align-top">
@@ -55,7 +59,15 @@
               </div>
             </button>
             <div id="calendar" class="bg-none overflow-hidden duration-300 h-[0px] w-full">
-              <iframe
+              <iframe class="hidden sm:flex"
+                style="background:none; filter: contrast(1.07); margin-bottom:-100px;"
+                height="1100"
+                width="100%"
+                frameborder="0"
+                allowfullscreen=""
+                src="https://calendly.com/contact-9g8/introductory-call?hide_landing_page_details=1&hide_gdpr_banner=1&text_color=394e6a&primary_color=3f9378&back=1"
+                title="book" />
+              <iframe class="flex sm:hidden"
                 style="background:none; filter: contrast(1.07); margin-bottom:-100px;"
                 height="1100"
                 width="100%"
@@ -119,8 +131,8 @@
                   </div>
                   <div class="flex-1 flex-col flex items-start gap-2">
                     <div class="text-sm leading-[26px] font-bold text-[#2e3855] font-PublicSans">Type of query/contact*</div>
-                    <div
-                      class="bg-white w-full flex items-center gap-2.5 px-0 py-0 rounded-[6px] border border-[#2e3855]">
+                    <!-- dig up from emails -->
+                    <div class="bg-white w-full flex items-center gap-2.5 px-0 py-0 rounded-[6px] border border-[#2e3855]">
                       <div class="text-base leading-[26px] font-medium text-[#909090] font-PublicSans w-full">
                         <style>
                           input {
