@@ -256,11 +256,11 @@
                   class="h-6 w-6" />
               </div>
             </button>
-            <div class="flex flex-col h-[164px] overflow-x-hidden">
+            <div class="flex flex-col h-[440px] sm:h-[164px] overflow-x-hidden">
               <div
                 id="customer1"
                 class="bg-[#e7f5f5] duration-300 flex-col flex justify-center items-center gap-2.5 px-10 pt-[30px] pb-5 rounded-[10px] text-sm leading-[26px] text-center text-[#2e3855] font-PublicSans">
-                <div class="italic font-light w-[700px]">
+                <div class="italic font-light sm:w-[700px]">
                   “Not only did ABC Company deliver outstanding results, but they also provided exceptional customer service.
                   Their team was always responsive, accommodating, and willing to go the extra mile to address any questions or
                   concerns we had.”
@@ -269,8 +269,8 @@
               </div>
               <div
                 id="customer2"
-                class="bg-[#e7f5f5] mt-[-164px] -translate-x-full opacity-0 duration-300 flex-col flex justify-center items-center gap-2.5 px-10 pt-[30px] pb-5 rounded-[10px] text-sm leading-[26px] text-center text-[#2e3855] font-PublicSans">
-                <div class="italic font-light w-[700px]">
+                class="bg-[#e7f5f5] mt-[-422px] sm:mt-[-164px] -translate-x-full opacity-0 duration-300 flex-col flex justify-center items-center gap-2.5 px-10 pt-[30px] pb-5 rounded-[10px] text-sm leading-[26px] text-center text-[#2e3855] font-PublicSans">
+                <div class="italic font-light sm:w-[700px]">
                   “Not only did ABC Company 2 deliver outstanding results, but they also provided exceptional customer service.
                   Their team was always responsive, accommodating, and willing to go the extra mile to address any questions or
                   concerns we had.”
@@ -279,8 +279,8 @@
               </div>
               <div
                 id="customer3"
-                class="bg-[#e7f5f5] mt-[-164px] -translate-x-full opacity-0 duration-300 flex-col flex justify-center items-center gap-2.5 px-10 pt-[30px] pb-5 rounded-[10px] text-sm leading-[26px] text-center text-[#2e3855] font-PublicSans">
-                <div class="italic font-light w-[700px]">
+                class="bg-[#e7f5f5] mt-[-422px] sm:mt-[-164px] -translate-x-full opacity-0 duration-300 flex-col flex justify-center items-center gap-2.5 px-10 pt-[30px] pb-5 rounded-[10px] text-sm leading-[26px] text-center text-[#2e3855] font-PublicSans">
+                <div class="italic font-light sm:w-[700px]">
                   “Not only did ABC Company 3 deliver outstanding results, but they also provided exceptional customer service.
                   Their team was always responsive, accommodating, and willing to go the extra mile to address any questions or
                   concerns we had.”

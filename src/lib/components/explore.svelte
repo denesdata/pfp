@@ -374,7 +374,7 @@
       <div class="container mx-auto rounded-2xl">
         <div class="flex md:flex-row flex-col items-center rounded-2xl bg-white w-full">
           <div class="bg-[#E7F5F5] md:w-2/5 w-full flex justify-center rounded-t-2xl sm:rounded-l-2xl sm:rounded-tr-[0px]">
-            <img class="h-80 p-6" src="/assets/Frame 19 (1).png" alt="" />
+            <img class="h-full p-6" src="/assets/Frame 19 (1).png" alt="" />
           </div>
 
           <div class=" md:w-3/5 w-full p-14 pt-8 pb-6">
@@ -1106,8 +1106,8 @@
     <h1 class="rounded-2xl pt-10" id="calculator">
       <div class="container mx-auto rounded-2xl">
         <div class="flex md:flex-row flex-col items-center rounded-2xl bg-white w-full">
-          <div class="bg-[#E7F5F5] md:w-2/5 w-full flex justify-center rounded-l-2xl">
-            <img class="h-80 p-6" src="/assets/tech.png" alt="" />
+          <div class="bg-[#E7F5F5] md:w-2/5 w-full flex justify-center  rounded-t-2xl sm:rounded-l-2xl sm:rounded-tr-[0px]">
+            <img class="h-full p-6" src="/assets/tech.png" alt="" />
           </div>
 
           <div class=" md:w-3/5 w-full p-14 pt-8 pb-6">
@@ -1133,20 +1133,217 @@
       </div>
       <div
         id="calc-shadow-l"
-        class="bg-base-100"
+        class="bg-base-100 hidden sm:flex"
         style="width:1000px; height:750px; position: relative; left: -1000px; top: 0px; margin-bottom:-750px; z-index:9" />
       <div
         id="calc-shadow-r"
-        class="bg-base-100"
+        class="bg-base-100 hidden sm:flex"
         style="width:1000px; height:750px; position: relative; right: -100%; top: 0px; margin-bottom:-750px; z-index:9" />
     </h1>
 
     <!-- ===================after landing page =================== -->
+    
+    <section id="calculate" class="pt-10 relative" style="z-index:8;">
+      <div class="container rounded-2xl bg-white p-5 sm:p-20 pt-12 pb-16 z-23" id="growcalc">
+        <div class="text-center pb-10">
+          <h1
+            style="font-family: 'Poppins', sans-serif;"
+            class="card text-3xl font-bold text-[#2e3855] font-Poppins text-center">
+            The PFP Calculator
+          </h1>
+          <p style=" font-family: 'Public Sans', sans-serif;" class="text-[#2E3855] tracking-wider mt-5 px-0">
+            Our easy-to-use calculator is here to give you a quick snapshot of what your waste-to-energy project could look
+            like. It helps you identify the most suitable technology and estimate energy output, serving as a valuable first
+            step in your journey to green power. Think of it as a helpful starting point!
+          </p>
+        </div>
+        <div
+          style="font-family: 'Poppins', sans-serif;"
+          class="flex md:flex-row flex-col items-center rounded-lg bg-white w-full mt-5 h-0 sm:h-full">
+          <div class="bg-[#E7F5F5] w-1/3 flex justify-center rounded-2xl mr-8 hidden sm:flex">
+            <img class="h-60" id="calc-img" src="/assets/cow 1 (1).png" alt="" />
+          </div>
+          <div class="w-full sm:w-2/3 sm:pl-12 pr-0 md:mt-0 mt-5 duration-300 transform sm:-translate-y-[0px]" id="calc-selectors" style="z-index:19">
+            <div class="flex flex-col sm:flex-row rounded-xl shadow-sm w-full" role="group">
+              <button type="button" class="text-xl w-full sm:w-1/2 h-16 text-white bg-[#2E3855] rounded-tl-xl rounded-tr-xl sm:rounded-tr-none sm:rounded-bl-xl">Waste type</button>
+              <!-- reduce font to fit on screen -->
+              <div
+                class="button dropdown w-full sm:w-1/2 flex justify-between z-10 inline-flex items-center py-2.5 px-4 text-xl font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-b-xl sm:rounded-b-none sm:rounded-tr-xl sm:rounded-br-xl hover:bg-gray-200 border-0">
+                <select id="colorselector" class="w-full bg-transparent text-left border-0 line-h-20">
+                  <optgroup class="bg-[#e2e6e6]" label="Alcohol and Beverages Industry">
+                    <option class="bg-[#E7F5F5]" value="Beer production">Beer production</option>
+                    <option class="bg-[#E7F5F5]" value="Wine production">Wine production</option>
+                    <option class="bg-[#E7F5F5]" value="Spirits production">Spirits production</option>
+                    <option class="bg-[#E7F5F5]" value="Ethanol production">Ethanol production</option>
+                    <option class="bg-[#E7F5F5]" value="Juice production">Juice production</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Biofuels Industry">
+                    <option class="bg-[#E7F5F5]" value="Biodiesel production">Biodiesel production</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Construction and Demolition Waste">
+                    <option class="bg-[#E7F5F5]" value="Ceramics">Ceramics</option>
+                    <option class="bg-[#E7F5F5]" value="Sand">Sand</option>
+                    <option class="bg-[#E7F5F5]" value="Dust">Dust</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Dairy Industry">
+                    <option class="bg-[#E7F5F5]" value="Cheese production">Cheese production</option>
+                    <option class="bg-[#E7F5F5]" value="Butter production">Butter production</option>
+                    <option class="bg-[#E7F5F5]" value="Ice cream">Ice cream</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Food Processing Industry">
+                    <option class="bg-[#E7F5F5]" value="Pulp production">Pulp production</option>
+                    <option class="bg-[#E7F5F5]" value="Tomato ketchup">Tomato ketchup</option>
+                    <option class="bg-[#E7F5F5]" value="Frozen potatoes">Frozen potatoes</option>
+                    <option class="bg-[#E7F5F5]" value="Prepared potatoes (crisps)">Prepared potatoes (crisps)</option>
+                    <option class="bg-[#E7F5F5]" value="Potato starch">Potato starch</option>
+                    <option class="bg-[#E7F5F5]" value="Dried potatoes">Dried potatoes</option>
+                    <option class="bg-[#E7F5F5]" value="Sugar production">Sugar production</option>
+                    <option class="bg-[#E7F5F5]" value="Yeast production">Yeast production</option>
+                    <option class="bg-[#E7F5F5]" value="Vegetable oils production">Vegetable oils production</option>
+                    <option class="bg-[#E7F5F5]" value="Food waste">Food waste</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Hospitality">
+                    <option class="bg-[#E7F5F5]" value="Coffee grounds">Coffee grounds</option>
+                    <option class="bg-[#E7F5F5]" value="Crop residues">Crop residues</option>
+                    <option class="bg-[#E7F5F5]" value="Maize silage">Maize silage</option>
+                    <option class="bg-[#E7F5F5]" value="Cereal">Cereal</option>
+                    <option class="bg-[#E7F5F5]" value="Grass silage">Grass silage</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Industrial Waste">
+                    <option class="bg-[#E7F5F5]" value="Pulp & Paper Waste">Pulp & Paper Waste</option>
+                    <option class="bg-[#E7F5F5]" value="Textile Waste">Textile Waste</option>
+                    <option class="bg-[#E7F5F5]" value="SRF">SRF</option>
+                    <option class="bg-[#E7F5F5]" value="RDF">RDF</option>
+                    <option class="bg-[#E7F5F5]" value="Rubber">Rubber</option>
+                    <option class="bg-[#E7F5F5]" value="Wood waste">Wood waste</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Manure and Animal Waste">
+                    <option class="bg-[#E7F5F5]" value="Pig manure">Pig manure</option>
+                    <option class="bg-[#E7F5F5]" value="Dairy Cattle">Dairy Cattle</option>
+                    <option class="bg-[#E7F5F5]" value="Non diary cattle">Non diary cattle</option>
+                    <option class="bg-[#E7F5F5]" value="Buffalo">Buffalo</option>
+                    <option class="bg-[#E7F5F5]" value="Chicken layer manure">Chicken layer manure</option>
+                    <option class="bg-[#E7F5F5]" value="Chicken broiler manure">Chicken broiler manure</option>
+                    <option class="bg-[#E7F5F5]" value="Sheep">Sheep</option>
+                    <option class="bg-[#E7F5F5]" value="Fish waste">Fish waste</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Meat Industry">
+                    <option class="bg-[#E7F5F5]" value="Bovine meat">Bovine meat</option>
+                    <option class="bg-[#E7F5F5]" value="Pig meat">Pig meat</option>
+                    <option class="bg-[#E7F5F5]" value="Sheep meat">Sheep meat</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Medical Waste">
+                    <option class="bg-[#E7F5F5]" value="Medical Waste">Medical Waste</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Municipal Waste">
+                    <option class="bg-[#E7F5F5]" value="Municipal Solid Waste (MSW)">Municipal Solid Waste (MSW)</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Plastic Waste">
+                    <option class="bg-[#E7F5F5]" value="PE Plastic">PE Plastic</option>
+                    <option class="bg-[#E7F5F5]" value="PP Plastic">PP Plastic</option>
+                    <option class="bg-[#E7F5F5]" value="PS Plastic">PS Plastic</option>
+                    <option class="bg-[#E7F5F5]" value="PVC Plastic">PVC Plastic</option>
+                    <option class="bg-[#E7F5F5]" value="PET Plastic">PET Plastic</option>
+                  </optgroup>
+                  <optgroup class="bg-[#e2e6e6]" label="Recyclable Materials">
+                    <option class="bg-[#E7F5F5]" value="Glass">Glass</option>
+                    <option class="bg-[#E7F5F5]" value="Metals">Metals</option>
+                  </optgroup>
+                </select>
+              </div>
+            </div>
+            <div class="flex flex-col sm:flex-row rounded-xl shadow-sm w-full mt-5" role="group">
+              <button type="button" class="text-xl w-full sm:w-1/2 h-16 text-white bg-[#2E3855] rounded-tl-xl rounded-tr-xl sm:rounded-tr-none sm:rounded-bl-xl">Kilograms per day</button>
+              <div
+                class="button dropdown w-full sm:w-1/2 flex justify-between flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-xl font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-b-xl sm:rounded-b-none sm:rounded-tr-xl sm:rounded-br-xl hover:bg-gray-200 border-0">
+                <select
+                  id="colorselector2"
+                  class="w-full bg-transparent text-center focus-0 after:border-0 before:border-0 after:border-[#E7F5F5]">
+                  <option class="bg-[#E7F5F5]" value="5">5 kg</option>
+                  <option class="bg-[#E7F5F5]" value="10">10 kg</option>
+                  <option class="bg-[#E7F5F5]" value="100">100 kg</option>
+                  <option class="bg-[#E7F5F5]" value="400">400 kg</option>
+                  <option class="bg-[#E7F5F5]" value="1000">1000 kg</option>
+                  <option class="bg-[#E7F5F5]" value="4000">4000 kg</option>
+                  <option class="bg-[#E7F5F5]" value="10000">10,000 kg</option>
+                  <option class="bg-[#E7F5F5]" value="20000">20,000 kg</option>
+                  <option class="bg-[#E7F5F5]" value="40000">40,000 kg</option>
+                  <option class="bg-[#E7F5F5]" value="60000">&gt; 40,000 kg</option>
+                </select>
+              </div>
+            </div>
+            <div class="flex flex-col sm:flex-row rounded-xl shadow-sm w-full mt-5" role="group">
+              <button type="button" class="text-xl w-full sm:w-1/2 h-16 text-white bg-[#2E3855] rounded-tl-xl rounded-tr-xl sm:rounded-tr-none sm:rounded-bl-xl">Client needs</button>
+
+              <div
+                class="button dropdown w-full sm:w-1/2 flex justify-between flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-xl font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-b-xl sm:rounded-b-none sm:rounded-tr-xl sm:rounded-br-xl hover:bg-gray-200 border-0">
+                <select id="colorselector3" class="w-full bg-transparent text-center">
+                  <option class="bg-[#E7F5F5] nofood" value="electricity">Electricity</option>
+                  <option class="bg-[#E7F5F5] nofood" value="heating-cooling">Heating / Cooling</option>
+                  <option class="bg-[#E7F5F5] nofood" value="carbon-credits">Carbon credits</option>
+                  <option class="bg-[#E7F5F5] food" value="cooking-biogas">Cooking biogas</option>
+                  <option class="bg-[#E7F5F5] nofood food" value="fertiliser">Fertiliser</option>
+                </select>
+              </div>
+            </div>
+            <div />
+          </div>
+        </div>
+        <div
+          class="w-full sm:w-[784px] sm:ml-80 sm:pl-16 sm:h-60 p-10 pt-16 md:mt-0 mt-5 duration-300 transform relative sm:absolute sm:-translate-x-full opacity-0 sm:-translate-y-full bg-[#E7F5F5] rounded-2xl"
+          id="calc-message">
+          <div class="text-2xl sm:text-4xl font-bold duration-100 mt-[-30px]" id="feasible">Your project is feasible</div>
+          <p style=" font-family: 'Public Sans', sans-serif;" class="text-[#2E3855] tracking-wider mt-5" id="feasible-results">
+            Review your results to explore the different possibilities and
+            <br />
+            book a slot with us for personalised guidance on next steps
+          </p>
+        </div>
+        <div class="flex flex-col sm:flex-row justify sm:gap-16 w-full">
+          <button
+            id="calc-button-mobile"
+            class="duration-300 transform flex sm:hidden h-full font-bold mt-6 p-5 sm:p-4 hover:bg-pfp-green bg-pfp-orange rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
+            href="/explore/#calculate"
+            onclick="calculate();" style="z-index:6;">
+            <img class="mr-4 h-6" src="/assets/calculator.png" alt="" />
+            <span>Calculate</span>
+          </button>
+          <a
+            id="call-button"
+            class="duration-200 transform sm:-translate-x-full -translate-y-full sm:translate-y-[0px] opacity-0 font-bold mt-6 sm:mt-16 w-full sm:w-[375px] p-4 hover:bg-pfp-green bg-pfp-orange rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
+            href="/contact" style="z-index:4;">
+            <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
+            <span>Book a call with us</span>
+            <!-- change alignment to fit below on FS -->
+          </a>
+          <a
+            id="call-button2"
+            class="duration-500 transform sm:-translate-x-full -translate-y-full sm:translate-y-[0px] opacity-0 font-bold mt-6 sm:mt-16 w-full sm:w-[350px] p-4 hover:bg-pfp-green bg-pfp-navy rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
+            href="/green-energy/" style="z-index:5;">
+            <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
+            <span>Learn more</span>
+          </a>
+          <button
+            id="calc-button"
+            class="duration-300 transform hidden sm:flex -translate-x-[338px] h-full font-bold mt-16 sm:w-1/3 p-5 sm:p-4 hover:bg-pfp-green bg-pfp-orange rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
+            href="/explore/#calculate"
+            onclick="calculate();" style="z-index:6;">
+            <img class="mr-4 h-6" src="/assets/calculator.png" alt="" />
+            <span>Calculate</span>
+          </button>
+          
+        </div>
+      </div>
+      <div
+        id="calc-spacer"
+        class="bg-base-100 hidden"
+        style="width:1000px; height:750px; position: relative; right: -100%; top: 0px; margin-bottom:-750px; z-index:7" />
+    </section>
     <section
-      class="duration-300 transition opacity-0 container mb-[-1230px] sm:mb-[-630px] bg-white p-0 sm:p-16 pb-6 rounded-b-2xl"
+      class="duration-300 transition opacity-0 -translate-y-full container h-0 bg-white p-5 sm:p-16 pb-6 rounded-b-2xl mt-[-65px]"
       id="results">
-      <div class="flex flex-row gap-8 items-center p-0 sm:p-5 pt-16 mt-[-20px]">
-        <div class="w-1/3 flex-col justify-center" style="font-family: 'Poppins', sans-serif;">
+      <div class="flex flex-col sm:flex-row gap-8 items-center p-0 sm:p-5 pt-16 mt-[-20px]">
+        <div class="w-full sm:w-1/3 flex flex-col sm:flex-row justify-center" style="font-family: 'Poppins', sans-serif;">
           <div class="bg-[#E7F5F5] rounded-2xl text-center p-6 mb-10 text-[#2E3855]">
             <p class="uppercase text-xl m-5">Waste type</p>
             <h2 class="text-2xl font-bold leading-10">
@@ -1166,7 +1363,7 @@
             </div>
           </div>
         </div>
-        <div class="w-2/3 flex-col justify-center mx-auto pl-10 mt-0">
+        <div class="w-full sm:w-2/3 flex-col justify-center mx-auto sm:pl-10 mt-0">
           <div class="flex justify-center">
             <div
               style="font-family: 'Poppins', sans-serif;"
@@ -1253,197 +1450,8 @@
         </div>
       </div>
     </section>
-    <section id="calculate">
-      <div class="container rounded-2xl bg-white p-5 sm:p-20 pt-12 pb-16 z-23" id="growcalc">
-        <div class="text-center pb-10">
-          <h1
-            style="font-family: 'Poppins', sans-serif;"
-            class="card text-3xl font-bold text-[#2e3855] font-Poppins text-center">
-            The PFP Calculator
-          </h1>
-          <p style=" font-family: 'Public Sans', sans-serif;" class="text-[#2E3855] tracking-wider mt-5 px-0">
-            Our easy-to-use calculator is here to give you a quick snapshot of what your waste-to-energy project could look
-            like. It helps you identify the most suitable technology and estimate energy output, serving as a valuable first
-            step in your journey to green power. Think of it as a helpful starting point!
-          </p>
-        </div>
-        <div
-          style="font-family: 'Poppins', sans-serif;"
-          class="flex md:flex-row flex-col items-center rounded-lg bg-white w-full mt-5">
-          <div class="bg-[#E7F5F5] w-1/3 flex justify-center rounded-2xl mr-8 hidden sm:flex">
-            <img class="h-60" id="calc-img" src="/assets/cow 1 (1).png" alt="" />
-          </div>
-          <div class="w-full sm:w-2/3 sm:pl-12 pr-0 md:mt-0 mt-5 duration-300 transform" id="calc-selectors">
-            <div class="inline-flex rounded-xl shadow-sm w-full" role="group">
-              <button type="button" class="text-xl w-1/2 h-16 text-white bg-[#2E3855] rounded-l-xl">Waste type</button>
-              <!-- reduce font to fit on screen -->
-              <div
-                class="button dropdown w-1/2 flex justify-between z-10 inline-flex items-center py-2.5 px-4 text-xl font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
-                <select id="colorselector" class="w-full bg-transparent text-left border-0 line-h-20">
-                  <optgroup class="bg-[#e2e6e6]" label="Alcohol and Beverages Industry">
-                    <option class="bg-[#E7F5F5]" value="Beer production">Beer production</option>
-                    <option class="bg-[#E7F5F5]" value="Wine production">Wine production</option>
-                    <option class="bg-[#E7F5F5]" value="Spirits production">Spirits production</option>
-                    <option class="bg-[#E7F5F5]" value="Ethanol production">Ethanol production</option>
-                    <option class="bg-[#E7F5F5]" value="Juice production">Juice production</option>
-                  </optgroup>
-                  <optgroup class="bg-[#e2e6e6]" label="Biofuels Industry">
-                    <option class="bg-[#E7F5F5]" value="Biodiesel production">Biodiesel production</option>
-                  </optgroup>
-                  <optgroup class="bg-[#e2e6e6]" label="Construction and Demolition Waste">
-                    <option class="bg-[#E7F5F5]" value="Ceramics">Ceramics</option>
-                    <option class="bg-[#E7F5F5]" value="Sand">Sand</option>
-                    <option class="bg-[#E7F5F5]" value="Dust">Dust</option>
-                  </optgroup>
-                  <optgroup class="bg-[#e2e6e6]" label="Dairy Industry">
-                    <option class="bg-[#E7F5F5]" value="Cheese production">Cheese production</option>
-                    <option class="bg-[#E7F5F5]" value="Butter production">Butter production</option>
-                    <option class="bg-[#E7F5F5]" value="Ice cream">Ice cream</option>
-                  </optgroup>
-                  <optgroup class="bg-[#e2e6e6]" label="Food Processing Industry">
-                    <option class="bg-[#E7F5F5]" value="Pulp production">Pulp production</option>
-                    <option class="bg-[#E7F5F5]" value="Tomato ketchup">Tomato ketchup</option>
-                    <option class="bg-[#E7F5F5]" value="Frozen potatoes">Frozen potatoes</option>
-                    <option class="bg-[#E7F5F5]" value="Prepared potatoes (crisps)">Prepared potatoes (crisps)</option>
-                    <option class="bg-[#E7F5F5]" value="Potato starch">Potato starch</option>
-                    <option class="bg-[#E7F5F5]" value="Dried potatoes">Dried potatoes</option>
-                    <option class="bg-[#E7F5F5]" value="Sugar production">Sugar production</option>
-                    <option class="bg-[#E7F5F5]" value="Yeast production">Yeast production</option>
-                    <option class="bg-[#E7F5F5]" value="Vegetable oils production">Vegetable oils production</option>
-                    <option class="bg-[#E7F5F5]" value="Food waste">Food waste</option>
-                  </optgroup>
-                  <optgroup class="bg-[#e2e6e6]" label="Hospitality">
-                    <option class="bg-[#E7F5F5]" value="Coffee grounds">Coffee grounds</option>
-                    <option class="bg-[#E7F5F5]" value="Crop residues">Crop residues</option>
-                    <option class="bg-[#E7F5F5]" value="Maize silage">Maize silage</option>
-                    <option class="bg-[#E7F5F5]" value="Cereal">Cereal</option>
-                    <option class="bg-[#E7F5F5]" value="Grass silage">Grass silage</option>
-                  </optgroup>
-                  <optgroup class="bg-[#e2e6e6]" label="Industrial Waste">
-                    <option class="bg-[#E7F5F5]" value="Pulp & Paper Waste">Pulp & Paper Waste</option>
-                    <option class="bg-[#E7F5F5]" value="Textile Waste">Textile Waste</option>
-                    <option class="bg-[#E7F5F5]" value="SRF">SRF</option>
-                    <option class="bg-[#E7F5F5]" value="RDF">RDF</option>
-                    <option class="bg-[#E7F5F5]" value="Rubber">Rubber</option>
-                    <option class="bg-[#E7F5F5]" value="Wood waste">Wood waste</option>
-                  </optgroup>
-                  <optgroup class="bg-[#e2e6e6]" label="Manure and Animal Waste">
-                    <option class="bg-[#E7F5F5]" value="Pig manure">Pig manure</option>
-                    <option class="bg-[#E7F5F5]" value="Dairy Cattle">Dairy Cattle</option>
-                    <option class="bg-[#E7F5F5]" value="Non diary cattle">Non diary cattle</option>
-                    <option class="bg-[#E7F5F5]" value="Buffalo">Buffalo</option>
-                    <option class="bg-[#E7F5F5]" value="Chicken layer manure">Chicken layer manure</option>
-                    <option class="bg-[#E7F5F5]" value="Chicken broiler manure">Chicken broiler manure</option>
-                    <option class="bg-[#E7F5F5]" value="Sheep">Sheep</option>
-                    <option class="bg-[#E7F5F5]" value="Fish waste">Fish waste</option>
-                  </optgroup>
-                  <optgroup class="bg-[#e2e6e6]" label="Meat Industry">
-                    <option class="bg-[#E7F5F5]" value="Bovine meat">Bovine meat</option>
-                    <option class="bg-[#E7F5F5]" value="Pig meat">Pig meat</option>
-                    <option class="bg-[#E7F5F5]" value="Sheep meat">Sheep meat</option>
-                  </optgroup>
-                  <optgroup class="bg-[#e2e6e6]" label="Medical Waste">
-                    <option class="bg-[#E7F5F5]" value="Medical Waste">Medical Waste</option>
-                  </optgroup>
-                  <optgroup class="bg-[#e2e6e6]" label="Municipal Waste">
-                    <option class="bg-[#E7F5F5]" value="Municipal Solid Waste (MSW)">Municipal Solid Waste (MSW)</option>
-                  </optgroup>
-                  <optgroup class="bg-[#e2e6e6]" label="Plastic Waste">
-                    <option class="bg-[#E7F5F5]" value="PE Plastic">PE Plastic</option>
-                    <option class="bg-[#E7F5F5]" value="PP Plastic">PP Plastic</option>
-                    <option class="bg-[#E7F5F5]" value="PS Plastic">PS Plastic</option>
-                    <option class="bg-[#E7F5F5]" value="PVC Plastic">PVC Plastic</option>
-                    <option class="bg-[#E7F5F5]" value="PET Plastic">PET Plastic</option>
-                  </optgroup>
-                  <optgroup class="bg-[#e2e6e6]" label="Recyclable Materials">
-                    <option class="bg-[#E7F5F5]" value="Glass">Glass</option>
-                    <option class="bg-[#E7F5F5]" value="Metals">Metals</option>
-                  </optgroup>
-                </select>
-              </div>
-            </div>
-            <div class="inline-flex rounded-xl shadow-sm w-full mt-5" role="group">
-              <button type="button" class="text-xl w-1/2 h-16 text-white bg-[#2E3855] rounded-l-xl">Kilograms per day</button>
-
-              <div
-                class="button dropdown w-1/2 flex justify-between flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-xl font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
-                <select
-                  id="colorselector2"
-                  class="w-full bg-transparent text-center focus-0 after:border-0 before:border-0 after:border-[#E7F5F5]">
-                  <option class="bg-[#E7F5F5]" value="5">5 kg</option>
-                  <option class="bg-[#E7F5F5]" value="10">10 kg</option>
-                  <option class="bg-[#E7F5F5]" value="100">100 kg</option>
-                  <option class="bg-[#E7F5F5]" value="400">400 kg</option>
-                  <option class="bg-[#E7F5F5]" value="1000">1000 kg</option>
-                  <option class="bg-[#E7F5F5]" value="4000">4000 kg</option>
-                  <option class="bg-[#E7F5F5]" value="10000">10,000 kg</option>
-                  <option class="bg-[#E7F5F5]" value="20000">20,000 kg</option>
-                  <option class="bg-[#E7F5F5]" value="40000">40,000 kg</option>
-                  <option class="bg-[#E7F5F5]" value="60000">&gt; 40,000 kg</option>
-                </select>
-              </div>
-            </div>
-            <div class="inline-flex rounded-xl shadow-sm w-full mt-5" role="group">
-              <button type="button" class="text-xl w-1/2 h-16 text-white bg-[#2E3855] rounded-l-xl">Client needs</button>
-
-              <div
-                class="button dropdown w-1/2 flex justify-between flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-xl font-semibold text-center text-[#2E3855] bg-[#E7F5F5] rounded-r-xl hover:bg-gray-200 border-0">
-                <select id="colorselector3" class="w-full bg-transparent text-center">
-                  <option class="bg-[#E7F5F5] nofood" value="electricity">Electricity</option>
-                  <option class="bg-[#E7F5F5] nofood" value="heating-cooling">Heating / Cooling</option>
-                  <option class="bg-[#E7F5F5] nofood" value="carbon-credits">Carbon credits</option>
-                  <option class="bg-[#E7F5F5] food" value="cooking-biogas">Cooking biogas</option>
-                  <option class="bg-[#E7F5F5] nofood food" value="fertiliser">Fertiliser</option>
-                </select>
-              </div>
-            </div>
-            <div />
-          </div>
-        </div>
-        <div
-          class="w-[784px] ml-80 pl-16 h-60 p-10 pt-16 md:mt-0 mt-5 duration-300 transform absolute -translate-x-full opacity-0 -translate-y-full bg-[#E7F5F5] rounded-2xl"
-          id="calc-message">
-          <div class="text-4xl font-bold duration-100 mt-[-30px]" id="feasible">Your project is feasible</div>
-          <p style=" font-family: 'Public Sans', sans-serif;" class="text-[#2E3855] tracking-wider mt-5" id="feasible-results">
-            Review your results to explore the different possibilities and
-            <br />
-            book a slot with us for personalised guidance on next steps
-          </p>
-        </div>
-        <div class="flex justify gap-16 w-full">
-          <a
-            id="call-button"
-            class="duration-300 transform -translate-x-full opacity-0 font-bold mt-16 w-[375px] p-4 hover:bg-pfp-green bg-pfp-orange rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
-            href="/contact">
-            <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
-            <span>Book a call with us</span>
-            <!-- change alignment to fit below on FS -->
-          </a>
-          <a
-            id="call-button2"
-            class="duration-300 transform -translate-x-full opacity-0 font-bold mt-16 ml-1 w-[350px] p-4 hover:bg-pfp-green bg-pfp-navy rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
-            href="/green-energy/">
-            <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
-            <span>Learn more</span>
-          </a>
-          <button
-            id="calc-button"
-            class="duration-300 transform -translate-x-[338px] h-full font-bold mt-16 sm:w-1/3 p-5 sm:p-4 hover:bg-pfp-green bg-pfp-orange rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
-            href="/explore/#calculate"
-            onclick="calculate();">
-            <img class="mr-4 h-6" src="/assets/calculator.png" alt="" />
-            <span>Calculate</span>
-          </button>
-        </div>
-      </div>
-      <div
-        id="calc-spacer"
-        class="bg-base-100"
-        style="width:1000px; height:750px; position: relative; right: -100%; top: 0px; margin-bottom:-750px; z-index:9" />
-    </section>
     <script>
-      function calculate() {
-        const data = {
+      const data = {
           Ceramics: {
             feasibility: 'N'
           },
@@ -2028,6 +2036,8 @@
             fertiliser: 91250
           }
         }
+      function calculate() {
+        
 
         var d = data[document.querySelector('#colorselector').value]
         var feasible = d['feasibility'] == 'Y'
@@ -2085,14 +2095,16 @@
             setTimeout(() => {
               document.getElementById('calculate').scrollIntoView({ behavior: 'smooth' })
             }, 500)
-            results.classList.toggle('translate-y-full')
+            results.classList.toggle('-translate-y-full')
+            results.classList.toggle('h-0')
             setTimeout(() => {
               results.classList.toggle('opacity-0')
             }, 100)
           } else {
             results.classList.toggle('opacity-0')
             setTimeout(() => {
-              results.classList.toggle('translate-y-full')
+              results.classList.toggle('-translate-y-full')
+              results.classList.toggle('h-0')
             }, 100)
             setTimeout(() => {
               document.getElementById('calculator').scrollIntoView({ behavior: 'smooth' })
@@ -2119,34 +2131,48 @@
         }
 
         var calcselectors = document.querySelector('#calc-selectors')
-        calcselectors.classList.toggle('translate-x-full')
+        calcselectors.classList.toggle('sm:translate-x-full')
+        calcselectors.classList.toggle('-translate-y-full')
         calcselectors.classList.toggle('opacity-0')
 
         var calcmessage = document.querySelector('#calc-message')
-        calcmessage.classList.toggle('-translate-x-full')
+        calcmessage.classList.toggle('sm:-translate-x-full')
         calcmessage.classList.toggle('opacity-0')
+        setTimeout(() => {
+          // calcmessage.classList.toggle('h-0')
+          // calcmessage.classList.toggle('h-full')
+        }, 300)
 
         var calcbutton = document.querySelector('#calc-button')
         // calcbutton.classList.toggle('-translate-x-full')
         calcbutton.classList.toggle('-translate-x-[338px]')
+        var calcbuttonm = document.querySelector('#calc-button-mobile')
         var calctext = document.querySelector('#calc-button span').innerHTML
         if (calctext == 'Calculate') {
           document.querySelector('#calc-button span').innerHTML = 'Start over'
         } else {
           document.querySelector('#calc-button span').innerHTML = 'Calculate'
         }
+        var calctextm = document.querySelector('#calc-button-mobile span').innerHTML
+        if (calctextm == 'Calculate') {
+          document.querySelector('#calc-button-mobile span').innerHTML = 'Start over'
+        } else {
+          document.querySelector('#calc-button-mobile span').innerHTML = 'Calculate'
+        }
         calcbutton.classList.toggle('w-1/4')
         calcbutton.classList.toggle('w-1/3')
 
         var callbutton = document.querySelector('#call-button')
-        callbutton.classList.toggle('-translate-x-full')
+        callbutton.classList.toggle('sm:-translate-x-full')
+        callbutton.classList.toggle('-translate-y-full')
         callbutton.classList.toggle('opacity-0')
         setTimeout(() => {
           callbutton.classList.toggle('glow')
         }, 3000)
 
         var callbutton2 = document.querySelector('#call-button2')
-        callbutton2.classList.toggle('-translate-x-full')
+        callbutton2.classList.toggle('sm:-translate-x-full')
+        callbutton2.classList.toggle('-translate-y-full')
         callbutton2.classList.toggle('opacity-0')
       }
     </script>

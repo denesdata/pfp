@@ -57,7 +57,7 @@
               <div class="text-2xl sm:text-4xl leading-[46px] font-bold w-full">Slurry covers for farms with livestock</div>
             </div>
           </div>
-          <div class="bg-white w-full flex-col flex items-start gap-10 pt-10 rounded-b-[20px] text-[#2e3855]">
+          <div class="bg-white w-full flex-col flex items-start gap-10 pt-10 rounded-b-[20px] text-[#2e3855] ">
             <div class="w-full flex-col flex justify-center items-center gap-[30px]">
               <div class="w-full flex-col flex justify-center items-center gap-10">
                 <div class="flex-col w-[300px] sm:w-[700px] flex items-start gap-4">
@@ -69,7 +69,7 @@
                       emissions. By covering your slurry store, you can substantially reduce these emissions. Conventional
                       slurry store covers aren’t airtight like anaerobic digester covers, so gas escapes at a reduced rate
                       compared to open stores.
-                      <div class="hidden sm:flex">
+                      <div class="flex h-0 sm:h-full duration-300 animate overflow-hidden" id='slurry'>
                         <br />
                         Slurry store covers can be impermeable or permeable, fixed or floating. Impermeable covers prevent rainwater
                         from entering, reducing slurry volume and increasing storage capacity. In areas with moderate to high rainfall,
@@ -80,13 +80,14 @@
                         industry.
                       </div>
                     </div>
-                    <a href="#" target="_blank" class="sm:hidden pb-8">
-                      <img src="/assets/arm.svg" />
-                    </a>
+                    <button onclick="show_detail('slurry')" class="sm:hidden mb-5">
+                    <img src="/assets/arm.svg" class="slurry-rm" />
+                    <img src="/assets/arl.svg" class="slurry-rl hidden" />
+                  </button>
                   </div>
                 </div>
-                <div class="bg-[#e7f5f5] w-full hidden sm:flex items-center gap-10 px-[60px] pt-[30px] pb-[50px] text-sm">
-                  <div class="flex-1 flex-col flex items-start gap-4 align-top">
+                <div class="bg-[#e7f5f5] w-full h-0 sm:h-full duration-300 animate overflow-hidden flex flex-col sm:flex-row items-center gap-10  text-sm p-10 rounded-b-2xl  translate-y-[-0px] hidden" id='slurry2'>
+                  <div class="flex1 flex-col flex items-start gap-4 align-top h-full">
                     <div class="w-full flex items-center gap-3.5 leading-[21px] font-semibold text-center font-Poppins">
                       <img
                         src="/assets/new/badge-plus.svg"
@@ -123,6 +124,20 @@
                 </div>
               </div>
             </div>
+            <script>
+          function show_detail(k) {
+            console.log(k)
+            var element = document.querySelector('#' + k)
+            element.classList.toggle('h-full')
+            element.classList.toggle('h-0')
+            var element = document.querySelector('#' + k+'2')
+            element.classList.toggle('h-full')
+            element.classList.toggle('h-0')
+            element.classList.toggle('hidden')
+            document.querySelector('.' + k+'-rm').classList.toggle('hidden')
+            document.querySelector('.' + k+'-rl').classList.toggle('hidden')
+          }
+        </script>
           </div>
         </div>
         <div class="w-full flex-col flex items-start">
