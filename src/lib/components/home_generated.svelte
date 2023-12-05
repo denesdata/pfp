@@ -249,7 +249,7 @@
         <div class="w-full flex-col flex justify-center items-center gap-[30px]">
           <div class="w-full flex justify-center items-center gap-6">
             <button onclick="scrollElement(-1)">
-              <div class="bg-[#2e3855] flex justify-center items-center gap-2.5 p-1.5 rounded-[30px]">
+              <div class="bg-[#2e3855] flex justify-center items-center gap-2.5 p-1.5 rounded-[30px] absolute sm:relative  translate-x-[100px] sm:translate-x-0 translate-y-[195px] sm:translate-y-0 ">
                 <img
                   src="/assets/new/arrow-left-white.svg"
                   alt="arrow-left-31-slider-arrowleft-31-carousel-31-slider-31-Frame18-31-testimonials-31-wrapper-31-03Greenenergy"
@@ -289,7 +289,7 @@
               </div>
             </div>
             <button onclick="scrollElement(1)">
-              <div class="bg-[#2e3855] flex justify-center items-center gap-2.5 p-1.5 rounded-[30px]">
+              <div class="bg-[#2e3855] flex justify-center items-center gap-2.5 p-1.5 rounded-[30px] absolute sm:relative translate-x-[-140px] sm:translate-x-0 translate-y-[195px] sm:translate-y-0">
                 <img
                   src="/assets/new/arrow-right-white.svg"
                   alt="arrow-right-31-slider-arrowright-31-carousel-31-slider-31-Frame18-31-testimonials-31-wrapper-31-03Greenenergy"

@@ -1299,7 +1299,7 @@
             book a slot with us for personalised guidance on next steps
           </p>
         </div>
-        <div class="flex flex-col sm:flex-row justify sm:gap-16 w-full">
+        <div class="flex flex-col sm:flex-row justify sm:gap-16 w-full mt-[60px] sm:mt-[0px]">
           <button
             id="calc-button-mobile"
             class="duration-300 transform flex sm:hidden h-full font-bold mt-6 p-5 sm:p-4 hover:bg-pfp-green bg-pfp-orange rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
@@ -1310,7 +1310,7 @@
           </button>
           <a
             id="call-button"
-            class="duration-200 transform sm:-translate-x-full -translate-y-full sm:translate-y-[0px] opacity-0 font-bold mt-6 sm:mt-16 w-full sm:w-[375px] p-4 hover:bg-pfp-green bg-pfp-orange rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
+            class="duration-200 transform sm:-translate-x-full -translate-y-full sm:translate-y-[0px] opacity-0 font-bold mt-6 sm:mt-16 w-full sm:w-[470px] p-4 hover:bg-pfp-green bg-pfp-orange rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
             href="/contact" style="z-index:4;">
             <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
             <span>Book a call with us</span>
@@ -1318,7 +1318,7 @@
           </a>
           <a
             id="call-button2"
-            class="duration-500 transform sm:-translate-x-full -translate-y-full sm:translate-y-[0px] opacity-0 font-bold mt-6 sm:mt-16 w-full sm:w-[350px] p-4 hover:bg-pfp-green bg-pfp-navy rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
+            class="duration-500 sm:duration-300 transform sm:-translate-x-full -translate-y-full sm:translate-y-[0px] opacity-0 font-bold mt-6 sm:mt-16 w-full sm:w-[440px] p-4 sm:ml-2 hover:bg-pfp-green bg-pfp-navy rounded-xl flex justify-center items-center text-white tracking-wider font-semibold text-2xl"
             href="/green-energy/" style="z-index:5;">
             <img class="mr-3" src="/assets/arrow-right-circle.png" alt="" />
             <span>Learn more</span>
@@ -1343,7 +1343,7 @@
       class="duration-300 transition opacity-0 -translate-y-full container h-0 bg-white p-5 sm:p-16 pb-6 rounded-b-2xl mt-[-65px]"
       id="results">
       <div class="flex flex-col sm:flex-row gap-8 items-center p-0 sm:p-5 pt-16 mt-[-20px]">
-        <div class="w-full sm:w-1/3 flex flex-col sm:flex-row justify-center" style="font-family: 'Poppins', sans-serif;">
+        <div class="w-full sm:w-1/3 flex flex-col justify-center" style="font-family: 'Poppins', sans-serif;">
           <div class="bg-[#E7F5F5] rounded-2xl text-center p-6 mb-10 text-[#2E3855]">
             <p class="uppercase text-xl m-5">Waste type</p>
             <h2 class="text-2xl font-bold leading-10">
@@ -1364,77 +1364,77 @@
           </div>
         </div>
         <div class="w-full sm:w-2/3 flex-col justify-center mx-auto sm:pl-10 mt-0">
-          <div class="flex justify-center">
+          <div class="flex flex-col sm:flex-row justify-center">
             <div
               style="font-family: 'Poppins', sans-serif;"
-              class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white mb-5 text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
+              class="pr-8 flex justify-end items-center p-4 relative sm:w-1/2 bg-[#2E3855] rounded-l-2xl rounded-tr-2xl sm:rounded-tr-none rounded-bl-none sm:rounded-bl-2xl text-xl leading-10 text-white sm:mb-5 text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
               Energy content <img class="ml-5 calc-gcv info-pop" src="/assets/info.png" alt="" />
             </div>
             <div
-              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
+              class="absolute p-4 relative sm:w-1/2 rounded-b-lg sm:rounded-b-none sm:rounded-br-lg rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
               <span id="energycontent">18</span>
               <span id="energycontent-unit">MJ/kg</span>
             </div>
           </div>
-          <div class="flex justify-center mb-2">
+          <div class="flex flex-col sm:flex-row justify-center mb-2">
             <div
               style="font-family: 'Poppins', sans-serif;"
-              class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white mb-5 text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
+              class="pr-8 flex justify-end items-center p-4 relative sm:w-1/2 bg-[#2E3855] rounded-l-2xl rounded-tr-2xl sm:rounded-tr-none rounded-bl-none sm:rounded-bl-2xl text-xl leading-10 text-white sm:mb-5 text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
               Heat produced <img class="ml-5 calc-heat-produced info-pop" src="/assets/info.png" alt="" />
             </div>
             <div
-              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
+              class="absolute p-4 relative sm:w-1/2 rounded-b-lg sm:rounded-b-none sm:rounded-br-lg rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
               <span id="heatproduced">11,200</span>
               kWh per year
             </div>
           </div>
-          <div class="flex justify-center mb-6">
+          <div class="flex flex-col sm:flex-row justify-center mb-6">
             <div
               style="font-family: 'Poppins', sans-serif;"
-              class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
+              class="pr-8 flex justify-end items-center p-4 relative sm:w-1/2 bg-[#2E3855] rounded-l-2xl rounded-tr-2xl sm:rounded-tr-none rounded-bl-none sm:rounded-bl-2xl text-xl leading-10 text-white text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
               Heat savings <img class="ml-5 calc-heat-savings info-pop" src="/assets/info.png" alt="" />
             </div>
             <div
-              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
+              class="absolute p-4 relative sm:w-1/2 rounded-b-lg sm:rounded-b-none sm:rounded-br-lg rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
               £
               <span id="heatsavingspa">48,000</span>
               per year
             </div>
           </div>
-          <div class="flex justify-center mb-2">
+          <div class="flex flex-col sm:flex-row justify-center mb-2">
             <div
               style="font-family: 'Poppins', sans-serif;"
-              class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white mb-5 text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
+              class="pr-8 flex justify-end items-center p-4 relative sm:w-1/2 bg-[#2E3855] rounded-l-2xl rounded-tr-2xl sm:rounded-tr-none rounded-bl-none sm:rounded-bl-2xl text-xl leading-10 text-white sm:mb-5 text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
               Electricity produced <img class="ml-5 calc-electricity-produced info-pop" src="/assets/info.png" alt="" />
             </div>
             <div
-              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
+              class="absolute p-4 relative sm:w-1/2 rounded-b-lg sm:rounded-b-none sm:rounded-br-lg rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] mb-5 text-center">
               <span id="electricityproduced">4,800</span>
               kWh per year
             </div>
           </div>
-          <div class="flex justify-center mb-6">
+          <div class="flex flex-col sm:flex-row justify-center mb-6">
             <div
               style="font-family: 'Poppins', sans-serif;"
-              class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
+              class="pr-8 flex justify-end items-center p-4 relative sm:w-1/2 bg-[#2E3855] rounded-l-2xl rounded-tr-2xl sm:rounded-tr-none rounded-bl-none sm:rounded-bl-2xl text-xl leading-10 text-white text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
               Electrical savings <img class="ml-5 calc-electrical-savings info-pop" src="/assets/info.png" alt="" />
             </div>
             <div
-              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
+              class="absolute p-4 relative sm:w-1/2 rounded-b-lg sm:rounded-b-none sm:rounded-br-lg rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
               £
               <span id="electricitysavingspa">70,000</span>
               per year
             </div>
           </div>
-          <div class="flex justify-center mb-6">
+          <div class="flex flex-col sm:flex-row justify-center mb-6">
             <div
               style="font-family: 'Poppins', sans-serif;"
-              class="pr-8 flex justify-end items-center p-4 relative w-1/2 bg-[#2E3855] rounded-l-2xl text-xl leading-10 text-white text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
+              class="pr-8 flex justify-end items-center p-4 relative sm:w-1/2 bg-[#2E3855] rounded-l-2xl rounded-tr-2xl sm:rounded-tr-none rounded-bl-none sm:rounded-bl-2xl text-xl leading-10 text-white text-center after:absolute after:-right-3 after:top-[35%] after:content[''] after:block after:border-solid after:border-l-8 after:border-b-8 after:border-t-8 after:border-t-transparent after:border-b-transparent after:border-l-[#2E3855] z-20
                             tracking-wider text-[#2E3855]">
               <span id="char-fert">Char</span>
               &nbsp;produced
@@ -1442,7 +1442,7 @@
               <img class="ml-5 calc-fert info-pop hidden" src="/assets/info.png" alt="" />
             </div>
             <div
-              class="absolute p-4 relative w-1/2 rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
+              class="absolute p-4 relative sm:w-1/2 rounded-b-lg sm:rounded-b-none sm:rounded-br-lg rounded-r-lg tracking-wider bg-[#E7F5F5] text-xl leading-10 text-[#2E3855] text-center">
               <span id="fertiliser">500</span>
               kg per year
             </div>
@@ -2174,6 +2174,11 @@
         callbutton2.classList.toggle('sm:-translate-x-full')
         callbutton2.classList.toggle('-translate-y-full')
         callbutton2.classList.toggle('opacity-0')
+
+        // setTimeout(() => {
+        //   document.querySelector('#call-button').classList.toggle('sm:w-[375px]')
+        //   document.querySelector('#call-button2').classList.toggle('sm:w-[350px]')
+        // }, 3500)
       }
     </script>
     <div class="w-full sm:w-[1060px] flex justify-between items-center pt-[30px] pb-[50px] ml-3 sm:ml-0">
